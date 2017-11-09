@@ -78,13 +78,14 @@ public class PhysicsObject : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
 
-        if (other.gameObject.layer == LayerMask.NameToLayer("Collision"))
-        {
-            gameOver = true;
-            //anim.SetBool("gameOver", gameOver);
+       // if (other.gameObject.layer == LayerMask.NameToLayer("Collision"))
+        //{
+          //  Debug.Break();
+           // gameOver = true;
+           // anim.SetBool("gameOver", gameOver);
            // StartCoroutine(End());
             //Debug.Break();
-        }
+        //}
         //    yield return new WaitForFixedUpdate();
     }
 
@@ -92,7 +93,14 @@ public class PhysicsObject : MonoBehaviour {
     void OnTriggerStay2D(Collider2D other)
     // IEnumerator OnTriggerStay2D(Collider2D other)
     {
-        
+        if (other.gameObject.layer == LayerMask.NameToLayer("Collision"))
+        {
+           // Debug.Break();
+            gameOver = true;
+            anim.SetBool("gameOver", gameOver);
+            // StartCoroutine(End());
+            //Debug.Break();
+        }
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Floor"))
         { 
