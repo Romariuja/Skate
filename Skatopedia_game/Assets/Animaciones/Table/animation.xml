@@ -1,0 +1,48 @@
+<animations>
+ <animation name="Table_Idle_Top">
+  <attrlinks>
+   <attrlink attr="rotation.anglez" node="Tabla_1" timedvalue="ATV-08A748015D0114F1"/>
+   <attrlink attr="offset.x" node="Tabla_1" timedvalue="ATV-08A748015D0114E7"/>
+   <attrlink attr="offset.y" node="Tabla_1" timedvalue="ATV-08A748015D0114E9"/>
+   <attrlink attr="offset.z" node="Tabla_1" timedvalue="ATV-08A748015D0114EB"/>
+   <attrlink attr="scale.x" node="Tabla_1" timedvalue="ATV-08A748015D0114ED"/>
+   <attrlink attr="scale.y" node="Tabla_1" timedvalue="ATV-08A748015D0114EF"/>
+   <attrlink attr="skew" node="Tabla_1" timedvalue="ATV-08A748015D0114F3"/>
+   <attrlink attr="pivot" node="Tabla_1" timedvalue="PIVOT-TV-Tabla_1"/>
+   <attrlink attr="opacity" node="Tabla_1" value="1"/>
+  </attrlinks>
+  <timedvalues>
+   <bezier name="ATV-08A748015D0114F1">
+    <pt x="1" y="-0.0001565028335428718" rx="1" ry="-0.0001565028335428718" lx="1" ly="-0.0001565028335428718" constSeg="false"/>
+    <pt x="50" y="-0.0001565028335428718" rx="50" ry="-0.0001565028335428718" lx="50" ly="-0.0001565028335428718" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-08A748015D0114E7">
+    <pt x="1" y="720.394718669522" rx="1" ry="720.394718669522" lx="1" ly="720.394718669522" constSeg="false"/>
+    <pt x="50" y="720.394718669522" rx="50" ry="720.394718669522" lx="50" ly="720.394718669522" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-08A748015D0114E9">
+    <pt x="1" y="-1411.365751070387" rx="1" ry="-1411.365751070387" lx="1" ly="-1411.365751070387" constSeg="false"/>
+    <pt x="50" y="-1411.365751070387" rx="50" ry="-1411.365751070387" lx="50" ly="-1411.365751070387" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-08A748015D0114EB">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="50" y="0" rx="50" ry="0" lx="50" ly="0" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-08A748015D0114ED">
+    <pt x="1" y="1" rx="1" ry="1" lx="1" ly="1" constSeg="false"/>
+    <pt x="50" y="1" rx="50" ry="1" lx="50" ly="1" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-08A748015D0114EF">
+    <pt x="1" y="1" rx="1" ry="1" lx="1" ly="1" constSeg="false"/>
+    <pt x="50" y="1" rx="50" ry="1" lx="50" ly="1" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-08A748015D0114F3">
+    <pt x="1" y="0" rx="1" ry="0" lx="1" ly="0" constSeg="false"/>
+    <pt x="50" y="0" rx="50" ry="0" lx="50" ly="0" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Tabla_1">
+    <pt x="-451.4440827021667" y="497.4897721924785" z="0" start="1"/>
+   </pivot>
+  </timedvalues>
+ </animation>
+</animations>

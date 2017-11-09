@@ -1,0 +1,365 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="Ollie_Top">
+  <drawing node="Ollie_033" name="5-Ollie">
+   <drw frame="18" name="5-Ollie-26.png"/>
+  </drawing>
+  <drawing node="Ollie_032" name="5-Ollie">
+   <drw frame="17" name="5-Ollie-26.png"/>
+   <drw frame="18" name="5-Ollie-25.png"/>
+  </drawing>
+  <drawing node="Ollie_031" name="5-Ollie">
+   <drw frame="17" name="5-Ollie-25.png"/>
+   <drw frame="18" name="5-Ollie-24.png"/>
+   <drw frame="19" name="5-Ollie-26.png"/>
+  </drawing>
+  <drawing node="Ollie_030" name="5-Ollie">
+   <drw frame="16" name="5-Ollie-1.png"/>
+   <drw frame="17" repeat="2" name="5-Ollie-24.png"/>
+   <drw frame="19" name="5-Ollie-25.png"/>
+  </drawing>
+  <drawing node="Ollie_029" name="5-Ollie">
+   <drw frame="16" name="5-Ollie-26.png"/>
+   <drw frame="17" name="5-Ollie-24.png"/>
+   <drw frame="18" name="5-Ollie-23.png"/>
+   <drw frame="19" name="5-Ollie-24.png"/>
+   <drw frame="20" name="5-Ollie-26.png"/>
+  </drawing>
+  <drawing node="Ollie_028" name="5-Ollie">
+   <drw frame="3" repeat="4" name="5-Ollie-26.png"/>
+   <drw frame="15" name="5-Ollie-1.png"/>
+   <drw frame="16" name="5-Ollie-25.png"/>
+   <drw frame="17" name="5-Ollie-23.png"/>
+   <drw frame="18" name="5-Ollie-22.png"/>
+   <drw frame="19" name="5-Ollie-24.png"/>
+   <drw frame="20" name="5-Ollie-25.png"/>
+  </drawing>
+  <drawing node="Ollie_027" name="5-Ollie">
+   <drw frame="3" repeat="4" name="5-Ollie-25.png"/>
+   <drw frame="15" name="5-Ollie-26.png"/>
+   <drw frame="16" name="5-Ollie-24.png"/>
+   <drw frame="17" name="5-Ollie-22.png"/>
+   <drw frame="18" name="5-Ollie-21.png"/>
+   <drw frame="19" name="5-Ollie-23.png"/>
+   <drw frame="20" name="5-Ollie-24.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-26.png"/>
+  </drawing>
+  <drawing node="Ollie_026" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-26.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-24.png"/>
+   <drw frame="7" name="5-Ollie-26.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-1.png"/>
+   <drw frame="15" name="5-Ollie-25.png"/>
+   <drw frame="16" name="5-Ollie-24.png"/>
+   <drw frame="17" name="5-Ollie-21.png"/>
+   <drw frame="18" name="5-Ollie-20.png"/>
+   <drw frame="19" name="5-Ollie-22.png"/>
+   <drw frame="20" name="5-Ollie-24.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-25.png"/>
+  </drawing>
+  <drawing node="Ollie_025" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-25.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-24.png"/>
+   <drw frame="7" name="5-Ollie-25.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-26.png"/>
+   <drw frame="15" name="5-Ollie-24.png"/>
+   <drw frame="16" name="5-Ollie-23.png"/>
+   <drw frame="17" name="5-Ollie-20.png"/>
+   <drw frame="18" name="5-Ollie-19.png"/>
+   <drw frame="19" name="5-Ollie-21.png"/>
+   <drw frame="20" name="5-Ollie-23.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-24.png"/>
+  </drawing>
+  <drawing node="Ollie_024" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-24.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-23.png"/>
+   <drw frame="7" name="5-Ollie-24.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-25.png"/>
+   <drw frame="15" name="5-Ollie-24.png"/>
+   <drw frame="16" name="5-Ollie-22.png"/>
+   <drw frame="17" name="5-Ollie-19.png"/>
+   <drw frame="18" name="5-Ollie-18.png"/>
+   <drw frame="19" name="5-Ollie-20.png"/>
+   <drw frame="20" name="5-Ollie-22.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-24.png"/>
+  </drawing>
+  <drawing node="Ollie_023" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-24.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-22.png"/>
+   <drw frame="7" repeat="8" name="5-Ollie-24.png"/>
+   <drw frame="15" name="5-Ollie-23.png"/>
+   <drw frame="16" name="5-Ollie-21.png"/>
+   <drw frame="17" name="5-Ollie-18.png"/>
+   <drw frame="18" name="5-Ollie-17.png"/>
+   <drw frame="19" name="5-Ollie-19.png"/>
+   <drw frame="20" name="5-Ollie-21.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-23.png"/>
+  </drawing>
+  <drawing node="Ollie_022" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-23.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-21.png"/>
+   <drw frame="7" name="5-Ollie-23.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-24.png"/>
+   <drw frame="15" name="5-Ollie-22.png"/>
+   <drw frame="16" name="5-Ollie-20.png"/>
+   <drw frame="17" name="5-Ollie-17.png"/>
+   <drw frame="18" name="5-Ollie-16.png"/>
+   <drw frame="19" name="5-Ollie-18.png"/>
+   <drw frame="20" name="5-Ollie-20.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-22.png"/>
+  </drawing>
+  <drawing node="Ollie_021" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-22.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-20.png"/>
+   <drw frame="7" name="5-Ollie-22.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-23.png"/>
+   <drw frame="15" name="5-Ollie-21.png"/>
+   <drw frame="16" name="5-Ollie-19.png"/>
+   <drw frame="17" name="5-Ollie-16.png"/>
+   <drw frame="18" name="5-Ollie-15.png"/>
+   <drw frame="19" name="5-Ollie-17.png"/>
+   <drw frame="20" name="5-Ollie-19.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-21.png"/>
+  </drawing>
+  <drawing node="Ollie_020" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-21.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-19.png"/>
+   <drw frame="7" name="5-Ollie-21.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-22.png"/>
+   <drw frame="15" name="5-Ollie-20.png"/>
+   <drw frame="16" name="5-Ollie-18.png"/>
+   <drw frame="17" name="5-Ollie-15.png"/>
+   <drw frame="18" name="5-Ollie-32.png"/>
+   <drw frame="19" name="5-Ollie-16.png"/>
+   <drw frame="20" name="5-Ollie-18.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-20.png"/>
+  </drawing>
+  <drawing node="Ollie_019" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-20.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-18.png"/>
+   <drw frame="7" name="5-Ollie-20.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-21.png"/>
+   <drw frame="15" name="5-Ollie-19.png"/>
+   <drw frame="16" name="5-Ollie-30.png"/>
+   <drw frame="17" name="5-Ollie-11.png"/>
+   <drw frame="18" name="5-Ollie-35.png"/>
+   <drw frame="19" name="5-Ollie-15.png"/>
+   <drw frame="20" name="5-Ollie-17.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-19.png"/>
+  </drawing>
+  <drawing node="Ollie_018" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-19.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-17.png"/>
+   <drw frame="7" name="5-Ollie-19.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-20.png"/>
+   <drw frame="15" name="5-Ollie-18.png"/>
+   <drw frame="16" name="5-Ollie-30.png"/>
+   <drw frame="17" name="5-Ollie-32.png"/>
+   <drw frame="18" repeat="2" name="5-Ollie-14.png"/>
+   <drw frame="20" name="5-Ollie-16.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-18.png"/>
+  </drawing>
+  <drawing node="Ollie_017" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-18.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-16.png"/>
+   <drw frame="7" name="5-Ollie-18.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-19.png"/>
+   <drw frame="15" name="5-Ollie-30.png"/>
+   <drw frame="16" name="5-Ollie-15.png"/>
+   <drw frame="17" name="5-Ollie-34.png"/>
+   <drw frame="18" repeat="2" name="5-Ollie-13.png"/>
+   <drw frame="20" name="5-Ollie-15.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-17.png"/>
+  </drawing>
+  <drawing node="Ollie_016" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-17.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-15.png"/>
+   <drw frame="7" name="5-Ollie-17.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-18.png"/>
+   <drw frame="15" name="5-Ollie-30.png"/>
+   <drw frame="16" name="5-Ollie-11.png"/>
+   <drw frame="17" name="5-Ollie-14.png"/>
+   <drw frame="18" repeat="2" name="5-Ollie-12.png"/>
+   <drw frame="20" name="5-Ollie-14.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-16.png"/>
+  </drawing>
+  <drawing node="Ollie_015" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-16.png"/>
+   <drw frame="3" name="5-Ollie-14.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-3.png"/>
+   <drw frame="7" name="5-Ollie-16.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-30.png"/>
+   <drw frame="15" name="5-Ollie-15.png"/>
+   <drw frame="16" name="5-Ollie-32.png"/>
+   <drw frame="17" name="5-Ollie-13.png"/>
+   <drw frame="18" repeat="2" name="5-Ollie-11.png"/>
+   <drw frame="20" name="5-Ollie-13.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-15.png"/>
+  </drawing>
+  <drawing node="Ollie_014" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-15.png"/>
+   <drw frame="3" name="5-Ollie-13.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-14.png"/>
+   <drw frame="7" name="5-Ollie-15.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-30.png"/>
+   <drw frame="15" name="5-Ollie-11.png"/>
+   <drw frame="16" name="5-Ollie-33.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-10.png"/>
+   <drw frame="20" name="5-Ollie-12.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-14.png"/>
+  </drawing>
+  <drawing node="Ollie_013" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-14.png"/>
+   <drw frame="3" name="5-Ollie-12.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-13.png"/>
+   <drw frame="7" name="5-Ollie-3.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-15.png"/>
+   <drw frame="15" name="5-Ollie-32.png"/>
+   <drw frame="16" name="5-Ollie-14.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-9.png"/>
+   <drw frame="20" name="5-Ollie-11.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-13.png"/>
+  </drawing>
+  <drawing node="Ollie_012" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-13.png"/>
+   <drw frame="3" name="5-Ollie-11.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-12.png"/>
+   <drw frame="7" name="5-Ollie-14.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-12.png"/>
+   <drw frame="15" name="5-Ollie-31.png"/>
+   <drw frame="16" name="5-Ollie-13.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-8.png"/>
+   <drw frame="20" name="5-Ollie-10.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-12.png"/>
+  </drawing>
+  <drawing node="Ollie_011" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-12.png"/>
+   <drw frame="3" name="5-Ollie-10.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-11.png"/>
+   <drw frame="7" name="5-Ollie-13.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-11.png"/>
+   <drw frame="15" name="5-Ollie-14.png"/>
+   <drw frame="16" name="5-Ollie-10.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-7.png"/>
+   <drw frame="20" name="5-Ollie-9.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-11.png"/>
+  </drawing>
+  <drawing node="Ollie_010" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-11.png"/>
+   <drw frame="3" name="5-Ollie-9.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-10.png"/>
+   <drw frame="7" name="5-Ollie-12.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-14.png"/>
+   <drw frame="15" name="5-Ollie-13.png"/>
+   <drw frame="16" name="5-Ollie-9.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-6.png"/>
+   <drw frame="20" name="5-Ollie-8.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-10.png"/>
+  </drawing>
+  <drawing node="Ollie_009" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-10.png"/>
+   <drw frame="3" name="5-Ollie-8.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-9.png"/>
+   <drw frame="7" name="5-Ollie-11.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-13.png"/>
+   <drw frame="15" name="5-Ollie-10.png"/>
+   <drw frame="16" name="5-Ollie-8.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-5.png"/>
+   <drw frame="20" name="5-Ollie-7.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-9.png"/>
+  </drawing>
+  <drawing node="Ollie_008" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-9.png"/>
+   <drw frame="3" name="5-Ollie-7.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-8.png"/>
+   <drw frame="7" repeat="8" name="5-Ollie-10.png"/>
+   <drw frame="15" name="5-Ollie-9.png"/>
+   <drw frame="16" name="5-Ollie-7.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-4.png"/>
+   <drw frame="20" name="5-Ollie-6.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-8.png"/>
+  </drawing>
+  <drawing node="Ollie_007" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-8.png"/>
+   <drw frame="3" name="5-Ollie-6.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-7.png"/>
+   <drw frame="7" repeat="8" name="5-Ollie-9.png"/>
+   <drw frame="15" name="5-Ollie-8.png"/>
+   <drw frame="16" name="5-Ollie-6.png"/>
+   <drw frame="17" name="5-Ollie-29.png"/>
+   <drw frame="18" repeat="2" name="5-Ollie-3.png"/>
+   <drw frame="20" name="5-Ollie-5.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-7.png"/>
+  </drawing>
+  <drawing node="Ollie_006" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-7.png"/>
+   <drw frame="3" name="5-Ollie-5.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-6.png"/>
+   <drw frame="7" repeat="8" name="5-Ollie-8.png"/>
+   <drw frame="15" name="5-Ollie-7.png"/>
+   <drw frame="16" name="5-Ollie-5.png"/>
+   <drw frame="17" name="5-Ollie-12.png"/>
+   <drw frame="18" repeat="2" name="5-Ollie-29.png"/>
+   <drw frame="20" name="5-Ollie-4.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-6.png"/>
+  </drawing>
+  <drawing node="Ollie_005" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-6.png"/>
+   <drw frame="3" name="5-Ollie-4.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-5.png"/>
+   <drw frame="7" repeat="8" name="5-Ollie-7.png"/>
+   <drw frame="15" name="5-Ollie-6.png"/>
+   <drw frame="16" name="5-Ollie-4.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-2.png"/>
+   <drw frame="20" name="5-Ollie-3.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-5.png"/>
+  </drawing>
+  <drawing node="Ollie_004" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-5.png"/>
+   <drw frame="3" name="5-Ollie-3.png"/>
+   <drw frame="4" repeat="3" name="5-Ollie-4.png"/>
+   <drw frame="7" repeat="8" name="5-Ollie-6.png"/>
+   <drw frame="15" name="5-Ollie-5.png"/>
+   <drw frame="16" name="5-Ollie-29.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-1.png"/>
+   <drw frame="20" name="5-Ollie-29.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-4.png"/>
+  </drawing>
+  <drawing node="Ollie_003" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-4.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-2.png"/>
+   <drw frame="7" repeat="8" name="5-Ollie-5.png"/>
+   <drw frame="15" name="5-Ollie-4.png"/>
+   <drw frame="16" name="5-Ollie-12.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-28.png"/>
+   <drw frame="20" name="5-Ollie-2.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-3.png"/>
+  </drawing>
+  <drawing node="Ollie_002" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-3.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-1.png"/>
+   <drw frame="7" repeat="8" name="5-Ollie-4.png"/>
+   <drw frame="15" name="5-Ollie-29.png"/>
+   <drw frame="16" name="5-Ollie-2.png"/>
+   <drw frame="17" repeat="3" name="5-Ollie-27.png"/>
+   <drw frame="20" name="5-Ollie-1.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-29.png"/>
+  </drawing>
+  <drawing node="Ollie_001" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-2.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-28.png"/>
+   <drw frame="7" name="5-Ollie-2.png"/>
+   <drw frame="8" repeat="7" name="5-Ollie-29.png"/>
+   <drw frame="15" name="5-Ollie-12.png"/>
+   <drw frame="16" repeat="5" name="5-Ollie-28.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-2.png"/>
+  </drawing>
+  <drawing node="Ollie_000" name="5-Ollie">
+   <drw frame="1" repeat="2" name="5-Ollie-1.png"/>
+   <drw frame="3" repeat="4" name="5-Ollie-27.png"/>
+   <drw frame="7" name="5-Ollie-1.png"/>
+   <drw frame="8" repeat="8" name="5-Ollie-2.png"/>
+   <drw frame="16" repeat="5" name="5-Ollie-27.png"/>
+   <drw frame="21" repeat="5" name="5-Ollie-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

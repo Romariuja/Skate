@@ -1,0 +1,7 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="Table_Idle_Top">
+  <drawing node="Tabla_1" name="40-Tabla">
+   <drw frame="1" repeat="50" name="40-Tabla-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

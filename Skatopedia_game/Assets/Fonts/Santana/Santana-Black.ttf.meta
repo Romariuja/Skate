@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e6ce78937abb8d543a1f95746831cb72
+timeCreated: 1493174573
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Santana-Black
+  fontNames:
+  - Santana-Black
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

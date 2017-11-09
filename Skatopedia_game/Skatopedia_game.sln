@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skatopedia_game", "Skatopedia_game.csproj", "{0B6B30BB-8807-0707-6427-2A3DD5960D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skatopedia_game.Editor", "Skatopedia_game.Editor.csproj", "{88D99A01-E4C6-1DD1-44E2-93159C8BDBB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B6B30BB-8807-0707-6427-2A3DD5960D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6B30BB-8807-0707-6427-2A3DD5960D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6B30BB-8807-0707-6427-2A3DD5960D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6B30BB-8807-0707-6427-2A3DD5960D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D99A01-E4C6-1DD1-44E2-93159C8BDBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D99A01-E4C6-1DD1-44E2-93159C8BDBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D99A01-E4C6-1DD1-44E2-93159C8BDBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D99A01-E4C6-1DD1-44E2-93159C8BDBB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+<stages>
+ <stage name="SkaterPro_KickFlip">
+  <play drawingAnimation="KickFlip_Top" name="Top" skeleton="Top" animation="KickFlip_Top"/>
+  <anchor node="Table" play="Top"/>
+  <anchor node="Skater" play="Top"/>
+ </stage>
+</stages>

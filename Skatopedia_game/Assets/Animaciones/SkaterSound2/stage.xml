@@ -1,0 +1,9 @@
+<stages>
+ <stage name="SkaterPro_Manual">
+  <play drawingAnimation="Manual_Top" name="Top" skeleton="Top" animation="Manual_Top"/>
+  <anchor node="Skater+Table" play="Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+  <sound name="SkaterPro - SkaterPro_-_Skateboard_sound_wheels_3.wav" time="1"/>
+ </stage>
+</stages>

@@ -1,0 +1,20 @@
+<stages>
+ <stage name="Skater_Idle">
+  <play drawingAnimation="Idle_Top" name="Top" skeleton="Top" animation="Idle_Top"/>
+ </stage>
+ <stage name="Skater_Idle2Flex">
+  <play drawingAnimation="Idle2Flex_Top" name="Top" skeleton="Top_1" animation="Idle2Flex_Top"/>
+ </stage>
+ <stage name="Skater_Flex2Idle">
+  <play drawingAnimation="Flex2Idle_Top" name="Top" skeleton="Top_2" animation="Flex2Idle_Top"/>
+ </stage>
+ <stage name="Skater_Ollie">
+  <play drawingAnimation="Ollie_Top" name="Top" skeleton="Top_3" animation="Ollie_Top"/>
+ </stage>
+ <stage name="Skater_GrabTrick">
+  <play drawingAnimation="GrabTrick_Top" name="Top" skeleton="Top_5" animation="GrabTrick_Top"/>
+ </stage>
+ <stage name="Skater_GroundTrick_Manual">
+  <play drawingAnimation="GroundTrick_Manual_Top" name="Top" skeleton="Top_6" animation="GroundTrick_Manual_Top"/>
+ </stage>
+</stages>

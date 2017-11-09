@@ -1,0 +1,7 @@
+<stages>
+ <stage name="SkaterPro_Idle">
+  <play drawingAnimation="Idle_Top" name="Top" skeleton="Top" animation="Idle_Top"/>
+  <anchor node="Table" play="Top"/>
+  <anchor node="Skater" play="Top"/>
+ </stage>
+</stages>

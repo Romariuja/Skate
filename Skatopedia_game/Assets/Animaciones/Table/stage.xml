@@ -1,0 +1,6 @@
+<stages>
+ <stage name="Table_Table_Idle">
+  <play drawingAnimation="Table_Idle_Top" name="Top" skeleton="Top" animation="Table_Idle_Top"/>
+  <anchor node="Tabla_1" play="Top"/>
+ </stage>
+</stages>

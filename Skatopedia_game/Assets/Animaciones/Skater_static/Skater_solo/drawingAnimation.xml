@@ -1,0 +1,376 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="Skater_solo_KickFlip_Top">
+  <drawing node="KickFlip2_033" name="26-KickFlip2">
+   <drw frame="18" name="26-KickFlip2-26.png"/>
+  </drawing>
+  <drawing node="KickFlip2_032" name="26-KickFlip2">
+   <drw frame="17" name="26-KickFlip2-26.png"/>
+   <drw frame="18" name="26-KickFlip2-25.png"/>
+  </drawing>
+  <drawing node="KickFlip2_031" name="26-KickFlip2">
+   <drw frame="17" name="26-KickFlip2-25.png"/>
+   <drw frame="18" name="26-KickFlip2-24.png"/>
+   <drw frame="19" name="26-KickFlip2-26.png"/>
+  </drawing>
+  <drawing node="KickFlip2_030" name="26-KickFlip2">
+   <drw frame="17" repeat="2" name="26-KickFlip2-24.png"/>
+   <drw frame="19" name="26-KickFlip2-25.png"/>
+  </drawing>
+  <drawing node="KickFlip2_029" name="26-KickFlip2">
+   <drw frame="16" name="26-KickFlip2-26.png"/>
+   <drw frame="17" name="26-KickFlip2-24.png"/>
+   <drw frame="18" name="26-KickFlip2-23.png"/>
+   <drw frame="19" name="26-KickFlip2-24.png"/>
+   <drw frame="20" name="26-KickFlip2-26.png"/>
+  </drawing>
+  <drawing node="KickFlip2_028" name="26-KickFlip2">
+   <drw frame="3" repeat="2" name="26-KickFlip2-26.png"/>
+   <drw frame="16" name="26-KickFlip2-25.png"/>
+   <drw frame="17" name="26-KickFlip2-23.png"/>
+   <drw frame="18" name="26-KickFlip2-22.png"/>
+   <drw frame="19" name="26-KickFlip2-24.png"/>
+   <drw frame="20" name="26-KickFlip2-25.png"/>
+  </drawing>
+  <drawing node="KickFlip2_027" name="26-KickFlip2">
+   <drw frame="3" repeat="2" name="26-KickFlip2-25.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-26.png"/>
+   <drw frame="15" name="26-KickFlip2-26.png"/>
+   <drw frame="16" name="26-KickFlip2-24.png"/>
+   <drw frame="17" name="26-KickFlip2-22.png"/>
+   <drw frame="18" name="26-KickFlip2-21.png"/>
+   <drw frame="19" name="26-KickFlip2-23.png"/>
+   <drw frame="20" name="26-KickFlip2-24.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-26.png"/>
+  </drawing>
+  <drawing node="KickFlip2_026" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-26.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-24.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-25.png"/>
+   <drw frame="15" name="26-KickFlip2-25.png"/>
+   <drw frame="16" name="26-KickFlip2-24.png"/>
+   <drw frame="17" name="26-KickFlip2-21.png"/>
+   <drw frame="18" name="26-KickFlip2-20.png"/>
+   <drw frame="19" name="26-KickFlip2-22.png"/>
+   <drw frame="20" name="26-KickFlip2-24.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-25.png"/>
+  </drawing>
+  <drawing node="KickFlip2_025" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-25.png"/>
+   <drw frame="3" repeat="4" name="26-KickFlip2-24.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-26.png"/>
+   <drw frame="15" name="26-KickFlip2-24.png"/>
+   <drw frame="16" name="26-KickFlip2-23.png"/>
+   <drw frame="17" name="26-KickFlip2-20.png"/>
+   <drw frame="18" name="26-KickFlip2-19.png"/>
+   <drw frame="19" name="26-KickFlip2-21.png"/>
+   <drw frame="20" name="26-KickFlip2-23.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-24.png"/>
+  </drawing>
+  <drawing node="KickFlip2_024" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-24.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-23.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-24.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-25.png"/>
+   <drw frame="15" name="26-KickFlip2-24.png"/>
+   <drw frame="16" name="26-KickFlip2-22.png"/>
+   <drw frame="17" name="26-KickFlip2-19.png"/>
+   <drw frame="18" name="26-KickFlip2-18.png"/>
+   <drw frame="19" name="26-KickFlip2-20.png"/>
+   <drw frame="20" name="26-KickFlip2-22.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-24.png"/>
+  </drawing>
+  <drawing node="KickFlip2_023" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-24.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-22.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-23.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-24.png"/>
+   <drw frame="15" name="26-KickFlip2-23.png"/>
+   <drw frame="16" name="26-KickFlip2-21.png"/>
+   <drw frame="17" name="26-KickFlip2-18.png"/>
+   <drw frame="18" name="26-KickFlip2-17.png"/>
+   <drw frame="19" name="26-KickFlip2-19.png"/>
+   <drw frame="20" name="26-KickFlip2-21.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-23.png"/>
+  </drawing>
+  <drawing node="KickFlip2_022" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-23.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-21.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-22.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-24.png"/>
+   <drw frame="15" name="26-KickFlip2-22.png"/>
+   <drw frame="16" name="26-KickFlip2-20.png"/>
+   <drw frame="17" name="26-KickFlip2-17.png"/>
+   <drw frame="18" name="26-KickFlip2-16.png"/>
+   <drw frame="19" name="26-KickFlip2-18.png"/>
+   <drw frame="20" name="26-KickFlip2-20.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-22.png"/>
+  </drawing>
+  <drawing node="KickFlip2_021" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-22.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-20.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-21.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-23.png"/>
+   <drw frame="15" name="26-KickFlip2-21.png"/>
+   <drw frame="16" name="26-KickFlip2-19.png"/>
+   <drw frame="17" name="26-KickFlip2-16.png"/>
+   <drw frame="18" name="26-KickFlip2-15.png"/>
+   <drw frame="19" name="26-KickFlip2-17.png"/>
+   <drw frame="20" name="26-KickFlip2-19.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-21.png"/>
+  </drawing>
+  <drawing node="KickFlip2_020" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-21.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-19.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-20.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-22.png"/>
+   <drw frame="15" name="26-KickFlip2-20.png"/>
+   <drw frame="16" name="26-KickFlip2-18.png"/>
+   <drw frame="17" name="26-KickFlip2-15.png"/>
+   <drw frame="18" name="26-KickFlip2-36.png"/>
+   <drw frame="19" name="26-KickFlip2-16.png"/>
+   <drw frame="20" name="26-KickFlip2-18.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-20.png"/>
+  </drawing>
+  <drawing node="KickFlip2_019" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-20.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-18.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-19.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-21.png"/>
+   <drw frame="15" name="26-KickFlip2-19.png"/>
+   <drw frame="16" name="26-KickFlip2-29.png"/>
+   <drw frame="17" name="26-KickFlip2-11.png"/>
+   <drw frame="18" name="26-KickFlip2-39.png"/>
+   <drw frame="19" name="26-KickFlip2-15.png"/>
+   <drw frame="20" name="26-KickFlip2-17.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-19.png"/>
+  </drawing>
+  <drawing node="KickFlip2_018" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-19.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-17.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-18.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-20.png"/>
+   <drw frame="15" name="26-KickFlip2-18.png"/>
+   <drw frame="16" name="26-KickFlip2-29.png"/>
+   <drw frame="17" name="26-KickFlip2-36.png"/>
+   <drw frame="18" repeat="2" name="26-KickFlip2-14.png"/>
+   <drw frame="20" name="26-KickFlip2-16.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-18.png"/>
+  </drawing>
+  <drawing node="KickFlip2_017" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-18.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-16.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-17.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-19.png"/>
+   <drw frame="15" name="26-KickFlip2-29.png"/>
+   <drw frame="16" name="26-KickFlip2-15.png"/>
+   <drw frame="17" name="26-KickFlip2-38.png"/>
+   <drw frame="18" repeat="2" name="26-KickFlip2-13.png"/>
+   <drw frame="20" name="26-KickFlip2-15.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-17.png"/>
+  </drawing>
+  <drawing node="KickFlip2_016" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-17.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-15.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-29.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-18.png"/>
+   <drw frame="15" name="26-KickFlip2-29.png"/>
+   <drw frame="16" name="26-KickFlip2-11.png"/>
+   <drw frame="17" name="26-KickFlip2-14.png"/>
+   <drw frame="18" repeat="2" name="26-KickFlip2-12.png"/>
+   <drw frame="20" name="26-KickFlip2-14.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-16.png"/>
+  </drawing>
+  <drawing node="KickFlip2_015" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-16.png"/>
+   <drw frame="3" name="26-KickFlip2-14.png"/>
+   <drw frame="4" name="26-KickFlip2-3.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-15.png"/>
+   <drw frame="7" name="26-KickFlip2-17.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-29.png"/>
+   <drw frame="15" name="26-KickFlip2-15.png"/>
+   <drw frame="16" name="26-KickFlip2-36.png"/>
+   <drw frame="17" name="26-KickFlip2-13.png"/>
+   <drw frame="18" repeat="2" name="26-KickFlip2-11.png"/>
+   <drw frame="20" name="26-KickFlip2-13.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-15.png"/>
+  </drawing>
+  <drawing node="KickFlip2_014" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-15.png"/>
+   <drw frame="3" name="26-KickFlip2-13.png"/>
+   <drw frame="4" name="26-KickFlip2-14.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-3.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-29.png"/>
+   <drw frame="15" name="26-KickFlip2-11.png"/>
+   <drw frame="16" name="26-KickFlip2-37.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-10.png"/>
+   <drw frame="20" name="26-KickFlip2-12.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-14.png"/>
+  </drawing>
+  <drawing node="KickFlip2_013" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-14.png"/>
+   <drw frame="3" name="26-KickFlip2-12.png"/>
+   <drw frame="4" name="26-KickFlip2-13.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-14.png"/>
+   <drw frame="7" repeat="8" name="26-KickFlip2-15.png"/>
+   <drw frame="15" name="26-KickFlip2-36.png"/>
+   <drw frame="16" name="26-KickFlip2-14.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-9.png"/>
+   <drw frame="20" name="26-KickFlip2-11.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-13.png"/>
+  </drawing>
+  <drawing node="KickFlip2_012" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-13.png"/>
+   <drw frame="3" name="26-KickFlip2-11.png"/>
+   <drw frame="4" name="26-KickFlip2-12.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-13.png"/>
+   <drw frame="7" name="26-KickFlip2-3.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-12.png"/>
+   <drw frame="15" name="26-KickFlip2-35.png"/>
+   <drw frame="16" name="26-KickFlip2-13.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-8.png"/>
+   <drw frame="20" name="26-KickFlip2-10.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-12.png"/>
+  </drawing>
+  <drawing node="KickFlip2_011" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-12.png"/>
+   <drw frame="3" name="26-KickFlip2-10.png"/>
+   <drw frame="4" name="26-KickFlip2-11.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-12.png"/>
+   <drw frame="7" name="26-KickFlip2-14.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-11.png"/>
+   <drw frame="15" name="26-KickFlip2-14.png"/>
+   <drw frame="16" name="26-KickFlip2-10.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-7.png"/>
+   <drw frame="20" name="26-KickFlip2-9.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-11.png"/>
+  </drawing>
+  <drawing node="KickFlip2_010" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-11.png"/>
+   <drw frame="3" name="26-KickFlip2-9.png"/>
+   <drw frame="4" name="26-KickFlip2-10.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-11.png"/>
+   <drw frame="7" name="26-KickFlip2-13.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-14.png"/>
+   <drw frame="15" name="26-KickFlip2-13.png"/>
+   <drw frame="16" name="26-KickFlip2-9.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-6.png"/>
+   <drw frame="20" name="26-KickFlip2-8.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-10.png"/>
+  </drawing>
+  <drawing node="KickFlip2_009" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-10.png"/>
+   <drw frame="3" name="26-KickFlip2-8.png"/>
+   <drw frame="4" name="26-KickFlip2-9.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-10.png"/>
+   <drw frame="7" name="26-KickFlip2-12.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-13.png"/>
+   <drw frame="15" name="26-KickFlip2-10.png"/>
+   <drw frame="16" name="26-KickFlip2-8.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-5.png"/>
+   <drw frame="20" name="26-KickFlip2-7.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-9.png"/>
+  </drawing>
+  <drawing node="KickFlip2_008" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-9.png"/>
+   <drw frame="3" name="26-KickFlip2-7.png"/>
+   <drw frame="4" name="26-KickFlip2-8.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-9.png"/>
+   <drw frame="7" name="26-KickFlip2-11.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-10.png"/>
+   <drw frame="15" name="26-KickFlip2-9.png"/>
+   <drw frame="16" name="26-KickFlip2-7.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-4.png"/>
+   <drw frame="20" name="26-KickFlip2-6.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-8.png"/>
+  </drawing>
+  <drawing node="KickFlip2_007" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-8.png"/>
+   <drw frame="3" name="26-KickFlip2-6.png"/>
+   <drw frame="4" name="26-KickFlip2-7.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-8.png"/>
+   <drw frame="7" name="26-KickFlip2-10.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-9.png"/>
+   <drw frame="15" name="26-KickFlip2-8.png"/>
+   <drw frame="16" name="26-KickFlip2-6.png"/>
+   <drw frame="17" name="26-KickFlip2-32.png"/>
+   <drw frame="18" repeat="2" name="26-KickFlip2-3.png"/>
+   <drw frame="20" name="26-KickFlip2-5.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-7.png"/>
+  </drawing>
+  <drawing node="KickFlip2_006" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-7.png"/>
+   <drw frame="3" name="26-KickFlip2-5.png"/>
+   <drw frame="4" name="26-KickFlip2-6.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-7.png"/>
+   <drw frame="7" name="26-KickFlip2-9.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-8.png"/>
+   <drw frame="15" name="26-KickFlip2-7.png"/>
+   <drw frame="16" name="26-KickFlip2-5.png"/>
+   <drw frame="17" name="26-KickFlip2-12.png"/>
+   <drw frame="18" repeat="2" name="26-KickFlip2-32.png"/>
+   <drw frame="20" name="26-KickFlip2-4.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-6.png"/>
+  </drawing>
+  <drawing node="KickFlip2_005" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-6.png"/>
+   <drw frame="3" name="26-KickFlip2-4.png"/>
+   <drw frame="4" name="26-KickFlip2-5.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-6.png"/>
+   <drw frame="7" name="26-KickFlip2-8.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-7.png"/>
+   <drw frame="15" name="26-KickFlip2-6.png"/>
+   <drw frame="16" name="26-KickFlip2-4.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-2.png"/>
+   <drw frame="20" name="26-KickFlip2-3.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-5.png"/>
+  </drawing>
+  <drawing node="KickFlip2_004" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-5.png"/>
+   <drw frame="3" name="26-KickFlip2-3.png"/>
+   <drw frame="4" name="26-KickFlip2-4.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-5.png"/>
+   <drw frame="7" name="26-KickFlip2-7.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-6.png"/>
+   <drw frame="15" name="26-KickFlip2-5.png"/>
+   <drw frame="16" name="26-KickFlip2-32.png"/>
+   <drw frame="20" name="26-KickFlip2-32.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-4.png"/>
+  </drawing>
+  <drawing node="KickFlip2_003" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-4.png"/>
+   <drw frame="3" repeat="2" name="26-KickFlip2-2.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-4.png"/>
+   <drw frame="7" name="26-KickFlip2-6.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-5.png"/>
+   <drw frame="15" name="26-KickFlip2-4.png"/>
+   <drw frame="16" name="26-KickFlip2-12.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-28.png"/>
+   <drw frame="20" name="26-KickFlip2-2.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-3.png"/>
+  </drawing>
+  <drawing node="KickFlip2_002" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-3.png"/>
+   <drw frame="5" repeat="2" name="26-KickFlip2-2.png"/>
+   <drw frame="7" name="26-KickFlip2-5.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-4.png"/>
+   <drw frame="15" name="26-KickFlip2-32.png"/>
+   <drw frame="16" name="26-KickFlip2-2.png"/>
+   <drw frame="17" repeat="3" name="26-KickFlip2-27.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-32.png"/>
+  </drawing>
+  <drawing node="KickFlip2_001" name="26-KickFlip2">
+   <drw frame="1" repeat="2" name="26-KickFlip2-2.png"/>
+   <drw frame="3" repeat="4" name="26-KickFlip2-28.png"/>
+   <drw frame="7" name="26-KickFlip2-4.png"/>
+   <drw frame="8" repeat="7" name="26-KickFlip2-32.png"/>
+   <drw frame="15" name="26-KickFlip2-12.png"/>
+   <drw frame="16" repeat="5" name="26-KickFlip2-28.png"/>
+   <drw frame="21" repeat="5" name="26-KickFlip2-2.png"/>
+  </drawing>
+  <drawing node="KickFlip2_000" name="26-KickFlip2">
+   <drw frame="3" repeat="4" name="26-KickFlip2-27.png"/>
+   <drw frame="7" repeat="9" name="26-KickFlip2-2.png"/>
+   <drw frame="16" repeat="5" name="26-KickFlip2-27.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

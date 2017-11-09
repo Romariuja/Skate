@@ -1,0 +1,88 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="Manual_Top">
+  <drawing node="Skater" name="39-Skater">
+   <drw frame="1" repeat="50" name="39-Skater-1.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_026" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-27.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_025" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-26.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_024" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-25.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_023" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-24.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_022" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-23.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_021" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-22.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_020" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-21.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_019" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-20.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_018" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-19.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_017" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-18.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_016" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-17.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_015" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-16.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_014" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-15.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_013" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-14.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_012" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-13.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_011" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-12.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_010" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-11.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_009" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-10.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_008" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-9.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_007" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-8.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_006" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-7.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_005" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-6.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_004" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-5.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_003" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-4.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_002" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-3.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_001" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-2.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_000" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="50" name="21-GroundTrick_Manual-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

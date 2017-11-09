@@ -1,0 +1,286 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="CrippledM_Top">
+  <drawing node="dewkAnims_Crippled2_025" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-25.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_024" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-24.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_023" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-23.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_022" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-22.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_021" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-21.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_020" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-20.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_019" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-19.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_018" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-18.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_017" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-17.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_016" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-16.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_015" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-15.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_014" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-14.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_013" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-13.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_012" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-12.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_011" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-11.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_010" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-10.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_009" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-2.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_008" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-9.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_007" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-8.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_006" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-7.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_005" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-6.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_004" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-5.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_003" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-4.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_002" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-3.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_001" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-2.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_000" name="30-dewkAnims_Crippled2">
+   <drw frame="40" repeat="11" name="30-dewkAnims_Crippled2-1.png"/>
+  </drawing>
+  <drawing node="Untitled-1_026" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-27.png"/>
+  </drawing>
+  <drawing node="Untitled-1_025" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-26.png"/>
+  </drawing>
+  <drawing node="Untitled-1_024" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-25.png"/>
+  </drawing>
+  <drawing node="Untitled-1_023" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-24.png"/>
+  </drawing>
+  <drawing node="Untitled-1_022" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-23.png"/>
+  </drawing>
+  <drawing node="Untitled-1_021" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-22.png"/>
+  </drawing>
+  <drawing node="Untitled-1_020" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-21.png"/>
+  </drawing>
+  <drawing node="Untitled-1_019" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-20.png"/>
+  </drawing>
+  <drawing node="Untitled-1_018" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-19.png"/>
+  </drawing>
+  <drawing node="Untitled-1_017" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-18.png"/>
+  </drawing>
+  <drawing node="Untitled-1_016" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-17.png"/>
+  </drawing>
+  <drawing node="Untitled-1_015" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-16.png"/>
+  </drawing>
+  <drawing node="Untitled-1_014" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-15.png"/>
+  </drawing>
+  <drawing node="Untitled-1_013" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-14.png"/>
+  </drawing>
+  <drawing node="Untitled-1_012" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-13.png"/>
+  </drawing>
+  <drawing node="Untitled-1_011" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-12.png"/>
+  </drawing>
+  <drawing node="Untitled-1_010" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-11.png"/>
+  </drawing>
+  <drawing node="Untitled-1_009" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-10.png"/>
+  </drawing>
+  <drawing node="Untitled-1_008" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-9.png"/>
+  </drawing>
+  <drawing node="Untitled-1_007" name="33-Untitled-1">
+   <drw frame="1" repeat="30" name="33-Untitled-1-8.png"/>
+   <drw frame="32" repeat="8" name="33-Untitled-1-8.png"/>
+  </drawing>
+  <drawing node="Untitled-1_006" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-7.png"/>
+  </drawing>
+  <drawing node="Untitled-1_005" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-6.png"/>
+  </drawing>
+  <drawing node="Untitled-1_004" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-5.png"/>
+  </drawing>
+  <drawing node="Untitled-1_003" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-4.png"/>
+  </drawing>
+  <drawing node="Untitled-1_002" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-3.png"/>
+  </drawing>
+  <drawing node="Untitled-1_001" name="33-Untitled-1">
+   <drw frame="1" repeat="39" name="33-Untitled-1-2.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="Idle_Top">
+  <drawing node="Untitled-1_027" name="60-Untitled-1">
+   <drw frame="24" repeat="4" name="60-Untitled-1-27.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-27.png"/>
+  </drawing>
+  <drawing node="Untitled-1_026" name="60-Untitled-1">
+   <drw frame="1" repeat="23" name="60-Untitled-1-27.png"/>
+   <drw frame="24" repeat="4" name="60-Untitled-1-26.png"/>
+   <drw frame="28" repeat="16" name="60-Untitled-1-27.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-26.png"/>
+   <drw frame="47" repeat="8" name="60-Untitled-1-27.png"/>
+  </drawing>
+  <drawing node="Untitled-1_025" name="60-Untitled-1">
+   <drw frame="1" repeat="23" name="60-Untitled-1-26.png"/>
+   <drw frame="24" repeat="4" name="60-Untitled-1-25.png"/>
+   <drw frame="28" repeat="16" name="60-Untitled-1-26.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-25.png"/>
+   <drw frame="47" repeat="8" name="60-Untitled-1-26.png"/>
+  </drawing>
+  <drawing node="Untitled-1_024" name="60-Untitled-1">
+   <drw frame="1" repeat="23" name="60-Untitled-1-25.png"/>
+   <drw frame="24" repeat="4" name="60-Untitled-1-24.png"/>
+   <drw frame="28" repeat="16" name="60-Untitled-1-25.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-24.png"/>
+   <drw frame="47" repeat="8" name="60-Untitled-1-25.png"/>
+  </drawing>
+  <drawing node="Untitled-1_023" name="60-Untitled-1">
+   <drw frame="1" repeat="23" name="60-Untitled-1-24.png"/>
+   <drw frame="24" repeat="4" name="60-Untitled-1-23.png"/>
+   <drw frame="28" repeat="16" name="60-Untitled-1-24.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-23.png"/>
+   <drw frame="47" repeat="8" name="60-Untitled-1-24.png"/>
+  </drawing>
+  <drawing node="Untitled-1_022" name="60-Untitled-1">
+   <drw frame="1" repeat="23" name="60-Untitled-1-23.png"/>
+   <drw frame="24" repeat="4" name="60-Untitled-1-22.png"/>
+   <drw frame="28" repeat="16" name="60-Untitled-1-23.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-22.png"/>
+   <drw frame="47" repeat="8" name="60-Untitled-1-23.png"/>
+  </drawing>
+  <drawing node="Untitled-1_021" name="60-Untitled-1">
+   <drw frame="1" repeat="23" name="60-Untitled-1-22.png"/>
+   <drw frame="24" repeat="4" name="60-Untitled-1-21.png"/>
+   <drw frame="28" repeat="16" name="60-Untitled-1-22.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-21.png"/>
+   <drw frame="47" repeat="8" name="60-Untitled-1-22.png"/>
+  </drawing>
+  <drawing node="Untitled-1_020" name="60-Untitled-1">
+   <drw frame="1" repeat="23" name="60-Untitled-1-21.png"/>
+   <drw frame="24" repeat="4" name="60-Untitled-1-20.png"/>
+   <drw frame="28" repeat="16" name="60-Untitled-1-21.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-20.png"/>
+   <drw frame="47" repeat="8" name="60-Untitled-1-21.png"/>
+  </drawing>
+  <drawing node="Untitled-1_019" name="60-Untitled-1">
+   <drw frame="1" repeat="23" name="60-Untitled-1-20.png"/>
+   <drw frame="24" repeat="4" name="60-Untitled-1-19.png"/>
+   <drw frame="28" repeat="16" name="60-Untitled-1-20.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-19.png"/>
+   <drw frame="47" repeat="8" name="60-Untitled-1-20.png"/>
+  </drawing>
+  <drawing node="Untitled-1_018" name="60-Untitled-1">
+   <drw frame="1" repeat="23" name="60-Untitled-1-19.png"/>
+   <drw frame="24" repeat="4" name="60-Untitled-1-28.png"/>
+   <drw frame="28" repeat="16" name="60-Untitled-1-19.png"/>
+   <drw frame="44" repeat="3" name="60-Untitled-1-28.png"/>
+   <drw frame="47" repeat="8" name="60-Untitled-1-19.png"/>
+  </drawing>
+  <drawing node="Untitled-1_017" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-18.png"/>
+  </drawing>
+  <drawing node="Untitled-1_016" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-17.png"/>
+  </drawing>
+  <drawing node="Untitled-1_015" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-16.png"/>
+  </drawing>
+  <drawing node="Untitled-1_014" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-15.png"/>
+  </drawing>
+  <drawing node="Untitled-1_013" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-14.png"/>
+  </drawing>
+  <drawing node="Untitled-1_012" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-13.png"/>
+  </drawing>
+  <drawing node="Untitled-1_011" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-12.png"/>
+  </drawing>
+  <drawing node="Untitled-1_010" name="60-Untitled-1">
+   <drw frame="1" repeat="15" name="60-Untitled-1-11.png"/>
+   <drw frame="16" repeat="19" name="60-Untitled-1-3.png"/>
+   <drw frame="35" repeat="20" name="60-Untitled-1-11.png"/>
+  </drawing>
+  <drawing node="Untitled-1_009" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-10.png"/>
+  </drawing>
+  <drawing node="Untitled-1_008" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-9.png"/>
+  </drawing>
+  <drawing node="Untitled-1_007" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-8.png"/>
+  </drawing>
+  <drawing node="Untitled-1_006" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-7.png"/>
+  </drawing>
+  <drawing node="Untitled-1_005" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-6.png"/>
+  </drawing>
+  <drawing node="Untitled-1_004" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-5.png"/>
+  </drawing>
+  <drawing node="Untitled-1_003" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-4.png"/>
+  </drawing>
+  <drawing node="Untitled-1_002" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-3.png"/>
+  </drawing>
+  <drawing node="Untitled-1_001" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-2.png"/>
+  </drawing>
+  <drawing node="Untitled-1_000" name="60-Untitled-1">
+   <drw frame="1" repeat="54" name="60-Untitled-1-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

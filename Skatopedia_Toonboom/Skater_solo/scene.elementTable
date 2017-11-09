@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Harmony Premium (HarmonyPremium.exe) version 14.0.0 build 11461 2016-06-21 14:02:21" version="1400" build="11461">
+ <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="2" elementName="Untitled-1" elementFolder="Untitled-1" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="3" elementName="dewkAnims_Idle_to_Flex" elementFolder="dewkAnims_Idle_to_Flex" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="4" elementName="Flex2Idle" elementFolder="Flex2Idle" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="5" elementName="Ollie" elementFolder="Ollie" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="7" elementName="Grind_5_0" elementFolder="Grind_5_0" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="8" elementName="GrabTrick" elementFolder="GrabTrick" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="9" elementName="GrabTrick" elementFolder="GrabTrick.9" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="10" elementName="Untitled-1" elementFolder="Untitled-1.10" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="11" elementName="GrabTrick" elementFolder="GrabTrick.11" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="12" elementName="KickFlip" elementFolder="KickFlip.12" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="13" elementName="KickFlip" elementFolder="KickFlip.13" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="14" elementName="KickFlip" elementFolder="KickFlip.14" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="15" elementName="GroundTrick_Manual" elementFolder="GroundTrick_Manual" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="17" elementName="Ancla_tabla" elementFolder="Ancla_tabla.17" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="19" elementName="GrabTrick" elementFolder="GrabTrick.19" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="20" elementName="Ollie" elementFolder="Ollie.20" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="21" elementName="Ancla_tabla" elementFolder="Ancla_tabla" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="22" elementName="Flex" elementFolder="Flex" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="23" elementName="KickFlip" elementFolder="KickFlip.23" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="24" elementName="KickFlip" elementFolder="KickFlip.24" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="25" elementName="KickFlip" elementFolder="KickFlip.25" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="26" elementName="KickFlip2" elementFolder="KickFlip2" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="27" elementName="Grind_50_50" elementFolder="Grind_50_50" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="28" elementName="GroundTrick_Manual" elementFolder="GroundTrick_Manual.28" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="30" elementName="dewkAnims_Crippled2" elementFolder="dewkAnims_Crippled2" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="32" elementName="Flex" elementFolder="Flex.32" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="33" elementName="Untitled-1" elementFolder="Untitled-1.33" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="35" elementName="Tabla" elementFolder="Tabla" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="36" elementName="KickFlip2" elementFolder="KickFlip2.36" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="37" elementName="Untitled-1" elementFolder="Untitled-1.37" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="38" elementName="dewkAnims_Crippled2" elementFolder="dewkAnims_Crippled2.38" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="39" elementName="Tabla" elementFolder="Tabla.39" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+</elements>

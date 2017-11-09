@@ -1,0 +1,3341 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="Idle_Top">
+  <drawing node="Skater" name="31-Skater">
+   <drw frame="1" repeat="54" name="31-Skater-4.png"/>
+  </drawing>
+  <drawing node="Table" name="32-Table">
+   <drw frame="1" repeat="54" name="32-Table-1.png"/>
+  </drawing>
+  <drawing node="Untitled-1" name="8-Untitled-1">
+   <drw frame="24" repeat="4" name="8-Untitled-1-27.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-27.png"/>
+  </drawing>
+  <drawing node="Untitled-1_27" name="8-Untitled-1">
+   <drw frame="1" repeat="23" name="8-Untitled-1-27.png"/>
+   <drw frame="24" repeat="4" name="8-Untitled-1-26.png"/>
+   <drw frame="28" repeat="16" name="8-Untitled-1-27.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-26.png"/>
+   <drw frame="47" repeat="8" name="8-Untitled-1-27.png"/>
+  </drawing>
+  <drawing node="Untitled-1_26" name="8-Untitled-1">
+   <drw frame="1" repeat="23" name="8-Untitled-1-26.png"/>
+   <drw frame="24" repeat="4" name="8-Untitled-1-25.png"/>
+   <drw frame="28" repeat="16" name="8-Untitled-1-26.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-25.png"/>
+   <drw frame="47" repeat="8" name="8-Untitled-1-26.png"/>
+  </drawing>
+  <drawing node="Untitled-1_25" name="8-Untitled-1">
+   <drw frame="1" repeat="23" name="8-Untitled-1-25.png"/>
+   <drw frame="24" repeat="4" name="8-Untitled-1-24.png"/>
+   <drw frame="28" repeat="16" name="8-Untitled-1-25.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-24.png"/>
+   <drw frame="47" repeat="8" name="8-Untitled-1-25.png"/>
+  </drawing>
+  <drawing node="Untitled-1_24" name="8-Untitled-1">
+   <drw frame="1" repeat="23" name="8-Untitled-1-24.png"/>
+   <drw frame="24" repeat="4" name="8-Untitled-1-23.png"/>
+   <drw frame="28" repeat="16" name="8-Untitled-1-24.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-23.png"/>
+   <drw frame="47" repeat="8" name="8-Untitled-1-24.png"/>
+  </drawing>
+  <drawing node="Untitled-1_23" name="8-Untitled-1">
+   <drw frame="1" repeat="23" name="8-Untitled-1-23.png"/>
+   <drw frame="24" repeat="4" name="8-Untitled-1-22.png"/>
+   <drw frame="28" repeat="16" name="8-Untitled-1-23.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-22.png"/>
+   <drw frame="47" repeat="8" name="8-Untitled-1-23.png"/>
+  </drawing>
+  <drawing node="Untitled-1_22" name="8-Untitled-1">
+   <drw frame="1" repeat="23" name="8-Untitled-1-22.png"/>
+   <drw frame="24" repeat="4" name="8-Untitled-1-21.png"/>
+   <drw frame="28" repeat="16" name="8-Untitled-1-22.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-21.png"/>
+   <drw frame="47" repeat="8" name="8-Untitled-1-22.png"/>
+  </drawing>
+  <drawing node="Untitled-1_21" name="8-Untitled-1">
+   <drw frame="1" repeat="23" name="8-Untitled-1-21.png"/>
+   <drw frame="24" repeat="4" name="8-Untitled-1-20.png"/>
+   <drw frame="28" repeat="16" name="8-Untitled-1-21.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-20.png"/>
+   <drw frame="47" repeat="8" name="8-Untitled-1-21.png"/>
+  </drawing>
+  <drawing node="Untitled-1_20" name="8-Untitled-1">
+   <drw frame="1" repeat="23" name="8-Untitled-1-20.png"/>
+   <drw frame="24" repeat="4" name="8-Untitled-1-19.png"/>
+   <drw frame="28" repeat="16" name="8-Untitled-1-20.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-19.png"/>
+   <drw frame="47" repeat="8" name="8-Untitled-1-20.png"/>
+  </drawing>
+  <drawing node="Untitled-1_19" name="8-Untitled-1">
+   <drw frame="1" repeat="23" name="8-Untitled-1-19.png"/>
+   <drw frame="24" repeat="4" name="8-Untitled-1-28.png"/>
+   <drw frame="28" repeat="16" name="8-Untitled-1-19.png"/>
+   <drw frame="44" repeat="3" name="8-Untitled-1-28.png"/>
+   <drw frame="47" repeat="8" name="8-Untitled-1-19.png"/>
+  </drawing>
+  <drawing node="Untitled-1_18" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-18.png"/>
+  </drawing>
+  <drawing node="Untitled-1_17" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-17.png"/>
+  </drawing>
+  <drawing node="Untitled-1_16" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-16.png"/>
+  </drawing>
+  <drawing node="Untitled-1_15" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-15.png"/>
+  </drawing>
+  <drawing node="Untitled-1_14" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-14.png"/>
+  </drawing>
+  <drawing node="Untitled-1_13" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-13.png"/>
+  </drawing>
+  <drawing node="Untitled-1_12" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-12.png"/>
+  </drawing>
+  <drawing node="Untitled-1_11" name="8-Untitled-1">
+   <drw frame="1" repeat="15" name="8-Untitled-1-11.png"/>
+   <drw frame="16" repeat="19" name="8-Untitled-1-3.png"/>
+   <drw frame="35" repeat="20" name="8-Untitled-1-11.png"/>
+  </drawing>
+  <drawing node="Untitled-1_10" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-10.png"/>
+  </drawing>
+  <drawing node="Untitled-1_9" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-9.png"/>
+  </drawing>
+  <drawing node="Untitled-1_8" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-8.png"/>
+  </drawing>
+  <drawing node="Untitled-1_7" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-7.png"/>
+  </drawing>
+  <drawing node="Untitled-1_6" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-6.png"/>
+  </drawing>
+  <drawing node="Untitled-1_5" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-5.png"/>
+  </drawing>
+  <drawing node="Untitled-1_4" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-4.png"/>
+  </drawing>
+  <drawing node="Untitled-1_3" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-3.png"/>
+  </drawing>
+  <drawing node="Untitled-1_2" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-2.png"/>
+  </drawing>
+  <drawing node="Untitled-1_1" name="8-Untitled-1">
+   <drw frame="1" repeat="54" name="8-Untitled-1-1.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="Flex_Top">
+  <drawing node="Flex_028" name="16-Flex">
+   <drw frame="22" repeat="5" name="16-Flex-26.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-26.png"/>
+  </drawing>
+  <drawing node="Flex_027" name="16-Flex">
+   <drw frame="22" repeat="5" name="16-Flex-25.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-25.png"/>
+  </drawing>
+  <drawing node="Flex_026" name="16-Flex">
+   <drw frame="1" repeat="21" name="16-Flex-26.png"/>
+   <drw frame="22" repeat="5" name="16-Flex-24.png"/>
+   <drw frame="27" repeat="13" name="16-Flex-26.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-24.png"/>
+   <drw frame="43" repeat="14" name="16-Flex-26.png"/>
+  </drawing>
+  <drawing node="Flex_025" name="16-Flex">
+   <drw frame="1" repeat="21" name="16-Flex-25.png"/>
+   <drw frame="22" repeat="5" name="16-Flex-24.png"/>
+   <drw frame="27" repeat="13" name="16-Flex-25.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-24.png"/>
+   <drw frame="43" repeat="14" name="16-Flex-25.png"/>
+  </drawing>
+  <drawing node="Flex_024" name="16-Flex">
+   <drw frame="1" repeat="21" name="16-Flex-24.png"/>
+   <drw frame="22" repeat="5" name="16-Flex-23.png"/>
+   <drw frame="27" repeat="13" name="16-Flex-24.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-23.png"/>
+   <drw frame="43" repeat="14" name="16-Flex-24.png"/>
+  </drawing>
+  <drawing node="Flex_023" name="16-Flex">
+   <drw frame="1" repeat="21" name="16-Flex-24.png"/>
+   <drw frame="22" repeat="5" name="16-Flex-22.png"/>
+   <drw frame="27" repeat="13" name="16-Flex-24.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-22.png"/>
+   <drw frame="43" repeat="14" name="16-Flex-24.png"/>
+  </drawing>
+  <drawing node="Flex_022" name="16-Flex">
+   <drw frame="1" repeat="21" name="16-Flex-23.png"/>
+   <drw frame="22" repeat="5" name="16-Flex-21.png"/>
+   <drw frame="27" repeat="13" name="16-Flex-23.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-21.png"/>
+   <drw frame="43" repeat="14" name="16-Flex-23.png"/>
+  </drawing>
+  <drawing node="Flex_021" name="16-Flex">
+   <drw frame="1" repeat="21" name="16-Flex-22.png"/>
+   <drw frame="22" repeat="5" name="16-Flex-20.png"/>
+   <drw frame="27" repeat="13" name="16-Flex-22.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-20.png"/>
+   <drw frame="43" repeat="14" name="16-Flex-22.png"/>
+  </drawing>
+  <drawing node="Flex_020" name="16-Flex">
+   <drw frame="1" repeat="21" name="16-Flex-21.png"/>
+   <drw frame="22" repeat="5" name="16-Flex-27.png"/>
+   <drw frame="27" repeat="13" name="16-Flex-21.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-27.png"/>
+   <drw frame="43" repeat="14" name="16-Flex-21.png"/>
+  </drawing>
+  <drawing node="Flex_019" name="16-Flex">
+   <drw frame="1" repeat="21" name="16-Flex-20.png"/>
+   <drw frame="22" repeat="5" name="16-Flex-27.png"/>
+   <drw frame="27" repeat="13" name="16-Flex-20.png"/>
+   <drw frame="40" repeat="3" name="16-Flex-27.png"/>
+   <drw frame="43" repeat="14" name="16-Flex-20.png"/>
+  </drawing>
+  <drawing node="Flex_018" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-19.png"/>
+  </drawing>
+  <drawing node="Flex_017" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-18.png"/>
+  </drawing>
+  <drawing node="Flex_016" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-17.png"/>
+  </drawing>
+  <drawing node="Flex_015" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-16.png"/>
+  </drawing>
+  <drawing node="Flex_014" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-15.png"/>
+  </drawing>
+  <drawing node="Flex_013" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-14.png"/>
+  </drawing>
+  <drawing node="Flex_012" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-13.png"/>
+  </drawing>
+  <drawing node="Flex_011" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-12.png"/>
+  </drawing>
+  <drawing node="Flex_010" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-11.png"/>
+  </drawing>
+  <drawing node="Flex_009" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-10.png"/>
+  </drawing>
+  <drawing node="Flex_008" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-9.png"/>
+  </drawing>
+  <drawing node="Flex_007" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-8.png"/>
+  </drawing>
+  <drawing node="Flex_006" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-7.png"/>
+  </drawing>
+  <drawing node="Flex_005" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-6.png"/>
+  </drawing>
+  <drawing node="Flex_004" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-5.png"/>
+  </drawing>
+  <drawing node="Flex_003" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-4.png"/>
+  </drawing>
+  <drawing node="Flex_002" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-3.png"/>
+  </drawing>
+  <drawing node="Flex_001" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-2.png"/>
+  </drawing>
+  <drawing node="Flex_000" name="16-Flex">
+   <drw frame="1" repeat="56" name="16-Flex-1.png"/>
+  </drawing>
+  <drawing node="Skater" name="14-Skater">
+   <drw frame="1" repeat="56" name="14-Skater-4.png"/>
+  </drawing>
+  <drawing node="Table" name="13-Table">
+   <drw frame="1" repeat="56" name="13-Table-1.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="GrabTrick_Top">
+  <drawing node="Skater" name="47-Skater">
+   <drw frame="1" repeat="34" name="47-Skater-4.png"/>
+  </drawing>
+  <drawing node="Table" name="7-Table">
+   <drw frame="1" repeat="34" name="7-Table-3.png"/>
+  </drawing>
+  <drawing node="GrabTrick_033" name="19-GrabTrick">
+   <drw frame="27" name="19-GrabTrick-26.png"/>
+  </drawing>
+  <drawing node="GrabTrick_032" name="19-GrabTrick">
+   <drw frame="26" name="19-GrabTrick-26.png"/>
+   <drw frame="27" name="19-GrabTrick-25.png"/>
+  </drawing>
+  <drawing node="GrabTrick_031" name="19-GrabTrick">
+   <drw frame="26" name="19-GrabTrick-25.png"/>
+   <drw frame="27" name="19-GrabTrick-24.png"/>
+   <drw frame="28" name="19-GrabTrick-26.png"/>
+  </drawing>
+  <drawing node="GrabTrick_030" name="19-GrabTrick">
+   <drw frame="25" name="19-GrabTrick-1.png"/>
+   <drw frame="26" repeat="2" name="19-GrabTrick-24.png"/>
+   <drw frame="28" name="19-GrabTrick-25.png"/>
+  </drawing>
+  <drawing node="GrabTrick_029" name="19-GrabTrick">
+   <drw frame="25" name="19-GrabTrick-26.png"/>
+   <drw frame="26" name="19-GrabTrick-24.png"/>
+   <drw frame="27" name="19-GrabTrick-23.png"/>
+   <drw frame="28" name="19-GrabTrick-24.png"/>
+   <drw frame="29" name="19-GrabTrick-26.png"/>
+  </drawing>
+  <drawing node="GrabTrick_028" name="19-GrabTrick">
+   <drw frame="3" repeat="2" name="19-GrabTrick-26.png"/>
+   <drw frame="5" repeat="2" name="19-GrabTrick-28.png"/>
+   <drw frame="24" name="19-GrabTrick-26.png"/>
+   <drw frame="25" name="19-GrabTrick-25.png"/>
+   <drw frame="26" name="19-GrabTrick-23.png"/>
+   <drw frame="27" name="19-GrabTrick-22.png"/>
+   <drw frame="28" name="19-GrabTrick-24.png"/>
+   <drw frame="29" name="19-GrabTrick-25.png"/>
+  </drawing>
+  <drawing node="GrabTrick_027" name="19-GrabTrick">
+   <drw frame="3" repeat="2" name="19-GrabTrick-25.png"/>
+   <drw frame="5" repeat="2" name="19-GrabTrick-27.png"/>
+   <drw frame="22" name="19-GrabTrick-25.png"/>
+   <drw frame="24" name="19-GrabTrick-25.png"/>
+   <drw frame="25" name="19-GrabTrick-24.png"/>
+   <drw frame="26" name="19-GrabTrick-22.png"/>
+   <drw frame="27" name="19-GrabTrick-21.png"/>
+   <drw frame="28" name="19-GrabTrick-23.png"/>
+   <drw frame="29" name="19-GrabTrick-24.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-26.png"/>
+  </drawing>
+  <drawing node="GrabTrick_026" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-26.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-24.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-26.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-25.png"/>
+   <drw frame="22" name="19-GrabTrick-24.png"/>
+   <drw frame="23" name="19-GrabTrick-26.png"/>
+   <drw frame="24" repeat="2" name="19-GrabTrick-24.png"/>
+   <drw frame="26" name="19-GrabTrick-21.png"/>
+   <drw frame="27" name="19-GrabTrick-20.png"/>
+   <drw frame="28" name="19-GrabTrick-22.png"/>
+   <drw frame="29" name="19-GrabTrick-24.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-25.png"/>
+   <drw frame="34" name="19-GrabTrick-26.png"/>
+  </drawing>
+  <drawing node="GrabTrick_025" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-25.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-24.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-25.png"/>
+   <drw frame="8" repeat="15" name="19-GrabTrick-24.png"/>
+   <drw frame="23" name="19-GrabTrick-25.png"/>
+   <drw frame="24" name="19-GrabTrick-24.png"/>
+   <drw frame="25" name="19-GrabTrick-23.png"/>
+   <drw frame="26" name="19-GrabTrick-20.png"/>
+   <drw frame="27" name="19-GrabTrick-19.png"/>
+   <drw frame="28" name="19-GrabTrick-21.png"/>
+   <drw frame="29" name="19-GrabTrick-23.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-24.png"/>
+   <drw frame="34" name="19-GrabTrick-25.png"/>
+  </drawing>
+  <drawing node="GrabTrick_024" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-24.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-23.png"/>
+   <drw frame="5" repeat="17" name="19-GrabTrick-24.png"/>
+   <drw frame="22" name="19-GrabTrick-23.png"/>
+   <drw frame="23" name="19-GrabTrick-24.png"/>
+   <drw frame="24" name="19-GrabTrick-23.png"/>
+   <drw frame="25" name="19-GrabTrick-22.png"/>
+   <drw frame="26" name="19-GrabTrick-19.png"/>
+   <drw frame="27" name="19-GrabTrick-18.png"/>
+   <drw frame="28" name="19-GrabTrick-20.png"/>
+   <drw frame="29" name="19-GrabTrick-22.png"/>
+   <drw frame="30" repeat="5" name="19-GrabTrick-24.png"/>
+  </drawing>
+  <drawing node="GrabTrick_023" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-24.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-22.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-24.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-23.png"/>
+   <drw frame="22" name="19-GrabTrick-22.png"/>
+   <drw frame="23" name="19-GrabTrick-24.png"/>
+   <drw frame="24" name="19-GrabTrick-22.png"/>
+   <drw frame="25" name="19-GrabTrick-21.png"/>
+   <drw frame="26" name="19-GrabTrick-18.png"/>
+   <drw frame="27" name="19-GrabTrick-17.png"/>
+   <drw frame="28" name="19-GrabTrick-19.png"/>
+   <drw frame="29" name="19-GrabTrick-21.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-23.png"/>
+   <drw frame="34" name="19-GrabTrick-24.png"/>
+  </drawing>
+  <drawing node="GrabTrick_022" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-23.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-21.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-23.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-22.png"/>
+   <drw frame="22" name="19-GrabTrick-21.png"/>
+   <drw frame="23" name="19-GrabTrick-23.png"/>
+   <drw frame="24" name="19-GrabTrick-21.png"/>
+   <drw frame="25" name="19-GrabTrick-20.png"/>
+   <drw frame="26" name="19-GrabTrick-17.png"/>
+   <drw frame="27" name="19-GrabTrick-16.png"/>
+   <drw frame="28" name="19-GrabTrick-18.png"/>
+   <drw frame="29" name="19-GrabTrick-20.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-22.png"/>
+   <drw frame="34" name="19-GrabTrick-23.png"/>
+  </drawing>
+  <drawing node="GrabTrick_021" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-22.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-20.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-22.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-21.png"/>
+   <drw frame="22" name="19-GrabTrick-20.png"/>
+   <drw frame="23" name="19-GrabTrick-22.png"/>
+   <drw frame="24" name="19-GrabTrick-20.png"/>
+   <drw frame="25" name="19-GrabTrick-19.png"/>
+   <drw frame="26" name="19-GrabTrick-16.png"/>
+   <drw frame="27" name="19-GrabTrick-15.png"/>
+   <drw frame="28" name="19-GrabTrick-17.png"/>
+   <drw frame="29" name="19-GrabTrick-19.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-21.png"/>
+   <drw frame="34" name="19-GrabTrick-22.png"/>
+  </drawing>
+  <drawing node="GrabTrick_020" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-21.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-19.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-21.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-20.png"/>
+   <drw frame="22" name="19-GrabTrick-19.png"/>
+   <drw frame="23" name="19-GrabTrick-21.png"/>
+   <drw frame="24" name="19-GrabTrick-19.png"/>
+   <drw frame="25" name="19-GrabTrick-18.png"/>
+   <drw frame="26" name="19-GrabTrick-15.png"/>
+   <drw frame="27" name="19-GrabTrick-32.png"/>
+   <drw frame="28" name="19-GrabTrick-16.png"/>
+   <drw frame="29" name="19-GrabTrick-18.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-20.png"/>
+   <drw frame="34" name="19-GrabTrick-21.png"/>
+  </drawing>
+  <drawing node="GrabTrick_019" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-20.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-18.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-20.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-19.png"/>
+   <drw frame="22" name="19-GrabTrick-18.png"/>
+   <drw frame="23" name="19-GrabTrick-20.png"/>
+   <drw frame="24" name="19-GrabTrick-18.png"/>
+   <drw frame="25" name="19-GrabTrick-34.png"/>
+   <drw frame="26" name="19-GrabTrick-11.png"/>
+   <drw frame="27" name="19-GrabTrick-36.png"/>
+   <drw frame="28" name="19-GrabTrick-15.png"/>
+   <drw frame="29" name="19-GrabTrick-17.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-19.png"/>
+   <drw frame="34" name="19-GrabTrick-20.png"/>
+  </drawing>
+  <drawing node="GrabTrick_018" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-19.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-17.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-19.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-18.png"/>
+   <drw frame="22" name="19-GrabTrick-17.png"/>
+   <drw frame="23" name="19-GrabTrick-19.png"/>
+   <drw frame="24" name="19-GrabTrick-17.png"/>
+   <drw frame="25" name="19-GrabTrick-34.png"/>
+   <drw frame="26" name="19-GrabTrick-32.png"/>
+   <drw frame="27" repeat="2" name="19-GrabTrick-14.png"/>
+   <drw frame="29" name="19-GrabTrick-16.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-18.png"/>
+   <drw frame="34" name="19-GrabTrick-19.png"/>
+  </drawing>
+  <drawing node="GrabTrick_017" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-18.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-16.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-18.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-17.png"/>
+   <drw frame="22" name="19-GrabTrick-16.png"/>
+   <drw frame="23" name="19-GrabTrick-18.png"/>
+   <drw frame="24" name="19-GrabTrick-16.png"/>
+   <drw frame="25" name="19-GrabTrick-15.png"/>
+   <drw frame="26" name="19-GrabTrick-35.png"/>
+   <drw frame="27" repeat="2" name="19-GrabTrick-13.png"/>
+   <drw frame="29" name="19-GrabTrick-15.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-17.png"/>
+   <drw frame="34" name="19-GrabTrick-18.png"/>
+  </drawing>
+  <drawing node="GrabTrick_016" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-17.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-15.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-17.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-16.png"/>
+   <drw frame="22" name="19-GrabTrick-15.png"/>
+   <drw frame="23" name="19-GrabTrick-17.png"/>
+   <drw frame="24" name="19-GrabTrick-15.png"/>
+   <drw frame="25" name="19-GrabTrick-11.png"/>
+   <drw frame="26" name="19-GrabTrick-14.png"/>
+   <drw frame="27" repeat="2" name="19-GrabTrick-12.png"/>
+   <drw frame="29" name="19-GrabTrick-14.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-16.png"/>
+   <drw frame="34" name="19-GrabTrick-17.png"/>
+  </drawing>
+  <drawing node="GrabTrick_015" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-16.png"/>
+   <drw frame="3" name="19-GrabTrick-14.png"/>
+   <drw frame="4" name="19-GrabTrick-3.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-16.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-15.png"/>
+   <drw frame="22" name="19-GrabTrick-12.png"/>
+   <drw frame="23" name="19-GrabTrick-16.png"/>
+   <drw frame="24" name="19-GrabTrick-11.png"/>
+   <drw frame="25" name="19-GrabTrick-32.png"/>
+   <drw frame="26" name="19-GrabTrick-13.png"/>
+   <drw frame="27" repeat="2" name="19-GrabTrick-11.png"/>
+   <drw frame="29" name="19-GrabTrick-13.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-15.png"/>
+   <drw frame="34" name="19-GrabTrick-16.png"/>
+  </drawing>
+  <drawing node="GrabTrick_014" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-15.png"/>
+   <drw frame="3" name="19-GrabTrick-13.png"/>
+   <drw frame="4" name="19-GrabTrick-14.png"/>
+   <drw frame="5" repeat="3" name="19-GrabTrick-15.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-12.png"/>
+   <drw frame="22" name="19-GrabTrick-11.png"/>
+   <drw frame="23" name="19-GrabTrick-15.png"/>
+   <drw frame="24" name="19-GrabTrick-32.png"/>
+   <drw frame="25" name="19-GrabTrick-33.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-10.png"/>
+   <drw frame="29" name="19-GrabTrick-12.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-14.png"/>
+   <drw frame="34" name="19-GrabTrick-15.png"/>
+  </drawing>
+  <drawing node="GrabTrick_013" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-14.png"/>
+   <drw frame="3" name="19-GrabTrick-12.png"/>
+   <drw frame="4" name="19-GrabTrick-13.png"/>
+   <drw frame="5" name="19-GrabTrick-3.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-12.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-11.png"/>
+   <drw frame="22" name="19-GrabTrick-14.png"/>
+   <drw frame="23" name="19-GrabTrick-11.png"/>
+   <drw frame="24" name="19-GrabTrick-31.png"/>
+   <drw frame="25" name="19-GrabTrick-14.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-9.png"/>
+   <drw frame="29" name="19-GrabTrick-11.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-13.png"/>
+   <drw frame="34" name="19-GrabTrick-14.png"/>
+  </drawing>
+  <drawing node="GrabTrick_012" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-13.png"/>
+   <drw frame="3" name="19-GrabTrick-11.png"/>
+   <drw frame="4" name="19-GrabTrick-12.png"/>
+   <drw frame="5" name="19-GrabTrick-14.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-11.png"/>
+   <drw frame="8" repeat="14" name="19-GrabTrick-14.png"/>
+   <drw frame="22" name="19-GrabTrick-13.png"/>
+   <drw frame="23" repeat="2" name="19-GrabTrick-14.png"/>
+   <drw frame="25" name="19-GrabTrick-13.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-8.png"/>
+   <drw frame="29" name="19-GrabTrick-10.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-12.png"/>
+   <drw frame="34" name="19-GrabTrick-13.png"/>
+  </drawing>
+  <drawing node="GrabTrick_011" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-12.png"/>
+   <drw frame="3" name="19-GrabTrick-10.png"/>
+   <drw frame="4" name="19-GrabTrick-11.png"/>
+   <drw frame="5" name="19-GrabTrick-13.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-14.png"/>
+   <drw frame="8" repeat="15" name="19-GrabTrick-10.png"/>
+   <drw frame="23" repeat="2" name="19-GrabTrick-13.png"/>
+   <drw frame="25" name="19-GrabTrick-10.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-7.png"/>
+   <drw frame="29" name="19-GrabTrick-9.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-11.png"/>
+   <drw frame="34" name="19-GrabTrick-12.png"/>
+  </drawing>
+  <drawing node="GrabTrick_010" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-11.png"/>
+   <drw frame="3" name="19-GrabTrick-9.png"/>
+   <drw frame="4" name="19-GrabTrick-10.png"/>
+   <drw frame="5" name="19-GrabTrick-12.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-13.png"/>
+   <drw frame="8" repeat="15" name="19-GrabTrick-9.png"/>
+   <drw frame="23" repeat="2" name="19-GrabTrick-10.png"/>
+   <drw frame="25" name="19-GrabTrick-9.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-6.png"/>
+   <drw frame="29" name="19-GrabTrick-8.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-10.png"/>
+   <drw frame="34" name="19-GrabTrick-11.png"/>
+  </drawing>
+  <drawing node="GrabTrick_009" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-10.png"/>
+   <drw frame="3" name="19-GrabTrick-8.png"/>
+   <drw frame="4" name="19-GrabTrick-9.png"/>
+   <drw frame="5" name="19-GrabTrick-11.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-10.png"/>
+   <drw frame="8" repeat="15" name="19-GrabTrick-8.png"/>
+   <drw frame="23" repeat="2" name="19-GrabTrick-9.png"/>
+   <drw frame="25" name="19-GrabTrick-8.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-5.png"/>
+   <drw frame="29" name="19-GrabTrick-7.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-9.png"/>
+   <drw frame="34" name="19-GrabTrick-10.png"/>
+  </drawing>
+  <drawing node="GrabTrick_008" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-9.png"/>
+   <drw frame="3" name="19-GrabTrick-7.png"/>
+   <drw frame="4" name="19-GrabTrick-8.png"/>
+   <drw frame="5" name="19-GrabTrick-10.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-9.png"/>
+   <drw frame="8" repeat="15" name="19-GrabTrick-7.png"/>
+   <drw frame="23" repeat="2" name="19-GrabTrick-8.png"/>
+   <drw frame="25" name="19-GrabTrick-7.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-4.png"/>
+   <drw frame="29" name="19-GrabTrick-6.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-8.png"/>
+   <drw frame="34" name="19-GrabTrick-9.png"/>
+  </drawing>
+  <drawing node="GrabTrick_007" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-8.png"/>
+   <drw frame="3" name="19-GrabTrick-6.png"/>
+   <drw frame="4" name="19-GrabTrick-7.png"/>
+   <drw frame="5" name="19-GrabTrick-9.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-8.png"/>
+   <drw frame="8" repeat="15" name="19-GrabTrick-26.png"/>
+   <drw frame="23" repeat="2" name="19-GrabTrick-7.png"/>
+   <drw frame="25" name="19-GrabTrick-6.png"/>
+   <drw frame="26" name="19-GrabTrick-29.png"/>
+   <drw frame="27" repeat="2" name="19-GrabTrick-3.png"/>
+   <drw frame="29" name="19-GrabTrick-5.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-7.png"/>
+   <drw frame="34" name="19-GrabTrick-8.png"/>
+  </drawing>
+  <drawing node="GrabTrick_006" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-7.png"/>
+   <drw frame="3" name="19-GrabTrick-5.png"/>
+   <drw frame="4" name="19-GrabTrick-6.png"/>
+   <drw frame="5" name="19-GrabTrick-8.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-7.png"/>
+   <drw frame="8" repeat="17" name="19-GrabTrick-6.png"/>
+   <drw frame="25" name="19-GrabTrick-5.png"/>
+   <drw frame="26" name="19-GrabTrick-12.png"/>
+   <drw frame="27" repeat="2" name="19-GrabTrick-29.png"/>
+   <drw frame="29" name="19-GrabTrick-4.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-6.png"/>
+   <drw frame="34" name="19-GrabTrick-7.png"/>
+  </drawing>
+  <drawing node="GrabTrick_005" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-6.png"/>
+   <drw frame="3" name="19-GrabTrick-4.png"/>
+   <drw frame="4" name="19-GrabTrick-5.png"/>
+   <drw frame="5" name="19-GrabTrick-7.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-6.png"/>
+   <drw frame="8" repeat="17" name="19-GrabTrick-5.png"/>
+   <drw frame="25" name="19-GrabTrick-4.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-2.png"/>
+   <drw frame="29" name="19-GrabTrick-3.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-5.png"/>
+   <drw frame="34" name="19-GrabTrick-6.png"/>
+  </drawing>
+  <drawing node="GrabTrick_004" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-5.png"/>
+   <drw frame="3" name="19-GrabTrick-3.png"/>
+   <drw frame="4" name="19-GrabTrick-4.png"/>
+   <drw frame="5" name="19-GrabTrick-6.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-5.png"/>
+   <drw frame="8" repeat="17" name="19-GrabTrick-4.png"/>
+   <drw frame="25" name="19-GrabTrick-29.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-1.png"/>
+   <drw frame="29" name="19-GrabTrick-29.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-4.png"/>
+   <drw frame="34" name="19-GrabTrick-5.png"/>
+  </drawing>
+  <drawing node="GrabTrick_003" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-4.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-2.png"/>
+   <drw frame="5" name="19-GrabTrick-5.png"/>
+   <drw frame="6" repeat="2" name="19-GrabTrick-4.png"/>
+   <drw frame="8" repeat="15" name="19-GrabTrick-13.png"/>
+   <drw frame="23" repeat="2" name="19-GrabTrick-29.png"/>
+   <drw frame="25" name="19-GrabTrick-12.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-28.png"/>
+   <drw frame="29" name="19-GrabTrick-2.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-3.png"/>
+   <drw frame="34" name="19-GrabTrick-4.png"/>
+  </drawing>
+  <drawing node="GrabTrick_002" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-3.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-1.png"/>
+   <drw frame="5" name="19-GrabTrick-4.png"/>
+   <drw frame="6" repeat="17" name="19-GrabTrick-29.png"/>
+   <drw frame="23" repeat="2" name="19-GrabTrick-12.png"/>
+   <drw frame="25" name="19-GrabTrick-2.png"/>
+   <drw frame="26" repeat="3" name="19-GrabTrick-27.png"/>
+   <drw frame="29" name="19-GrabTrick-1.png"/>
+   <drw frame="30" repeat="4" name="19-GrabTrick-29.png"/>
+   <drw frame="34" name="19-GrabTrick-3.png"/>
+  </drawing>
+  <drawing node="GrabTrick_001" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-2.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-28.png"/>
+   <drw frame="5" repeat="20" name="19-GrabTrick-2.png"/>
+   <drw frame="25" repeat="5" name="19-GrabTrick-28.png"/>
+   <drw frame="30" repeat="5" name="19-GrabTrick-2.png"/>
+  </drawing>
+  <drawing node="Tabla1" name="19-GrabTrick">
+   <drw frame="1" repeat="2" name="19-GrabTrick-1.png"/>
+   <drw frame="3" repeat="2" name="19-GrabTrick-27.png"/>
+   <drw frame="5" repeat="2" name="19-GrabTrick-1.png"/>
+   <drw frame="7" repeat="18" name="19-GrabTrick-30.png"/>
+   <drw frame="25" repeat="5" name="19-GrabTrick-27.png"/>
+   <drw frame="30" repeat="5" name="19-GrabTrick-1.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="Grind_5_0_Top">
+  <drawing node="Skater" name="55-Skater">
+   <drw frame="1" repeat="50" name="55-Skater-4.png"/>
+  </drawing>
+  <drawing node="Table" name="56-Table">
+   <drw frame="1" repeat="50" name="56-Table-1.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_036" name="17-Grind_5_0">
+   <drw frame="45" name="17-Grind_5_0-31.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_035" name="17-Grind_5_0">
+   <drw frame="23" name="17-Grind_5_0-31.png"/>
+   <drw frame="34" name="17-Grind_5_0-31.png"/>
+   <drw frame="43" repeat="3" name="17-Grind_5_0-31.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_034" name="17-Grind_5_0">
+   <drw frame="21" name="17-Grind_5_0-31.png"/>
+   <drw frame="23" name="17-Grind_5_0-31.png"/>
+   <drw frame="33" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="43" repeat="4" name="17-Grind_5_0-31.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_033" name="17-Grind_5_0">
+   <drw frame="5" name="17-Grind_5_0-31.png"/>
+   <drw frame="8" repeat="3" name="17-Grind_5_0-31.png"/>
+   <drw frame="12" name="17-Grind_5_0-31.png"/>
+   <drw frame="19" repeat="5" name="17-Grind_5_0-31.png"/>
+   <drw frame="30" repeat="6" name="17-Grind_5_0-31.png"/>
+   <drw frame="42" repeat="5" name="17-Grind_5_0-31.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_032" name="17-Grind_5_0">
+   <drw frame="4" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="8" repeat="4" name="17-Grind_5_0-31.png"/>
+   <drw frame="12" name="17-Grind_5_0-2.png"/>
+   <drw frame="16" name="17-Grind_5_0-31.png"/>
+   <drw frame="19" repeat="4" name="17-Grind_5_0-31.png"/>
+   <drw frame="23" name="17-Grind_5_0-2.png"/>
+   <drw frame="24" name="17-Grind_5_0-31.png"/>
+   <drw frame="30" repeat="4" name="17-Grind_5_0-31.png"/>
+   <drw frame="34" name="17-Grind_5_0-2.png"/>
+   <drw frame="35" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="41" repeat="4" name="17-Grind_5_0-31.png"/>
+   <drw frame="45" name="17-Grind_5_0-2.png"/>
+   <drw frame="46" repeat="2" name="17-Grind_5_0-31.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_031" name="17-Grind_5_0">
+   <drw frame="3" repeat="9" name="17-Grind_5_0-31.png"/>
+   <drw frame="12" name="17-Grind_5_0-1.png"/>
+   <drw frame="13" repeat="10" name="17-Grind_5_0-31.png"/>
+   <drw frame="23" name="17-Grind_5_0-1.png"/>
+   <drw frame="24" repeat="3" name="17-Grind_5_0-31.png"/>
+   <drw frame="30" repeat="4" name="17-Grind_5_0-31.png"/>
+   <drw frame="34" name="17-Grind_5_0-1.png"/>
+   <drw frame="35" repeat="4" name="17-Grind_5_0-31.png"/>
+   <drw frame="41" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-2.png"/>
+   <drw frame="45" name="17-Grind_5_0-1.png"/>
+   <drw frame="46" repeat="2" name="17-Grind_5_0-31.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_030" name="17-Grind_5_0">
+   <drw frame="1" repeat="8" name="17-Grind_5_0-31.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-2.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-30.png"/>
+   <drw frame="15" repeat="6" name="17-Grind_5_0-31.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-2.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-30.png"/>
+   <drw frame="27" name="17-Grind_5_0-31.png"/>
+   <drw frame="29" repeat="4" name="17-Grind_5_0-31.png"/>
+   <drw frame="33" name="17-Grind_5_0-2.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-30.png"/>
+   <drw frame="41" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-1.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-30.png"/>
+   <drw frame="47" repeat="3" name="17-Grind_5_0-31.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_029" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-30.png"/>
+   <drw frame="6" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="8" name="17-Grind_5_0-2.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-1.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-29.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-30.png"/>
+   <drw frame="17" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="19" repeat="2" name="17-Grind_5_0-2.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-1.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-29.png"/>
+   <drw frame="27" name="17-Grind_5_0-30.png"/>
+   <drw frame="28" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="30" repeat="3" name="17-Grind_5_0-2.png"/>
+   <drw frame="33" name="17-Grind_5_0-1.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-29.png"/>
+   <drw frame="40" name="17-Grind_5_0-31.png"/>
+   <drw frame="41" repeat="2" name="17-Grind_5_0-2.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-30.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-29.png"/>
+   <drw frame="47" name="17-Grind_5_0-30.png"/>
+   <drw frame="48" repeat="3" name="17-Grind_5_0-31.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_028" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-29.png"/>
+   <drw frame="6" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="8" name="17-Grind_5_0-1.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-30.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-28.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-29.png"/>
+   <drw frame="17" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="19" repeat="2" name="17-Grind_5_0-1.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-30.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-28.png"/>
+   <drw frame="27" name="17-Grind_5_0-29.png"/>
+   <drw frame="28" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="30" repeat="3" name="17-Grind_5_0-1.png"/>
+   <drw frame="33" name="17-Grind_5_0-30.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-28.png"/>
+   <drw frame="39" repeat="2" name="17-Grind_5_0-31.png"/>
+   <drw frame="41" repeat="2" name="17-Grind_5_0-1.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-29.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-28.png"/>
+   <drw frame="47" name="17-Grind_5_0-29.png"/>
+   <drw frame="48" name="17-Grind_5_0-31.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-30.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_027" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-28.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-30.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-29.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-27.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-28.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-30.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-29.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-27.png"/>
+   <drw frame="27" name="17-Grind_5_0-28.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-30.png"/>
+   <drw frame="33" name="17-Grind_5_0-29.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-27.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-30.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-28.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-27.png"/>
+   <drw frame="47" name="17-Grind_5_0-28.png"/>
+   <drw frame="48" name="17-Grind_5_0-30.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-29.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_026" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-27.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-29.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-28.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-26.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-27.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-29.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-28.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-26.png"/>
+   <drw frame="27" name="17-Grind_5_0-27.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-29.png"/>
+   <drw frame="33" name="17-Grind_5_0-28.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-26.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-29.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-27.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-26.png"/>
+   <drw frame="47" name="17-Grind_5_0-27.png"/>
+   <drw frame="48" name="17-Grind_5_0-29.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-28.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_025" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-26.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-28.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-27.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-25.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-26.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-28.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-27.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-25.png"/>
+   <drw frame="27" name="17-Grind_5_0-26.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-28.png"/>
+   <drw frame="33" name="17-Grind_5_0-27.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-25.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-28.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-26.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-25.png"/>
+   <drw frame="47" name="17-Grind_5_0-26.png"/>
+   <drw frame="48" name="17-Grind_5_0-28.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-27.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_024" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-25.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-27.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-26.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-24.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-25.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-27.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-26.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-24.png"/>
+   <drw frame="27" name="17-Grind_5_0-25.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-27.png"/>
+   <drw frame="33" name="17-Grind_5_0-26.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-24.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-27.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-25.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-24.png"/>
+   <drw frame="47" name="17-Grind_5_0-25.png"/>
+   <drw frame="48" name="17-Grind_5_0-27.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-26.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_023" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-24.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-26.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-25.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-23.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-24.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-26.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-25.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-23.png"/>
+   <drw frame="27" name="17-Grind_5_0-24.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-26.png"/>
+   <drw frame="33" name="17-Grind_5_0-25.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-23.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-26.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-24.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-23.png"/>
+   <drw frame="47" name="17-Grind_5_0-24.png"/>
+   <drw frame="48" name="17-Grind_5_0-26.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-25.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_022" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-23.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-25.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-24.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-22.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-23.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-25.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-24.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-22.png"/>
+   <drw frame="27" name="17-Grind_5_0-23.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-25.png"/>
+   <drw frame="33" name="17-Grind_5_0-24.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-22.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-25.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-23.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-22.png"/>
+   <drw frame="47" name="17-Grind_5_0-23.png"/>
+   <drw frame="48" name="17-Grind_5_0-25.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-24.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_021" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-22.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-24.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-23.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-21.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-22.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-24.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-23.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-21.png"/>
+   <drw frame="27" name="17-Grind_5_0-22.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-24.png"/>
+   <drw frame="33" name="17-Grind_5_0-23.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-21.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-24.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-22.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-21.png"/>
+   <drw frame="47" name="17-Grind_5_0-22.png"/>
+   <drw frame="48" name="17-Grind_5_0-24.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-23.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_020" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-21.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-23.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-22.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-20.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-21.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-23.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-22.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-20.png"/>
+   <drw frame="27" name="17-Grind_5_0-21.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-23.png"/>
+   <drw frame="33" name="17-Grind_5_0-22.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-20.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-23.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-21.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-20.png"/>
+   <drw frame="47" name="17-Grind_5_0-21.png"/>
+   <drw frame="48" name="17-Grind_5_0-23.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-22.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_019" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-20.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-22.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-21.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-19.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-20.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-22.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-21.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-19.png"/>
+   <drw frame="27" name="17-Grind_5_0-20.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-22.png"/>
+   <drw frame="33" name="17-Grind_5_0-21.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-19.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-22.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-20.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-19.png"/>
+   <drw frame="47" name="17-Grind_5_0-20.png"/>
+   <drw frame="48" name="17-Grind_5_0-22.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-21.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_018" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-19.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-21.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-20.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-18.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-19.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-21.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-20.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-18.png"/>
+   <drw frame="27" name="17-Grind_5_0-19.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-21.png"/>
+   <drw frame="33" name="17-Grind_5_0-20.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-18.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-21.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-19.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-18.png"/>
+   <drw frame="47" name="17-Grind_5_0-19.png"/>
+   <drw frame="48" name="17-Grind_5_0-21.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-20.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_017" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-18.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-20.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-19.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-17.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-18.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-20.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-19.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-17.png"/>
+   <drw frame="27" name="17-Grind_5_0-18.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-20.png"/>
+   <drw frame="33" name="17-Grind_5_0-19.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-17.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-20.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-18.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-17.png"/>
+   <drw frame="47" name="17-Grind_5_0-18.png"/>
+   <drw frame="48" name="17-Grind_5_0-20.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-19.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_016" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-17.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-19.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-18.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-16.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-17.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-19.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-18.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-16.png"/>
+   <drw frame="27" name="17-Grind_5_0-17.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-19.png"/>
+   <drw frame="33" name="17-Grind_5_0-18.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-16.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-19.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-17.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-16.png"/>
+   <drw frame="47" name="17-Grind_5_0-17.png"/>
+   <drw frame="48" name="17-Grind_5_0-19.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-18.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_015" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-16.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-18.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-17.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-15.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-16.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-18.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-17.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-15.png"/>
+   <drw frame="27" name="17-Grind_5_0-16.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-18.png"/>
+   <drw frame="33" name="17-Grind_5_0-17.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-15.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-18.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-16.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-15.png"/>
+   <drw frame="47" name="17-Grind_5_0-16.png"/>
+   <drw frame="48" name="17-Grind_5_0-18.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-17.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_014" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-15.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-17.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-16.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-14.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-15.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-17.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-16.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-14.png"/>
+   <drw frame="27" name="17-Grind_5_0-15.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-17.png"/>
+   <drw frame="33" name="17-Grind_5_0-16.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-14.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-17.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-15.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-14.png"/>
+   <drw frame="47" name="17-Grind_5_0-15.png"/>
+   <drw frame="48" name="17-Grind_5_0-17.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-16.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_013" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-14.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-16.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-15.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-13.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-14.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-16.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-15.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-13.png"/>
+   <drw frame="27" name="17-Grind_5_0-14.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-16.png"/>
+   <drw frame="33" name="17-Grind_5_0-15.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-13.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-16.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-14.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-13.png"/>
+   <drw frame="47" name="17-Grind_5_0-14.png"/>
+   <drw frame="48" name="17-Grind_5_0-16.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-15.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_012" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-13.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-15.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-14.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-12.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-13.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-15.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-14.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-12.png"/>
+   <drw frame="27" name="17-Grind_5_0-13.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-15.png"/>
+   <drw frame="33" name="17-Grind_5_0-14.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-12.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-15.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-13.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-12.png"/>
+   <drw frame="47" name="17-Grind_5_0-13.png"/>
+   <drw frame="48" name="17-Grind_5_0-15.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-14.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_011" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-12.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-14.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-13.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-11.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-12.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-14.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-13.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-11.png"/>
+   <drw frame="27" name="17-Grind_5_0-12.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-14.png"/>
+   <drw frame="33" name="17-Grind_5_0-13.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-11.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-14.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-12.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-11.png"/>
+   <drw frame="47" name="17-Grind_5_0-12.png"/>
+   <drw frame="48" name="17-Grind_5_0-14.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-13.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_010" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-11.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-13.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-12.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-10.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-11.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-13.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-12.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-10.png"/>
+   <drw frame="27" name="17-Grind_5_0-11.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-13.png"/>
+   <drw frame="33" name="17-Grind_5_0-12.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-10.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-13.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-11.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-10.png"/>
+   <drw frame="47" name="17-Grind_5_0-11.png"/>
+   <drw frame="48" name="17-Grind_5_0-13.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-12.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_009" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-10.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-12.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-11.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-9.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-10.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-12.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-11.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-9.png"/>
+   <drw frame="27" name="17-Grind_5_0-10.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-12.png"/>
+   <drw frame="33" name="17-Grind_5_0-11.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-9.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-12.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-10.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-9.png"/>
+   <drw frame="47" name="17-Grind_5_0-10.png"/>
+   <drw frame="48" name="17-Grind_5_0-12.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-11.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_008" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-9.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-11.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-10.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-8.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-9.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-11.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-10.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-8.png"/>
+   <drw frame="27" name="17-Grind_5_0-9.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-11.png"/>
+   <drw frame="33" name="17-Grind_5_0-10.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-8.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-11.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-9.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-8.png"/>
+   <drw frame="47" name="17-Grind_5_0-9.png"/>
+   <drw frame="48" name="17-Grind_5_0-11.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-10.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_007" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-8.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-10.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-9.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-7.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-8.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-10.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-9.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-7.png"/>
+   <drw frame="27" name="17-Grind_5_0-8.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-10.png"/>
+   <drw frame="33" name="17-Grind_5_0-9.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-7.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-10.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-8.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-7.png"/>
+   <drw frame="47" name="17-Grind_5_0-8.png"/>
+   <drw frame="48" name="17-Grind_5_0-10.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-9.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_006" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-7.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-9.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-8.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-6.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-7.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-9.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-8.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-6.png"/>
+   <drw frame="27" name="17-Grind_5_0-7.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-9.png"/>
+   <drw frame="33" name="17-Grind_5_0-8.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-6.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-9.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-7.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-6.png"/>
+   <drw frame="47" name="17-Grind_5_0-7.png"/>
+   <drw frame="48" name="17-Grind_5_0-9.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-8.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_005" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-6.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-8.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-7.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-5.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-6.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-8.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-7.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-5.png"/>
+   <drw frame="27" name="17-Grind_5_0-6.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-8.png"/>
+   <drw frame="33" name="17-Grind_5_0-7.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-5.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-8.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-6.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-5.png"/>
+   <drw frame="47" name="17-Grind_5_0-6.png"/>
+   <drw frame="48" name="17-Grind_5_0-8.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-7.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_004" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-5.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-7.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-6.png"/>
+   <drw frame="12" repeat="3" name="17-Grind_5_0-4.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-5.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-7.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-6.png"/>
+   <drw frame="23" repeat="4" name="17-Grind_5_0-4.png"/>
+   <drw frame="27" name="17-Grind_5_0-5.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-7.png"/>
+   <drw frame="33" name="17-Grind_5_0-6.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-4.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-7.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-5.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-4.png"/>
+   <drw frame="47" name="17-Grind_5_0-5.png"/>
+   <drw frame="48" name="17-Grind_5_0-7.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-6.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_003" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-4.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-6.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-5.png"/>
+   <drw frame="12" name="17-Grind_5_0-34.png"/>
+   <drw frame="13" name="17-Grind_5_0-3.png"/>
+   <drw frame="14" name="17-Grind_5_0-32.png"/>
+   <drw frame="15" repeat="2" name="17-Grind_5_0-4.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-6.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-5.png"/>
+   <drw frame="23" name="17-Grind_5_0-33.png"/>
+   <drw frame="24" name="17-Grind_5_0-34.png"/>
+   <drw frame="25" name="17-Grind_5_0-3.png"/>
+   <drw frame="26" name="17-Grind_5_0-32.png"/>
+   <drw frame="27" name="17-Grind_5_0-4.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-6.png"/>
+   <drw frame="33" name="17-Grind_5_0-5.png"/>
+   <drw frame="34" name="17-Grind_5_0-32.png"/>
+   <drw frame="35" name="17-Grind_5_0-33.png"/>
+   <drw frame="36" name="17-Grind_5_0-34.png"/>
+   <drw frame="37" name="17-Grind_5_0-3.png"/>
+   <drw frame="38" name="17-Grind_5_0-32.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-6.png"/>
+   <drw frame="43" repeat="2" name="17-Grind_5_0-4.png"/>
+   <drw frame="45" repeat="2" name="17-Grind_5_0-32.png"/>
+   <drw frame="47" name="17-Grind_5_0-4.png"/>
+   <drw frame="48" name="17-Grind_5_0-6.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-5.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_002" name="17-Grind_5_0">
+   <drw frame="1" name="17-Grind_5_0-3.png"/>
+   <drw frame="2" repeat="3" name="17-Grind_5_0-32.png"/>
+   <drw frame="5" name="17-Grind_5_0-33.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-5.png"/>
+   <drw frame="9" repeat="3" name="17-Grind_5_0-4.png"/>
+   <drw frame="12" repeat="5" name="17-Grind_5_0-32.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-5.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-4.png"/>
+   <drw frame="23" name="17-Grind_5_0-3.png"/>
+   <drw frame="24" repeat="4" name="17-Grind_5_0-32.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-5.png"/>
+   <drw frame="33" name="17-Grind_5_0-4.png"/>
+   <drw frame="34" name="17-Grind_5_0-34.png"/>
+   <drw frame="35" name="17-Grind_5_0-3.png"/>
+   <drw frame="36" repeat="3" name="17-Grind_5_0-32.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-5.png"/>
+   <drw frame="43" name="17-Grind_5_0-3.png"/>
+   <drw frame="44" name="17-Grind_5_0-32.png"/>
+   <drw frame="45" name="17-Grind_5_0-33.png"/>
+   <drw frame="46" name="17-Grind_5_0-34.png"/>
+   <drw frame="47" name="17-Grind_5_0-3.png"/>
+   <drw frame="48" name="17-Grind_5_0-5.png"/>
+   <drw frame="49" repeat="2" name="17-Grind_5_0-4.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_001" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-2.png"/>
+   <drw frame="6" repeat="3" name="17-Grind_5_0-4.png"/>
+   <drw frame="9" repeat="2" name="17-Grind_5_0-32.png"/>
+   <drw frame="11" name="17-Grind_5_0-33.png"/>
+   <drw frame="12" repeat="5" name="17-Grind_5_0-2.png"/>
+   <drw frame="17" repeat="4" name="17-Grind_5_0-4.png"/>
+   <drw frame="21" repeat="2" name="17-Grind_5_0-32.png"/>
+   <drw frame="23" repeat="5" name="17-Grind_5_0-2.png"/>
+   <drw frame="28" repeat="5" name="17-Grind_5_0-4.png"/>
+   <drw frame="33" name="17-Grind_5_0-32.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-2.png"/>
+   <drw frame="39" repeat="4" name="17-Grind_5_0-4.png"/>
+   <drw frame="43" repeat="5" name="17-Grind_5_0-2.png"/>
+   <drw frame="48" name="17-Grind_5_0-4.png"/>
+   <drw frame="49" name="17-Grind_5_0-33.png"/>
+   <drw frame="50" name="17-Grind_5_0-34.png"/>
+  </drawing>
+  <drawing node="Grind_5_0_000" name="17-Grind_5_0">
+   <drw frame="1" repeat="5" name="17-Grind_5_0-1.png"/>
+   <drw frame="6" name="17-Grind_5_0-34.png"/>
+   <drw frame="7" name="17-Grind_5_0-3.png"/>
+   <drw frame="8" name="17-Grind_5_0-32.png"/>
+   <drw frame="9" name="17-Grind_5_0-33.png"/>
+   <drw frame="10" name="17-Grind_5_0-34.png"/>
+   <drw frame="11" name="17-Grind_5_0-3.png"/>
+   <drw frame="12" repeat="5" name="17-Grind_5_0-1.png"/>
+   <drw frame="17" name="17-Grind_5_0-33.png"/>
+   <drw frame="18" name="17-Grind_5_0-34.png"/>
+   <drw frame="19" name="17-Grind_5_0-3.png"/>
+   <drw frame="20" name="17-Grind_5_0-32.png"/>
+   <drw frame="21" name="17-Grind_5_0-33.png"/>
+   <drw frame="22" name="17-Grind_5_0-34.png"/>
+   <drw frame="23" repeat="5" name="17-Grind_5_0-1.png"/>
+   <drw frame="28" name="17-Grind_5_0-32.png"/>
+   <drw frame="29" name="17-Grind_5_0-33.png"/>
+   <drw frame="30" name="17-Grind_5_0-34.png"/>
+   <drw frame="31" name="17-Grind_5_0-3.png"/>
+   <drw frame="32" name="17-Grind_5_0-32.png"/>
+   <drw frame="33" name="17-Grind_5_0-33.png"/>
+   <drw frame="34" repeat="5" name="17-Grind_5_0-1.png"/>
+   <drw frame="39" repeat="2" name="17-Grind_5_0-32.png"/>
+   <drw frame="41" name="17-Grind_5_0-33.png"/>
+   <drw frame="42" name="17-Grind_5_0-34.png"/>
+   <drw frame="43" repeat="5" name="17-Grind_5_0-1.png"/>
+   <drw frame="48" repeat="3" name="17-Grind_5_0-32.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="Grind_50_50_Top">
+  <drawing node="Skater" name="57-Skater">
+   <drw frame="1" repeat="50" name="57-Skater-4.png"/>
+  </drawing>
+  <drawing node="Table" name="58-Table">
+   <drw frame="1" repeat="50" name="58-Table-1.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_046" name="37-Grind_50_50">
+   <drw frame="23" name="37-Grind_50_50-30.png"/>
+   <drw frame="34" name="37-Grind_50_50-30.png"/>
+   <drw frame="45" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_045" name="37-Grind_50_50">
+   <drw frame="23" name="37-Grind_50_50-30.png"/>
+   <drw frame="34" name="37-Grind_50_50-30.png"/>
+   <drw frame="45" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_044" name="37-Grind_50_50">
+   <drw frame="23" name="37-Grind_50_50-30.png"/>
+   <drw frame="34" name="37-Grind_50_50-30.png"/>
+   <drw frame="43" repeat="3" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_043" name="37-Grind_50_50">
+   <drw frame="23" name="37-Grind_50_50-2.png"/>
+   <drw frame="34" name="37-Grind_50_50-2.png"/>
+   <drw frame="43" repeat="3" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_042" name="37-Grind_50_50">
+   <drw frame="21" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="23" name="37-Grind_50_50-1.png"/>
+   <drw frame="33" name="37-Grind_50_50-30.png"/>
+   <drw frame="34" name="37-Grind_50_50-1.png"/>
+   <drw frame="35" name="37-Grind_50_50-30.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="45" name="37-Grind_50_50-2.png"/>
+   <drw frame="46" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_041" name="37-Grind_50_50">
+   <drw frame="21" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="33" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="45" name="37-Grind_50_50-1.png"/>
+   <drw frame="46" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_040" name="37-Grind_50_50">
+   <drw frame="5" name="37-Grind_50_50-30.png"/>
+   <drw frame="8" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="12" name="37-Grind_50_50-30.png"/>
+   <drw frame="19" repeat="6" name="37-Grind_50_50-30.png"/>
+   <drw frame="30" repeat="7" name="37-Grind_50_50-30.png"/>
+   <drw frame="42" name="37-Grind_50_50-30.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_039" name="37-Grind_50_50">
+   <drw frame="5" name="37-Grind_50_50-30.png"/>
+   <drw frame="8" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="12" name="37-Grind_50_50-2.png"/>
+   <drw frame="19" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="22" name="37-Grind_50_50-2.png"/>
+   <drw frame="23" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="30" repeat="7" name="37-Grind_50_50-30.png"/>
+   <drw frame="42" name="37-Grind_50_50-30.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_038" name="37-Grind_50_50">
+   <drw frame="4" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="8" repeat="4" name="37-Grind_50_50-30.png"/>
+   <drw frame="12" name="37-Grind_50_50-1.png"/>
+   <drw frame="16" name="37-Grind_50_50-30.png"/>
+   <drw frame="19" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="21" name="37-Grind_50_50-2.png"/>
+   <drw frame="22" name="37-Grind_50_50-1.png"/>
+   <drw frame="23" name="37-Grind_50_50-2.png"/>
+   <drw frame="24" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="30" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="33" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="35" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="41" repeat="7" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_037" name="37-Grind_50_50">
+   <drw frame="4" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="8" name="37-Grind_50_50-30.png"/>
+   <drw frame="9" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="11" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="16" name="37-Grind_50_50-30.png"/>
+   <drw frame="19" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="21" name="37-Grind_50_50-1.png"/>
+   <drw frame="22" name="37-Grind_50_50-30.png"/>
+   <drw frame="23" name="37-Grind_50_50-1.png"/>
+   <drw frame="24" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="30" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="33" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="35" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="41" repeat="7" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_036" name="37-Grind_50_50">
+   <drw frame="3" repeat="5" name="37-Grind_50_50-30.png"/>
+   <drw frame="8" name="37-Grind_50_50-2.png"/>
+   <drw frame="9" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="11" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="13" repeat="6" name="37-Grind_50_50-30.png"/>
+   <drw frame="19" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-29.png"/>
+   <drw frame="30" repeat="3" name="37-Grind_50_50-2.png"/>
+   <drw frame="33" name="37-Grind_50_50-30.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-29.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="41" name="37-Grind_50_50-30.png"/>
+   <drw frame="42" name="37-Grind_50_50-2.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="45" name="37-Grind_50_50-2.png"/>
+   <drw frame="46" repeat="2" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_035" name="37-Grind_50_50">
+   <drw frame="3" repeat="5" name="37-Grind_50_50-30.png"/>
+   <drw frame="8" name="37-Grind_50_50-1.png"/>
+   <drw frame="9" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="11" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="13" repeat="6" name="37-Grind_50_50-30.png"/>
+   <drw frame="19" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-28.png"/>
+   <drw frame="30" repeat="3" name="37-Grind_50_50-1.png"/>
+   <drw frame="33" name="37-Grind_50_50-30.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-28.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="41" name="37-Grind_50_50-2.png"/>
+   <drw frame="42" name="37-Grind_50_50-1.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="45" name="37-Grind_50_50-1.png"/>
+   <drw frame="46" repeat="2" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_034" name="37-Grind_50_50">
+   <drw frame="1" repeat="11" name="37-Grind_50_50-30.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-29.png"/>
+   <drw frame="15" repeat="7" name="37-Grind_50_50-30.png"/>
+   <drw frame="22" name="37-Grind_50_50-2.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-27.png"/>
+   <drw frame="27" name="37-Grind_50_50-30.png"/>
+   <drw frame="29" repeat="5" name="37-Grind_50_50-30.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-27.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-29.png"/>
+   <drw frame="41" name="37-Grind_50_50-1.png"/>
+   <drw frame="42" name="37-Grind_50_50-30.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-29.png"/>
+   <drw frame="47" repeat="3" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_033" name="37-Grind_50_50">
+   <drw frame="1" repeat="11" name="37-Grind_50_50-30.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-28.png"/>
+   <drw frame="15" repeat="7" name="37-Grind_50_50-30.png"/>
+   <drw frame="22" name="37-Grind_50_50-1.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-27.png"/>
+   <drw frame="27" name="37-Grind_50_50-30.png"/>
+   <drw frame="29" repeat="5" name="37-Grind_50_50-30.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-27.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-28.png"/>
+   <drw frame="41" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-28.png"/>
+   <drw frame="47" repeat="3" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_032" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-29.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-2.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-27.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-29.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-30.png"/>
+   <drw frame="21" name="37-Grind_50_50-2.png"/>
+   <drw frame="22" name="37-Grind_50_50-29.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-26.png"/>
+   <drw frame="27" name="37-Grind_50_50-29.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-30.png"/>
+   <drw frame="33" name="37-Grind_50_50-2.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-26.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-27.png"/>
+   <drw frame="40" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-29.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-27.png"/>
+   <drw frame="47" name="37-Grind_50_50-29.png"/>
+   <drw frame="48" repeat="3" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_031" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-28.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-1.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-27.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-28.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-30.png"/>
+   <drw frame="21" name="37-Grind_50_50-1.png"/>
+   <drw frame="22" name="37-Grind_50_50-28.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-25.png"/>
+   <drw frame="27" name="37-Grind_50_50-28.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-30.png"/>
+   <drw frame="33" name="37-Grind_50_50-1.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-25.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-27.png"/>
+   <drw frame="40" repeat="3" name="37-Grind_50_50-30.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-28.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-27.png"/>
+   <drw frame="47" name="37-Grind_50_50-28.png"/>
+   <drw frame="48" repeat="3" name="37-Grind_50_50-30.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_030" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-27.png"/>
+   <drw frame="6" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="8" name="37-Grind_50_50-2.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-29.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-26.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-27.png"/>
+   <drw frame="17" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="19" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="21" name="37-Grind_50_50-29.png"/>
+   <drw frame="22" name="37-Grind_50_50-27.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-24.png"/>
+   <drw frame="27" name="37-Grind_50_50-27.png"/>
+   <drw frame="28" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="30" repeat="3" name="37-Grind_50_50-2.png"/>
+   <drw frame="33" name="37-Grind_50_50-29.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-24.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-26.png"/>
+   <drw frame="39" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="41" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-27.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-26.png"/>
+   <drw frame="47" name="37-Grind_50_50-27.png"/>
+   <drw frame="48" name="37-Grind_50_50-30.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-29.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_029" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-27.png"/>
+   <drw frame="6" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="8" name="37-Grind_50_50-1.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-28.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-25.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-27.png"/>
+   <drw frame="17" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="19" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="21" name="37-Grind_50_50-28.png"/>
+   <drw frame="22" name="37-Grind_50_50-27.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-23.png"/>
+   <drw frame="27" name="37-Grind_50_50-27.png"/>
+   <drw frame="28" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="30" repeat="3" name="37-Grind_50_50-1.png"/>
+   <drw frame="33" name="37-Grind_50_50-28.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-23.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-25.png"/>
+   <drw frame="39" repeat="2" name="37-Grind_50_50-30.png"/>
+   <drw frame="41" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-27.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-25.png"/>
+   <drw frame="47" name="37-Grind_50_50-27.png"/>
+   <drw frame="48" name="37-Grind_50_50-30.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-28.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_028" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-26.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-29.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-27.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-24.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-26.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-29.png"/>
+   <drw frame="21" name="37-Grind_50_50-27.png"/>
+   <drw frame="22" name="37-Grind_50_50-26.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-34.png"/>
+   <drw frame="27" name="37-Grind_50_50-26.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-29.png"/>
+   <drw frame="33" name="37-Grind_50_50-27.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-34.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-24.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-29.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-26.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-24.png"/>
+   <drw frame="47" name="37-Grind_50_50-26.png"/>
+   <drw frame="48" name="37-Grind_50_50-29.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-27.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_027" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-25.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-28.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-27.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-23.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-25.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-28.png"/>
+   <drw frame="21" name="37-Grind_50_50-27.png"/>
+   <drw frame="22" name="37-Grind_50_50-25.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-34.png"/>
+   <drw frame="27" name="37-Grind_50_50-25.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-28.png"/>
+   <drw frame="33" name="37-Grind_50_50-27.png"/>
+   <drw frame="34" repeat="3" name="37-Grind_50_50-34.png"/>
+   <drw frame="37" repeat="2" name="37-Grind_50_50-23.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-28.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-25.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-23.png"/>
+   <drw frame="47" name="37-Grind_50_50-25.png"/>
+   <drw frame="48" name="37-Grind_50_50-28.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-27.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_026" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-24.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-27.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-26.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-22.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-24.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-27.png"/>
+   <drw frame="21" name="37-Grind_50_50-26.png"/>
+   <drw frame="22" name="37-Grind_50_50-24.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-22.png"/>
+   <drw frame="27" name="37-Grind_50_50-24.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-27.png"/>
+   <drw frame="33" name="37-Grind_50_50-26.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-22.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-27.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-24.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-22.png"/>
+   <drw frame="47" name="37-Grind_50_50-24.png"/>
+   <drw frame="48" name="37-Grind_50_50-27.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-26.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_025" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-23.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-27.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-25.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-21.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-23.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-27.png"/>
+   <drw frame="21" name="37-Grind_50_50-25.png"/>
+   <drw frame="22" name="37-Grind_50_50-23.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-21.png"/>
+   <drw frame="27" name="37-Grind_50_50-23.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-27.png"/>
+   <drw frame="33" name="37-Grind_50_50-25.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-21.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-27.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-23.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-21.png"/>
+   <drw frame="47" name="37-Grind_50_50-23.png"/>
+   <drw frame="48" name="37-Grind_50_50-27.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-25.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_024" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-22.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-26.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-24.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-20.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-22.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-26.png"/>
+   <drw frame="21" name="37-Grind_50_50-24.png"/>
+   <drw frame="22" name="37-Grind_50_50-34.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-20.png"/>
+   <drw frame="27" name="37-Grind_50_50-22.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-26.png"/>
+   <drw frame="33" name="37-Grind_50_50-24.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-20.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-26.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-22.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-20.png"/>
+   <drw frame="47" name="37-Grind_50_50-22.png"/>
+   <drw frame="48" name="37-Grind_50_50-26.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-24.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_023" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-21.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-25.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-23.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-19.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-21.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-25.png"/>
+   <drw frame="21" name="37-Grind_50_50-23.png"/>
+   <drw frame="22" name="37-Grind_50_50-34.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-19.png"/>
+   <drw frame="27" name="37-Grind_50_50-21.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-25.png"/>
+   <drw frame="33" name="37-Grind_50_50-23.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-19.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-25.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-21.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-19.png"/>
+   <drw frame="47" name="37-Grind_50_50-21.png"/>
+   <drw frame="48" name="37-Grind_50_50-25.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-23.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_022" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-20.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-24.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-22.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-18.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-20.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-24.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-22.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-18.png"/>
+   <drw frame="27" name="37-Grind_50_50-20.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-24.png"/>
+   <drw frame="33" name="37-Grind_50_50-22.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-18.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-24.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-20.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-18.png"/>
+   <drw frame="47" name="37-Grind_50_50-20.png"/>
+   <drw frame="48" name="37-Grind_50_50-24.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-22.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_021" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-19.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-23.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-21.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-17.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-19.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-23.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-21.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-17.png"/>
+   <drw frame="27" name="37-Grind_50_50-19.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-23.png"/>
+   <drw frame="33" name="37-Grind_50_50-21.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-17.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-23.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-19.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-17.png"/>
+   <drw frame="47" name="37-Grind_50_50-19.png"/>
+   <drw frame="48" name="37-Grind_50_50-23.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-21.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_020" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-18.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-22.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-20.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-16.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-18.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-22.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-20.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-16.png"/>
+   <drw frame="27" name="37-Grind_50_50-18.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-22.png"/>
+   <drw frame="33" name="37-Grind_50_50-20.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-16.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-22.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-18.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-16.png"/>
+   <drw frame="47" name="37-Grind_50_50-18.png"/>
+   <drw frame="48" name="37-Grind_50_50-22.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-20.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_019" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-17.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-21.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-19.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-15.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-17.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-21.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-19.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-15.png"/>
+   <drw frame="27" name="37-Grind_50_50-17.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-21.png"/>
+   <drw frame="33" name="37-Grind_50_50-19.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-15.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-21.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-17.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-15.png"/>
+   <drw frame="47" name="37-Grind_50_50-17.png"/>
+   <drw frame="48" name="37-Grind_50_50-21.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-19.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_018" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-16.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-20.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-18.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-14.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-16.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-20.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-18.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-14.png"/>
+   <drw frame="27" name="37-Grind_50_50-16.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-20.png"/>
+   <drw frame="33" name="37-Grind_50_50-18.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-14.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-20.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-16.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-14.png"/>
+   <drw frame="47" name="37-Grind_50_50-16.png"/>
+   <drw frame="48" name="37-Grind_50_50-20.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-18.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_017" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-15.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-19.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-17.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-13.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-15.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-19.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-17.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-13.png"/>
+   <drw frame="27" name="37-Grind_50_50-15.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-19.png"/>
+   <drw frame="33" name="37-Grind_50_50-17.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-13.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-19.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-15.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-13.png"/>
+   <drw frame="47" name="37-Grind_50_50-15.png"/>
+   <drw frame="48" name="37-Grind_50_50-19.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-17.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_016" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-14.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-18.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-16.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-12.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-14.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-18.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-16.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-12.png"/>
+   <drw frame="27" name="37-Grind_50_50-14.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-18.png"/>
+   <drw frame="33" name="37-Grind_50_50-16.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-12.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-18.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-14.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-12.png"/>
+   <drw frame="47" name="37-Grind_50_50-14.png"/>
+   <drw frame="48" name="37-Grind_50_50-18.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-16.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_015" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-13.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-17.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-15.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-11.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-13.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-17.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-15.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-11.png"/>
+   <drw frame="27" name="37-Grind_50_50-13.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-17.png"/>
+   <drw frame="33" name="37-Grind_50_50-15.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-11.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-17.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-13.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-11.png"/>
+   <drw frame="47" name="37-Grind_50_50-13.png"/>
+   <drw frame="48" name="37-Grind_50_50-17.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-15.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_014" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-12.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-16.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-14.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-10.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-12.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-16.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-14.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-10.png"/>
+   <drw frame="27" name="37-Grind_50_50-12.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-16.png"/>
+   <drw frame="33" name="37-Grind_50_50-14.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-10.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-16.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-12.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-10.png"/>
+   <drw frame="47" name="37-Grind_50_50-12.png"/>
+   <drw frame="48" name="37-Grind_50_50-16.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-14.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_013" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-11.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-15.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-13.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-9.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-11.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-15.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-13.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-9.png"/>
+   <drw frame="27" name="37-Grind_50_50-11.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-15.png"/>
+   <drw frame="33" name="37-Grind_50_50-13.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-9.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-15.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-11.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-9.png"/>
+   <drw frame="47" name="37-Grind_50_50-11.png"/>
+   <drw frame="48" name="37-Grind_50_50-15.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-13.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_012" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-10.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-14.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-12.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-8.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-10.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-14.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-12.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-8.png"/>
+   <drw frame="27" name="37-Grind_50_50-10.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-14.png"/>
+   <drw frame="33" name="37-Grind_50_50-12.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-8.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-14.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-10.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-8.png"/>
+   <drw frame="47" name="37-Grind_50_50-10.png"/>
+   <drw frame="48" name="37-Grind_50_50-14.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-12.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_011" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-9.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-13.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-11.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-7.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-9.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-13.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-11.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-7.png"/>
+   <drw frame="27" name="37-Grind_50_50-9.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-13.png"/>
+   <drw frame="33" name="37-Grind_50_50-11.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-7.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-13.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-9.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-7.png"/>
+   <drw frame="47" name="37-Grind_50_50-9.png"/>
+   <drw frame="48" name="37-Grind_50_50-13.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-11.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_010" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-8.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-12.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-10.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-6.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-8.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-12.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-10.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-6.png"/>
+   <drw frame="27" name="37-Grind_50_50-8.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-12.png"/>
+   <drw frame="33" name="37-Grind_50_50-10.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-6.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-12.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-8.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-6.png"/>
+   <drw frame="47" name="37-Grind_50_50-8.png"/>
+   <drw frame="48" name="37-Grind_50_50-12.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-10.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_009" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-7.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-11.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-9.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-5.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-7.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-11.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-9.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-5.png"/>
+   <drw frame="27" name="37-Grind_50_50-7.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-11.png"/>
+   <drw frame="33" name="37-Grind_50_50-9.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-5.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-11.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-7.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-5.png"/>
+   <drw frame="47" name="37-Grind_50_50-7.png"/>
+   <drw frame="48" name="37-Grind_50_50-11.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-9.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_008" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-6.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-10.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-8.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-4.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-6.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-10.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-8.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-4.png"/>
+   <drw frame="27" name="37-Grind_50_50-6.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-10.png"/>
+   <drw frame="33" name="37-Grind_50_50-8.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-4.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-10.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-6.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-4.png"/>
+   <drw frame="47" name="37-Grind_50_50-6.png"/>
+   <drw frame="48" name="37-Grind_50_50-10.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-8.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_007" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-5.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-9.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-7.png"/>
+   <drw frame="12" name="37-Grind_50_50-33.png"/>
+   <drw frame="13" name="37-Grind_50_50-3.png"/>
+   <drw frame="14" name="37-Grind_50_50-31.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-5.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-9.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-7.png"/>
+   <drw frame="23" name="37-Grind_50_50-32.png"/>
+   <drw frame="24" name="37-Grind_50_50-33.png"/>
+   <drw frame="25" name="37-Grind_50_50-3.png"/>
+   <drw frame="26" name="37-Grind_50_50-31.png"/>
+   <drw frame="27" name="37-Grind_50_50-5.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-9.png"/>
+   <drw frame="33" name="37-Grind_50_50-7.png"/>
+   <drw frame="34" name="37-Grind_50_50-31.png"/>
+   <drw frame="35" name="37-Grind_50_50-32.png"/>
+   <drw frame="36" name="37-Grind_50_50-33.png"/>
+   <drw frame="37" name="37-Grind_50_50-3.png"/>
+   <drw frame="38" name="37-Grind_50_50-31.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-9.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-5.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-31.png"/>
+   <drw frame="47" name="37-Grind_50_50-5.png"/>
+   <drw frame="48" name="37-Grind_50_50-9.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-7.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_006" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-4.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-8.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-6.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-31.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-4.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-8.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-6.png"/>
+   <drw frame="23" name="37-Grind_50_50-3.png"/>
+   <drw frame="24" repeat="3" name="37-Grind_50_50-31.png"/>
+   <drw frame="27" name="37-Grind_50_50-4.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-8.png"/>
+   <drw frame="33" name="37-Grind_50_50-6.png"/>
+   <drw frame="34" name="37-Grind_50_50-33.png"/>
+   <drw frame="35" name="37-Grind_50_50-3.png"/>
+   <drw frame="36" repeat="3" name="37-Grind_50_50-31.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-8.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-4.png"/>
+   <drw frame="45" name="37-Grind_50_50-32.png"/>
+   <drw frame="46" name="37-Grind_50_50-33.png"/>
+   <drw frame="47" name="37-Grind_50_50-4.png"/>
+   <drw frame="48" name="37-Grind_50_50-8.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-6.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_005" name="37-Grind_50_50">
+   <drw frame="1" name="37-Grind_50_50-3.png"/>
+   <drw frame="2" repeat="3" name="37-Grind_50_50-31.png"/>
+   <drw frame="5" name="37-Grind_50_50-32.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-7.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-5.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-2.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-31.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-7.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-5.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-2.png"/>
+   <drw frame="27" name="37-Grind_50_50-31.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-7.png"/>
+   <drw frame="33" name="37-Grind_50_50-5.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-2.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-7.png"/>
+   <drw frame="43" name="37-Grind_50_50-3.png"/>
+   <drw frame="44" name="37-Grind_50_50-31.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="47" name="37-Grind_50_50-3.png"/>
+   <drw frame="48" name="37-Grind_50_50-7.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-5.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_004" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-2.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-6.png"/>
+   <drw frame="9" repeat="3" name="37-Grind_50_50-4.png"/>
+   <drw frame="12" repeat="3" name="37-Grind_50_50-1.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-6.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-4.png"/>
+   <drw frame="23" repeat="4" name="37-Grind_50_50-1.png"/>
+   <drw frame="27" name="37-Grind_50_50-2.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-6.png"/>
+   <drw frame="33" name="37-Grind_50_50-4.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-1.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-6.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-2.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="47" name="37-Grind_50_50-2.png"/>
+   <drw frame="48" name="37-Grind_50_50-6.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-4.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_003" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-1.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-5.png"/>
+   <drw frame="9" repeat="2" name="37-Grind_50_50-31.png"/>
+   <drw frame="11" name="37-Grind_50_50-32.png"/>
+   <drw frame="12" name="37-Grind_50_50-33.png"/>
+   <drw frame="13" name="37-Grind_50_50-3.png"/>
+   <drw frame="14" name="37-Grind_50_50-31.png"/>
+   <drw frame="15" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-5.png"/>
+   <drw frame="21" repeat="2" name="37-Grind_50_50-31.png"/>
+   <drw frame="23" name="37-Grind_50_50-32.png"/>
+   <drw frame="24" name="37-Grind_50_50-33.png"/>
+   <drw frame="25" name="37-Grind_50_50-3.png"/>
+   <drw frame="26" name="37-Grind_50_50-31.png"/>
+   <drw frame="27" name="37-Grind_50_50-1.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-5.png"/>
+   <drw frame="33" repeat="2" name="37-Grind_50_50-31.png"/>
+   <drw frame="35" name="37-Grind_50_50-32.png"/>
+   <drw frame="36" name="37-Grind_50_50-33.png"/>
+   <drw frame="37" name="37-Grind_50_50-3.png"/>
+   <drw frame="38" name="37-Grind_50_50-31.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-5.png"/>
+   <drw frame="43" repeat="2" name="37-Grind_50_50-1.png"/>
+   <drw frame="45" repeat="2" name="37-Grind_50_50-31.png"/>
+   <drw frame="47" name="37-Grind_50_50-1.png"/>
+   <drw frame="48" name="37-Grind_50_50-5.png"/>
+   <drw frame="49" name="37-Grind_50_50-32.png"/>
+   <drw frame="50" name="37-Grind_50_50-33.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_002" name="37-Grind_50_50">
+   <drw frame="1" name="37-Grind_50_50-3.png"/>
+   <drw frame="2" repeat="3" name="37-Grind_50_50-31.png"/>
+   <drw frame="5" name="37-Grind_50_50-32.png"/>
+   <drw frame="6" repeat="3" name="37-Grind_50_50-4.png"/>
+   <drw frame="9" name="37-Grind_50_50-32.png"/>
+   <drw frame="10" name="37-Grind_50_50-33.png"/>
+   <drw frame="11" name="37-Grind_50_50-3.png"/>
+   <drw frame="12" repeat="5" name="37-Grind_50_50-31.png"/>
+   <drw frame="17" repeat="4" name="37-Grind_50_50-4.png"/>
+   <drw frame="21" name="37-Grind_50_50-32.png"/>
+   <drw frame="22" name="37-Grind_50_50-33.png"/>
+   <drw frame="23" name="37-Grind_50_50-3.png"/>
+   <drw frame="24" repeat="4" name="37-Grind_50_50-31.png"/>
+   <drw frame="28" repeat="5" name="37-Grind_50_50-4.png"/>
+   <drw frame="33" name="37-Grind_50_50-32.png"/>
+   <drw frame="34" name="37-Grind_50_50-33.png"/>
+   <drw frame="35" name="37-Grind_50_50-3.png"/>
+   <drw frame="36" repeat="3" name="37-Grind_50_50-31.png"/>
+   <drw frame="39" repeat="4" name="37-Grind_50_50-4.png"/>
+   <drw frame="43" name="37-Grind_50_50-3.png"/>
+   <drw frame="44" name="37-Grind_50_50-31.png"/>
+   <drw frame="45" name="37-Grind_50_50-32.png"/>
+   <drw frame="46" name="37-Grind_50_50-33.png"/>
+   <drw frame="47" name="37-Grind_50_50-3.png"/>
+   <drw frame="48" name="37-Grind_50_50-4.png"/>
+   <drw frame="49" repeat="2" name="37-Grind_50_50-31.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_001" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-2.png"/>
+   <drw frame="6" name="37-Grind_50_50-33.png"/>
+   <drw frame="7" name="37-Grind_50_50-3.png"/>
+   <drw frame="8" repeat="3" name="37-Grind_50_50-31.png"/>
+   <drw frame="11" name="37-Grind_50_50-32.png"/>
+   <drw frame="12" repeat="5" name="37-Grind_50_50-2.png"/>
+   <drw frame="17" name="37-Grind_50_50-32.png"/>
+   <drw frame="18" name="37-Grind_50_50-33.png"/>
+   <drw frame="19" name="37-Grind_50_50-3.png"/>
+   <drw frame="20" repeat="3" name="37-Grind_50_50-31.png"/>
+   <drw frame="23" repeat="5" name="37-Grind_50_50-2.png"/>
+   <drw frame="28" name="37-Grind_50_50-31.png"/>
+   <drw frame="29" name="37-Grind_50_50-32.png"/>
+   <drw frame="30" name="37-Grind_50_50-33.png"/>
+   <drw frame="31" name="37-Grind_50_50-3.png"/>
+   <drw frame="32" repeat="2" name="37-Grind_50_50-31.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-2.png"/>
+   <drw frame="39" repeat="2" name="37-Grind_50_50-31.png"/>
+   <drw frame="41" name="37-Grind_50_50-32.png"/>
+   <drw frame="42" name="37-Grind_50_50-33.png"/>
+   <drw frame="43" repeat="5" name="37-Grind_50_50-2.png"/>
+   <drw frame="48" name="37-Grind_50_50-31.png"/>
+   <drw frame="49" name="37-Grind_50_50-32.png"/>
+   <drw frame="50" name="37-Grind_50_50-33.png"/>
+  </drawing>
+  <drawing node="Grind_50_50_000" name="37-Grind_50_50">
+   <drw frame="1" repeat="5" name="37-Grind_50_50-1.png"/>
+   <drw frame="6" name="37-Grind_50_50-33.png"/>
+   <drw frame="7" name="37-Grind_50_50-3.png"/>
+   <drw frame="8" name="37-Grind_50_50-31.png"/>
+   <drw frame="9" name="37-Grind_50_50-32.png"/>
+   <drw frame="10" name="37-Grind_50_50-33.png"/>
+   <drw frame="11" name="37-Grind_50_50-3.png"/>
+   <drw frame="12" repeat="5" name="37-Grind_50_50-1.png"/>
+   <drw frame="17" name="37-Grind_50_50-32.png"/>
+   <drw frame="18" name="37-Grind_50_50-33.png"/>
+   <drw frame="19" name="37-Grind_50_50-3.png"/>
+   <drw frame="20" name="37-Grind_50_50-31.png"/>
+   <drw frame="21" name="37-Grind_50_50-32.png"/>
+   <drw frame="22" name="37-Grind_50_50-33.png"/>
+   <drw frame="23" repeat="5" name="37-Grind_50_50-1.png"/>
+   <drw frame="28" name="37-Grind_50_50-31.png"/>
+   <drw frame="29" name="37-Grind_50_50-32.png"/>
+   <drw frame="30" name="37-Grind_50_50-33.png"/>
+   <drw frame="31" name="37-Grind_50_50-3.png"/>
+   <drw frame="32" name="37-Grind_50_50-31.png"/>
+   <drw frame="33" name="37-Grind_50_50-32.png"/>
+   <drw frame="34" repeat="5" name="37-Grind_50_50-1.png"/>
+   <drw frame="39" repeat="2" name="37-Grind_50_50-31.png"/>
+   <drw frame="41" name="37-Grind_50_50-32.png"/>
+   <drw frame="42" name="37-Grind_50_50-33.png"/>
+   <drw frame="43" repeat="5" name="37-Grind_50_50-1.png"/>
+   <drw frame="48" repeat="3" name="37-Grind_50_50-31.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="KickFlip_Top">
+  <drawing node="Skater" name="62-Skater">
+   <drw frame="1" repeat="25" name="62-Skater-4.png"/>
+  </drawing>
+  <drawing node="Table" name="63-Table">
+   <drw frame="1" repeat="25" name="63-Table-1.png"/>
+  </drawing>
+  <drawing node="KickFlip2_033" name="23-KickFlip2">
+   <drw frame="18" name="23-KickFlip2-26.png"/>
+  </drawing>
+  <drawing node="KickFlip2_032" name="23-KickFlip2">
+   <drw frame="17" name="23-KickFlip2-26.png"/>
+   <drw frame="18" name="23-KickFlip2-25.png"/>
+  </drawing>
+  <drawing node="KickFlip2_031" name="23-KickFlip2">
+   <drw frame="17" name="23-KickFlip2-25.png"/>
+   <drw frame="18" name="23-KickFlip2-24.png"/>
+   <drw frame="19" name="23-KickFlip2-26.png"/>
+  </drawing>
+  <drawing node="KickFlip2_030" name="23-KickFlip2">
+   <drw frame="16" name="23-KickFlip2-1.png"/>
+   <drw frame="17" repeat="2" name="23-KickFlip2-24.png"/>
+   <drw frame="19" name="23-KickFlip2-25.png"/>
+  </drawing>
+  <drawing node="KickFlip2_029" name="23-KickFlip2">
+   <drw frame="16" name="23-KickFlip2-26.png"/>
+   <drw frame="17" name="23-KickFlip2-24.png"/>
+   <drw frame="18" name="23-KickFlip2-23.png"/>
+   <drw frame="19" name="23-KickFlip2-24.png"/>
+   <drw frame="20" name="23-KickFlip2-26.png"/>
+  </drawing>
+  <drawing node="KickFlip2_028" name="23-KickFlip2">
+   <drw frame="3" repeat="2" name="23-KickFlip2-26.png"/>
+   <drw frame="5" name="23-KickFlip2-30.png"/>
+   <drw frame="6" name="23-KickFlip2-31.png"/>
+   <drw frame="15" name="23-KickFlip2-1.png"/>
+   <drw frame="16" name="23-KickFlip2-25.png"/>
+   <drw frame="17" name="23-KickFlip2-23.png"/>
+   <drw frame="18" name="23-KickFlip2-22.png"/>
+   <drw frame="19" name="23-KickFlip2-24.png"/>
+   <drw frame="20" name="23-KickFlip2-25.png"/>
+  </drawing>
+  <drawing node="KickFlip2_027" name="23-KickFlip2">
+   <drw frame="3" repeat="2" name="23-KickFlip2-25.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-26.png"/>
+   <drw frame="15" name="23-KickFlip2-26.png"/>
+   <drw frame="16" name="23-KickFlip2-24.png"/>
+   <drw frame="17" name="23-KickFlip2-22.png"/>
+   <drw frame="18" name="23-KickFlip2-21.png"/>
+   <drw frame="19" name="23-KickFlip2-23.png"/>
+   <drw frame="20" name="23-KickFlip2-24.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-26.png"/>
+  </drawing>
+  <drawing node="KickFlip2_026" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-26.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-24.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-25.png"/>
+   <drw frame="7" name="23-KickFlip2-30.png"/>
+   <drw frame="8" name="23-KickFlip2-1.png"/>
+   <drw frame="9" name="23-KickFlip2-33.png"/>
+   <drw frame="10" name="23-KickFlip2-34.png"/>
+   <drw frame="11" name="23-KickFlip2-33.png"/>
+   <drw frame="12" repeat="3" name="23-KickFlip2-1.png"/>
+   <drw frame="15" name="23-KickFlip2-25.png"/>
+   <drw frame="16" name="23-KickFlip2-24.png"/>
+   <drw frame="17" name="23-KickFlip2-21.png"/>
+   <drw frame="18" name="23-KickFlip2-20.png"/>
+   <drw frame="19" name="23-KickFlip2-22.png"/>
+   <drw frame="20" name="23-KickFlip2-24.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-25.png"/>
+  </drawing>
+  <drawing node="KickFlip2_025" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-25.png"/>
+   <drw frame="3" repeat="4" name="23-KickFlip2-24.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-26.png"/>
+   <drw frame="15" name="23-KickFlip2-24.png"/>
+   <drw frame="16" name="23-KickFlip2-23.png"/>
+   <drw frame="17" name="23-KickFlip2-20.png"/>
+   <drw frame="18" name="23-KickFlip2-19.png"/>
+   <drw frame="19" name="23-KickFlip2-21.png"/>
+   <drw frame="20" name="23-KickFlip2-23.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-24.png"/>
+  </drawing>
+  <drawing node="KickFlip2_024" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-24.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-23.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-24.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-25.png"/>
+   <drw frame="15" name="23-KickFlip2-24.png"/>
+   <drw frame="16" name="23-KickFlip2-22.png"/>
+   <drw frame="17" name="23-KickFlip2-19.png"/>
+   <drw frame="18" name="23-KickFlip2-18.png"/>
+   <drw frame="19" name="23-KickFlip2-20.png"/>
+   <drw frame="20" name="23-KickFlip2-22.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-24.png"/>
+  </drawing>
+  <drawing node="KickFlip2_023" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-24.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-22.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-23.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-24.png"/>
+   <drw frame="15" name="23-KickFlip2-23.png"/>
+   <drw frame="16" name="23-KickFlip2-21.png"/>
+   <drw frame="17" name="23-KickFlip2-18.png"/>
+   <drw frame="18" name="23-KickFlip2-17.png"/>
+   <drw frame="19" name="23-KickFlip2-19.png"/>
+   <drw frame="20" name="23-KickFlip2-21.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-23.png"/>
+  </drawing>
+  <drawing node="KickFlip2_022" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-23.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-21.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-22.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-24.png"/>
+   <drw frame="15" name="23-KickFlip2-22.png"/>
+   <drw frame="16" name="23-KickFlip2-20.png"/>
+   <drw frame="17" name="23-KickFlip2-17.png"/>
+   <drw frame="18" name="23-KickFlip2-16.png"/>
+   <drw frame="19" name="23-KickFlip2-18.png"/>
+   <drw frame="20" name="23-KickFlip2-20.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-22.png"/>
+  </drawing>
+  <drawing node="KickFlip2_021" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-22.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-20.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-21.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-23.png"/>
+   <drw frame="15" name="23-KickFlip2-21.png"/>
+   <drw frame="16" name="23-KickFlip2-19.png"/>
+   <drw frame="17" name="23-KickFlip2-16.png"/>
+   <drw frame="18" name="23-KickFlip2-15.png"/>
+   <drw frame="19" name="23-KickFlip2-17.png"/>
+   <drw frame="20" name="23-KickFlip2-19.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-21.png"/>
+  </drawing>
+  <drawing node="KickFlip2_020" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-21.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-19.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-20.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-22.png"/>
+   <drw frame="15" name="23-KickFlip2-20.png"/>
+   <drw frame="16" name="23-KickFlip2-18.png"/>
+   <drw frame="17" name="23-KickFlip2-15.png"/>
+   <drw frame="18" name="23-KickFlip2-36.png"/>
+   <drw frame="19" name="23-KickFlip2-16.png"/>
+   <drw frame="20" name="23-KickFlip2-18.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-20.png"/>
+  </drawing>
+  <drawing node="KickFlip2_019" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-20.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-18.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-19.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-21.png"/>
+   <drw frame="15" name="23-KickFlip2-19.png"/>
+   <drw frame="16" name="23-KickFlip2-29.png"/>
+   <drw frame="17" name="23-KickFlip2-11.png"/>
+   <drw frame="18" name="23-KickFlip2-39.png"/>
+   <drw frame="19" name="23-KickFlip2-15.png"/>
+   <drw frame="20" name="23-KickFlip2-17.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-19.png"/>
+  </drawing>
+  <drawing node="KickFlip2_018" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-19.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-17.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-18.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-20.png"/>
+   <drw frame="15" name="23-KickFlip2-18.png"/>
+   <drw frame="16" name="23-KickFlip2-29.png"/>
+   <drw frame="17" name="23-KickFlip2-36.png"/>
+   <drw frame="18" repeat="2" name="23-KickFlip2-14.png"/>
+   <drw frame="20" name="23-KickFlip2-16.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-18.png"/>
+  </drawing>
+  <drawing node="KickFlip2_017" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-18.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-16.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-17.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-19.png"/>
+   <drw frame="15" name="23-KickFlip2-29.png"/>
+   <drw frame="16" name="23-KickFlip2-15.png"/>
+   <drw frame="17" name="23-KickFlip2-38.png"/>
+   <drw frame="18" repeat="2" name="23-KickFlip2-13.png"/>
+   <drw frame="20" name="23-KickFlip2-15.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-17.png"/>
+  </drawing>
+  <drawing node="KickFlip2_016" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-17.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-15.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-29.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-18.png"/>
+   <drw frame="15" name="23-KickFlip2-29.png"/>
+   <drw frame="16" name="23-KickFlip2-11.png"/>
+   <drw frame="17" name="23-KickFlip2-14.png"/>
+   <drw frame="18" repeat="2" name="23-KickFlip2-12.png"/>
+   <drw frame="20" name="23-KickFlip2-14.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-16.png"/>
+  </drawing>
+  <drawing node="KickFlip2_015" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-16.png"/>
+   <drw frame="3" name="23-KickFlip2-14.png"/>
+   <drw frame="4" name="23-KickFlip2-3.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-15.png"/>
+   <drw frame="7" name="23-KickFlip2-17.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-29.png"/>
+   <drw frame="15" name="23-KickFlip2-15.png"/>
+   <drw frame="16" name="23-KickFlip2-36.png"/>
+   <drw frame="17" name="23-KickFlip2-13.png"/>
+   <drw frame="18" repeat="2" name="23-KickFlip2-11.png"/>
+   <drw frame="20" name="23-KickFlip2-13.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-15.png"/>
+  </drawing>
+  <drawing node="KickFlip2_014" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-15.png"/>
+   <drw frame="3" name="23-KickFlip2-13.png"/>
+   <drw frame="4" name="23-KickFlip2-14.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-3.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-29.png"/>
+   <drw frame="15" name="23-KickFlip2-11.png"/>
+   <drw frame="16" name="23-KickFlip2-37.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-10.png"/>
+   <drw frame="20" name="23-KickFlip2-12.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-14.png"/>
+  </drawing>
+  <drawing node="KickFlip2_013" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-14.png"/>
+   <drw frame="3" name="23-KickFlip2-12.png"/>
+   <drw frame="4" name="23-KickFlip2-13.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-14.png"/>
+   <drw frame="7" repeat="8" name="23-KickFlip2-15.png"/>
+   <drw frame="15" name="23-KickFlip2-36.png"/>
+   <drw frame="16" name="23-KickFlip2-14.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-9.png"/>
+   <drw frame="20" name="23-KickFlip2-11.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-13.png"/>
+  </drawing>
+  <drawing node="KickFlip2_012" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-13.png"/>
+   <drw frame="3" name="23-KickFlip2-11.png"/>
+   <drw frame="4" name="23-KickFlip2-12.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-13.png"/>
+   <drw frame="7" name="23-KickFlip2-3.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-12.png"/>
+   <drw frame="15" name="23-KickFlip2-35.png"/>
+   <drw frame="16" name="23-KickFlip2-13.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-8.png"/>
+   <drw frame="20" name="23-KickFlip2-10.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-12.png"/>
+  </drawing>
+  <drawing node="KickFlip2_011" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-12.png"/>
+   <drw frame="3" name="23-KickFlip2-10.png"/>
+   <drw frame="4" name="23-KickFlip2-11.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-12.png"/>
+   <drw frame="7" name="23-KickFlip2-14.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-11.png"/>
+   <drw frame="15" name="23-KickFlip2-14.png"/>
+   <drw frame="16" name="23-KickFlip2-10.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-7.png"/>
+   <drw frame="20" name="23-KickFlip2-9.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-11.png"/>
+  </drawing>
+  <drawing node="KickFlip2_010" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-11.png"/>
+   <drw frame="3" name="23-KickFlip2-9.png"/>
+   <drw frame="4" name="23-KickFlip2-10.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-11.png"/>
+   <drw frame="7" name="23-KickFlip2-13.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-14.png"/>
+   <drw frame="15" name="23-KickFlip2-13.png"/>
+   <drw frame="16" name="23-KickFlip2-9.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-6.png"/>
+   <drw frame="20" name="23-KickFlip2-8.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-10.png"/>
+  </drawing>
+  <drawing node="KickFlip2_009" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-10.png"/>
+   <drw frame="3" name="23-KickFlip2-8.png"/>
+   <drw frame="4" name="23-KickFlip2-9.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-10.png"/>
+   <drw frame="7" name="23-KickFlip2-12.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-13.png"/>
+   <drw frame="15" name="23-KickFlip2-10.png"/>
+   <drw frame="16" name="23-KickFlip2-8.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-5.png"/>
+   <drw frame="20" name="23-KickFlip2-7.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-9.png"/>
+  </drawing>
+  <drawing node="KickFlip2_008" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-9.png"/>
+   <drw frame="3" name="23-KickFlip2-7.png"/>
+   <drw frame="4" name="23-KickFlip2-8.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-9.png"/>
+   <drw frame="7" name="23-KickFlip2-11.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-10.png"/>
+   <drw frame="15" name="23-KickFlip2-9.png"/>
+   <drw frame="16" name="23-KickFlip2-7.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-4.png"/>
+   <drw frame="20" name="23-KickFlip2-6.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-8.png"/>
+  </drawing>
+  <drawing node="KickFlip2_007" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-8.png"/>
+   <drw frame="3" name="23-KickFlip2-6.png"/>
+   <drw frame="4" name="23-KickFlip2-7.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-8.png"/>
+   <drw frame="7" name="23-KickFlip2-10.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-9.png"/>
+   <drw frame="15" name="23-KickFlip2-8.png"/>
+   <drw frame="16" name="23-KickFlip2-6.png"/>
+   <drw frame="17" name="23-KickFlip2-32.png"/>
+   <drw frame="18" repeat="2" name="23-KickFlip2-3.png"/>
+   <drw frame="20" name="23-KickFlip2-5.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-7.png"/>
+  </drawing>
+  <drawing node="KickFlip2_006" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-7.png"/>
+   <drw frame="3" name="23-KickFlip2-5.png"/>
+   <drw frame="4" name="23-KickFlip2-6.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-7.png"/>
+   <drw frame="7" name="23-KickFlip2-9.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-8.png"/>
+   <drw frame="15" name="23-KickFlip2-7.png"/>
+   <drw frame="16" name="23-KickFlip2-5.png"/>
+   <drw frame="17" name="23-KickFlip2-12.png"/>
+   <drw frame="18" repeat="2" name="23-KickFlip2-32.png"/>
+   <drw frame="20" name="23-KickFlip2-4.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-6.png"/>
+  </drawing>
+  <drawing node="KickFlip2_005" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-6.png"/>
+   <drw frame="3" name="23-KickFlip2-4.png"/>
+   <drw frame="4" name="23-KickFlip2-5.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-6.png"/>
+   <drw frame="7" name="23-KickFlip2-8.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-7.png"/>
+   <drw frame="15" name="23-KickFlip2-6.png"/>
+   <drw frame="16" name="23-KickFlip2-4.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-2.png"/>
+   <drw frame="20" name="23-KickFlip2-3.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-5.png"/>
+  </drawing>
+  <drawing node="KickFlip2_004" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-5.png"/>
+   <drw frame="3" name="23-KickFlip2-3.png"/>
+   <drw frame="4" name="23-KickFlip2-4.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-5.png"/>
+   <drw frame="7" name="23-KickFlip2-7.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-6.png"/>
+   <drw frame="15" name="23-KickFlip2-5.png"/>
+   <drw frame="16" name="23-KickFlip2-32.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-1.png"/>
+   <drw frame="20" name="23-KickFlip2-32.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-4.png"/>
+  </drawing>
+  <drawing node="KickFlip2_003" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-4.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-2.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-4.png"/>
+   <drw frame="7" name="23-KickFlip2-6.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-5.png"/>
+   <drw frame="15" name="23-KickFlip2-4.png"/>
+   <drw frame="16" name="23-KickFlip2-12.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-28.png"/>
+   <drw frame="20" name="23-KickFlip2-2.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-3.png"/>
+  </drawing>
+  <drawing node="KickFlip2_002" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-3.png"/>
+   <drw frame="3" repeat="2" name="23-KickFlip2-1.png"/>
+   <drw frame="5" repeat="2" name="23-KickFlip2-2.png"/>
+   <drw frame="7" name="23-KickFlip2-5.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-4.png"/>
+   <drw frame="15" name="23-KickFlip2-32.png"/>
+   <drw frame="16" name="23-KickFlip2-2.png"/>
+   <drw frame="17" repeat="3" name="23-KickFlip2-27.png"/>
+   <drw frame="20" name="23-KickFlip2-1.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-32.png"/>
+  </drawing>
+  <drawing node="KickFlip2_001" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-2.png"/>
+   <drw frame="3" repeat="4" name="23-KickFlip2-28.png"/>
+   <drw frame="7" name="23-KickFlip2-4.png"/>
+   <drw frame="8" repeat="7" name="23-KickFlip2-32.png"/>
+   <drw frame="15" name="23-KickFlip2-12.png"/>
+   <drw frame="16" repeat="5" name="23-KickFlip2-28.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-2.png"/>
+  </drawing>
+  <drawing node="KickFlip2_000" name="23-KickFlip2">
+   <drw frame="1" repeat="2" name="23-KickFlip2-1.png"/>
+   <drw frame="3" repeat="4" name="23-KickFlip2-27.png"/>
+   <drw frame="7" repeat="9" name="23-KickFlip2-2.png"/>
+   <drw frame="16" repeat="5" name="23-KickFlip2-27.png"/>
+   <drw frame="21" repeat="5" name="23-KickFlip2-1.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="Manual_Top">
+  <drawing node="Skater" name="64-Skater">
+   <drw frame="1" repeat="49" name="64-Skater-4.png"/>
+  </drawing>
+  <drawing node="Table" name="65-Table">
+   <drw frame="1" repeat="49" name="65-Table-1.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_026" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-27.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_025" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-26.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_024" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-25.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_023" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-24.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_022" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-23.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_021" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-22.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_020" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-21.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_019" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-20.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_018" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-19.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_017" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-18.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_016" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-17.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_015" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-16.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_014" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-15.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_013" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-14.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_012" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-13.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_011" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-12.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_010" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-11.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_009" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-10.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_008" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-9.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_007" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-8.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_006" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-7.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_005" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-6.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_004" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-5.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_003" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-4.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_002" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-3.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_001" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-2.png"/>
+  </drawing>
+  <drawing node="GroundTrick_Manual_000" name="21-GroundTrick_Manual">
+   <drw frame="1" repeat="49" name="21-GroundTrick_Manual-1.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="Ollie_Top">
+  <drawing node="Skater" name="53-Skater_">
+   <drw frame="1" repeat="25" name="53-Skater_-4.png"/>
+  </drawing>
+  <drawing node="Table" name="54-Table_">
+   <drw frame="1" repeat="25" name="54-Table_-1.png"/>
+  </drawing>
+  <drawing node="Ollie_033" name="9-Ollie">
+   <drw frame="18" name="9-Ollie-26.png"/>
+  </drawing>
+  <drawing node="Ollie_032" name="9-Ollie">
+   <drw frame="17" name="9-Ollie-26.png"/>
+   <drw frame="18" name="9-Ollie-25.png"/>
+  </drawing>
+  <drawing node="Ollie_031" name="9-Ollie">
+   <drw frame="17" name="9-Ollie-25.png"/>
+   <drw frame="18" name="9-Ollie-24.png"/>
+   <drw frame="19" name="9-Ollie-26.png"/>
+  </drawing>
+  <drawing node="Ollie_030" name="9-Ollie">
+   <drw frame="16" name="9-Ollie-1.png"/>
+   <drw frame="17" repeat="2" name="9-Ollie-24.png"/>
+   <drw frame="19" name="9-Ollie-25.png"/>
+  </drawing>
+  <drawing node="Ollie_029" name="9-Ollie">
+   <drw frame="16" name="9-Ollie-26.png"/>
+   <drw frame="17" name="9-Ollie-24.png"/>
+   <drw frame="18" name="9-Ollie-23.png"/>
+   <drw frame="19" name="9-Ollie-24.png"/>
+   <drw frame="20" name="9-Ollie-26.png"/>
+  </drawing>
+  <drawing node="Ollie_028" name="9-Ollie">
+   <drw frame="3" repeat="4" name="9-Ollie-26.png"/>
+   <drw frame="15" name="9-Ollie-1.png"/>
+   <drw frame="16" name="9-Ollie-25.png"/>
+   <drw frame="17" name="9-Ollie-23.png"/>
+   <drw frame="18" name="9-Ollie-22.png"/>
+   <drw frame="19" name="9-Ollie-24.png"/>
+   <drw frame="20" name="9-Ollie-25.png"/>
+  </drawing>
+  <drawing node="Ollie_027" name="9-Ollie">
+   <drw frame="3" repeat="4" name="9-Ollie-25.png"/>
+   <drw frame="15" name="9-Ollie-26.png"/>
+   <drw frame="16" name="9-Ollie-24.png"/>
+   <drw frame="17" name="9-Ollie-22.png"/>
+   <drw frame="18" name="9-Ollie-21.png"/>
+   <drw frame="19" name="9-Ollie-23.png"/>
+   <drw frame="20" name="9-Ollie-24.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-26.png"/>
+  </drawing>
+  <drawing node="Ollie_026" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-26.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-24.png"/>
+   <drw frame="7" name="9-Ollie-26.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-1.png"/>
+   <drw frame="15" name="9-Ollie-25.png"/>
+   <drw frame="16" name="9-Ollie-24.png"/>
+   <drw frame="17" name="9-Ollie-21.png"/>
+   <drw frame="18" name="9-Ollie-20.png"/>
+   <drw frame="19" name="9-Ollie-22.png"/>
+   <drw frame="20" name="9-Ollie-24.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-25.png"/>
+   <drw frame="25" name="9-Ollie-26.png"/>
+  </drawing>
+  <drawing node="Ollie_025" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-25.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-24.png"/>
+   <drw frame="7" name="9-Ollie-25.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-26.png"/>
+   <drw frame="15" name="9-Ollie-24.png"/>
+   <drw frame="16" name="9-Ollie-23.png"/>
+   <drw frame="17" name="9-Ollie-20.png"/>
+   <drw frame="18" name="9-Ollie-19.png"/>
+   <drw frame="19" name="9-Ollie-21.png"/>
+   <drw frame="20" name="9-Ollie-23.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-24.png"/>
+   <drw frame="25" name="9-Ollie-25.png"/>
+  </drawing>
+  <drawing node="Ollie_024" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-24.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-23.png"/>
+   <drw frame="7" name="9-Ollie-24.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-25.png"/>
+   <drw frame="15" name="9-Ollie-24.png"/>
+   <drw frame="16" name="9-Ollie-22.png"/>
+   <drw frame="17" name="9-Ollie-19.png"/>
+   <drw frame="18" name="9-Ollie-18.png"/>
+   <drw frame="19" name="9-Ollie-20.png"/>
+   <drw frame="20" name="9-Ollie-22.png"/>
+   <drw frame="21" repeat="5" name="9-Ollie-24.png"/>
+  </drawing>
+  <drawing node="Ollie_023" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-24.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-22.png"/>
+   <drw frame="7" repeat="8" name="9-Ollie-24.png"/>
+   <drw frame="15" name="9-Ollie-23.png"/>
+   <drw frame="16" name="9-Ollie-21.png"/>
+   <drw frame="17" name="9-Ollie-18.png"/>
+   <drw frame="18" name="9-Ollie-17.png"/>
+   <drw frame="19" name="9-Ollie-19.png"/>
+   <drw frame="20" name="9-Ollie-21.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-23.png"/>
+   <drw frame="25" name="9-Ollie-24.png"/>
+  </drawing>
+  <drawing node="Ollie_022" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-23.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-21.png"/>
+   <drw frame="7" name="9-Ollie-23.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-24.png"/>
+   <drw frame="15" name="9-Ollie-22.png"/>
+   <drw frame="16" name="9-Ollie-20.png"/>
+   <drw frame="17" name="9-Ollie-17.png"/>
+   <drw frame="18" name="9-Ollie-16.png"/>
+   <drw frame="19" name="9-Ollie-18.png"/>
+   <drw frame="20" name="9-Ollie-20.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-22.png"/>
+   <drw frame="25" name="9-Ollie-23.png"/>
+  </drawing>
+  <drawing node="Ollie_021" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-22.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-20.png"/>
+   <drw frame="7" name="9-Ollie-22.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-23.png"/>
+   <drw frame="15" name="9-Ollie-21.png"/>
+   <drw frame="16" name="9-Ollie-19.png"/>
+   <drw frame="17" name="9-Ollie-16.png"/>
+   <drw frame="18" name="9-Ollie-15.png"/>
+   <drw frame="19" name="9-Ollie-17.png"/>
+   <drw frame="20" name="9-Ollie-19.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-21.png"/>
+   <drw frame="25" name="9-Ollie-22.png"/>
+  </drawing>
+  <drawing node="Ollie_020" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-21.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-19.png"/>
+   <drw frame="7" name="9-Ollie-21.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-22.png"/>
+   <drw frame="15" name="9-Ollie-20.png"/>
+   <drw frame="16" name="9-Ollie-18.png"/>
+   <drw frame="17" name="9-Ollie-15.png"/>
+   <drw frame="18" name="9-Ollie-32.png"/>
+   <drw frame="19" name="9-Ollie-16.png"/>
+   <drw frame="20" name="9-Ollie-18.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-20.png"/>
+   <drw frame="25" name="9-Ollie-21.png"/>
+  </drawing>
+  <drawing node="Ollie_019" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-20.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-18.png"/>
+   <drw frame="7" name="9-Ollie-20.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-21.png"/>
+   <drw frame="15" name="9-Ollie-19.png"/>
+   <drw frame="16" name="9-Ollie-30.png"/>
+   <drw frame="17" name="9-Ollie-11.png"/>
+   <drw frame="18" name="9-Ollie-35.png"/>
+   <drw frame="19" name="9-Ollie-15.png"/>
+   <drw frame="20" name="9-Ollie-17.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-19.png"/>
+   <drw frame="25" name="9-Ollie-20.png"/>
+  </drawing>
+  <drawing node="Ollie_018" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-19.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-17.png"/>
+   <drw frame="7" name="9-Ollie-19.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-20.png"/>
+   <drw frame="15" name="9-Ollie-18.png"/>
+   <drw frame="16" name="9-Ollie-30.png"/>
+   <drw frame="17" name="9-Ollie-32.png"/>
+   <drw frame="18" repeat="2" name="9-Ollie-14.png"/>
+   <drw frame="20" name="9-Ollie-16.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-18.png"/>
+   <drw frame="25" name="9-Ollie-19.png"/>
+  </drawing>
+  <drawing node="Ollie_017" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-18.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-16.png"/>
+   <drw frame="7" name="9-Ollie-18.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-19.png"/>
+   <drw frame="15" name="9-Ollie-30.png"/>
+   <drw frame="16" name="9-Ollie-15.png"/>
+   <drw frame="17" name="9-Ollie-34.png"/>
+   <drw frame="18" repeat="2" name="9-Ollie-13.png"/>
+   <drw frame="20" name="9-Ollie-15.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-17.png"/>
+   <drw frame="25" name="9-Ollie-18.png"/>
+  </drawing>
+  <drawing node="Ollie_016" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-17.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-15.png"/>
+   <drw frame="7" name="9-Ollie-17.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-18.png"/>
+   <drw frame="15" name="9-Ollie-30.png"/>
+   <drw frame="16" name="9-Ollie-11.png"/>
+   <drw frame="17" name="9-Ollie-14.png"/>
+   <drw frame="18" repeat="2" name="9-Ollie-12.png"/>
+   <drw frame="20" name="9-Ollie-14.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-16.png"/>
+   <drw frame="25" name="9-Ollie-17.png"/>
+  </drawing>
+  <drawing node="Ollie_015" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-16.png"/>
+   <drw frame="3" name="9-Ollie-14.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-3.png"/>
+   <drw frame="7" name="9-Ollie-16.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-30.png"/>
+   <drw frame="15" name="9-Ollie-15.png"/>
+   <drw frame="16" name="9-Ollie-32.png"/>
+   <drw frame="17" name="9-Ollie-13.png"/>
+   <drw frame="18" repeat="2" name="9-Ollie-11.png"/>
+   <drw frame="20" name="9-Ollie-13.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-15.png"/>
+   <drw frame="25" name="9-Ollie-16.png"/>
+  </drawing>
+  <drawing node="Ollie_014" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-15.png"/>
+   <drw frame="3" name="9-Ollie-13.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-14.png"/>
+   <drw frame="7" name="9-Ollie-15.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-30.png"/>
+   <drw frame="15" name="9-Ollie-11.png"/>
+   <drw frame="16" name="9-Ollie-33.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-10.png"/>
+   <drw frame="20" name="9-Ollie-12.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-14.png"/>
+   <drw frame="25" name="9-Ollie-15.png"/>
+  </drawing>
+  <drawing node="Ollie_013" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-14.png"/>
+   <drw frame="3" name="9-Ollie-12.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-13.png"/>
+   <drw frame="7" name="9-Ollie-3.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-15.png"/>
+   <drw frame="15" name="9-Ollie-32.png"/>
+   <drw frame="16" name="9-Ollie-14.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-9.png"/>
+   <drw frame="20" name="9-Ollie-11.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-13.png"/>
+   <drw frame="25" name="9-Ollie-14.png"/>
+  </drawing>
+  <drawing node="Ollie_012" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-13.png"/>
+   <drw frame="3" name="9-Ollie-11.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-12.png"/>
+   <drw frame="7" name="9-Ollie-14.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-12.png"/>
+   <drw frame="15" name="9-Ollie-31.png"/>
+   <drw frame="16" name="9-Ollie-13.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-8.png"/>
+   <drw frame="20" name="9-Ollie-10.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-12.png"/>
+   <drw frame="25" name="9-Ollie-13.png"/>
+  </drawing>
+  <drawing node="Ollie_011" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-12.png"/>
+   <drw frame="3" name="9-Ollie-10.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-11.png"/>
+   <drw frame="7" name="9-Ollie-13.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-11.png"/>
+   <drw frame="15" name="9-Ollie-14.png"/>
+   <drw frame="16" name="9-Ollie-10.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-7.png"/>
+   <drw frame="20" name="9-Ollie-9.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-11.png"/>
+   <drw frame="25" name="9-Ollie-12.png"/>
+  </drawing>
+  <drawing node="Ollie_010" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-11.png"/>
+   <drw frame="3" name="9-Ollie-9.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-10.png"/>
+   <drw frame="7" name="9-Ollie-12.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-14.png"/>
+   <drw frame="15" name="9-Ollie-13.png"/>
+   <drw frame="16" name="9-Ollie-9.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-6.png"/>
+   <drw frame="20" name="9-Ollie-8.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-10.png"/>
+   <drw frame="25" name="9-Ollie-11.png"/>
+  </drawing>
+  <drawing node="Ollie_009" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-10.png"/>
+   <drw frame="3" name="9-Ollie-8.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-9.png"/>
+   <drw frame="7" name="9-Ollie-11.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-13.png"/>
+   <drw frame="15" name="9-Ollie-10.png"/>
+   <drw frame="16" name="9-Ollie-8.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-5.png"/>
+   <drw frame="20" name="9-Ollie-7.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-9.png"/>
+   <drw frame="25" name="9-Ollie-10.png"/>
+  </drawing>
+  <drawing node="Ollie_008" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-9.png"/>
+   <drw frame="3" name="9-Ollie-7.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-8.png"/>
+   <drw frame="7" repeat="8" name="9-Ollie-10.png"/>
+   <drw frame="15" name="9-Ollie-9.png"/>
+   <drw frame="16" name="9-Ollie-7.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-4.png"/>
+   <drw frame="20" name="9-Ollie-6.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-8.png"/>
+   <drw frame="25" name="9-Ollie-9.png"/>
+  </drawing>
+  <drawing node="Ollie_007" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-8.png"/>
+   <drw frame="3" name="9-Ollie-6.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-7.png"/>
+   <drw frame="7" repeat="8" name="9-Ollie-9.png"/>
+   <drw frame="15" name="9-Ollie-8.png"/>
+   <drw frame="16" name="9-Ollie-6.png"/>
+   <drw frame="17" name="9-Ollie-29.png"/>
+   <drw frame="18" repeat="2" name="9-Ollie-3.png"/>
+   <drw frame="20" name="9-Ollie-5.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-7.png"/>
+   <drw frame="25" name="9-Ollie-8.png"/>
+  </drawing>
+  <drawing node="Ollie_006" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-7.png"/>
+   <drw frame="3" name="9-Ollie-5.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-6.png"/>
+   <drw frame="7" repeat="8" name="9-Ollie-8.png"/>
+   <drw frame="15" name="9-Ollie-7.png"/>
+   <drw frame="16" name="9-Ollie-5.png"/>
+   <drw frame="17" name="9-Ollie-12.png"/>
+   <drw frame="18" repeat="2" name="9-Ollie-29.png"/>
+   <drw frame="20" name="9-Ollie-4.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-6.png"/>
+   <drw frame="25" name="9-Ollie-7.png"/>
+  </drawing>
+  <drawing node="Ollie_005" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-6.png"/>
+   <drw frame="3" name="9-Ollie-4.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-5.png"/>
+   <drw frame="7" repeat="8" name="9-Ollie-7.png"/>
+   <drw frame="15" name="9-Ollie-6.png"/>
+   <drw frame="16" name="9-Ollie-4.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-2.png"/>
+   <drw frame="20" name="9-Ollie-3.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-5.png"/>
+   <drw frame="25" name="9-Ollie-6.png"/>
+  </drawing>
+  <drawing node="Ollie_004" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-5.png"/>
+   <drw frame="3" name="9-Ollie-3.png"/>
+   <drw frame="4" repeat="3" name="9-Ollie-4.png"/>
+   <drw frame="7" repeat="8" name="9-Ollie-6.png"/>
+   <drw frame="15" name="9-Ollie-5.png"/>
+   <drw frame="16" name="9-Ollie-29.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-1.png"/>
+   <drw frame="20" name="9-Ollie-29.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-4.png"/>
+   <drw frame="25" name="9-Ollie-5.png"/>
+  </drawing>
+  <drawing node="Ollie_003" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-4.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-2.png"/>
+   <drw frame="7" repeat="8" name="9-Ollie-5.png"/>
+   <drw frame="15" name="9-Ollie-4.png"/>
+   <drw frame="16" name="9-Ollie-12.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-28.png"/>
+   <drw frame="20" name="9-Ollie-2.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-3.png"/>
+   <drw frame="25" name="9-Ollie-4.png"/>
+  </drawing>
+  <drawing node="Ollie_002" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-3.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-1.png"/>
+   <drw frame="7" repeat="8" name="9-Ollie-4.png"/>
+   <drw frame="15" name="9-Ollie-29.png"/>
+   <drw frame="16" name="9-Ollie-2.png"/>
+   <drw frame="17" repeat="3" name="9-Ollie-27.png"/>
+   <drw frame="20" name="9-Ollie-1.png"/>
+   <drw frame="21" repeat="4" name="9-Ollie-29.png"/>
+   <drw frame="25" name="9-Ollie-3.png"/>
+  </drawing>
+  <drawing node="Ollie_001" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-2.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-28.png"/>
+   <drw frame="7" name="9-Ollie-2.png"/>
+   <drw frame="8" repeat="7" name="9-Ollie-29.png"/>
+   <drw frame="15" name="9-Ollie-12.png"/>
+   <drw frame="16" repeat="5" name="9-Ollie-28.png"/>
+   <drw frame="21" repeat="5" name="9-Ollie-2.png"/>
+  </drawing>
+  <drawing node="Ollie_000" name="9-Ollie">
+   <drw frame="1" repeat="2" name="9-Ollie-1.png"/>
+   <drw frame="3" repeat="4" name="9-Ollie-27.png"/>
+   <drw frame="7" name="9-Ollie-1.png"/>
+   <drw frame="8" repeat="8" name="9-Ollie-2.png"/>
+   <drw frame="16" repeat="5" name="9-Ollie-27.png"/>
+   <drw frame="21" repeat="5" name="9-Ollie-1.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="CrippledM_Top">
+  <drawing node="Skater" name="48-Skater">
+   <drw frame="1" repeat="65" name="48-Skater-4.png"/>
+  </drawing>
+  <drawing node="Table" name="49-Table">
+   <drw frame="1" repeat="65" name="49-Table-1.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_025" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-25.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_024" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-24.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_023" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-23.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_022" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-22.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_021" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-21.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_020" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-20.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_019" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-19.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_018" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-18.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_017" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-17.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_016" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-16.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_015" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-15.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_014" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-14.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_013" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-13.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_012" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-12.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_011" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-11.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_010" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-10.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_009" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-2.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_008" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-9.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_007" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-8.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_006" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-7.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_005" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-6.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_004" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-5.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_003" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-4.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_002" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-3.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_001" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-2.png"/>
+  </drawing>
+  <drawing node="dewkAnims_Crippled2_000" name="42-dewkAnims_Crippled2">
+   <drw frame="40" repeat="26" name="42-dewkAnims_Crippled2-1.png"/>
+  </drawing>
+  <drawing node="Untitled-1_026" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-27.png"/>
+  </drawing>
+  <drawing node="Untitled-1_025" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-26.png"/>
+  </drawing>
+  <drawing node="Untitled-1_024" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-25.png"/>
+  </drawing>
+  <drawing node="Untitled-1_023" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-24.png"/>
+  </drawing>
+  <drawing node="Untitled-1_022" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-23.png"/>
+  </drawing>
+  <drawing node="Untitled-1_021" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-22.png"/>
+  </drawing>
+  <drawing node="Untitled-1_020" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-21.png"/>
+  </drawing>
+  <drawing node="Untitled-1_019" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-20.png"/>
+  </drawing>
+  <drawing node="Untitled-1_018" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-19.png"/>
+  </drawing>
+  <drawing node="Untitled-1_017" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-18.png"/>
+  </drawing>
+  <drawing node="Untitled-1_016" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-17.png"/>
+  </drawing>
+  <drawing node="Untitled-1_015" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-16.png"/>
+  </drawing>
+  <drawing node="Untitled-1_014" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-15.png"/>
+  </drawing>
+  <drawing node="Untitled-1_013" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-14.png"/>
+  </drawing>
+  <drawing node="Untitled-1_012" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-13.png"/>
+  </drawing>
+  <drawing node="Untitled-1_011" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-12.png"/>
+  </drawing>
+  <drawing node="Untitled-1_010" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-11.png"/>
+  </drawing>
+  <drawing node="Untitled-1_009" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-10.png"/>
+  </drawing>
+  <drawing node="Untitled-1_008" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-9.png"/>
+  </drawing>
+  <drawing node="Untitled-1_007" name="41-Untitled-1">
+   <drw frame="1" repeat="30" name="41-Untitled-1-8.png"/>
+   <drw frame="32" repeat="8" name="41-Untitled-1-8.png"/>
+  </drawing>
+  <drawing node="Untitled-1_006" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-7.png"/>
+  </drawing>
+  <drawing node="Untitled-1_005" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-6.png"/>
+  </drawing>
+  <drawing node="Untitled-1_004" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-5.png"/>
+  </drawing>
+  <drawing node="Untitled-1_003" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-4.png"/>
+  </drawing>
+  <drawing node="Untitled-1_002" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-3.png"/>
+  </drawing>
+  <drawing node="Untitled-1_001" name="41-Untitled-1">
+   <drw frame="1" repeat="39" name="41-Untitled-1-2.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

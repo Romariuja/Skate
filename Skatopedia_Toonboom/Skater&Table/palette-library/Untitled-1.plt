@@ -1,0 +1,23 @@
+ToonBoomAnimationInc PaletteFile 2
+Solid    2                          0x200000001a1a1bff  26  26  27 255
+Solid    5                          0x20000000301f1cff  48  31  28 255
+Solid    0                          0x20000000321f1dff  50  31  29 255
+Solid    1                          0x200000003d342aff  61  52  42 255
+Solid    4                          0x20000000875252ff 135  82  82 255
+Solid    3                          0x20000000a36362ff 163  99  98 255
+Solid    7                          0x200000001b1d22ff  27  29  34 255
+Solid    8                          0x20000000353950ff  53  57  80 255
+Solid    6                          0x20000000dfbe8fff 223 190 143 255
+Solid    9                          0x200000001b1d21ff  27  29  33 255
+Solid    10                         0x20000000905554ff 144  85  84 255
+Solid    12                         0x20000000cdc5b0ff 205 197 176 255
+Solid    11                         0x20000000f9f1daff 249 241 218 255
+Solid    13                         0x20000000cec6afff 206 198 175 255
+Solid    14                         0x20000000d0ab7fff 208 171 127 255
+Solid    15                         0x200000002a1f14ff  42  31  20 255
+Solid    16                         0x20000000281e13ff  40  30  19 255
+Solid    18                         0x20000000322719ff  50  39  25 255
+Solid    17                         0x20000000ccac7cff 204 172 124 255
+Solid    19                         0x2000000046392eff  70  57  46 255
+Solid    20                         0x20000000291b18ff  41  27  24 255
+Solid    21                         0x20000000391f1eff  57  31  30 255

@@ -1,0 +1,47 @@
+<stages>
+ <stage name="217-10-25Skater_Idle">
+  <play drawingAnimation="Idle_Top" name="Top" skeleton="Top_1" animation="Idle_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_Flex">
+  <play drawingAnimation="Flex_Top" name="Top" skeleton="Top" animation="Flex_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_GrabTrick">
+  <play drawingAnimation="GrabTrick_Top" name="Top" skeleton="Top_2" animation="GrabTrick_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_Grind_5_0">
+  <play drawingAnimation="Grind_5_0_Top" name="Top" skeleton="Top_6" animation="Grind_5_0_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_Grind_50_50">
+  <play drawingAnimation="Grind_50_50_Top" name="Top" skeleton="Top_7" animation="Grind_50_50_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_KickFlip">
+  <play drawingAnimation="KickFlip_Top" name="Top" skeleton="Top_8" animation="KickFlip_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_Manual">
+  <play drawingAnimation="Manual_Top" name="Top" skeleton="Top_9" animation="Manual_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_Ollie">
+  <play drawingAnimation="Ollie_Top" name="Top" skeleton="Top_10" animation="Ollie_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_CrippledM">
+  <play drawingAnimation="CrippledM_Top" name="Top" skeleton="Top_3" animation="CrippledM_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+</stages>

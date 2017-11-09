@@ -1,0 +1,6 @@
+<stages>
+ <stage name="Skater_Ollie">
+  <play drawingAnimation="Ollie_Top" name="Top" skeleton="Top_1" animation="Ollie_Top"/>
+  <anchor node="Ancla_tabla" play="Top"/>
+ </stage>
+</stages>

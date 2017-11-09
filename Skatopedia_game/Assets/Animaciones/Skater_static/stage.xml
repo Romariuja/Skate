@@ -1,0 +1,36 @@
+<stages>
+ <stage name="Skater_Idle2Flex">
+  <play drawingAnimation="Idle2Flex_Top" name="Top" skeleton="Top_2" animation="Idle2Flex_Top"/>
+ </stage>
+ <stage name="Skater_GrabTrick">
+  <play drawingAnimation="GrabTrick_Top" name="Top" skeleton="Top_4" animation="GrabTrick_Top"/>
+ </stage>
+ <stage name="Skater_Ollie">
+  <play drawingAnimation="Ollie_Top" name="Top" skeleton="Top_5" animation="Ollie_Top"/>
+  <anchor node="Ancla_tabla" play="Top"/>
+ </stage>
+ <stage name="Skater_Grind_5_0">
+  <play drawingAnimation="Grind_5_0_Top" name="Top" skeleton="Top_6" animation="Grind_5_0_Top"/>
+ </stage>
+ <stage name="Skater_Flex">
+  <play drawingAnimation="Flex_Top" name="Top" skeleton="Top_7" animation="Flex_Top"/>
+ </stage>
+ <stage name="Skater_KickFlip">
+  <play drawingAnimation="KickFlip_Top" name="Top" skeleton="Top_8" animation="KickFlip_Top"/>
+ </stage>
+ <stage name="Skater_Grind_50_50">
+  <play drawingAnimation="Grind_50_50_Top" name="Top" skeleton="Top_10" animation="Grind_50_50_Top"/>
+ </stage>
+ <stage name="Skater_Idle">
+  <play drawingAnimation="Idle_Top" name="Top" skeleton="Top_1" animation="Idle_Top"/>
+ </stage>
+ <stage name="Skater_Flex2Idle">
+  <play drawingAnimation="Flex2Idle_Top" name="Top" skeleton="Top_3" animation="Flex2Idle_Top"/>
+ </stage>
+ <stage name="Skater_Manual">
+  <play drawingAnimation="Manual_Top" name="Top" skeleton="Top_11" animation="Manual_Top"/>
+ </stage>
+ <stage name="Skater_CrippledM">
+  <play drawingAnimation="CrippledM_Top" name="Top" skeleton="Top_12" animation="CrippledM_Top"/>
+ </stage>
+</stages>

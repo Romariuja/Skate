@@ -1,0 +1,5 @@
+<stages>
+ <stage name="Skater&amp;Table_LogoIntro">
+  <play drawingAnimation="LogoIntro_Top" name="Top" skeleton="Top" animation="LogoIntro_Top"/>
+ </stage>
+</stages>

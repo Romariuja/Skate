@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{D88FA440-0869-0421-2CED-43048C9C54D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\ArcCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\BezierCurveCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\CapsuleCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\EllipseCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\RoundedBoxCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\StarCollider2D_Editor.cs" />
+     <Compile Include="Assets\HarmonySDK\Editor\CreateHarmonyCamera.cs" />
+     <Compile Include="Assets\HarmonySDK\Editor\CreateHarmonyGameObject.cs" />
+     <Compile Include="Assets\HarmonySDK\Editor\CreateHarmonyTextureObject.cs" />
+     <Compile Include="Assets\HarmonySDK\Editor\GenerateHarmonyMesh.cs" />
+     <Compile Include="Assets\HarmonySDK\Editor\GenerateHarmonyMeta.cs" />
+     <Compile Include="Assets\HarmonySDK\Editor\HarmonyAnchorEditor.cs" />
+     <Compile Include="Assets\HarmonySDK\Editor\HarmonyPropEditor.cs" />
+     <Compile Include="Assets\HarmonySDK\Editor\HarmonyRendererEditor.cs" />
+     <Compile Include="Assets\HarmonySDK\Editor\MeshSaverEditor.cs" />
+     <None Include="Assets\Animaciones\Skater&amp;Table_Pro\stage.xml" />
+     <None Include="Assets\HarmonySDK\Shaders\LitTransparentPremultCutout.shader" />
+     <None Include="Assets\Animaciones\Skater&amp;Table\skeleton.xml" />
+     <None Include="Assets\Animaciones\Skater_static\stage.xml" />
+     <None Include="Assets\Animaciones\LogoIntro\skeleton.xml" />
+     <None Include="Assets\Animaciones\backup_skiaterpro_Crippled,Idle,Ollie;2Grind;Flex\SkaterPro\animation.xml" />
+     <None Include="Assets\Animaciones\backup_skiaterpro_Crippled,Idle,Ollie;2Grind;Flex\SkaterPro\skeleton.xml" />
+     <None Include="Assets\Animaciones\Skater_static\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\LogoIntro\animation.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table2\stage.xml" />
+     <None Include="Assets\Animaciones\Skater_solo\animation.xml" />
+     <None Include="Assets\Animaciones\Skater\Idle\drawingAnimation.xml" />
+     <None Include="Assets\Animaciones\SkaterPro2\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\SkaterPro\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\Skater\Idle\animation.xml" />
+     <None Include="Assets\Animaciones\Skater\Prueba_Ancla\stage.xml" />
+     <None Include="Assets\Animaciones\LogoIntro\drawingAnimation.xml" />
+     <None Include="Assets\Fonts\billy-argel_south-gardens-personal-use\Terms of Use End User Lisence Agreement.txt" />
+     <None Include="Assets\HarmonySDK\Shaders\LitTransparentPremult.shader" />
+     <None Include="Assets\Animaciones\Skater\Idle\stage.xml" />
+     <None Include="Assets\Animaciones\Table\stage.xml" />
+     <None Include="Assets\Animaciones\Table\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table2\drawingAnimation.xml" />
+     <None Include="Assets\Animaciones\Skater_static\Skater_solo\drawingAnimation.xml" />
+     <None Include="Assets\Fonts\billy-argel_calling-angels-personal-use\Terms of Use End User Lisence Agreement.txt" />
+     <None Include="Assets\Animaciones\Skater&amp;Table2\skeleton.xml" />
+     <None Include="Assets\Fonts\jonathan-s-harris_lydia-puente\License - READ THIS.txt" />
+     <None Include="Assets\Fonts\billy-argel_calling-angels-personal-use\INFORMATION.txt" />
+     <None Include="Assets\Animaciones\Skater_static\Skater_solo\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\Skater_static\skeleton.xml" />
+     <None Include="Assets\HarmonySDK\ABOUT.txt" />
+     <None Include="Assets\Animaciones\SkaterPro2\skeleton.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table\animation.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table\stage.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table2\animation.xml" />
+     <None Include="Assets\Animaciones\Skater_static\animation.xml" />
+     <None Include="Assets\Animaciones\Skater\Prueba_Ancla\drawingAnimation.xml" />
+     <None Include="Assets\Animaciones\SkaterPro2\animation.xml" />
+     <None Include="Assets\Animaciones\Table\animation.xml" />
+     <None Include="Assets\Animaciones\LogoIntro\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\Skater_static\Skater_solo\animation.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table\drawingAnimation.xml" />
+     <None Include="Assets\HarmonySDK\README.txt" />
+     <None Include="Assets\Animaciones\Skater&amp;Table2\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\SkaterPro2\drawingAnimation.xml" />
+     <None Include="Assets\Animaciones\LogoIntro\stage.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table_Pro\skeleton.xml" />
+     <None Include="Assets\Animaciones\backup_skiaterpro_Crippled,Idle,Ollie;2Grind;Flex\SkaterPro\spriteSheets.xml" />
+     <None Include="Assets\HarmonySDK\README_Unity.txt" />
+     <None Include="Assets\Animaciones\Skater&amp;Table\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\Table\drawingAnimation.xml" />
+     <None Include="Assets\Fonts\jonathan-s-harris_something-strange\License - READ THIS.txt" />
+     <None Include="Assets\Animaciones\Skater_solo\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\Skater\Prueba_Ancla\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\SkaterPro\animation.xml" />
+     <None Include="Assets\Animaciones\SkaterPro\drawingAnimation.xml" />
+     <None Include="Assets\Animaciones\SkaterPro2\stage.xml" />
+     <None Include="Assets\Animaciones\Skater_solo\stage.xml" />
+     <None Include="Assets\Animaciones\Skater_solo\skeleton.xml" />
+     <None Include="Assets\Animaciones\Table\skeleton.xml" />
+     <None Include="Assets\Animaciones\SkaterPro\skeleton.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table_Pro\animation.xml" />
+     <None Include="Assets\Animaciones\Skater_solo\drawingAnimation.xml" />
+     <None Include="Assets\HarmonySDK\Shaders\UnlitTransparentPremult.shader" />
+     <None Include="Assets\Animaciones\Skater\Idle\skeleton.xml" />
+     <None Include="Assets\Animaciones\Skater_static\Skater_solo\skeleton.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table_Pro\drawingAnimation.xml" />
+     <None Include="Assets\Animaciones\Skater\Idle\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\backup_skiaterpro_Crippled,Idle,Ollie;2Grind;Flex\SkaterPro\drawingAnimation.xml" />
+     <None Include="Assets\Animaciones\Skater_static\Skater_solo\stage.xml" />
+     <None Include="Assets\Animaciones\Skater_static\drawingAnimation.xml" />
+     <None Include="Assets\Animaciones\Skater\Prueba_Ancla\animation.xml" />
+     <None Include="Assets\Animaciones\Skater&amp;Table_Pro\spriteSheets.xml" />
+     <None Include="Assets\Animaciones\Skater\Prueba_Ancla\skeleton.xml" />
+     <None Include="Assets\Animaciones\SkaterPro\stage.xml" />
+     <None Include="Assets\HarmonySDK\Shaders\UnlitTransparentPremultCutout.shader" />
+     <None Include="Assets\Animaciones\backup_skiaterpro_Crippled,Idle,Ollie;2Grind;Flex\SkaterPro\stage.xml" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.CJK">
+ <HintPath>C:/Users/Romariuja/Desktop/Skatopedia_all/Skatopedia_game/Assets/Plugins/I18N.CJK.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N">
+ <HintPath>C:/Users/Romariuja/Desktop/Skatopedia_all/Skatopedia_game/Assets/Plugins/I18N.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.MidEast">
+ <HintPath>C:/Users/Romariuja/Desktop/Skatopedia_all/Skatopedia_game/Assets/Plugins/I18N.MidEast.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.Other">
+ <HintPath>C:/Users/Romariuja/Desktop/Skatopedia_all/Skatopedia_game/Assets/Plugins/I18N.Other.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.Rare">
+ <HintPath>C:/Users/Romariuja/Desktop/Skatopedia_all/Skatopedia_game/Assets/Plugins/I18N.Rare.dll</HintPath>
+ </Reference>
+ <Reference Include="I18N.West">
+ <HintPath>C:/Users/Romariuja/Desktop/Skatopedia_all/Skatopedia_game/Assets/Plugins/I18N.West.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zip.Reduced">
+ <HintPath>C:/Users/Romariuja/Desktop/Skatopedia_all/Skatopedia_game/Assets/Plugins/Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{766A87E8-FDBA-34C3-3906-F6FA994C3C66}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c57cc5f089f837044b3bdfbfb9acdbb6
+timeCreated: 1493176062
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Lydia Puente)
+  fontNames:
+  - Lydia Puente)
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

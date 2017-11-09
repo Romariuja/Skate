@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c4e19d07e532fc74fafbccae921415d6
+timeCreated: 1493176062
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: South Gardens Personal Use
+  fontNames:
+  - South Gardens Personal Use
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

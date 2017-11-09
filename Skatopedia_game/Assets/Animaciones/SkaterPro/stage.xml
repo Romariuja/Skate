@@ -1,0 +1,97 @@
+<stages>
+ <stage name="SkaterPro_GrabTrick">
+  <play drawingAnimation="GrabTrick_Top" name="Top" skeleton="Top_7" animation="GrabTrick_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="SkaterPro_Manual">
+  <play drawingAnimation="Manual_Top" name="Top" skeleton="Top_11" animation="Manual_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="SkaterPro_Grind_5_0">
+  <play drawingAnimation="Grind_5_0_Top" name="Top" skeleton="Top_12" animation="Grind_5_0_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="SkaterPro_CrippledM">
+  <play drawingAnimation="CrippledM_Top" name="Top" skeleton="Top_13" animation="CrippledM_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+ </stage>
+ <stage name="SkaterPro_Ollie">
+  <play drawingAnimation="Ollie_Top" name="Top" skeleton="Top_3" animation="Ollie_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+  <sound name="105075__mbezzola__skateboard-kick-flip.wav" time="1"/>
+ </stage>
+ <stage name="SkaterPro_KickFlip">
+  <play drawingAnimation="KickFlip_Top" name="Top" skeleton="Top_9" animation="KickFlip_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+  <sound name="105075__mbezzola__skateboard-kick-flip.wav" time="1"/>
+ </stage>
+ <stage name="SkaterPro_Flex">
+  <play drawingAnimation="Flex_Top" name="Top" skeleton="Top_5" animation="Flex_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+  <sound name="Skateboard sound wheels.mp3" time="1"/>
+  <sound name="Skateboard sound wheels.mp3" time="3"/>
+  <sound name="Skateboard sound wheels.mp3" time="7"/>
+  <sound name="Skateboard sound wheels.mp3" time="9"/>
+  <sound name="Skateboard sound wheels.mp3" time="10"/>
+  <sound name="Skateboard sound wheels.mp3" time="11"/>
+  <sound name="Skateboard sound wheels.mp3" time="13"/>
+  <sound name="Skateboard sound wheels.mp3" time="20"/>
+  <sound name="Skateboard sound wheels.mp3" time="21"/>
+  <sound name="Skateboard sound wheels.mp3" time="28"/>
+  <sound name="Skateboard sound wheels.mp3" time="30"/>
+  <sound name="Skateboard sound wheels.mp3" time="34"/>
+  <sound name="Skateboard sound wheels.mp3" time="40"/>
+  <sound name="Skateboard sound wheels.mp3" time="47"/>
+  <sound name="Skateboard sound wheels.mp3" time="49"/>
+  <sound name="Skateboard sound wheels.mp3" time="50"/>
+  <sound name="Skateboard sound wheels.mp3" time="54"/>
+  <sound name="Skateboard sound wheels.mp3" time="56"/>
+  <sound name="Skateboard sound wheels.mp3" time="57"/>
+  <sound name="Skateboard sound wheels.mp3" time="61"/>
+  <sound name="Skateboard sound wheels.mp3" time="62"/>
+  <sound name="Skateboard sound wheels.mp3" time="122"/>
+  <sound name="Skateboard sound wheels.mp3" time="168"/>
+ </stage>
+ <stage name="SkaterPro_Idle">
+  <play drawingAnimation="Idle_Top" name="Top" skeleton="Top_1" animation="Idle_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="1"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="3"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="7"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="9"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="10"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="11"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="13"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="20"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="21"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="28"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="30"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="34"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="40"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="47"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="49"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="50"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="54"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="56"/>
+  <sound name="Skateboard sound wheels_1.mp3" time="57"/>
+ </stage>
+ <stage name="SkaterPro_Grind_50_50">
+  <play drawingAnimation="Grind_50_50_Top" name="Top" skeleton="Top_10" animation="Grind_50_50_Top"/>
+  <anchor node="Skater" play="Top"/>
+  <anchor node="Table" play="Top"/>
+  <sound name="231780__crazy-freerider__dry-grinds-3.wav" time="1"/>
+  <sound name="231780__crazy-freerider__dry-grinds-3.wav" time="11"/>
+  <sound name="231780__crazy-freerider__dry-grinds-3.wav" time="36"/>
+  <sound name="231780__crazy-freerider__dry-grinds-3.wav" time="41"/>
+  <sound name="231780__crazy-freerider__dry-grinds-3.wav" time="53"/>
+  <sound name="231780__crazy-freerider__dry-grinds-3.wav" time="100"/>
+ </stage>
+</stages>
