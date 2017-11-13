@@ -8,7 +8,7 @@ public class PhysicsObject : MonoBehaviour {
     protected bool jump = false;
     protected float JumpForce = 10;
     public float MaxVel = 10f;
-    public float currentVel=10f;
+    //public float currentVel=10f;
     protected float acel = 0.3f;
     protected float VelThreshold = 0f;
     protected float FlexVel = 18f;
@@ -67,25 +67,28 @@ public class PhysicsObject : MonoBehaviour {
 
     void Update()
     {
-        ComputeVelocity();
+      //  ComputeVelocity();
     }
 
-    protected virtual void ComputeVelocity()
-    {
-        currentVel = PlayerScript.currentVel;
-    }
+    //protected virtual void ComputeVelocity()
+    //{
+      //  currentVel = PlayerScript.currentVel;
+    //}
 
     void OnTriggerEnter2D(Collider2D other)
     {
 
-       // if (other.gameObject.layer == LayerMask.NameToLayer("Collision"))
-        //{
-          //  Debug.Break();
-           // gameOver = true;
-           // anim.SetBool("gameOver", gameOver);
-           // StartCoroutine(End());
+        if (other.gameObject.layer == LayerMask.NameToLayer("Collision") && !gameOver)
+        {
+           
+            // Debug.Break();
+
+            gameOver = true;
+            anim.SetBool("gameOver", gameOver);
+            // StartCoroutine(End());
             //Debug.Break();
-        //}
+            Debug.Log("GAMEOVER COLLISION: TIEMPO=" + Time.realtimeSinceStartup);
+        }
         //    yield return new WaitForFixedUpdate();
     }
 
@@ -93,14 +96,6 @@ public class PhysicsObject : MonoBehaviour {
     void OnTriggerStay2D(Collider2D other)
     // IEnumerator OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Collision"))
-        {
-           // Debug.Break();
-            gameOver = true;
-            anim.SetBool("gameOver", gameOver);
-            // StartCoroutine(End());
-            //Debug.Break();
-        }
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Floor"))
         { 
@@ -137,14 +132,14 @@ public class PhysicsObject : MonoBehaviour {
         Debug.DrawRay(new Vector3(CM.x, CM.y, 0), -transform.up * layerDistanceDetect, Color.green);
         if ((hit.collider!=null) &&  (onFloor||onGrind))
          {
- 
             Vector2 currentNormal = hit.normal;
              perpendicular = Vector3.Cross(new Vector3 (currentNormal.x, currentNormal.y,0), new Vector3(0,0,1)).normalized;
             Debug.DrawRay(new Vector3 (CM.x,CM.y,0), - transform.up * layerDistanceDetect, Color.green);
-             Debug.DrawLine(new Vector3(CM.x, CM.y, 0), new Vector3(CM.x, CM.y, 0) + perpendicular.normalized *currentVel , Color.blue);
+             Debug.DrawLine(new Vector3(CM.x, CM.y, 0), new Vector3(CM.x, CM.y, 0) + perpendicular.normalized *PlayerScript.currentVel , Color.blue);
             PlayerScript.perpendicular = perpendicular;
-             rb2d.velocity = perpendicular * currentVel;
+             rb2d.velocity = perpendicular * PlayerScript.currentVel;
         }
+     
     }
 
     public void Allig2Floor(Vector3 perpendicular, GameObject Player)

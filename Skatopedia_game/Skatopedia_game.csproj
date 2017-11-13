@@ -250,6 +250,7 @@
     <Compile Include="Assets\EndObstacle.cs" />
     <Compile Include="Assets\LocalGravity.cs" />
     <Compile Include="Assets\loop.cs" />
+    <Compile Include="Assets\LoopCheck.cs" />
     <Compile Include="Assets\NoLoop.cs" />
     <Compile Include="Assets\PhysicsObject.cs" />
     <Compile Include="Assets\Player.cs" />

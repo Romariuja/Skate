@@ -7,6 +7,7 @@ public class Player : PhysicsObject {
     //STATE VARIABLES
     public bool Flex = false;
     protected List<transition> transitionsList;
+    public float currentVel;
 
     //INPUT KEY VARIABLES
     int KeyUp = Animator.StringToHash("KeyUp");
@@ -14,7 +15,7 @@ public class Player : PhysicsObject {
     int KeyRight = Animator.StringToHash("KeyRight");
 
     //OBJECT VARIABLES
-    private RigidbodyConstraints2D originalConstraints;
+    public RigidbodyConstraints2D originalConstraints;
     public GameObject cam;
     public GameObject camGameOver;
     public GameObject Table;
@@ -128,7 +129,7 @@ public class Player : PhysicsObject {
     //END COROUTINE. LAUNCH END ANIMATION---------------------------------------------------------------------------------------------------------------------------------------
     public IEnumerator End()
     {
-       
+
         //CHANGE COLLIDERS TO DETECT SKATER COLLISIONS
         foreach (Collider2D bc in SkaterColliders)
         {
@@ -147,10 +148,11 @@ public class Player : PhysicsObject {
         
         Table.SetActive(false);      
         TableCrippled.GetComponent<Rigidbody2D>().velocity = GetComponent<Rigidbody2D>().velocity;
-        yield return new WaitForSeconds(0.01f);
+  //      yield return new WaitForSeconds(0.01f);
         TableCrippled.GetComponent<Rigidbody2D>().simulated = true;
         TableCrippled.GetComponent<Rigidbody2D>().velocity = new Vector2(maxVel, 2 * maxVel / 3);
         TableCrippled.GetComponent<Rigidbody2D>().AddTorque(1, ForceMode2D.Impulse);
+        Debug.Log("GAMEOVER RUTINE: TIEMPO=" + Time.realtimeSinceStartup);
         if (Puntuacion.puntuacion > EstadoJuego.estadoJuego.puntuacionMaxima)
         {
             EstadoJuego.estadoJuego.puntuacionMaxima = Puntuacion.puntuacion;
@@ -189,9 +191,10 @@ public class Player : PhysicsObject {
         //GAMEOVER STATE
          if (anim.GetCurrentAnimatorStateInfo(0).IsName("CrippledM"))
         {
+        
             if (gameOver)
             {
-
+                Debug.Log("GAMEOVER STATE: TIEMPO=" + Time.realtimeSinceStartup);
                 combo = 0;
                 puntua.IncrementarCombo(combo, "Loquesea", 0);
                 StartCoroutine(End());
@@ -319,7 +322,5 @@ public class Player : PhysicsObject {
             anim.SetTrigger("KeyDown");
         }
     }
-
-
 
 }
