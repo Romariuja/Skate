@@ -5,60 +5,57 @@
 // - no lightmap support
 // - no per-material color
 
-Shader "Harmony/UnlitTransparentPremult" {
-Properties {
-  _Color ("Main Color", Color) = (1,1,1,1)
-  _MainTex ("Base (RGB) Trans (A)", 2D) = "white" {}
-}
-
-SubShader {
-  Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
-  LOD 100
-  
-  ZWrite Off
-  Blend SrcAlpha OneMinusSrcAlpha 
-  
-  Pass {  
-    CGPROGRAM
-      #pragma vertex vert
-      #pragma fragment frag
-      
-      #include "UnityCG.cginc"
-      
-      struct appdata_t {
-        float4 vertex : POSITION;
-        float2 texcoord : TEXCOORD0;
-      };
-
-      struct v2f {
-        float4 vertex : SV_POSITION;
-        half2 texcoord : TEXCOORD0;
-      };
-
-      sampler2D _MainTex;
-      float4 _MainTex_ST;
-
-      fixed4 _Color;
-
-      v2f vert (appdata_t v)
-      {
-        v2f o;
-        o.vertex = UnityObjectToClipPos(v.vertex);
-        o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
-        return o;
-      }
-
-      fixed4 frag (v2f i) : SV_Target
-      {
-        fixed4 col = tex2D(_MainTex, i.texcoord);
-
-        //  Unmultiply premultiplied alpha
-        col = float4( col.rgb / col.a, col.a ) * _Color;
-
-        return col;
-      }
-    ENDCG
-  }
-}
-
+Shader "GreyScale" {
+        Properties
+        {
+                _MainTex ("Diffuse Textures", 2D) = "white" {}
+        }
+        SubShader {
+                Tags { "RenderType"="Opaque" "Queue" = "Geometry" }
+                LOD 200
+               
+                CGPROGRAM
+                #pragma surface surf Lambert alphatest:0.5
+ 
+                sampler2D _MainTex;
+ 
+                struct Input
+                {
+                    float2 uv_MainTex;
+                        float2 uv_GreyMask;
+                };
+ 
+                void surf (Input IN, inout SurfaceOutput o)
+                {
+                        half4 c = tex2D(_MainTex, IN.uv_MainTex);
+                        o.Albedo = half3(Luminance(c.rgb));
+                        o.Alpha = c.a;
+                }
+                ENDCG
+        }
+       
+        SubShader {
+                Tags { "RenderType"="Transparent" "Queue" = "Transparent" }
+                LOD 200
+               
+                CGPROGRAM
+                #pragma surface surf Lambert alpha
+ 
+                sampler2D _MainTex;
+ 
+                struct Input
+                {
+                    float2 uv_MainTex;
+                        float2 uv_GreyMask;
+                };
+ 
+                void surf (Input IN, inout SurfaceOutput o)
+                {
+                        half4 c = tex2D(_MainTex, IN.uv_MainTex);
+                        o.Albedo = half3(Luminance(c.rgb));
+                        o.Alpha = c.a;
+                }
+                ENDCG
+        }
+        FallBack "Diffuse"
 }
