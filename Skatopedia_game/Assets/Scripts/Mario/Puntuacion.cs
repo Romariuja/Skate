@@ -43,9 +43,10 @@ public class Puntuacion : MonoBehaviour {
 
     public void IncrementarCombo(int xcombo, string comboName, int puntosCombo)
     {
+    
         combo = xcombo;
         puntuacion += combo * puntosCombo;
-     
+        Debug.Log("INCREMENTA COMBO: Nombre"+ comboName+ " xcombo:" + xcombo + " puntos combo" + puntosCombo);
         if (combo == 0)
         { 
             InitialiseList();

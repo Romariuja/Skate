@@ -300,6 +300,7 @@
     <Compile Include="Assets\Scripts\Xml\XML_Types.cs" />
     <Compile Include="Assets\Scripts\Zip\ZIP_AndroidAssets.cs" />
     <Compile Include="Assets\Scripts\Zip\ZIP_Operations.cs" />
+    <Compile Include="Assets\Skater.cs" />
     <Compile Include="Assets\TableController.cs" />
   </ItemGroup>
   <ItemGroup>

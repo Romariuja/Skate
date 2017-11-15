@@ -55,7 +55,7 @@ public class PhysicsObject : MonoBehaviour {
     {
         Player= GameObject.FindGameObjectWithTag("Player");
         rb2d = Player.GetComponent<Rigidbody2D>();
-        Debug.Log(Player.name);
+       // Debug.Log(Player.name);
     }
 
     void Start()

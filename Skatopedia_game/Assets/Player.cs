@@ -16,7 +16,7 @@ public class Player : PhysicsObject {
 
     //OBJECT VARIABLES
     public RigidbodyConstraints2D originalConstraints;
-    public GameObject cam;
+    public static GameObject cam;
     public GameObject camGameOver;
     public GameObject Table;
     public GameObject Skater;
@@ -26,13 +26,14 @@ public class Player : PhysicsObject {
     private Obstacle obstacle;
     //private Rigidbody2D rb2d;
     private PhysicsObject TableScript;
-    
+    public static ControladorCamara CameraScript;
+
     public Animation animation;
    
     //SCORE VARIABLES
     float Tiempo0;
-    public Puntuacion puntua;
-    public static int combo = 0;
+    public static Puntuacion puntua;
+    public  static int combo = 0;
     public static int PuntosGrind = 0;
     private int Grind_5_0Points = 3;
     private int Grind_50_50Points = 1;
@@ -42,6 +43,7 @@ public class Player : PhysicsObject {
     private int ManualPoints = 0;
     public int contGrind = 1;
     public GameObject TableCrippled;
+    public static CustomImageEffect EffectCam;
 
     void awake()
     {
@@ -63,6 +65,7 @@ public class Player : PhysicsObject {
         //Table = GameObject.FindGameObjectWithTag("Table");
         //Debug.Log("Table es: " + Table.transform.parent.parent.name);
         TableScript = GetComponent<PhysicsObject>();
+        Debug.Log(TableScript.gameObject);
         //TableCrippled = GameObject.FindGameObjectWithTag("TableCrippled");
         //Skater = GameObject.FindGameObjectWithTag("Skater");
         //Debug.Log("Skater es: " + Skater.transform.parent.parent.name);
@@ -70,13 +73,21 @@ public class Player : PhysicsObject {
         //Debug.Log(SkaterColliders);
         TableColliders = Table.GetComponents<BoxCollider2D>();
         //Debug.Log(TableColliders);
-        //cam = GameObject.FindWithTag("MainCamera");
+        cam = GameObject.FindWithTag("MainCamera");
+       
         puntua = cam.GetComponent<Puntuacion>();
+
+        CameraScript=cam.GetComponent<ControladorCamara>();
+
+
+        EffectCam = cam.GetComponent<CustomImageEffect>();
         transitionsList = new List<transition>();
         transitionsList.Add(new transition("Idle", false));
         transitionsList.Add(new transition("Grind", false));
         transitionsList.Add(new transition("Jump", false));
-        transitionsList.Add(new transition("Manual", false));       
+        transitionsList.Add(new transition("Manual", false));
+
+        Debug.Log(transitionsList[2]);
         //Debug.Log("LA tabla es" + Table.name + ",y esta en el obbjeto padre " + Table.transform.parent.parent + "En la posicion " + Table.transform.localPosition );
     }
 
@@ -125,6 +136,22 @@ public class Player : PhysicsObject {
         }
         return false;
     }
+    //ROTATE FUNCTION-----------------------------------------------------------------------------------------------------
+
+
+    void RotateAir()
+    {
+        if (Input.GetKey("right"))
+        {
+            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -5 );
+        }
+        else if (Input.GetKey("left"))
+        {
+            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +5 );
+        }
+        
+    }
+
 
     //END COROUTINE. LAUNCH END ANIMATION---------------------------------------------------------------------------------------------------------------------------------------
     public IEnumerator End()
@@ -253,6 +280,7 @@ public class Player : PhysicsObject {
                 FreezeConstraints();
                 anim.SetBool("jump", transitionsList[2].init);
             }
+          //RotateAir();
         }
 
         //GRAB STATE
@@ -266,6 +294,7 @@ public class Player : PhysicsObject {
                 FreezeConstraints();
                 anim.SetBool("jump", transitionsList[2].init);
             }
+           // RotateAir();
         }
 
         //AIR STATE
@@ -276,6 +305,11 @@ public class Player : PhysicsObject {
                 FreezeConstraints();
                 UpdateTransition(transitionsList, "Jump", true);
             }
+
+            RotateAir();
+
+
+
         }
 
         //MANUAL STATE
@@ -300,9 +334,7 @@ public class Player : PhysicsObject {
             UpdateTransition(transitionsList, "Manual", true);
         }
 
-
         
-
         //CHECK KEY INPUT
         if (Input.GetKeyDown("up") && (onFloor || onGrind) && jump == false)
         {
