@@ -403,7 +403,6 @@
     <None Include="Assets\HarmonySDK\README_Unity.txt" />
     <None Include="Assets\HarmonySDK\Shaders\LitTransparentPremult.shader" />
     <None Include="Assets\HarmonySDK\Shaders\LitTransparentPremultCutout.shader" />
-    <None Include="Assets\HarmonySDK\Shaders\UI-Grayscale.shader" />
     <None Include="Assets\HarmonySDK\Shaders\UV Color Multiply.shader" />
     <None Include="Assets\HarmonySDK\Shaders\UnlitTransparentPremult.shader" />
     <None Include="Assets\HarmonySDK\Shaders\UnlitTransparentPremultCutout.shader" />
