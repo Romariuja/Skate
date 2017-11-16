@@ -13,28 +13,41 @@ public class LoopCheck : MonoBehaviour {
         if (collision.gameObject.tag == "Table")
         {
        //     yield return new WaitForFixedUpdate();
-            Debug.Log("Antes_Check" + check);
+           // Debug.Log("Antes_Check" + check);
             check=check+1;
-            Debug.Log("Despues_Check" + check);
+           // Debug.Log("Despues_Check" + check);
             //Debug.Break();
-            Debug.Log(Player.cam);
-            Debug.Log(Player.puntua);
-            if (check == 2)
+           // Debug.Log(Player.cam);
+           // Debug.Log(Player.puntua);
+            if (check == 2 || check == 6)
             {
                 //StartCoroutine(TargetLoop());
                 Debug.Log("SLOW MOTION");
-                Time.timeScale = 0.2F;
-                StartCoroutine(Player.CameraScript.ZoomCamera(0.5f));
+                ControladorCamara.xOffset = 0;
+                ControladorCamara.yOffset = 0;
+               // Player.CameraScript.onZoom = false;
                 StartCoroutine(Player.CameraScript.MoveCamera());
+               StartCoroutine(Player.CameraScript.ZoomCamera(0.5f));
+                Time.timeScale = 0.2F;
+               
+             
+                Player.EffectCam.enabled = true;
+                //StartCoroutine(Player.CameraScript.MoveCamera(collision.gameObject.GetComponent<Transform>().position.x, collision.gameObject.GetComponent<Transform>().position.y));
             }
-             else if (check == 4)
+             else if (check == 4 || check == 8)
             {
+                //Player.CameraScript.onZoom = false;
+                Player.EffectCam.enabled = false;
                 Time.timeScale = 1F;
                 // Debug.Log(puntua.Inc);
                 Player.combo++;
                 Player.puntua.IncrementarCombo(Player.combo, "LOOP", 1);
-                Player.EffectCam.enabled = true;
-  
+            
+                //ControladorCamara.xOffset = 3;
+                //ControladorCamara.yOffset = 6;
+                StartCoroutine(Player.CameraScript.MoveCamera());
+                StartCoroutine(Player.CameraScript.ZoomCamera(1));
+
             }
           //  yield return new WaitForFixedUpdate();
             //Without the "WaitForFixedUpdate() it increments twice check value entering only on one collider"

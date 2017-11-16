@@ -87,7 +87,6 @@ public class Player : PhysicsObject {
         transitionsList.Add(new transition("Jump", false));
         transitionsList.Add(new transition("Manual", false));
 
-        Debug.Log(transitionsList[2]);
         //Debug.Log("LA tabla es" + Table.name + ",y esta en el obbjeto padre " + Table.transform.parent.parent + "En la posicion " + Table.transform.localPosition );
     }
 

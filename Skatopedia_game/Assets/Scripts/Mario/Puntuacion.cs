@@ -46,7 +46,7 @@ public class Puntuacion : MonoBehaviour {
     
         combo = xcombo;
         puntuacion += combo * puntosCombo;
-        Debug.Log("INCREMENTA COMBO: Nombre"+ comboName+ " xcombo:" + xcombo + " puntos combo" + puntosCombo);
+     //   Debug.Log("INCREMENTA COMBO: Nombre"+ comboName+ " xcombo:" + xcombo + " puntos combo" + puntosCombo);
         if (combo == 0)
         { 
             InitialiseList();
