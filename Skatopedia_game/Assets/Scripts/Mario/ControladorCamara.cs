@@ -19,8 +19,8 @@ public class ControladorCamara : MonoBehaviour {
     public static float xOffset = 6;
     public bool onZoom=false;
     float tamCam;
+    float LerpTime = 0;
 
- 
 
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -36,32 +36,55 @@ public class ControladorCamara : MonoBehaviour {
     }
 
 
-    public IEnumerator MoveCamera()
+    public IEnumerator MoveCameraY()
     {
    
-        float LerpTime = 0;
-   
-        while (Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset)
-        { 
-            LerpTime = LerpTime +0.1f*Time.deltaTime;
+        float LerpTimey = 0;
+
+        while ((Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset))
+        {
+            LerpTimey = LerpTimey + 0.1f * Time.deltaTime;
             //Debug.Log("se sale de camara");
-           // transform.position =Vector3.Lerp(transform.position, new Vector3(transform.position.x, player.transform.position.y+yOffset, transform.position.z), LerpTime);
-            transform.position =Vector3.Lerp(transform.position, new Vector3(player.transform.position.x+xOffset, player.transform.position.y+yOffset, transform.position.z), LerpTime);
+            // transform.position =Vector3.Lerp(transform.position, new Vector3(transform.position.x, player.transform.position.y+yOffset, transform.position.z), LerpTime);
+            transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);
             yield return null;
-           // Debug.Log("Distancia ejey"+ Mathf.Abs(player.transform.position.y- transform.position.y-yOffset ));
+            // Debug.Log("Distancia ejey"+ Mathf.Abs(player.transform.position.y- transform.position.y-yOffset ));
+
         }
-         //Debug.Log("Reset Lerptime");
-         LerpTime = 0;
+
     }
 
-    public IEnumerator ZoomCamera(float Zoom)
+
+
+    public IEnumerator MoveCameraX()
+    {
+        float LerpTimex = 0;
+
+        while ((Mathf.Abs(player.transform.position.x - transform.position.x) > xOffset))
+        {
+      
+            LerpTimex = LerpTimex + 0.1f * Time.deltaTime;
+            //Debug.Log("se sale de camara");
+            // transform.position =Vector3.Lerp(transform.position, new Vector3(transform.position.x, player.transform.position.y+yOffset, transform.position.z), LerpTime);
+            transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimex);
+            yield return null;
+            // Debug.Log("Distancia ejey"+ Mathf.Abs(player.transform.position.y- transform.position.y-yOffset ));
+        }
+
+    }
+
+    public IEnumerator ZoomCamera(float Zoom, float X, float Y)
     {
         //Probelma que no para de hacer zoom si sigue a mucha velocidad
  
-        float LerpTime = 0;
+    
         //onZoom = true;
         while (LerpTime<1)
         {
+            Debug.Log("Lerp Time" + LerpTime*100 +"%");
+            xOffset = Mathf.Lerp(xOffset, X, LerpTime);
+            yOffset = Mathf.Lerp(yOffset, Y, LerpTime);
+            transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTime);
             LerpTime = LerpTime +Time.deltaTime;
             cam.rect = new Rect(0, 0, Mathf.Lerp(1,zoom,LerpTime), 1);
             //transform.localScale = new Vector2(Mathf.Lerp(1, zoom, LerpTime), 1);
@@ -69,9 +92,10 @@ public class ControladorCamara : MonoBehaviour {
             //Debug.Log("SIGUE EL ZOOM. LerpTime zoomCamera" + LerpTime * 100 + "%. Zoom " +zoom);
            yield return null;
         }
-    
-        LerpTime = 0;
-     //  onZoom = false;
+       LerpTime = 0;
+
+
+        //  onZoom = false;
     }
     void Start () {
         cam = Camera.main;
@@ -89,45 +113,51 @@ public class ControladorCamara : MonoBehaviour {
     }
     // Update is called once per frame
     void Update () {
+
         //Follow the player X position
-        Debug.Log("xOffset: "+ xOffset +" yOffset: " + yOffset);
-        
-        transform.position = new Vector3(player.transform.position.x+xOffset, transform.position.y, transform.position.z);
+        Debug.DrawLine(transform.position,player.transform.position,Color.green);
+        Debug.Log("Xoffset: " + xOffset+ " yoffset: " +yOffset);
+       transform.position = new Vector3(player.transform.position.x+xOffset, transform.position.y, transform.position.z);
       
 
         //Debug.Log("Las dimensiones iniciales del campo de apertura de la camara son: " + rect + " LA escala es: " + scale);
         //Follow Player Y position  out of the camera limits 
-        if (Mathf.Abs(player.transform.position.y - transform.position.y) >cameraMargin)
-        {
+       // if (Mathf.Abs(player.transform.position.y - transform.position.y) >cameraMargin)
+        //{
      
-          StartCoroutine(MoveCamera());     
-        }
+          StartCoroutine(MoveCameraY());
+     //   StartCoroutine(MoveCameraX());
+        //}
 
 
         //Expand camera view if velocity less than Maxvel
         // if (player.transform.GetComponent<Rigidbody2D>().velocity.x> MaxVelCam && (!onZoom))
         float currentVel = player.transform.GetComponent<Rigidbody2D>().velocity.magnitude;
-       // Debug.Log("Velocidad actual " + currentVel);
+        // Debug.Log("Velocidad actual " + currentVel);
+    
+        
+        /*
         if (currentVel>MaxVelCam && (!PC.gameOver) && !onZoom)
    
         {
           //  Debug.Log("Amplia el Zoom porque la velocidad " + currentVel + "es mayor que el umbral " + MaxVelCam);
             zoom = 1.3f;
-            StartCoroutine(ZoomCamera(zoom));
+            StartCoroutine(ZoomCamera(zoom,0,0));
             onZoom = !onZoom;
-            return;
-         
-            
+            return;    
         }
+
+
+
         //Problema porque al terminar el zoom vuelve a hacer siempre zoom si sigue a mucha velocidad
         else if (onZoom==true && currentVel <= PC.MaxVel) {
             //Debug.Log("Reduce el Zoom porque la velocidad " + currentVel + "es menor que el umbral " + PC.MaxVel);
             // LerpTime2 = 0;
             zoom = 1;
-            StartCoroutine(ZoomCamera(zoom));
+            StartCoroutine(ZoomCamera(zoom,0,0));
            //onZoom = false;
             onZoom = !onZoom;
-        }
+        }*/
     }
 }
 

@@ -23,11 +23,10 @@ public class LoopCheck : MonoBehaviour {
             {
                 //StartCoroutine(TargetLoop());
                 Debug.Log("SLOW MOTION");
-                ControladorCamara.xOffset = 0;
-                ControladorCamara.yOffset = 0;
+                
                // Player.CameraScript.onZoom = false;
-                StartCoroutine(Player.CameraScript.MoveCamera());
-               StartCoroutine(Player.CameraScript.ZoomCamera(0.5f));
+              //  StartCoroutine(Player.CameraScript.MoveCamera());
+               StartCoroutine(Player.CameraScript.ZoomCamera(0.5f,0,0));
                 Time.timeScale = 0.2F;
                
              
@@ -43,10 +42,9 @@ public class LoopCheck : MonoBehaviour {
                 Player.combo++;
                 Player.puntua.IncrementarCombo(Player.combo, "LOOP", 1);
             
-                //ControladorCamara.xOffset = 3;
-                //ControladorCamara.yOffset = 6;
-                StartCoroutine(Player.CameraScript.MoveCamera());
-                StartCoroutine(Player.CameraScript.ZoomCamera(1));
+              
+                StartCoroutine(Player.CameraScript.MoveCameraY());
+                StartCoroutine(Player.CameraScript.ZoomCamera(1,6,3));
 
             }
           //  yield return new WaitForFixedUpdate();
