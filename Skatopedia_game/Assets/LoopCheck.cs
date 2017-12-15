@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoopCheck : MonoBehaviour {
+public class LoopCheck : ControladorCamara
+{
     private int check=0;
     public CustomImageEffect Effect;
+   // private IEnumerator coroutine;
+    
 
-  
     void OnTriggerEnter2D(Collider2D collision)
     {
         //yield return new WaitForFixedUpdate();
@@ -22,14 +24,17 @@ public class LoopCheck : MonoBehaviour {
             if (check == 2 || check == 6)
             {
                 //StartCoroutine(TargetLoop());
-                Debug.Log("SLOW MOTION");
-                
-               // Player.CameraScript.onZoom = false;
-              //  StartCoroutine(Player.CameraScript.MoveCamera());
-               StartCoroutine(Player.CameraScript.ZoomCamera(0.5f,0,0));
-                Time.timeScale = 0.2F;
-               
-             
+                Debug.Log("SLOW MOTION START");
+
+                // Player.CameraScript.onZoom = false;
+                //  StartCoroutine(Player.CameraScript.MoveCamera());
+                Player.CameraScript.lastRoutineZoom = StartCoroutine(Player.CameraScript.ZoomCamera(0.5f,0,0));
+                //     StartCoroutine("coroutine");
+              
+
+                //lastRoutine = StartCoroutine(YourCoroutine());
+
+                Time.timeScale = 0.2F;                    
                 Player.EffectCam.enabled = true;
                 //StartCoroutine(Player.CameraScript.MoveCamera(collision.gameObject.GetComponent<Transform>().position.x, collision.gameObject.GetComponent<Transform>().position.y));
             }
@@ -40,11 +45,20 @@ public class LoopCheck : MonoBehaviour {
                 Time.timeScale = 1F;
                 // Debug.Log(puntua.Inc);
                 Player.combo++;
+
                 Player.puntua.IncrementarCombo(Player.combo, "LOOP", 1);
-            
-              
-                StartCoroutine(Player.CameraScript.MoveCameraY());
-                StartCoroutine(Player.CameraScript.ZoomCamera(1,6,3));
+
+                // StartCoroutine(Player.CameraScript.MoveCameraY());
+                StopCoroutine(Player.CameraScript.lastRoutineZoom);
+             
+                Debug.Log("SE DETIENE EL ZOOM");
+                Player.CameraScript.lastRoutineZoom = StartCoroutine(Player.CameraScript.ZoomCamera(1, 6, 3));
+                //   Debug.Break();
+                //  Debug.Log("Zoom lanzado por obstaculo Loop, Lerptime:" +Player.CameraScript.LerpTime);
+                //  Debug.Break();
+                //     StartCoroutine(Player.CameraScript.ZoomCamera(1,6,3));
+                // Debug.Log("Se ha lanzado zoom ,el  Lerptime debería reiniciarse:" + Player.CameraScript.LerpTime);
+                // Debug.Break();
 
             }
           //  yield return new WaitForFixedUpdate();
@@ -57,8 +71,9 @@ public class LoopCheck : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-      
-      check = 0;
+        
+    
+        check = 0;
         //Aqui aun no está defida Cam, puntua etc
   
      

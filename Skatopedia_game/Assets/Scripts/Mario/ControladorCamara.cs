@@ -9,97 +9,95 @@ public class ControladorCamara : MonoBehaviour {
     float width;
     Camera cam;
     float cameraMargin;
-    float MaxVelCam=15f;
+    float MaxVelCam = 15f;
     private Player PC;
     private Obstacle obstacle;
     private Rect rect;
     private Vector3 scale;
-    private float zoom=1;
-    public static float yOffset=3;
+    private float zoom = 1;
+    public static float yOffset = 3;
     public static float xOffset = 6;
-    public bool onZoom=false;
+    public bool onZoom = false;
     float tamCam;
-    float LerpTime = 0;
+    public float LerpTime = 0;
+    bool MoveY = false;
+   public  Coroutine lastRoutineZoom = null;
 
 
     void OnTriggerEnter2D(Collider2D collider)
     {
 
-        if ((collider.gameObject.tag=="Obstacle"))
+        if ((collider.gameObject.tag == "Obstacle"))
         {
-             // collider.gameObject.SetActive(true);
-             obstacle=collider.gameObject.transform.GetComponent<Obstacle>();
-             //Debug.Log("El Script es:" + obstacle);
-             //obstacle.enabled = true;
-             obstacle.animationCam = true;
+            // collider.gameObject.SetActive(true);
+            obstacle = collider.gameObject.transform.GetComponent<Obstacle>();
+            //Debug.Log("El Script es:" + obstacle);
+            //obstacle.enabled = true;
+            obstacle.animationCam = true;
         }
     }
 
 
     public IEnumerator MoveCameraY()
     {
-   
         float LerpTimey = 0;
+        MoveY = true;
+        //Debug.Log("MOVE CAMERA Y. LerpTimeY" + LerpTimey);
+
+        //Debug.Break();
 
         while ((Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset))
         {
-            LerpTimey = LerpTimey + 0.1f * Time.deltaTime;
-            //Debug.Log("se sale de camara");
+            LerpTimey = LerpTimey + Time.deltaTime;
+            //  Debug.Log("LerpTimey" + LerpTimey);
             // transform.position =Vector3.Lerp(transform.position, new Vector3(transform.position.x, player.transform.position.y+yOffset, transform.position.z), LerpTime);
             transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);
+
             yield return null;
             // Debug.Log("Distancia ejey"+ Mathf.Abs(player.transform.position.y- transform.position.y-yOffset ));
 
         }
+        MoveY = false;
+        // Debug.Log("MOVE CAMERA Y FINISH. LerpTimeY" + LerpTimey);
 
-    }
-
-
-
-    public IEnumerator MoveCameraX()
-    {
-        float LerpTimex = 0;
-
-        while ((Mathf.Abs(player.transform.position.x - transform.position.x) > xOffset))
-        {
-      
-            LerpTimex = LerpTimex + 0.1f * Time.deltaTime;
-            //Debug.Log("se sale de camara");
-            // transform.position =Vector3.Lerp(transform.position, new Vector3(transform.position.x, player.transform.position.y+yOffset, transform.position.z), LerpTime);
-            transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimex);
-            yield return null;
-            // Debug.Log("Distancia ejey"+ Mathf.Abs(player.transform.position.y- transform.position.y-yOffset ));
-        }
-
+        //Debug.Break();
     }
 
     public IEnumerator ZoomCamera(float Zoom, float X, float Y)
     {
-        //Probelma que no para de hacer zoom si sigue a mucha velocidad
- 
-    
+        //Problema que no para de hacer zoom si sigue a mucha velocidad
+        Debug.Log("ZOOM CAMERA START");
+        LerpTime = 0;
+        onZoom = true;
+        // Debug.Break();
+        yield return null;
         //onZoom = true;
-        while (LerpTime<1)
+        while (LerpTime < 1)
         {
-            Debug.Log("Lerp Time" + LerpTime*100 +"%");
+            // Debug.Log("Lerp Time" + LerpTime*100 +"%");
             xOffset = Mathf.Lerp(xOffset, X, LerpTime);
             yOffset = Mathf.Lerp(yOffset, Y, LerpTime);
-            transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTime);
-            LerpTime = LerpTime +Time.deltaTime;
-            cam.rect = new Rect(0, 0, Mathf.Lerp(1,zoom,LerpTime), 1);
+            // transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTime);
+            LerpTime = LerpTime + Time.deltaTime;
+            // cam.rect = new Rect(0, 0, Mathf.Lerp(1,zoom,LerpTime), 1);
             //transform.localScale = new Vector2(Mathf.Lerp(1, zoom, LerpTime), 1);
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, tamCam * Zoom, LerpTime);
-            //Debug.Log("SIGUE EL ZOOM. LerpTime zoomCamera" + LerpTime * 100 + "%. Zoom " +zoom);
-           yield return null;
+            Debug.Log("SIGUE EL ZOOM. LerpTime zoomCamera" + LerpTime * 100 + "%. Zoom " + zoom);
+            yield return null;
         }
-       LerpTime = 0;
-
+        onZoom = false;
+        Debug.Log("END ZOOM");
+        //Debug.Break();
 
         //  onZoom = false;
     }
+
+
+
     void Start () {
         cam = Camera.main;
         player = GameObject.FindGameObjectWithTag("Player");
+       // coroutineZoom = ZoomCamera(0.5f, 0, 0);
 
         PC = player.GetComponent<Player>();
         //PC = player.GetComponent<Player_Controller>();
@@ -116,16 +114,21 @@ public class ControladorCamara : MonoBehaviour {
 
         //Follow the player X position
         Debug.DrawLine(transform.position,player.transform.position,Color.green);
-        Debug.Log("Xoffset: " + xOffset+ " yoffset: " +yOffset);
-       transform.position = new Vector3(player.transform.position.x+xOffset, transform.position.y, transform.position.z);
-      
+     //   Debug.Log("Xoffset: " + xOffset+ " yoffset: " +yOffset);
+    
+            transform.position = new Vector3(player.transform.position.x + xOffset, transform.position.y, transform.position.z);
+       
+
 
         //Debug.Log("Las dimensiones iniciales del campo de apertura de la camara son: " + rect + " LA escala es: " + scale);
         //Follow Player Y position  out of the camera limits 
-       // if (Mathf.Abs(player.transform.position.y - transform.position.y) >cameraMargin)
+        // if (Mathf.Abs(player.transform.position.y - transform.position.y) >cameraMargin)
         //{
+        if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > 3))
+        {
+            StartCoroutine(MoveCameraY());
      
-          StartCoroutine(MoveCameraY());
+        }
      //   StartCoroutine(MoveCameraX());
         //}
 
@@ -136,7 +139,7 @@ public class ControladorCamara : MonoBehaviour {
         // Debug.Log("Velocidad actual " + currentVel);
     
         
-        /*
+        
         if (currentVel>MaxVelCam && (!PC.gameOver) && !onZoom)
    
         {
