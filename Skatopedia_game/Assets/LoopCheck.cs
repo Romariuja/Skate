@@ -25,16 +25,17 @@ public class LoopCheck : ControladorCamara
             {
                 //StartCoroutine(TargetLoop());
                 Debug.Log("SLOW MOTION START");
-
+                StopCoroutine(Player.CameraScript.lastRoutineZoom);
                 // Player.CameraScript.onZoom = false;
                 //  StartCoroutine(Player.CameraScript.MoveCamera());
+              
                 Player.CameraScript.lastRoutineZoom = StartCoroutine(Player.CameraScript.ZoomCamera(0.5f,0,0));
                 //     StartCoroutine("coroutine");
               
 
                 //lastRoutine = StartCoroutine(YourCoroutine());
 
-                Time.timeScale = 0.2F;                    
+                Time.timeScale = 0.1F;                    
                 Player.EffectCam.enabled = true;
                 //StartCoroutine(Player.CameraScript.MoveCamera(collision.gameObject.GetComponent<Transform>().position.x, collision.gameObject.GetComponent<Transform>().position.y));
             }
