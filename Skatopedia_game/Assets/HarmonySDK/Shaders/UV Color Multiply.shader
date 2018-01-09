@@ -43,10 +43,11 @@ Shader "Shaders 102/UV Color Multiply"
 
 			float4 frag (v2f i) : SV_Target
 			{
-				float4 col = tex2D(_MainTex, i.uv);
-				col *= float4(i.uv.x, i.uv.y, 0, 1);
-
-				return col;
+			
+			float4 color = tex2D(_MainTex, i.uv);
+				float lum = color.r * 0.3 + color.g * 0.59 + color.b * 0.11;
+				float4 grayscale = float4(lum, lum, lum, color.a);
+				return grayscale;
 			}
 			ENDCG
 		}

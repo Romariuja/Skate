@@ -22,6 +22,7 @@ public class PhysicsObject : MonoBehaviour {
     public bool onGrind = false;
     protected Rigidbody2D rb2d;
     public bool gameOver=false;
+    public bool levelOver = false;
 
   
     //OBJECT VARIABLES
@@ -130,8 +131,9 @@ public class PhysicsObject : MonoBehaviour {
        
         // Debug.DrawLine(hit.point,CM,Color.green);
         Debug.DrawRay(new Vector3(CM.x, CM.y, 0), -transform.up * layerDistanceDetect, Color.green);
-        if ((hit.collider!=null) &&  (onFloor||onGrind))
+        if ((hit.collider!=null) &&  (onFloor||onGrind) && (!levelOver))
          {
+            Debug.Log("SIGUE DANDO CAÑA" + !levelOver);
             Vector2 currentNormal = hit.normal;
              perpendicular = Vector3.Cross(new Vector3 (currentNormal.x, currentNormal.y,0), new Vector3(0,0,1)).normalized;
             Debug.DrawRay(new Vector3 (CM.x,CM.y,0), - transform.up * layerDistanceDetect, Color.green);

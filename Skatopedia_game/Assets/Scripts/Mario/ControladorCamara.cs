@@ -72,7 +72,7 @@ public class ControladorCamara : MonoBehaviour {
         LerpTime = 0;
         onZoom = true;
         // Debug.Break();
-       // yield return null;
+        // yield return null;
         //onZoom = true;
         while (LerpTime < 1)
         {
@@ -84,7 +84,7 @@ public class ControladorCamara : MonoBehaviour {
              cam.rect = new Rect(0, 0, Mathf.Lerp(1,zoom,LerpTime), 1);
             //transform.localScale = new Vector2(Mathf.Lerp(1, zoom, LerpTime), 1);
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, tamCam * Zoom, LerpTime);
-            Debug.Log("SIGUE EL ZOOM. LerpTime zoomCamera" + LerpTime * 100 + "%. Zoom " + zoom + " yOffset="+ yOffset);
+            //Debug.Log("SIGUE EL ZOOM. LerpTime zoomCamera" + LerpTime * 100 + "%. Zoom " + zoom + " yOffset="+ yOffset);
             yield return null;
         }
         onZoom = false;

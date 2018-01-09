@@ -23,7 +23,7 @@ public class Player : PhysicsObject {
     private Collider2D col;
     Collider2D[] SkaterColliders;
     Collider2D[] TableColliders;
-    private Obstacle obstacle;
+    //private Obstacle obstacle;
     //private Rigidbody2D rb2d;
     private PhysicsObject TableScript;
     public static ControladorCamara CameraScript;
@@ -186,11 +186,25 @@ public class Player : PhysicsObject {
             EstadoJuego.estadoJuego.Guardar();
         }
         //anim.StopPlayback();
+
         yield return new WaitForSeconds(3);
         camGameOver.gameObject.SetActive(true);
         cam.gameObject.SetActive(false);
         gameObject.SetActive(false);
     }
+
+    //SLOW DOWN COROUTINE
+    public IEnumerator slowDown()
+    {
+        while (BreakTime < 1)
+            { 
+        BreakTime = BreakTime + 0.1f * Time.deltaTime;
+            Debug.Log("BreakTime: " + BreakTime + " rb2d.velocity: "  +rb2d.velocity +"LevelOver" +levelOver);
+        rb2d.velocity = new Vector2(Mathf.Lerp(rb2d.velocity.x, 0, BreakTime), rb2d.velocity.y);
+            yield return null;
+        }
+    }
+
 
     //______________________________________________________________________________________________________________________________________________________________________________________
 
@@ -227,8 +241,10 @@ public class Player : PhysicsObject {
                 gameOver = false;
             }
             // BreakTime = BreakTime + Mathf.Pow(10f * Time.deltaTime, 1.2f);
-            BreakTime = BreakTime + 0.01f * Time.deltaTime;
-            rb2d.velocity = new Vector2(Mathf.Lerp(rb2d.velocity.x, 0, BreakTime), rb2d.velocity.y);
+
+            StartCoroutine(slowDown());
+         //   BreakTime = BreakTime + 0.01f * Time.deltaTime;
+           // rb2d.velocity = new Vector2(Mathf.Lerp(rb2d.velocity.x, 0, BreakTime), rb2d.velocity.y);
 
         }
         else
