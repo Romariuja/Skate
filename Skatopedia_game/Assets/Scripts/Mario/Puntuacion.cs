@@ -8,15 +8,18 @@ public class Puntuacion : MonoBehaviour {
 	
 	public static int puntuacion = 0;
     public static int combo=0;
+    private List<string> specialTrick = new List<string>();
+  //  public static int specialCont=0;
 	public TextMesh marcador;
     private List<string> TrickList = new List<string>();
     private List <string> TrickNames;
-	public TextMesh marcadorTiempo;
+	//public TextMesh marcadorTiempo;
     public TextMesh marcadorCombo;
-    public TextMesh trickName;
-    public TextMesh trickPoints;
-    public TextMesh TotalPoints;
+ //   public TextMesh trickName;ff
+   // public TextMesh trickPoints;
+   // public TextMesh TotalPoints;
     public TextMesh Tricks;
+    public TextMesh special;
     private int parcialPoints;
     public AudioClip Audio1;
 	public AudioClip Audio2;
@@ -29,8 +32,14 @@ public class Puntuacion : MonoBehaviour {
 	
 		ActualizarMarcador ();
         InitialiseList();
+        InitialiseSpecial();
     }
-   
+
+    void InitialiseSpecial()
+    {
+        specialTrick.Clear();
+    }
+
     void InitialiseList()
     {
         TrickList.Clear();
@@ -41,7 +50,21 @@ public class Puntuacion : MonoBehaviour {
 		ActualizarMarcador ();
 	}
 
-    public void IncrementarCombo(int xcombo, string comboName, int puntosCombo)
+
+    public void IncrementSpecial( string comboName)
+    {
+
+            InitialiseSpecial();
+        TrickList.Add(comboName);
+        //  Tricks.text = "";
+        ActualizaSpecialTrick();
+
+
+
+    }
+
+
+        public void IncrementarCombo(int xcombo, string comboName, int puntosCombo)
     {
     
         combo = xcombo;
@@ -58,6 +81,8 @@ public class Puntuacion : MonoBehaviour {
                 fading = true;
             }
         }
+
+
 
        else if (combo==1)
        {
@@ -123,6 +148,14 @@ public class Puntuacion : MonoBehaviour {
     {
        
         marcadorCombo.text = combo.ToString();   
+    }
+    public void ActualizaSpecialTrick()
+    {
+       // Debug.Log(specialTrick.ToString());
+      //  Debug.Break();
+        special.text = specialTrick.ToString();
+        //yield return new WaitForSeconds(3);
+        co = StartCoroutine(Desvanece(special, 0.5f));
     }
     
 

@@ -133,15 +133,13 @@ public class PhysicsObject : MonoBehaviour {
         Debug.DrawRay(new Vector3(CM.x, CM.y, 0), -transform.up * layerDistanceDetect, Color.green);
         if ((hit.collider!=null) &&  (onFloor||onGrind) && (!levelOver))
          {
-            Debug.Log("SIGUE DANDO CAÑA" + !levelOver);
             Vector2 currentNormal = hit.normal;
              perpendicular = Vector3.Cross(new Vector3 (currentNormal.x, currentNormal.y,0), new Vector3(0,0,1)).normalized;
             Debug.DrawRay(new Vector3 (CM.x,CM.y,0), - transform.up * layerDistanceDetect, Color.green);
              Debug.DrawLine(new Vector3(CM.x, CM.y, 0), new Vector3(CM.x, CM.y, 0) + perpendicular.normalized *PlayerScript.currentVel , Color.blue);
             PlayerScript.perpendicular = perpendicular;
              rb2d.velocity = perpendicular * PlayerScript.currentVel;
-        }
-     
+        }    
     }
 
     public void Allig2Floor(Vector3 perpendicular, GameObject Player)

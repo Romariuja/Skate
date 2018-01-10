@@ -67,7 +67,7 @@ public class ControladorCamara : MonoBehaviour {
     public IEnumerator ZoomCamera(float Zoom, float X, float Y)
     {
         //Problema que no para de hacer zoom si sigue a mucha velocidad
-        Debug.Log("ZOOM CAMERA START: Xoffset=" +X +". Yoffset=" +yOffset );
+      //  Debug.Log("ZOOM CAMERA START: Xoffset=" +X +". Yoffset=" +yOffset );
         //Debug.Break();
         LerpTime = 0;
         onZoom = true;
@@ -93,7 +93,7 @@ public class ControladorCamara : MonoBehaviour {
             zoomOut = true;
         }
         
-        Debug.Log("END ZOOM");
+        //Debug.Log("END ZOOM");
         //Debug.Break();
 
         //  onZoom = false;
@@ -153,7 +153,7 @@ public class ControladorCamara : MonoBehaviour {
    
         {
             // StopCoroutine(lastRoutineZoom);
-            Debug.Log("Amplia el Zoom porque la velocidad " + currentVel + "es mayor que el umbral " + MaxVelCam);
+            //Debug.Log("Amplia el Zoom porque la velocidad " + currentVel + "es mayor que el umbral " + MaxVelCam);
        //     Debug.Break();
             lastRoutineZoom=StartCoroutine(ZoomCamera(1.3f,6,5));
            // zoomOut = true;   
@@ -163,7 +163,7 @@ public class ControladorCamara : MonoBehaviour {
         
         //Problema porque al terminar el zoom vuelve a hacer siempre zoom si sigue a mucha velocidad
         else if (currentVel <= PC.MaxVel && (!PhysicsObject.gameOver) && !onZoom && zoomOut) {
-            Debug.Log("Reduce el Zoom porque la velocidad " + currentVel + "es menor que el umbral " + PC.MaxVel);
+          //  Debug.Log("Reduce el Zoom porque la velocidad " + currentVel + "es menor que el umbral " + PC.MaxVel);
           //  Debug.Break();
             // LerpTime2 = 0;
             //StopCoroutine(lastRoutineZoom);

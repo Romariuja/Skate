@@ -138,15 +138,17 @@ public class Player : PhysicsObject {
     //ROTATE FUNCTION-----------------------------------------------------------------------------------------------------
 
 
-    void RotateAir()
+   IEnumerator RotateAir()
     {
         if (Input.GetKey("right"))
         {
             transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -5 );
+            yield return null;
         }
         else if (Input.GetKey("left"))
         {
             transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +5 );
+            yield return null;
         }
         
     }
@@ -198,8 +200,8 @@ public class Player : PhysicsObject {
     {
         while (BreakTime < 1)
             { 
-        BreakTime = BreakTime + 0.1f * Time.deltaTime;
-            Debug.Log("BreakTime: " + BreakTime + " rb2d.velocity: "  +rb2d.velocity +"LevelOver" +levelOver);
+        BreakTime = BreakTime + 0.01f * Time.deltaTime;
+           // Debug.Log("BreakTime: " + BreakTime + " rb2d.velocity: "  +rb2d.velocity +"LevelOver" +levelOver);
         rb2d.velocity = new Vector2(Mathf.Lerp(rb2d.velocity.x, 0, BreakTime), rb2d.velocity.y);
             yield return null;
         }
@@ -321,7 +323,7 @@ public class Player : PhysicsObject {
                 UpdateTransition(transitionsList, "Jump", true);
             }
 
-            RotateAir();
+            StartCoroutine(RotateAir());
 
 
 
