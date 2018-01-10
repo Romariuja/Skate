@@ -12,7 +12,7 @@ public class cadillacObstacle : Obstacle
    void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log(collision.gameObject.tag);
-        if (collision.gameObject.tag == "stopPoint" || PC.gameOver==true)
+        if (collision.gameObject.tag == "stopPoint" || PhysicsObject.gameOver==true)
             animationCam = false;
        
     }
@@ -26,7 +26,7 @@ public class cadillacObstacle : Obstacle
     // Update is called once per frame
     void Update()
     {
-        if (animationCam && !PC.gameOver)
+        if (animationCam && !PhysicsObject.gameOver)
         {
             transform.GetComponent<Rigidbody2D>().velocity = new Vector2(currentVel, 0);
            // currentVel = currentVel - acel * Time.deltaTime;

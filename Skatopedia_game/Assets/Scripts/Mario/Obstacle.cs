@@ -21,10 +21,10 @@ public class Obstacle : MonoBehaviour {
     public IEnumerator VelMin()
     {
       
-        if (PC.currentVel< objectVel && !PC.gameOver)
+        if (PC.currentVel< objectVel && !PhysicsObject.gameOver)
         {
             yield return new WaitForSeconds(timeLimit);
-            PC.gameOver = true;
+            PhysicsObject.gameOver = true;
             Debug.Log("GAMEOVER MINVEL");
 
         }

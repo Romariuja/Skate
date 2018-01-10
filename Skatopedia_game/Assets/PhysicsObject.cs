@@ -21,8 +21,8 @@ public class PhysicsObject : MonoBehaviour {
     public bool onFloor;
     public bool onGrind = false;
     protected Rigidbody2D rb2d;
-    public bool gameOver=false;
-    public bool levelOver = false;
+    public static bool gameOver=false;
+    public static bool levelOver = false;
 
   
     //OBJECT VARIABLES

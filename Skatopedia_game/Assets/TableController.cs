@@ -38,7 +38,7 @@ public class TableController : MonoBehaviour {
 //Debug.Log("ESTA TOCANDO CON EL SUELO:EL COLLIDER ES" +collider.gameObject.tag +". EL Frame actaul es" +Time.frameCount);
         }
 
-        if (collider.gameObject.layer == LayerMask.NameToLayer("Grind") && !(PC.gameOver))
+        if (collider.gameObject.layer == LayerMask.NameToLayer("Grind") && !(PhysicsObject.gameOver))
         {
             PC.onGrind = true;
             //PC.onFloor = true;
