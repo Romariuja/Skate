@@ -142,28 +142,34 @@ public class PhysicsObject : MonoBehaviour {
             Debug.DrawLine(CM,hit.point, Color.blue);
             Debug.DrawLine( hit.point,hit.point+hit.normal*10f, Color.blue);
             perpendicular = Vector3.Cross(new Vector3 (currentNormal.x, currentNormal.y,0), new Vector3(0,0,1)).normalized;
-            float dif = Vector3.Angle(perpendicular, transform.up);
-            Debug.Log("perpendicular: " + perpendicular + " up vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
-            if (Mathf.Abs(dif-90)>55)
-                {
-                Debug.Log("ANGULO A ALINEAR DEMASIADO GRANDE-> GAMEOVER?");
-                gameOver = true;
-                //Debug.Break();
-            }
+           
             //   Debug.DrawRay(new Vector3 (CM.x,CM.y,0), - transform.up * layerDistanceDetect, Color.green);
             //  Debug.DrawLine(new Vector3(CM.x, CM.y, 0), new Vector3(CM.x, CM.y, 0) + perpendicular.normalized *PlayerScript.currentVel , Color.blue);
 
             PlayerScript.perpendicular = perpendicular;
              rb2d.velocity = perpendicular * PlayerScript.currentVel;
-        }    
+        }
+
+        else
+        {
+
+        }
     }
 
     public void Allig2Floor(Vector3 perpendicular, GameObject Player)
     {
         //   Player.transform.right = Vector3.Lerp(Player.transform.right, perpendicular, Time.deltaTime * 100);
-     
+        float dif = Vector3.Angle(perpendicular, transform.up);
+        Debug.Log("perpendicular: " + perpendicular + " up vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
+       
+        if (Mathf.Abs(dif - 90) > 55)
+        {
+            Debug.Log("ANGULO A ALINEAR DEMASIADO GRANDE-> GAMEOVER?");
+            gameOver = true;
         
-       // Debug.Break();
+        }
+
+        // Debug.Break();
         Player.transform.right =perpendicular;
     }
 

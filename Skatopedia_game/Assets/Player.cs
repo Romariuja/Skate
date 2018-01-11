@@ -226,21 +226,26 @@ public class Player : PhysicsObject {
         anim.SetBool("gameOver", gameOver);
 
         //STATE MACHINE-------------------------------------------------------------------------------------------------------------------------------------
-       // if (rb2d.velocity.magnitude < MaxVel / 3 && (Time.timeSinceLevelLoad>4))
-        //{
-          //  gameOver = true;
-        //}
+
+       // Debug.Log("CurrentVel: " + rb2d.velocity.magnitude);
+        if (rb2d.velocity.magnitude < 0.01f && (Time.timeSinceLevelLoad>4) && !gameOver)
+        {
+            Debug.Log("GAMEOVER POR FALTA DE VELOCIDAD " +gameOver );
+            gameOver = true;
+            Debug.Break();
+        }
         //GAMEOVER STATE
-         if (anim.GetCurrentAnimatorStateInfo(0).IsName("CrippledM"))
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("CrippledM"))
         {
         
             if (gameOver)
             {
-                Debug.Log("GAMEOVER STATE: TIEMPO=" + Time.realtimeSinceStartup);
+              //  Debug.Log("GAMEOVER STATE: TIEMPO=" + Time.realtimeSinceStartup);
                 combo = 0;
                 puntua.IncrementarCombo(combo, "Loquesea", 0);
                 StartCoroutine(End());
-                gameOver = false;
+                // gameOver = false;
+                gameObject.GetComponent<Player>().enabled = false;
             }
             // BreakTime = BreakTime + Mathf.Pow(10f * Time.deltaTime, 1.2f);
 
@@ -249,6 +254,12 @@ public class Player : PhysicsObject {
            // rb2d.velocity = new Vector2(Mathf.Lerp(rb2d.velocity.x, 0, BreakTime), rb2d.velocity.y);
 
         }
+        else if (currentVel<1f)
+        {
+            gameOver = true;
+        }
+
+
         else
 
         //IDLE STATE
