@@ -11,7 +11,7 @@ public class cadillacObstacle : Obstacle
 
    void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.gameObject.tag);
+      //  Debug.Log(collision.gameObject.tag);
         if (collision.gameObject.tag == "stopPoint" || PhysicsObject.gameOver==true)
             animationCam = false;
        

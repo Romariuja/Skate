@@ -16,6 +16,7 @@ public class PhysicsObject : MonoBehaviour {
     protected Vector2 TableCM=new Vector2(0f, 0.065f);
     public Vector3 perpendicular;
     protected float BreakTime;
+    protected float rotationVel=1;
 
     //STATE VARIABLES
     public bool onFloor;
@@ -124,19 +125,34 @@ public class PhysicsObject : MonoBehaviour {
 
     }
 
+
+
+
+
    public  void MovementAlongFloor()
     {
          Vector2 CM = new Vector2(transform.position.x- TableCM.x, transform.position.y - TableCM.y);
          RaycastHit2D hit = Physics2D.Raycast(new Vector3 (CM.x,CM.y,0), -transform.up, layerDistanceDetect, layerFilter, Mathf.Infinity);
        
-        // Debug.DrawLine(hit.point,CM,Color.green);
-        Debug.DrawRay(new Vector3(CM.x, CM.y, 0), -transform.up * layerDistanceDetect, Color.green);
-        if ((hit.collider!=null) &&  (onFloor||onGrind) && (!levelOver))
+  
+     //   Debug.DrawRay(new Vector3(CM.x, CM.y, 0), -transform.up * layerDistanceDetect, Color.green);
+        if ((hit.collider!=null) &&  (onFloor||onGrind) && (!levelOver && !gameOver))
          {
             Vector2 currentNormal = hit.normal;
-             perpendicular = Vector3.Cross(new Vector3 (currentNormal.x, currentNormal.y,0), new Vector3(0,0,1)).normalized;
-            Debug.DrawRay(new Vector3 (CM.x,CM.y,0), - transform.up * layerDistanceDetect, Color.green);
-             Debug.DrawLine(new Vector3(CM.x, CM.y, 0), new Vector3(CM.x, CM.y, 0) + perpendicular.normalized *PlayerScript.currentVel , Color.blue);
+            Debug.DrawLine(CM,hit.point, Color.blue);
+            Debug.DrawLine( hit.point,hit.point+hit.normal*10f, Color.blue);
+            perpendicular = Vector3.Cross(new Vector3 (currentNormal.x, currentNormal.y,0), new Vector3(0,0,1)).normalized;
+            float dif = Vector3.Angle(perpendicular, transform.up);
+            Debug.Log("perpendicular: " + perpendicular + " up vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
+            if (Mathf.Abs(dif-90)>55)
+                {
+                Debug.Log("ANGULO A ALINEAR DEMASIADO GRANDE-> GAMEOVER?");
+                gameOver = true;
+                //Debug.Break();
+            }
+            //   Debug.DrawRay(new Vector3 (CM.x,CM.y,0), - transform.up * layerDistanceDetect, Color.green);
+            //  Debug.DrawLine(new Vector3(CM.x, CM.y, 0), new Vector3(CM.x, CM.y, 0) + perpendicular.normalized *PlayerScript.currentVel , Color.blue);
+
             PlayerScript.perpendicular = perpendicular;
              rb2d.velocity = perpendicular * PlayerScript.currentVel;
         }    
@@ -144,7 +160,10 @@ public class PhysicsObject : MonoBehaviour {
 
     public void Allig2Floor(Vector3 perpendicular, GameObject Player)
     {
-      //   Player.transform.right = Vector3.Lerp(Player.transform.right, perpendicular, Time.deltaTime * 100);
+        //   Player.transform.right = Vector3.Lerp(Player.transform.right, perpendicular, Time.deltaTime * 100);
+     
+        
+       // Debug.Break();
         Player.transform.right =perpendicular;
     }
 

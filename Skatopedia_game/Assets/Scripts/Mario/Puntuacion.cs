@@ -8,10 +8,12 @@ public class Puntuacion : MonoBehaviour {
 	
 	public static int puntuacion = 0;
     public static int combo=0;
-    private List<string> specialTrick = new List<string>();
+   // public List<string> specialTrick = new List<string>();
   //  public static int specialCont=0;
 	public TextMesh marcador;
     private List<string> TrickList = new List<string>();
+    private List<specialList> specialTrick = new List<specialList>();
+
     private List <string> TrickNames;
 	//public TextMesh marcadorTiempo;
     public TextMesh marcadorCombo;
@@ -27,8 +29,22 @@ public class Puntuacion : MonoBehaviour {
     private Coroutine co;
     private bool fading=false;
 
-	// Use this for initialization
-	void Start () {
+    protected class specialList
+    {
+        public string name;
+        public int points;
+       public specialList(string newName, int newPoints)
+        {
+           name = newName;
+            points = newPoints;
+        }
+    }
+
+
+
+
+    // Use this for initialization
+    void Start () {
 	
 		ActualizarMarcador ();
         InitialiseList();
@@ -54,8 +70,10 @@ public class Puntuacion : MonoBehaviour {
     public void IncrementSpecial( string comboName)
     {
 
-            InitialiseSpecial();
-        TrickList.Add(comboName);
+            //InitialiseSpecial();
+        specialTrick.Add(new specialList(comboName,1000));
+       // Debug.Log(specialTrick[0]);
+        //Debug.Break();
         //  Tricks.text = "";
         ActualizaSpecialTrick();
 
@@ -151,9 +169,9 @@ public class Puntuacion : MonoBehaviour {
     }
     public void ActualizaSpecialTrick()
     {
-       // Debug.Log(specialTrick.ToString());
+    //  Debug.Log(specialTrick.ToString());
       //  Debug.Break();
-        special.text = specialTrick.ToString();
+        special.text = specialTrick[specialTrick.Count-1].name;
         //yield return new WaitForSeconds(3);
         co = StartCoroutine(Desvanece(special, 0.5f));
     }

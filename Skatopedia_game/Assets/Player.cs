@@ -142,12 +142,12 @@ public class Player : PhysicsObject {
     {
         if (Input.GetKey("right"))
         {
-            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -5 );
+            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -rotationVel );
             yield return null;
         }
         else if (Input.GetKey("left"))
         {
-            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +5 );
+            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +rotationVel);
             yield return null;
         }
         
@@ -180,7 +180,7 @@ public class Player : PhysicsObject {
         TableCrippled.GetComponent<Rigidbody2D>().simulated = true;
         TableCrippled.GetComponent<Rigidbody2D>().velocity = new Vector2(maxVel, 2 * maxVel / 3);
         TableCrippled.GetComponent<Rigidbody2D>().AddTorque(1, ForceMode2D.Impulse);
-        Debug.Log("GAMEOVER RUTINE: TIEMPO=" + Time.realtimeSinceStartup);
+        //Debug.Log("GAMEOVER RUTINE: TIEMPO=" + Time.realtimeSinceStartup);
         if (Puntuacion.puntuacion > EstadoJuego.estadoJuego.puntuacionMaxima)
         {
             EstadoJuego.estadoJuego.puntuacionMaxima = Puntuacion.puntuacion;
