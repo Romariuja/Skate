@@ -14,14 +14,13 @@ public class ControladorCamara : MonoBehaviour {
     private Obstacle obstacle;
     private Rect rect;
     private Vector3 scale;
-    private float zoom = 1;
+    public static float zoom = 1;
     public static float yOffset = 3;
     public static float xOffset = 6;
     public bool onZoom = false;
     float tamCam;
     public float LerpTime = 0;
     bool MoveY = false;
-    public bool zoomOut=true;
    public  Coroutine lastRoutineZoom = null;
 
 
@@ -67,8 +66,8 @@ public class ControladorCamara : MonoBehaviour {
     public IEnumerator ZoomCamera(float Zoom, float X, float Y)
     {
         //Problema que no para de hacer zoom si sigue a mucha velocidad
-      //  Debug.Log("ZOOM CAMERA START: Xoffset=" +X +". Yoffset=" +yOffset );
-        //Debug.Break();
+   //    Debug.Log("ZOOM CAMERA START: Xoffset=" +X +". Yoffset=" +Y );
+     //   Debug.Break();
         LerpTime = 0;
         onZoom = true;
         // Debug.Break();
@@ -88,10 +87,7 @@ public class ControladorCamara : MonoBehaviour {
             yield return null;
         }
         onZoom = false;
-        if (Zoom == 1)
-        {
-            zoomOut = true;
-        }
+
         
         //Debug.Log("END ZOOM");
         //Debug.Break();
@@ -114,7 +110,7 @@ public class ControladorCamara : MonoBehaviour {
         rect = cam.rect;
         scale = transform.localScale;
         tamCam = cam.orthographicSize;
-        lastRoutineZoom = StartCoroutine(ZoomCamera(1, 0, 0));
+        lastRoutineZoom = StartCoroutine(ZoomCamera(1, xOffset, yOffset));
         //   Debug.Log("Las dimensiones iniciales del campo de apertura de la camara son: " + rect + " LA escala es: " +scale);
     }
     // Update is called once per frame
@@ -122,7 +118,7 @@ public class ControladorCamara : MonoBehaviour {
 
         //Follow the player X position
         Debug.DrawLine(transform.position,player.transform.position,Color.green);
-        //   Debug.Log("Xoffset: " + xOffset+ " yoffset: " +yOffset);
+      //  Debug.Log("Xoffset: " + xOffset+ " yoffset: " +yOffset);
     
             transform.position = new Vector3(player.transform.position.x + xOffset, transform.position.y, transform.position.z);
        
@@ -132,7 +128,7 @@ public class ControladorCamara : MonoBehaviour {
         //Follow Player Y position  out of the camera limits 
         // if (Mathf.Abs(player.transform.position.y - transform.position.y) >cameraMargin)
         //{
-        if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > 4))
+        if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > height/4))
         {
             StartCoroutine(MoveCameraY());
      
@@ -149,26 +145,29 @@ public class ControladorCamara : MonoBehaviour {
     
         
         
-        if (currentVel>MaxVelCam && (!PhysicsObject.gameOver) && !onZoom && zoomOut)
+        if (currentVel>MaxVelCam && (!PhysicsObject.gameOver) && !onZoom && zoom!=1.3f)
    
         {
             // StopCoroutine(lastRoutineZoom);
-            //Debug.Log("Amplia el Zoom porque la velocidad " + currentVel + "es mayor que el umbral " + MaxVelCam);
-       //     Debug.Break();
-            lastRoutineZoom=StartCoroutine(ZoomCamera(1.3f,6,5));
+           // Debug.Log("Amplia el Zoom porque la velocidad " + currentVel + "es mayor que el umbral " + MaxVelCam);
+         //   Debug.Break();
+            zoom = 1.3f;
+            lastRoutineZoom=StartCoroutine(ZoomCamera(zoom,6,5));
            // zoomOut = true;   
         }
 
 
         
         //Problema porque al terminar el zoom vuelve a hacer siempre zoom si sigue a mucha velocidad
-        else if (currentVel <= PC.MaxVel && (!PhysicsObject.gameOver) && !onZoom && zoomOut) {
-          //  Debug.Log("Reduce el Zoom porque la velocidad " + currentVel + "es menor que el umbral " + PC.MaxVel);
-          //  Debug.Break();
+        //else if (currentVel <= PC.MaxVel && (!PhysicsObject.gameOver) && !onZoom && zoomOut)  {
+            else if (currentVel <= PC.MaxVel && (!PhysicsObject.gameOver) && !onZoom && zoom!=1)
+            {
+                Debug.Log("Reduce el Zoom porque la velocidad " + currentVel + "es menor que el umbral " + PC.MaxVel);
+          //Debug.Break();
             // LerpTime2 = 0;
             //StopCoroutine(lastRoutineZoom);
-
-            lastRoutineZoom = StartCoroutine(ZoomCamera(1,6,0));
+            zoom = 1;
+            lastRoutineZoom = StartCoroutine(ZoomCamera(zoom,xOffset,yOffset));
            //onZoom = false;
             onZoom = true;
         }

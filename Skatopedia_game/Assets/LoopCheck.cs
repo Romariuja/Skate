@@ -28,8 +28,9 @@ public class LoopCheck : ControladorCamara
                 StopCoroutine(Player.CameraScript.lastRoutineZoom);
                 // Player.CameraScript.onZoom = false;
                 //  StartCoroutine(Player.CameraScript.MoveCamera());
-              
-                Player.CameraScript.lastRoutineZoom = StartCoroutine(Player.CameraScript.ZoomCamera(0.5f,0,0));
+
+                zoom = 0.5f;
+                Player.CameraScript.lastRoutineZoom = StartCoroutine(Player.CameraScript.ZoomCamera(zoom,0,0));
                 //     StartCoroutine("coroutine");
               
 
@@ -57,9 +58,10 @@ public class LoopCheck : ControladorCamara
                 
                 // StartCoroutine(Player.CameraScript.MoveCameraY());
                 StopCoroutine(Player.CameraScript.lastRoutineZoom);
-             
-               // Debug.Log("SE DETIENE EL ZOOM");
-                Player.CameraScript.lastRoutineZoom = StartCoroutine(Player.CameraScript.ZoomCamera(1, 6, 3));
+
+                // Debug.Log("SE DETIENE EL ZOOM");
+                zoom = 1;
+                Player.CameraScript.lastRoutineZoom = StartCoroutine(Player.CameraScript.ZoomCamera(zoom, 6, 3));
                 //   Debug.Break();
                 //  Debug.Log("Zoom lanzado por obstaculo Loop, Lerptime:" +Player.CameraScript.LerpTime);
                 //  Debug.Break();

@@ -16,7 +16,7 @@ public class PhysicsObject : MonoBehaviour {
     protected Vector2 TableCM=new Vector2(0f, 0.065f);
     public Vector3 perpendicular;
     protected float BreakTime;
-    protected float rotationVel=1;
+    protected float rotationVel=4;
 
     //STATE VARIABLES
     public bool onFloor;
@@ -160,17 +160,21 @@ public class PhysicsObject : MonoBehaviour {
     {
         //   Player.transform.right = Vector3.Lerp(Player.transform.right, perpendicular, Time.deltaTime * 100);
         float dif = Vector3.Angle(perpendicular, transform.up);
-        Debug.Log("perpendicular: " + perpendicular + " up vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
-       
-        if (Mathf.Abs(dif - 90) > 55)
+      //  Debug.Log("perpendicular: " + perpendicular + " up vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
+
+        //ALLIGN ANGLE CONDITION
+        
+        if (Mathf.Abs(dif - 90) > 50)
         {
+
             Debug.Log("ANGULO A ALINEAR DEMASIADO GRANDE-> GAMEOVER?");
+          //  Debug.Break();
             gameOver = true;
         
         }
-
+        else { Player.transform.right = perpendicular; }
         // Debug.Break();
-        Player.transform.right =perpendicular;
+       
     }
 
 

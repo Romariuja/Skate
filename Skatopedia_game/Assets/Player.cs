@@ -65,7 +65,7 @@ public class Player : PhysicsObject {
         //Table = GameObject.FindGameObjectWithTag("Table");
         //Debug.Log("Table es: " + Table.transform.parent.parent.name);
         TableScript = GetComponent<PhysicsObject>();
-        Debug.Log(TableScript.gameObject);
+      //  Debug.Log(TableScript.gameObject);
         //TableCrippled = GameObject.FindGameObjectWithTag("TableCrippled");
         //Skater = GameObject.FindGameObjectWithTag("Skater");
         //Debug.Log("Skater es: " + Skater.transform.parent.parent.name);
@@ -140,14 +140,32 @@ public class Player : PhysicsObject {
 
    IEnumerator RotateAir()
     {
+        float rotationAir = 0;
         if (Input.GetKey("right"))
         {
             transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -rotationVel );
+            rotationAir = rotationAir - rotationVel;
+            Debug.Log("RotationAir: "+rotationAir);
+            if (rotationAir> 180)         
+            {
+               puntua.IncrementarCombo(Puntuacion.combo, "MORTAL BASTARD 360º", 25000);
+               puntua.IncrementSpecial("MORTAL BASTARD 360º");
+                rotationAir = 0;
+          
+            }
+
             yield return null;
         }
         else if (Input.GetKey("left"))
         {
             transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +rotationVel);
+            rotationAir = rotationAir - rotationVel;
+            if (rotationAir < -180)
+            {
+                puntua.IncrementarCombo(Puntuacion.combo, "MORTAL BASTARD 360º", 25000);
+                puntua.IncrementSpecial("MORTAL BASTARD 360º");
+                rotationAir = 0;
+            }
             yield return null;
         }
         
@@ -207,6 +225,19 @@ public class Player : PhysicsObject {
         }
     }
 
+    //VELOCITY CHECK COROUTINE
+    public IEnumerator VelocityCheck()
+    {
+        yield return new WaitForEndOfFrame();
+        if (rb2d.velocity.magnitude< 0.01f && (Time.timeSinceLevelLoad > 1) && !gameOver)
+        {
+            
+            gameOver = true;
+            Debug.Log("GAMEOVER POR FALTA DE VELOCIDAD ( " + rb2d.velocity.magnitude + ">0.01) ->" + gameOver);
+
+            // Debug.Break();
+        }
+    }
 
     //______________________________________________________________________________________________________________________________________________________________________________________
 
@@ -227,13 +258,8 @@ public class Player : PhysicsObject {
 
         //STATE MACHINE-------------------------------------------------------------------------------------------------------------------------------------
 
-       // Debug.Log("CurrentVel: " + rb2d.velocity.magnitude);
-        if (rb2d.velocity.magnitude < 0.01f && (Time.timeSinceLevelLoad>4) && !gameOver)
-        {
-            Debug.Log("GAMEOVER POR FALTA DE VELOCIDAD " +gameOver );
-            gameOver = true;
-            Debug.Break();
-        }
+    
+
         //GAMEOVER STATE
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("CrippledM"))
         {
@@ -254,11 +280,7 @@ public class Player : PhysicsObject {
            // rb2d.velocity = new Vector2(Mathf.Lerp(rb2d.velocity.x, 0, BreakTime), rb2d.velocity.y);
 
         }
-        else if (currentVel<1f)
-        {
-            gameOver = true;
-        }
-
+    
 
         else
 
@@ -275,6 +297,7 @@ public class Player : PhysicsObject {
                 puntua.IncrementarCombo(combo, "Loquesea", 0);
                 UnFreezeConstraints(originalConstraints);
                 UpdateTransition(transitionsList, "Idle", true);
+                StartCoroutine(VelocityCheck());
 
             }
             currentVel = Mathf.Max(currentVel - acel, MaxVel);
@@ -346,6 +369,7 @@ public class Player : PhysicsObject {
             if (!transitionsList[3].init)
             {              
                 UnFreezeConstraints(originalConstraints);
+                Allig2Floor(perpendicular, gameObject);
                 // currentVel = Mathf.Max(currentVel - acel, MaxVel);
                 UpdateTransition(transitionsList, "Manual", true);
             }
@@ -362,7 +386,11 @@ public class Player : PhysicsObject {
             UpdateTransition(transitionsList, "Manual", true);
         }
 
+
+        // Debug.Log("CurrentVel: " + rb2d.velocity.magnitude);
         
+      
+
         //CHECK KEY INPUT
         if (Input.GetKeyDown("up") && (onFloor || onGrind) && jump == false)
         {
