@@ -8,6 +8,7 @@ public class Player : PhysicsObject {
     public bool Flex = false;
     protected List<transition> transitionsList;
     public float currentVel;
+    float rotationAir = 0;
 
     //INPUT KEY VARIABLES
     int KeyUp = Animator.StringToHash("KeyUp");
@@ -137,36 +138,43 @@ public class Player : PhysicsObject {
     }
     //ROTATE FUNCTION-----------------------------------------------------------------------------------------------------
 
-
-   IEnumerator RotateAir()
+    //IEnumerator RotateAir()
+    private void RotateAir()
     {
-        float rotationAir = 0;
+      //  yield return null;
+        //Debug.Log("RotaionAir" +rotationAir);
         if (Input.GetKey("right"))
         {
+     //       yield return null;
             transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -rotationVel );
             rotationAir = rotationAir - rotationVel;
             Debug.Log("RotationAir: "+rotationAir);
-            if (rotationAir> 180)         
+        
+            if (rotationAir< -180)         
             {
-               puntua.IncrementarCombo(Puntuacion.combo, "MORTAL BASTARD 360º", 25000);
-               puntua.IncrementSpecial("MORTAL BASTARD 360º");
-                rotationAir = 0;
-          
-            }
-
-            yield return null;
+                puntua.IncrementarCombo(Puntuacion.combo, "MORTAL BASTARD 360º", 25000);
+               puntua.IncrementSpecial("MORTAL BASTARD 360º",transform.position.x, transform.position.y);
+               rotationAir = 0;         
+            }       
         }
         else if (Input.GetKey("left"))
         {
+      //      yield return null;
             transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +rotationVel);
-            rotationAir = rotationAir - rotationVel;
-            if (rotationAir < -180)
+            rotationAir = rotationAir + rotationVel;
+            Debug.Log("RotationAir: " + rotationAir);
+            if (rotationAir > 180)
             {
                 puntua.IncrementarCombo(Puntuacion.combo, "MORTAL BASTARD 360º", 25000);
-                puntua.IncrementSpecial("MORTAL BASTARD 360º");
+                puntua.IncrementSpecial("MORTAL BASTARD 360º", transform.position.x, transform.position.y);
                 rotationAir = 0;
             }
-            yield return null;
+           
+        }
+        else
+        {
+    //        yield return null;
+            rotationAir = 0;
         }
         
     }
@@ -357,8 +365,8 @@ public class Player : PhysicsObject {
                 UpdateTransition(transitionsList, "Jump", true);
             }
 
-            StartCoroutine(RotateAir());
-
+            //            StartCoroutine(RotateAir());
+            RotateAir();
 
 
         }

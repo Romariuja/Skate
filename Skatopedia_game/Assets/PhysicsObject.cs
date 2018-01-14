@@ -14,7 +14,7 @@ public class PhysicsObject : MonoBehaviour {
     protected float FlexVel = 18f;
     //protected Vector3 perpendicular;
     protected Vector2 TableCM=new Vector2(0f, 0.065f);
-    public Vector3 perpendicular;
+    public Vector3 perpendicular=new Vector3(1,0,0);
     protected float BreakTime;
     protected float rotationVel=4;
 
@@ -150,21 +150,32 @@ public class PhysicsObject : MonoBehaviour {
              rb2d.velocity = perpendicular * PlayerScript.currentVel;
         }
 
-        else
-        {
+    }
 
-        }
+
+    //This returns the angle in radians
+    public static float AngleInRad(Vector3 vec1, Vector3 vec2)
+    {
+        return Mathf.Atan2(vec2.y - vec1.y, vec2.x - vec1.x);
+    }
+
+    //This returns the angle in degrees
+    public static float AngleInDeg(Vector3 vec1, Vector3 vec2)
+    {
+        return AngleInRad(vec1, vec2) * 180 / Mathf.PI;
     }
 
     public void Allig2Floor(Vector3 perpendicular, GameObject Player)
     {
         //   Player.transform.right = Vector3.Lerp(Player.transform.right, perpendicular, Time.deltaTime * 100);
-        float dif = Vector3.Angle(perpendicular, transform.up);
-      //  Debug.Log("perpendicular: " + perpendicular + " up vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
+        float dif = Vector3.Angle(transform.right, perpendicular);
+       float dif2 = AngleInDeg(perpendicular, transform.right);
+        Debug.Log("perpendicular: " + perpendicular + " right vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
+        Debug.Log("perpendicular: " + perpendicular + " right vector player: " + Player.transform.right + " .Diferencia Angular2: " + dif);
 
         //ALLIGN ANGLE CONDITION
-        
-        if (Mathf.Abs(dif - 90) > 50)
+
+        if (Mathf.Abs(dif) > 50)
         {
 
             Debug.Log("ANGULO A ALINEAR DEMASIADO GRANDE-> GAMEOVER?");

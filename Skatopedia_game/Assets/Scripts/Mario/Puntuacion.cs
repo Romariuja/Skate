@@ -17,7 +17,7 @@ public class Puntuacion : MonoBehaviour {
     private List <string> TrickNames;
 	//public TextMesh marcadorTiempo;
     public TextMesh marcadorCombo;
- //   public TextMesh trickName;ff
+   //public TextMesh trickName;ff
    // public TextMesh trickPoints;
    // public TextMesh TotalPoints;
     public TextMesh Tricks;
@@ -67,7 +67,7 @@ public class Puntuacion : MonoBehaviour {
 	}
 
 
-    public void IncrementSpecial( string comboName)
+    public void IncrementSpecial(string comboName, float X, float Y)
     {
 
             //InitialiseSpecial();
@@ -75,7 +75,7 @@ public class Puntuacion : MonoBehaviour {
        // Debug.Log(specialTrick[0]);
         //Debug.Break();
         //  Tricks.text = "";
-        ActualizaSpecialTrick();
+        ActualizaSpecialTrick(X,Y);
 
 
 
@@ -167,10 +167,12 @@ public class Puntuacion : MonoBehaviour {
        
         marcadorCombo.text = combo.ToString();   
     }
-    public void ActualizaSpecialTrick()
+    public void ActualizaSpecialTrick(float X, float Y)
     {
-    //  Debug.Log(specialTrick.ToString());
-      //  Debug.Break();
+        //  Debug.Log(specialTrick.ToString());
+        //  Debug.Break();
+        special.transform.position = new Vector2(X,Y);
+  
         special.text = specialTrick[specialTrick.Count-1].name;
         //yield return new WaitForSeconds(3);
         co = StartCoroutine(Desvanece(special, 0.5f));

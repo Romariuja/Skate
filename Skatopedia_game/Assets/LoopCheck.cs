@@ -6,6 +6,7 @@ public class LoopCheck : ControladorCamara
 {
     private int check=0;
     public CustomImageEffect Effect;
+   
    // private IEnumerator coroutine;
     
 
@@ -50,11 +51,13 @@ public class LoopCheck : ControladorCamara
 
 
                 Player.puntua.IncrementarCombo(Player.combo, "LOOP", 5000);
-
-                Player.puntua.IncrementSpecial("LOOP");
+                Debug.Log("X " + Player.puntua.special.transform.position.x + "Y " + Player.puntua.special.transform.position.y);
+                Debug.Log("X LOCAL" + Player.puntua.special.transform.localPosition.x + "Y LOCAL" + Player.puntua.special.transform.position.y);
+                Debug.Break();
+                Player.puntua.IncrementSpecial("LOOP", transform.position.x, transform.position.y);
 
               //  Puntuacion.specialTrick[1] = "lOOP!!!";
-                Player.puntua.ActualizaSpecialTrick();
+                Player.puntua.ActualizaSpecialTrick(0,0);
                 
                 // StartCoroutine(Player.CameraScript.MoveCameraY());
                 StopCoroutine(Player.CameraScript.lastRoutineZoom);
