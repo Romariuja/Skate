@@ -84,11 +84,11 @@ public class Puntuacion : MonoBehaviour {
     }
 
 
-        public void IncrementarCombo(int xcombo, string comboName, int puntosCombo)
+        public void IncrementarCombo(int xcombo, string comboName, float puntosCombo)
     {
     
         combo = xcombo;
-        puntuacion += combo * puntosCombo;
+        puntuacion += combo * (int) puntosCombo;
      //   Debug.Log("INCREMENTA COMBO: Nombre"+ comboName+ " xcombo:" + xcombo + " puntos combo" + puntosCombo);
         if (combo == 0)
         { 
@@ -110,7 +110,7 @@ public class Puntuacion : MonoBehaviour {
             fading = false;
             Tricks.text = "";
           //  Debug.Log(puntosCombo);
-            TrickList.Add(combo + "x" + "  " + comboName + "  " + puntosCombo + " =" + puntosCombo * combo);
+            TrickList.Add(combo + "x" + "  " + comboName + "  " + (int) puntosCombo + " =" + (int)puntosCombo * combo);
             Tricks.text = Tricks.text + "\n" + TrickList[combo - 1];
             ActualizarMarcador();
             //marcadorCombo.text = combo.ToString();
@@ -123,7 +123,7 @@ public class Puntuacion : MonoBehaviour {
             // marcadorCombo.text = combo.ToString();
             // Debug.Log("NO HACE FALTA UMENTAR COMBO PERO BORRA LA PRIMERA LINEA");ESTO A VECES FALLA CON
            // Debug.Log("combo" + combo);
-            TrickList[combo-1] = combo + "x " + comboName + "  " + puntosCombo + " = " + puntosCombo * combo;           
+            TrickList[combo-1] = combo + "x " + comboName + "  " + (int) puntosCombo + " = " + (int)puntosCombo * combo;           
             Tricks.text = TrickList[0];
             for (int i=1; i<TrickList.Count; i++)
             {
@@ -134,7 +134,7 @@ public class Puntuacion : MonoBehaviour {
         else {
             fading = false;
             //   Debug.Log("COMBO NOOOOOOOOOO    ES IGUAL A LONG. DE LA LISTA DE TRUCOS");
-            TrickList.Add(combo + "x" + "  " + comboName + puntosCombo + " =" + puntosCombo * combo);
+            TrickList.Add(combo + "x" + "  " + comboName + (int) puntosCombo + " =" + (int) puntosCombo * combo);
         Tricks.text = Tricks.text+ "\n" + TrickList[combo-1];
          //   marcadorCombo.text = combo.ToString();
         }  

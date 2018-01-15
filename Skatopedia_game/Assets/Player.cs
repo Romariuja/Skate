@@ -35,16 +35,17 @@ public class Player : PhysicsObject {
     float Tiempo0;
     public static Puntuacion puntua;
     public  static int combo = 0;
-    public static int PuntosGrind = 0;
-    private int Grind_5_0Points = 3;
-    private int Grind_50_50Points = 1;
-    private int OlliePoints = 200;
-    private int KickFlipPoints = 300;
-    private int GrabTrickPoints = 400;
+    public static float PuntosGrind = 0;
+    private float Grind_5_0Points = 0.3f;
+    private float Grind_50_50Points = 0.1f;
+    private int OlliePoints = 100;
+    private int KickFlipPoints = 200;
+    private int GrabTrickPoints = 300;
     private int ManualPoints = 0;
     public int contGrind = 1;
     public GameObject TableCrippled;
     public static CustomImageEffect EffectCam;
+    public static List<string> lastTricks;
 
     void awake()
     {
@@ -325,6 +326,7 @@ public class Player : PhysicsObject {
                
                 UnFreezeConstraints(originalConstraints);
                 UpdateTransition(transitionsList, "Grind", true);
+                lastTricks.Add("Grind_50_50");
                 combo++;
             }
             currentVel = Mathf.Max(currentVel - acel, MaxVel);
