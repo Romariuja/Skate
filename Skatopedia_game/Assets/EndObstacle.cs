@@ -17,8 +17,12 @@ public class EndObstacle : Obstacle {
             //   collision.gameObject.transform.parent.GetComponent<Rigidbody2D>().velocity=new Vector3(0,0,0);
              StartCoroutine(PC.GetComponent<Player>().slowDown());
             PhysicsObject.levelOver = true;
+           collision.gameObject.GetComponent<Player>().enabled = false;
             //Debug.Log("Activa el collider de la banderola " + gameObject.name +" Se ha activado?" + gameObject.GetComponent<Rigidbody2D>().bodyType);
+            Player.puntua.IncrementSpecial("PUNTUACIÓN", Player.puntua.special.transform.position.x, Player.puntua.special.transform.position.y, 150);
         }
+
+
     }
     // Update is called once per frame
     void Update () {

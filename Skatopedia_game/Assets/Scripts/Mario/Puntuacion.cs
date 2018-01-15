@@ -28,6 +28,7 @@ public class Puntuacion : MonoBehaviour {
 	private float espera;
     private Coroutine co;
     private bool fading=false;
+    public static Vector2 positionSpecial;
 
     protected class specialList
     {
@@ -49,6 +50,7 @@ public class Puntuacion : MonoBehaviour {
 		ActualizarMarcador ();
         InitialiseList();
         InitialiseSpecial();
+        positionSpecial = new Vector2(special.transform.localPosition.x, special.transform.localPosition.y);
     }
 
     void InitialiseSpecial()
@@ -67,7 +69,7 @@ public class Puntuacion : MonoBehaviour {
 	}
 
 
-    public void IncrementSpecial(string comboName, float X, float Y)
+    public void IncrementSpecial(string comboName, float X, float Y, int fontSize)
     {
 
             //InitialiseSpecial();
@@ -75,7 +77,7 @@ public class Puntuacion : MonoBehaviour {
        // Debug.Log(specialTrick[0]);
         //Debug.Break();
         //  Tricks.text = "";
-        ActualizaSpecialTrick(X,Y);
+        ActualizaSpecialTrick(X,Y,fontSize);
 
 
 
@@ -167,12 +169,14 @@ public class Puntuacion : MonoBehaviour {
        
         marcadorCombo.text = combo.ToString();   
     }
-    public void ActualizaSpecialTrick(float X, float Y)
+    public void ActualizaSpecialTrick(float X, float Y, int fontSize)
     {
         //  Debug.Log(specialTrick.ToString());
         //  Debug.Break();
-        special.transform.position = new Vector2(X,Y);
-  
+        Debug.Log("POSICION ACTUAL DEL TEXTO SPECIAL TRICK: " +special.transform.position + " Posicion por argumento: " + new Vector3(X,Y,special.transform.position.z));
+      //  Debug.Break();
+        special.transform.position = new Vector3(special.transform.position.x, special.transform.position.y, special.transform.position.z);
+        special.fontSize = fontSize;
         special.text = specialTrick[specialTrick.Count-1].name;
         //yield return new WaitForSeconds(3);
         co = StartCoroutine(Desvanece(special, 0.5f));

@@ -152,8 +152,11 @@ public class Player : PhysicsObject {
         
             if (rotationAir< -180)         
             {
-                puntua.IncrementarCombo(Puntuacion.combo, "MORTAL BASTARD 360º", 25000);
-               puntua.IncrementSpecial("MORTAL BASTARD 360º",transform.position.x, transform.position.y);
+
+               
+                combo++;
+                puntua.IncrementarCombo(combo, "MORTAL BASTARD 360º", 25000);
+               puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100);
                rotationAir = 0;         
             }       
         }
@@ -165,8 +168,9 @@ public class Player : PhysicsObject {
             Debug.Log("RotationAir: " + rotationAir);
             if (rotationAir > 180)
             {
-                puntua.IncrementarCombo(Puntuacion.combo, "MORTAL BASTARD 360º", 25000);
-                puntua.IncrementSpecial("MORTAL BASTARD 360º", transform.position.x, transform.position.y);
+                combo++;
+                puntua.IncrementarCombo(combo, "MORTAL BASTARD 360º", 25000);
+                puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100);
                 rotationAir = 0;
             }
            
@@ -318,9 +322,10 @@ public class Player : PhysicsObject {
             {
                 Allig2Floor(perpendicular, gameObject);
                 anim.ResetTrigger("KeyDown");
-                combo++;
+               
                 UnFreezeConstraints(originalConstraints);
                 UpdateTransition(transitionsList, "Grind", true);
+                combo++;
             }
             currentVel = Mathf.Max(currentVel - acel, MaxVel);
             PuntosGrind = Grind_50_50Points;

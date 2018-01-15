@@ -16,7 +16,7 @@ public class PhysicsObject : MonoBehaviour {
     protected Vector2 TableCM=new Vector2(0f, 0.065f);
     public Vector3 perpendicular=new Vector3(1,0,0);
     protected float BreakTime;
-    protected float rotationVel=4;
+    protected float rotationVel=5;
 
     //STATE VARIABLES
     public bool onFloor;

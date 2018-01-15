@@ -48,16 +48,13 @@ public class LoopCheck : ControladorCamara
                 Time.timeScale = 1F;
                 // Debug.Log(puntua.Inc);
                 Player.combo++;
-
-
-                Player.puntua.IncrementarCombo(Player.combo, "LOOP", 5000);
+                Player.puntua.IncrementarCombo(Player.combo, "LOOP", 50000);
                 Debug.Log("X " + Player.puntua.special.transform.position.x + "Y " + Player.puntua.special.transform.position.y);
                 Debug.Log("X LOCAL" + Player.puntua.special.transform.localPosition.x + "Y LOCAL" + Player.puntua.special.transform.position.y);
-                Debug.Break();
-                Player.puntua.IncrementSpecial("LOOP", transform.position.x, transform.position.y);
-
-              //  Puntuacion.specialTrick[1] = "lOOP!!!";
-                Player.puntua.ActualizaSpecialTrick(0,0);
+             
+                Player.puntua.IncrementSpecial("LOOP", Player.puntua.special.transform.position.x, Player.puntua.special.transform.position.y,283);
+          
+            
                 
                 // StartCoroutine(Player.CameraScript.MoveCameraY());
                 StopCoroutine(Player.CameraScript.lastRoutineZoom);
