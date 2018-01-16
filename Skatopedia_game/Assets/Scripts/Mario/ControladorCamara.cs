@@ -21,7 +21,11 @@ public class ControladorCamara : MonoBehaviour {
     float tamCam;
     public float LerpTime = 0;
     bool MoveY = false;
-   public  Coroutine lastRoutineZoom = null;
+    private float maxzoom = 0.5f;
+    private float minzoom = 1.2f;
+
+
+    public Coroutine lastRoutineZoom = null;
 
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -63,7 +67,7 @@ public class ControladorCamara : MonoBehaviour {
         //Debug.Break();
     }
 
-    public IEnumerator ZoomCamera(float Zoom, float X, float Y)
+    public IEnumerator ZoomCamera(float Zoom, float zoomVel, float X, float Y)
     {
         //Problema que no para de hacer zoom si sigue a mucha velocidad
    //    Debug.Log("ZOOM CAMERA START: Xoffset=" +X +". Yoffset=" +Y );
@@ -79,7 +83,7 @@ public class ControladorCamara : MonoBehaviour {
             xOffset = Mathf.Lerp(xOffset, X, LerpTime);
             yOffset = Mathf.Lerp(yOffset, Y, LerpTime);
             // transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTime);
-            LerpTime = LerpTime + Time.deltaTime;
+            LerpTime = LerpTime + zoomVel*Time.deltaTime;
              cam.rect = new Rect(0, 0, Mathf.Lerp(1,zoom,LerpTime), 1);
             //transform.localScale = new Vector2(Mathf.Lerp(1, zoom, LerpTime), 1);
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, tamCam * Zoom, LerpTime);
@@ -110,7 +114,7 @@ public class ControladorCamara : MonoBehaviour {
         rect = cam.rect;
         scale = transform.localScale;
         tamCam = cam.orthographicSize;
-        lastRoutineZoom = StartCoroutine(ZoomCamera(1, xOffset, yOffset));
+        lastRoutineZoom = StartCoroutine(ZoomCamera(1,1, xOffset, yOffset));
         //   Debug.Log("Las dimensiones iniciales del campo de apertura de la camara son: " + rect + " LA escala es: " +scale);
     }
     // Update is called once per frame
@@ -128,7 +132,7 @@ public class ControladorCamara : MonoBehaviour {
         //Follow Player Y position  out of the camera limits 
         // if (Mathf.Abs(player.transform.position.y - transform.position.y) >cameraMargin)
         //{
-        if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > height/4))
+        if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > height/6))
         {
             StartCoroutine(MoveCameraY());
      
@@ -145,14 +149,14 @@ public class ControladorCamara : MonoBehaviour {
     
         
         
-        if (currentVel>MaxVelCam && (!PhysicsObject.gameOver) && !onZoom && zoom!=1.3f)
+        if (currentVel>MaxVelCam && (!PhysicsObject.gameOver) && !onZoom && zoom!=minzoom)
    
         {
             // StopCoroutine(lastRoutineZoom);
            // Debug.Log("Amplia el Zoom porque la velocidad " + currentVel + "es mayor que el umbral " + MaxVelCam);
          //   Debug.Break();
-            zoom = 1.3f;
-            lastRoutineZoom=StartCoroutine(ZoomCamera(zoom,6,5));
+            zoom = minzoom;
+            lastRoutineZoom=StartCoroutine(ZoomCamera(zoom,1,6,5));
            // zoomOut = true;   
         }
 
@@ -167,7 +171,7 @@ public class ControladorCamara : MonoBehaviour {
             // LerpTime2 = 0;
             //StopCoroutine(lastRoutineZoom);
             zoom = 1;
-            lastRoutineZoom = StartCoroutine(ZoomCamera(zoom,xOffset,yOffset));
+            lastRoutineZoom = StartCoroutine(ZoomCamera(zoom,1,xOffset,yOffset));
            //onZoom = false;
             onZoom = true;
         }

@@ -38,9 +38,9 @@ public class Player : PhysicsObject {
     public static float PuntosGrind = 0;
     private float Grind_5_0Points = 0.3f;
     private float Grind_50_50Points = 0.1f;
-    private int OlliePoints = 100;
-    private int KickFlipPoints = 200;
-    private int GrabTrickPoints = 300;
+    private int OlliePoints = 10;
+    private int KickFlipPoints = 20;
+    private int GrabTrickPoints = 30;
     private int ManualPoints = 0;
     public int contGrind = 1;
     public GameObject TableCrippled;
@@ -157,7 +157,7 @@ public class Player : PhysicsObject {
                
                 combo++;
                 puntua.IncrementarCombo(combo, "MORTAL BASTARD 360º", 25000);
-               puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100);
+               puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100,0.5f);
                rotationAir = 0;         
             }       
         }
@@ -171,7 +171,7 @@ public class Player : PhysicsObject {
             {
                 combo++;
                 puntua.IncrementarCombo(combo, "MORTAL BASTARD 360º", 25000);
-                puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100);
+                puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100,0.5f);
                 rotationAir = 0;
             }
            
@@ -323,11 +323,11 @@ public class Player : PhysicsObject {
             {
                 Allig2Floor(perpendicular, gameObject);
                 anim.ResetTrigger("KeyDown");
-               
+                combo++;
                 UnFreezeConstraints(originalConstraints);
                 UpdateTransition(transitionsList, "Grind", true);
-                lastTricks.Add("Grind_50_50");
-                combo++;
+                //lastTricks.Add("Grind_50_50");
+            
             }
             currentVel = Mathf.Max(currentVel - acel, MaxVel);
             PuntosGrind = Grind_50_50Points;

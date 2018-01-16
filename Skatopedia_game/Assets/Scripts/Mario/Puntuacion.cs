@@ -69,7 +69,7 @@ public class Puntuacion : MonoBehaviour {
 	}
 
 
-    public void IncrementSpecial(string comboName, float X, float Y, int fontSize)
+    public void IncrementSpecial(string comboName, float X, float Y, int fontSize, float fade)
     {
 
             //InitialiseSpecial();
@@ -77,7 +77,7 @@ public class Puntuacion : MonoBehaviour {
        // Debug.Log(specialTrick[0]);
         //Debug.Break();
         //  Tricks.text = "";
-        ActualizaSpecialTrick(X,Y,fontSize);
+        ActualizaSpecialTrick(X,Y,fontSize,fade);
 
 
 
@@ -169,7 +169,7 @@ public class Puntuacion : MonoBehaviour {
        
         marcadorCombo.text = combo.ToString();   
     }
-    public void ActualizaSpecialTrick(float X, float Y, int fontSize)
+    public void ActualizaSpecialTrick(float X, float Y, int fontSize, float fade)
     {
         //  Debug.Log(specialTrick.ToString());
         //  Debug.Break();
@@ -179,7 +179,7 @@ public class Puntuacion : MonoBehaviour {
         special.fontSize = fontSize;
         special.text = specialTrick[specialTrick.Count-1].name;
         //yield return new WaitForSeconds(3);
-        co = StartCoroutine(Desvanece(special, 0.5f));
+        co = StartCoroutine(Desvanece(special, fade));
     }
     
 
