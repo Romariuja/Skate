@@ -40,7 +40,7 @@ public class Bird : Obstacle{
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log("PAJARO ACTIVO");
+       // Debug.Log("PAJARO ACTIVO");
         GetComponent<Rigidbody2D>().velocity = direction;
     }
 }

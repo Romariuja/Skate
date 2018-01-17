@@ -14,6 +14,7 @@ public class Player : PhysicsObject {
     int KeyUp = Animator.StringToHash("KeyUp");
     int KeyDown = Animator.StringToHash("KeyDown");
     int KeyRight = Animator.StringToHash("KeyRight");
+    int KeyLeft = Animator.StringToHash("KeyLeft");
 
     //OBJECT VARIABLES
     public RigidbodyConstraints2D originalConstraints;
@@ -139,14 +140,14 @@ public class Player : PhysicsObject {
     }
     //ROTATE FUNCTION-----------------------------------------------------------------------------------------------------
 
-    //IEnumerator RotateAir()
-    private void RotateAir()
+    IEnumerator RotateAir()
+    //private void RotateAir()
     {
-      //  yield return null;
+        yield return null;
         //Debug.Log("RotaionAir" +rotationAir);
         if (Input.GetKey("right"))
         {
-     //       yield return null;
+            yield return null;
             transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -rotationVel );
             rotationAir = rotationAir - rotationVel;
             Debug.Log("RotationAir: "+rotationAir);
@@ -163,7 +164,7 @@ public class Player : PhysicsObject {
         }
         else if (Input.GetKey("left"))
         {
-      //      yield return null;
+            yield return null;
             transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +rotationVel);
             rotationAir = rotationAir + rotationVel;
             Debug.Log("RotationAir: " + rotationAir);
@@ -178,7 +179,7 @@ public class Player : PhysicsObject {
         }
         else
         {
-    //        yield return null;
+            yield return null;
             rotationAir = 0;
         }
         
@@ -241,12 +242,13 @@ public class Player : PhysicsObject {
     //VELOCITY CHECK COROUTINE
     public IEnumerator VelocityCheck()
     {
-        yield return new WaitForEndOfFrame();
-        if (rb2d.velocity.magnitude< 0.01f && (Time.timeSinceLevelLoad > 1) && !gameOver)
+        //yield return new WaitForEndOfFrame();
+        yield return new WaitForSeconds(timeStopped);
+        if (rb2d.velocity.magnitude< 0.1f && (Time.timeSinceLevelLoad > 1) && !gameOver)
         {
-            
+            Debug.Break();
             gameOver = true;
-            Debug.Log("GAMEOVER POR FALTA DE VELOCIDAD ( " + rb2d.velocity.magnitude + ">0.01) ->" + gameOver);
+            Debug.Log("GAMEOVER POR FALTA DE VELOCIDAD ( " + rb2d.velocity.magnitude + ">0. 1) ->" + gameOver);
 
             // Debug.Break();
         }
@@ -264,6 +266,7 @@ public class Player : PhysicsObject {
         anim.ResetTrigger("KeyUp");
         // anim.ResetTrigger("KeyDown");
         anim.ResetTrigger("KeyRight");
+        anim.ResetTrigger("KeyLeft");
         anim.SetBool("onFloor", onFloor);
         anim.SetBool("onGrind", onGrind);
         anim.SetBool("jump", transitionsList[2].init);
@@ -271,8 +274,7 @@ public class Player : PhysicsObject {
 
         //STATE MACHINE-------------------------------------------------------------------------------------------------------------------------------------
 
-    
-
+       
         //GAMEOVER STATE
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("CrippledM"))
         {
@@ -302,6 +304,8 @@ public class Player : PhysicsObject {
         {
             if (!transitionsList[0].init)
             {
+                StartCoroutine(VelocityCheck());
+
                 //Debug.Log("IDLE SOLO UNA VEZ");
                 TableScript.MovementAlongFloor();
                 Allig2Floor(perpendicular, gameObject);
@@ -310,7 +314,7 @@ public class Player : PhysicsObject {
                 puntua.IncrementarCombo(combo, "Loquesea", 0);
                 UnFreezeConstraints(originalConstraints);
                 UpdateTransition(transitionsList, "Idle", true);
-                StartCoroutine(VelocityCheck());
+              //  StartCoroutine(VelocityCheck());
 
             }
             currentVel = Mathf.Max(currentVel - acel, MaxVel);
@@ -321,6 +325,8 @@ public class Player : PhysicsObject {
         {
             if (!transitionsList[1].init)
             {
+                StartCoroutine(VelocityCheck());
+
                 Allig2Floor(perpendicular, gameObject);
                 anim.ResetTrigger("KeyDown");
                 combo++;
@@ -349,6 +355,20 @@ public class Player : PhysicsObject {
           //RotateAir();
         }
 
+        //KICKFLIP STATE
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("KickFlip"))
+        {
+            if (!transitionsList[2].init)
+            {
+                UpdateTransition(transitionsList, "Jump", true);
+                combo++;
+                puntua.IncrementarCombo(combo, "KickFlip", KickFlipPoints);
+                FreezeConstraints();
+                anim.SetBool("jump", transitionsList[2].init);
+            }
+            //RotateAir();
+        }
+
         //GRAB STATE
         else if (anim.GetCurrentAnimatorStateInfo(0).IsName("GrabTrick"))
         {
@@ -372,8 +392,8 @@ public class Player : PhysicsObject {
                 UpdateTransition(transitionsList, "Jump", true);
             }
 
-            //            StartCoroutine(RotateAir());
-            RotateAir();
+                        StartCoroutine(RotateAir());
+            //RotateAir();
 
 
         }
@@ -382,7 +402,9 @@ public class Player : PhysicsObject {
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("Manual"))
         {
             if (!transitionsList[3].init)
-            {              
+            {
+                StartCoroutine(VelocityCheck());
+
                 UnFreezeConstraints(originalConstraints);
                 Allig2Floor(perpendicular, gameObject);
                 // currentVel = Mathf.Max(currentVel - acel, MaxVel);
@@ -394,6 +416,7 @@ public class Player : PhysicsObject {
         //FLEX STATE
        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Flex"))
         {
+
             combo = 0;
             currentVel = Mathf.Min(currentVel + acel, FlexVel);
             UnFreezeConstraints(originalConstraints);
@@ -417,6 +440,11 @@ public class Player : PhysicsObject {
         {
             anim.SetTrigger("KeyRight");
             rb2d.velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, JumpForce * 1.2f);
+        }
+        else if (Input.GetKeyDown("left") && (onFloor || onGrind) && !jump)
+        {
+            anim.SetTrigger("KeyLeft");
+            rb2d.velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, JumpForce);
         }
 
         else if (Input.GetKeyDown("down"))

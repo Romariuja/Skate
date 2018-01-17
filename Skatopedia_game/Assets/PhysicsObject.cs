@@ -17,6 +17,7 @@ public class PhysicsObject : MonoBehaviour {
     public Vector3 perpendicular=new Vector3(1,0,0);
     protected float BreakTime;
     protected float rotationVel=5;
+    protected float timeStopped=0.2f;
 
     //STATE VARIABLES
     public bool onFloor;
@@ -179,7 +180,7 @@ public class PhysicsObject : MonoBehaviour {
         {
 
             Debug.Log("ANGULO A ALINEAR DEMASIADO GRANDE-> GAMEOVER?");
-          //  Debug.Break();
+           // Debug.Break();
             gameOver = true;
         
         }
