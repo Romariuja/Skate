@@ -46,5 +46,6 @@
  <element id="63" elementName="Table" elementFolder="Table.63" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="64" elementName="Skater" elementFolder="Skater.64" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="65" elementName="Table" elementFolder="Table.65" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="66" elementName="BarbaraMalley_BreakdancingSequence" elementFolder="BarbaraMalley_BreakdancingSequence" pixmapFormat="11" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
+ <element id="66" elementName="Skater" elementFolder="Skater.66" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="67" elementName="Table" elementFolder="Table.67" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>

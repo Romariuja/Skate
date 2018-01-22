@@ -15,6 +15,7 @@ public class Player : PhysicsObject {
     int KeyDown = Animator.StringToHash("KeyDown");
     int KeyRight = Animator.StringToHash("KeyRight");
     int KeyLeft = Animator.StringToHash("KeyLeft");
+    int SuperTrick = Animator.StringToHash("SuperTrick");
 
     //OBJECT VARIABLES
     public RigidbodyConstraints2D originalConstraints;
@@ -426,10 +427,18 @@ public class Player : PhysicsObject {
 
 
         // Debug.Log("CurrentVel: " + rb2d.velocity.magnitude);
-        
-      
+
+
 
         //CHECK KEY INPUT
+
+        if (Input.GetKeyDown(KeyCode.Space) && (onFloor || onGrind) && jump == false)
+        {
+          //  Debug.Break();
+            anim.SetTrigger("SuperTrick");
+            rb2d.velocity = new Vector2(rb2d.velocity.x, JumpForce);
+        }
+
         if (Input.GetKeyDown("up") && (onFloor || onGrind) && jump == false)
         {
             anim.SetTrigger("KeyUp");

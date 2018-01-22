@@ -4483,7 +4483,8 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="false" x="1,50,65,100" yLocal="-18.472177878253472" y="-18.472177878253472"/>
+      <pt constSeg="false" x="65" yLocal="-18.702227824071606" y="-18.702227824071606"/>
+      <pt constSeg="false" x="1,50,100" yLocal="-18.472177878253472" y="-18.472177878253472"/>
      </points>
     </column>
     <column type="3" name="ATV-08A670789D52441E" color="#C7C6BBFF" displayOrder="456" width="100" anonymous="true">
