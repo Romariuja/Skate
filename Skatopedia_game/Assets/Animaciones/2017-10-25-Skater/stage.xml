@@ -45,7 +45,7 @@
   <anchor node="Table" play="Top"/>
  </stage>
  <stage name="217-10-25Skater_SuperTrick">
-  <play drawingAnimation="SuperTrick_Top" name="Top" skeleton="Top_11" animation="SuperTrick_Top"/>
+  <play drawingAnimation="SuperTrick_Top" name="Top" skeleton="Top_12" animation="SuperTrick_Top"/>
   <anchor node="Skater" play="Top"/>
   <anchor node="Table" play="Top"/>
  </stage>

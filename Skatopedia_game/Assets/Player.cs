@@ -48,6 +48,7 @@ public class Player : PhysicsObject {
     public GameObject TableCrippled;
     public static CustomImageEffect EffectCam;
     public static List<string> lastTricks;
+    public static int SuperT = 1; 
 
     void awake()
     {
@@ -90,6 +91,7 @@ public class Player : PhysicsObject {
         transitionsList.Add(new transition("Grind", false));
         transitionsList.Add(new transition("Jump", false));
         transitionsList.Add(new transition("Manual", false));
+        transitionsList.Add(new transition("SuperTrick", false));
 
         //Debug.Log("LA tabla es" + Table.name + ",y esta en el obbjeto padre " + Table.transform.parent.parent + "En la posicion " + Table.transform.localPosition );
     }
@@ -139,6 +141,35 @@ public class Player : PhysicsObject {
         }
         return false;
     }
+
+
+    //SUPERTRICK FUNCTION-----------------------------------------------------------------------------------------
+    IEnumerator ST()
+    {
+        combo++;
+        puntua.IncrementarCombo(combo, "DEVELOPER ROMARIUJA SUPERTRICK!!!!", 250000);
+        puntua.IncrementSpecial("DEVELOPER", transform.position.x, transform.position.y, 100, 5f);
+        yield return null;
+        new WaitForSeconds(3);
+        puntua.IncrementSpecial("ROMARIUJA ", transform.position.x, transform.position.y-100, 150, 3f);
+        yield return null;
+        new WaitForSeconds(3);
+        puntua.IncrementSpecial("SUPERTRICK!!!!", transform.position.x, transform.position.y-200, 200, 1f);
+
+        
+     
+    }
+
+
+
+
+
+
+
+
+
+
+
     //ROTATE FUNCTION-----------------------------------------------------------------------------------------------------
 
     IEnumerator RotateAir()
@@ -160,7 +191,8 @@ public class Player : PhysicsObject {
                 combo++;
                 puntua.IncrementarCombo(combo, "MORTAL BASTARD 360º", 25000);
                puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100,0.5f);
-               rotationAir = 0;         
+               rotationAir = 0;
+                SuperT++;
             }       
         }
         else if (Input.GetKey("left"))
@@ -175,6 +207,7 @@ public class Player : PhysicsObject {
                 puntua.IncrementarCombo(combo, "MORTAL BASTARD 360º", 25000);
                 puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100,0.5f);
                 rotationAir = 0;
+                SuperT++;
             }
            
         }
@@ -425,18 +458,39 @@ public class Player : PhysicsObject {
             UpdateTransition(transitionsList, "Manual", true);
         }
 
+        //SUPERTRICK
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("SuperTrick"))
+        {
+            if (!transitionsList[4].init)
+            {
+                StartCoroutine(ST());
+                // StartCoroutine(VelocityCheck());
 
+                //UnFreezeConstraints(originalConstraints);
+                //  Allig2Floor(perpendicular, gameObject);
+                // currentVel = Mathf.Max(currentVel - acel, MaxVel);
+                UpdateTransition(transitionsList, "Manual", true);
+
+            }
+
+          //  combo = 0;
+           // currentVel = Mathf.Min(currentVel + acel, FlexVel);
+        
+            // currentVel = Mathf.Max(currentVel - acel, MaxVel);
+            UpdateTransition(transitionsList, "SuperTrick", true);
+        }
         // Debug.Log("CurrentVel: " + rb2d.velocity.magnitude);
 
 
 
         //CHECK KEY INPUT
 
-        if (Input.GetKeyDown(KeyCode.Space) && (onFloor || onGrind) && jump == false)
+        if (Input.GetKeyDown(KeyCode.Space) && (onFloor || onGrind) && jump == false && SuperT!=0 && combo>5)
         {
-          //  Debug.Break();
+            //  Debug.Break();
+            SuperT--;
             anim.SetTrigger("SuperTrick");
-            rb2d.velocity = new Vector2(rb2d.velocity.x, JumpForce);
+          //  rb2d.velocity = new Vector2(rb2d.velocity.x, JumpForce);
         }
 
         if (Input.GetKeyDown("up") && (onFloor || onGrind) && jump == false)
