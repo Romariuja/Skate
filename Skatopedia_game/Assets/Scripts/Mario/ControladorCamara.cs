@@ -20,7 +20,8 @@ public class ControladorCamara : MonoBehaviour {
     public bool onZoom = false;
     float tamCam;
     public float LerpTime = 0;
-    bool MoveY = false;
+    public float LerpTimey = 0;
+    public static bool MoveY = false;
     private float maxzoom = 0.5f;
     private float minzoom = 1.2f;
 
@@ -42,18 +43,18 @@ public class ControladorCamara : MonoBehaviour {
     }
 
 
-    public IEnumerator MoveCameraY()
+    public IEnumerator MoveCameraY(float Sign)
     {
-        float LerpTimey = 0;
-        MoveY = true;
-        //Debug.Log("MOVE CAMERA Y. LerpTimeY" + LerpTimey);
+       LerpTimey = 0;
+        //  Debug.Log("MOVE CAMERA Y. LerpTimeY" + LerpTimey);
 
-        //Debug.Break();
+        //    Debug.Break();
 
         while ((Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset))
+      // while (LerpTimey < 1)
         {
-            LerpTimey = LerpTimey + Time.deltaTime;
-            //  Debug.Log("LerpTimey" + LerpTimey);
+            LerpTimey = LerpTimey + 0.5f*Time.deltaTime;
+           //  Debug.Log("LerpTimey" + LerpTimey +" . Condicion posicion Y-Ycamara mayor que YOffset: " + (Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset));
             // transform.position =Vector3.Lerp(transform.position, new Vector3(transform.position.x, player.transform.position.y+yOffset, transform.position.z), LerpTime);
             transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);
 
@@ -61,6 +62,7 @@ public class ControladorCamara : MonoBehaviour {
             // Debug.Log("Distancia ejey"+ Mathf.Abs(player.transform.position.y- transform.position.y-yOffset ));
 
         }
+        Debug.Log("LerpTimey" + LerpTimey + " . Condicion posicion Y-Ycamara mayor que YOffset: " + (Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset));
         MoveY = false;
         // Debug.Log("MOVE CAMERA Y FINISH. LerpTimeY" + LerpTimey);
 
@@ -132,9 +134,13 @@ public class ControladorCamara : MonoBehaviour {
         //Follow Player Y position  out of the camera limits 
         // if (Mathf.Abs(player.transform.position.y - transform.position.y) >cameraMargin)
         //{
-        if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > height/6))
+        if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > height/4))
         {
-            StartCoroutine(MoveCameraY());
+            Debug.Log("EJECUTA MOVEY. YOffset= " +yOffset +" . Movey=" + MoveY);
+           // Debug.Break();
+            MoveY = true;
+            float Sign = Mathf.Sign((player.transform.position.y - transform.position.y));
+            StartCoroutine(MoveCameraY(Sign));
      
         }
         //   StartCoroutine(MoveCameraX());
