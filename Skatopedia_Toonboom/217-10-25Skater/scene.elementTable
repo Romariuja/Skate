@@ -48,4 +48,7 @@
  <element id="65" elementName="Table" elementFolder="Table.65" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="66" elementName="Skater" elementFolder="Skater.66" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="67" elementName="Table" elementFolder="Table.67" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="68" elementName="FinalScene_animation" elementFolder="FinalScene_animation" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="69" elementName="Skater" elementFolder="Skater.69" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="70" elementName="Table" elementFolder="Table.70" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>

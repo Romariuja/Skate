@@ -14,7 +14,7 @@ public class ControladorCamara : MonoBehaviour {
     private Obstacle obstacle;
     private Rect rect;
     private Vector3 scale;
-    public static float zoom = 1;
+    public static float zoom = 1.2f;
     public static float yOffset = 3;
     public static float xOffset = 6;
     public bool onZoom = false;
@@ -23,7 +23,8 @@ public class ControladorCamara : MonoBehaviour {
     public float LerpTimey = 0;
     public static bool MoveY = false;
     private float maxzoom = 0.5f;
-    private float minzoom = 1.2f;
+    private float minzoom = 1.5f;
+    private float noZoom = 1.2f;
 
 
     public Coroutine lastRoutineZoom = null;
@@ -170,13 +171,13 @@ public class ControladorCamara : MonoBehaviour {
         
         //Problema porque al terminar el zoom vuelve a hacer siempre zoom si sigue a mucha velocidad
         //else if (currentVel <= PC.MaxVel && (!PhysicsObject.gameOver) && !onZoom && zoomOut)  {
-            else if (currentVel <= PC.MaxVel && (!PhysicsObject.gameOver) && !onZoom && zoom!=1)
+            else if (currentVel <= PC.MaxVel && (!PhysicsObject.gameOver) && !onZoom && zoom!=noZoom)
             {
                 Debug.Log("Reduce el Zoom porque la velocidad " + currentVel + "es menor que el umbral " + PC.MaxVel);
           //Debug.Break();
             // LerpTime2 = 0;
             //StopCoroutine(lastRoutineZoom);
-            zoom = 1;
+            zoom = noZoom;
             lastRoutineZoom = StartCoroutine(ZoomCamera(zoom,1,xOffset,yOffset));
            //onZoom = false;
             onZoom = true;
