@@ -1,0 +1,6 @@
+<stages>
+ <stage name="2018-01-29Bird1_2018-01-29Bird1">
+  <play drawingAnimation="2018-01-29Bird1_Top" name="Top" skeleton="Top" animation="2018-01-29Bird1_Top"/>
+  <anchor node="Bird1_002" play="Top"/>
+ </stage>
+</stages>
