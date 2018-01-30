@@ -154,6 +154,16 @@
     <None Include="Assets\Animaciones\2017-10-25-Skater\skeleton.xml" />
     <None Include="Assets\Animaciones\2017-10-25-Skater\spriteSheets.xml" />
     <None Include="Assets\Animaciones\2017-10-25-Skater\stage.xml" />
+    <None Include="Assets\Animaciones\Bird1\animation.xml" />
+    <None Include="Assets\Animaciones\Bird1\drawingAnimation.xml" />
+    <None Include="Assets\Animaciones\Bird1\skeleton.xml" />
+    <None Include="Assets\Animaciones\Bird1\spriteSheets.xml" />
+    <None Include="Assets\Animaciones\Bird1\stage.xml" />
+    <None Include="Assets\Animaciones\Bird2\animation.xml" />
+    <None Include="Assets\Animaciones\Bird2\drawingAnimation.xml" />
+    <None Include="Assets\Animaciones\Bird2\skeleton.xml" />
+    <None Include="Assets\Animaciones\Bird2\spriteSheets.xml" />
+    <None Include="Assets\Animaciones\Bird2\stage.xml" />
     <None Include="Assets\Animaciones\LogoIntro\animation.xml" />
     <None Include="Assets\Animaciones\LogoIntro\drawingAnimation.xml" />
     <None Include="Assets\Animaciones\LogoIntro\skeleton.xml" />

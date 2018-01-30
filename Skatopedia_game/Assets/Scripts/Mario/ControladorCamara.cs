@@ -163,7 +163,7 @@ public class ControladorCamara : MonoBehaviour {
            // Debug.Log("Amplia el Zoom porque la velocidad " + currentVel + "es mayor que el umbral " + MaxVelCam);
          //   Debug.Break();
             zoom = minzoom;
-            lastRoutineZoom=StartCoroutine(ZoomCamera(zoom,1,6,5));
+            lastRoutineZoom=StartCoroutine(ZoomCamera(zoom,1,6,150));
            // zoomOut = true;   
         }
 
