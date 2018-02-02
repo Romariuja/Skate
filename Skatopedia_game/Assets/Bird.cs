@@ -9,7 +9,17 @@ public class Bird : Obstacle{
     Bird myScript;
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Table" || collision.gameObject.tag == "Skater")
+        if (animationCam && collision.gameObject.tag == "MainCamera")
+        {
+          
+            myScript = GetComponent<Bird>();
+            myScript.enabled = !myScript.enabled;
+            gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            direction = new Vector3(Random.Range(0, 10), Random.Range(5, 15), 0).normalized * 10;
+            Debug.Log("Direction " + direction);
+        }
+
+        else if (collision.gameObject.tag == "Table" || collision.gameObject.tag == "Skater")
         {
             
             //   Debug.Log("Activa el collider de la banderola " + gameObject.name);
@@ -41,7 +51,7 @@ public class Bird : Obstacle{
 	
 	// Update is called once per frame
 	void Update () {
-       // Debug.Log("PAJARO ACTIVO");
-        GetComponent<Rigidbody2D>().velocity = direction;
+       Debug.Log("La direccion es " +direction +" La velocidad es: " + GetComponent<Rigidbody2D>().velocity);
+        gameObject.GetComponent<Rigidbody2D>().velocity = direction;
     }
 }
