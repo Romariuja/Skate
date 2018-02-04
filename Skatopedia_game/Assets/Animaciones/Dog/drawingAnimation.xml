@@ -1,0 +1,1039 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="Dog_Top">
+  <drawing node="SkaterDog_048" name="2-SkaterDog">
+   <drw frame="14" repeat="3" name="2-SkaterDog-1.png"/>
+   <drw frame="21" name="2-SkaterDog-1.png"/>
+   <drw frame="23" name="2-SkaterDog-1.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-1.png"/>
+   <drw frame="55" name="2-SkaterDog-1.png"/>
+  </drawing>
+  <drawing node="SkaterDog_047" name="2-SkaterDog">
+   <drw frame="14" repeat="3" name="2-SkaterDog-1.png"/>
+   <drw frame="21" name="2-SkaterDog-1.png"/>
+   <drw frame="23" name="2-SkaterDog-1.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-1.png"/>
+   <drw frame="55" name="2-SkaterDog-1.png"/>
+  </drawing>
+  <drawing node="SkaterDog_046" name="2-SkaterDog">
+   <drw frame="12" repeat="16" name="2-SkaterDog-1.png"/>
+   <drw frame="46" repeat="12" name="2-SkaterDog-1.png"/>
+   <drw frame="76" name="2-SkaterDog-1.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-1.png"/>
+  </drawing>
+  <drawing node="SkaterDog_045" name="2-SkaterDog">
+   <drw frame="12" repeat="16" name="2-SkaterDog-1.png"/>
+   <drw frame="46" repeat="12" name="2-SkaterDog-1.png"/>
+   <drw frame="76" name="2-SkaterDog-1.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-1.png"/>
+  </drawing>
+  <drawing node="SkaterDog_044" name="2-SkaterDog">
+   <drw frame="8" repeat="22" name="2-SkaterDog-1.png"/>
+   <drw frame="42" repeat="20" name="2-SkaterDog-1.png"/>
+   <drw frame="74" repeat="7" name="2-SkaterDog-1.png"/>
+  </drawing>
+  <drawing node="SkaterDog_043" name="2-SkaterDog">
+   <drw frame="8" repeat="15" name="2-SkaterDog-1.png"/>
+   <drw frame="23" name="2-SkaterDog-28.png"/>
+   <drw frame="24" repeat="6" name="2-SkaterDog-1.png"/>
+   <drw frame="42" repeat="20" name="2-SkaterDog-1.png"/>
+   <drw frame="74" repeat="7" name="2-SkaterDog-1.png"/>
+  </drawing>
+  <drawing node="SkaterDog_042" name="2-SkaterDog">
+   <drw frame="6" repeat="8" name="2-SkaterDog-1.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-28.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-1.png"/>
+   <drw frame="21" name="2-SkaterDog-28.png"/>
+   <drw frame="22" name="2-SkaterDog-1.png"/>
+   <drw frame="23" name="2-SkaterDog-7.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-28.png"/>
+   <drw frame="28" repeat="4" name="2-SkaterDog-1.png"/>
+   <drw frame="40" repeat="8" name="2-SkaterDog-1.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-28.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-1.png"/>
+   <drw frame="55" name="2-SkaterDog-28.png"/>
+   <drw frame="56" repeat="8" name="2-SkaterDog-1.png"/>
+   <drw frame="73" repeat="3" name="2-SkaterDog-1.png"/>
+   <drw frame="76" name="2-SkaterDog-28.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-1.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-28.png"/>
+  </drawing>
+  <drawing node="SkaterDog_041" name="2-SkaterDog">
+   <drw frame="6" repeat="6" name="2-SkaterDog-1.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-7.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-28.png"/>
+   <drw frame="21" name="2-SkaterDog-7.png"/>
+   <drw frame="22" name="2-SkaterDog-28.png"/>
+   <drw frame="23" repeat="5" name="2-SkaterDog-7.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-1.png"/>
+   <drw frame="40" repeat="6" name="2-SkaterDog-1.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-7.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-28.png"/>
+   <drw frame="55" name="2-SkaterDog-7.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="58" repeat="6" name="2-SkaterDog-1.png"/>
+   <drw frame="73" name="2-SkaterDog-1.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="76" name="2-SkaterDog-7.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-1.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-7.png"/>
+  </drawing>
+  <drawing node="SkaterDog_040" name="2-SkaterDog">
+   <drw frame="3" repeat="5" name="2-SkaterDog-1.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-28.png"/>
+   <drw frame="12" repeat="18" name="2-SkaterDog-7.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="32" repeat="10" name="2-SkaterDog-1.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-28.png"/>
+   <drw frame="46" repeat="12" name="2-SkaterDog-7.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-28.png"/>
+   <drw frame="62" repeat="11" name="2-SkaterDog-1.png"/>
+   <drw frame="73" name="2-SkaterDog-28.png"/>
+   <drw frame="74" repeat="3" name="2-SkaterDog-7.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-7.png"/>
+  </drawing>
+  <drawing node="SkaterDog_039" name="2-SkaterDog">
+   <drw frame="3" repeat="3" name="2-SkaterDog-1.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="8" repeat="15" name="2-SkaterDog-7.png"/>
+   <drw frame="23" name="2-SkaterDog-27.png"/>
+   <drw frame="24" repeat="8" name="2-SkaterDog-7.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-1.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="42" repeat="20" name="2-SkaterDog-7.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-1.png"/>
+   <drw frame="73" repeat="8" name="2-SkaterDog-7.png"/>
+  </drawing>
+  <drawing node="SkaterDog_038" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-1.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-28.png"/>
+   <drw frame="6" repeat="8" name="2-SkaterDog-7.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-27.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-7.png"/>
+   <drw frame="21" name="2-SkaterDog-27.png"/>
+   <drw frame="22" name="2-SkaterDog-7.png"/>
+   <drw frame="23" name="2-SkaterDog-26.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-27.png"/>
+   <drw frame="28" repeat="4" name="2-SkaterDog-7.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-28.png"/>
+   <drw frame="40" repeat="8" name="2-SkaterDog-7.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-27.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-7.png"/>
+   <drw frame="55" name="2-SkaterDog-27.png"/>
+   <drw frame="56" repeat="8" name="2-SkaterDog-7.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-28.png"/>
+   <drw frame="73" repeat="3" name="2-SkaterDog-7.png"/>
+   <drw frame="76" name="2-SkaterDog-27.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-7.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-27.png"/>
+  </drawing>
+  <drawing node="SkaterDog_037" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-28.png"/>
+   <drw frame="3" repeat="9" name="2-SkaterDog-7.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-26.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-27.png"/>
+   <drw frame="21" name="2-SkaterDog-26.png"/>
+   <drw frame="22" name="2-SkaterDog-27.png"/>
+   <drw frame="23" name="2-SkaterDog-10.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-26.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="30" repeat="16" name="2-SkaterDog-7.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-26.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-27.png"/>
+   <drw frame="55" name="2-SkaterDog-26.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="58" repeat="16" name="2-SkaterDog-7.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="76" name="2-SkaterDog-26.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-7.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-26.png"/>
+  </drawing>
+  <drawing node="SkaterDog_036" name="2-SkaterDog">
+   <drw frame="1" repeat="7" name="2-SkaterDog-7.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-27.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-10.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-26.png"/>
+   <drw frame="21" name="2-SkaterDog-10.png"/>
+   <drw frame="22" name="2-SkaterDog-26.png"/>
+   <drw frame="23" name="2-SkaterDog-9.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="32" repeat="10" name="2-SkaterDog-7.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-27.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-10.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-26.png"/>
+   <drw frame="55" name="2-SkaterDog-10.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-27.png"/>
+   <drw frame="62" repeat="11" name="2-SkaterDog-7.png"/>
+   <drw frame="73" name="2-SkaterDog-27.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="76" name="2-SkaterDog-10.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-10.png"/>
+  </drawing>
+  <drawing node="SkaterDog_035" name="2-SkaterDog">
+   <drw frame="1" repeat="5" name="2-SkaterDog-7.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-26.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-9.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="21" name="2-SkaterDog-9.png"/>
+   <drw frame="22" name="2-SkaterDog-10.png"/>
+   <drw frame="23" name="2-SkaterDog-25.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-7.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-26.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-9.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="55" name="2-SkaterDog-9.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-26.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-7.png"/>
+   <drw frame="73" name="2-SkaterDog-26.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="76" name="2-SkaterDog-9.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-9.png"/>
+  </drawing>
+  <drawing node="SkaterDog_034" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-7.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-27.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-25.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="21" name="2-SkaterDog-25.png"/>
+   <drw frame="22" name="2-SkaterDog-9.png"/>
+   <drw frame="23" name="2-SkaterDog-24.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-25.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-27.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-25.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="55" name="2-SkaterDog-25.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-27.png"/>
+   <drw frame="73" name="2-SkaterDog-10.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="76" name="2-SkaterDog-25.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-25.png"/>
+  </drawing>
+  <drawing node="SkaterDog_033" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-27.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-26.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-24.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-25.png"/>
+   <drw frame="21" name="2-SkaterDog-24.png"/>
+   <drw frame="22" name="2-SkaterDog-25.png"/>
+   <drw frame="23" name="2-SkaterDog-29.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-24.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-26.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-24.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-25.png"/>
+   <drw frame="55" name="2-SkaterDog-24.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-26.png"/>
+   <drw frame="73" name="2-SkaterDog-9.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="76" name="2-SkaterDog-24.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-24.png"/>
+  </drawing>
+  <drawing node="SkaterDog_032" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-26.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-10.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-25.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-18.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-24.png"/>
+   <drw frame="21" name="2-SkaterDog-18.png"/>
+   <drw frame="22" name="2-SkaterDog-24.png"/>
+   <drw frame="23" name="2-SkaterDog-18.png"/>
+   <drw frame="24" name="2-SkaterDog-30.png"/>
+   <drw frame="25" name="2-SkaterDog-31.png"/>
+   <drw frame="26" repeat="2" name="2-SkaterDog-32.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-10.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-25.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-18.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-24.png"/>
+   <drw frame="55" name="2-SkaterDog-18.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-25.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-10.png"/>
+   <drw frame="73" name="2-SkaterDog-25.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="76" name="2-SkaterDog-29.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="79" name="2-SkaterDog-30.png"/>
+   <drw frame="80" name="2-SkaterDog-32.png"/>
+  </drawing>
+  <drawing node="SkaterDog_031" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-9.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-24.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-23.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="21" name="2-SkaterDog-23.png"/>
+   <drw frame="22" name="2-SkaterDog-18.png"/>
+   <drw frame="23" name="2-SkaterDog-23.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="28" name="2-SkaterDog-32.png"/>
+   <drw frame="29" name="2-SkaterDog-31.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-9.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-24.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-23.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="55" name="2-SkaterDog-23.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-24.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-9.png"/>
+   <drw frame="73" name="2-SkaterDog-24.png"/>
+   <drw frame="74" name="2-SkaterDog-32.png"/>
+   <drw frame="75" name="2-SkaterDog-31.png"/>
+   <drw frame="76" name="2-SkaterDog-18.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-18.png"/>
+  </drawing>
+  <drawing node="SkaterDog_030" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-25.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-22.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-23.png"/>
+   <drw frame="21" name="2-SkaterDog-22.png"/>
+   <drw frame="22" name="2-SkaterDog-23.png"/>
+   <drw frame="23" name="2-SkaterDog-22.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-23.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="30" name="2-SkaterDog-30.png"/>
+   <drw frame="31" name="2-SkaterDog-29.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-25.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-22.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-23.png"/>
+   <drw frame="55" name="2-SkaterDog-22.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-25.png"/>
+   <drw frame="73" name="2-SkaterDog-30.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="76" name="2-SkaterDog-23.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-23.png"/>
+  </drawing>
+  <drawing node="SkaterDog_029" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-25.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-24.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-23.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-21.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-22.png"/>
+   <drw frame="21" name="2-SkaterDog-21.png"/>
+   <drw frame="22" name="2-SkaterDog-22.png"/>
+   <drw frame="23" name="2-SkaterDog-21.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-22.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-24.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-23.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-21.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-22.png"/>
+   <drw frame="55" name="2-SkaterDog-21.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-23.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-24.png"/>
+   <drw frame="73" name="2-SkaterDog-18.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="76" name="2-SkaterDog-22.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-22.png"/>
+  </drawing>
+  <drawing node="SkaterDog_028" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-24.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-18.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-22.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-20.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-21.png"/>
+   <drw frame="21" name="2-SkaterDog-20.png"/>
+   <drw frame="22" name="2-SkaterDog-21.png"/>
+   <drw frame="23" name="2-SkaterDog-20.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-21.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-18.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-22.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-20.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-21.png"/>
+   <drw frame="55" name="2-SkaterDog-20.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-22.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-18.png"/>
+   <drw frame="73" name="2-SkaterDog-23.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="76" name="2-SkaterDog-21.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-21.png"/>
+  </drawing>
+  <drawing node="SkaterDog_027" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-23.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-21.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-19.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-20.png"/>
+   <drw frame="21" name="2-SkaterDog-19.png"/>
+   <drw frame="22" name="2-SkaterDog-20.png"/>
+   <drw frame="23" name="2-SkaterDog-19.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-20.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-23.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-21.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-19.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-20.png"/>
+   <drw frame="55" name="2-SkaterDog-19.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-21.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-23.png"/>
+   <drw frame="73" name="2-SkaterDog-22.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="76" name="2-SkaterDog-20.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-20.png"/>
+  </drawing>
+  <drawing node="SkaterDog_026" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-23.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-22.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-20.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-18.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-19.png"/>
+   <drw frame="21" name="2-SkaterDog-18.png"/>
+   <drw frame="22" name="2-SkaterDog-19.png"/>
+   <drw frame="23" name="2-SkaterDog-29.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-19.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-22.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-20.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-18.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-19.png"/>
+   <drw frame="55" name="2-SkaterDog-18.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-20.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-22.png"/>
+   <drw frame="73" name="2-SkaterDog-21.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="76" name="2-SkaterDog-19.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="79" repeat="2" name="2-SkaterDog-19.png"/>
+  </drawing>
+  <drawing node="SkaterDog_025" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-22.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-21.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-19.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-17.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="21" name="2-SkaterDog-17.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="24" name="2-SkaterDog-30.png"/>
+   <drw frame="25" name="2-SkaterDog-31.png"/>
+   <drw frame="26" repeat="2" name="2-SkaterDog-32.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-21.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-19.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-17.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="55" name="2-SkaterDog-17.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-19.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-21.png"/>
+   <drw frame="73" name="2-SkaterDog-20.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="76" name="2-SkaterDog-29.png"/>
+   <drw frame="77" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="79" name="2-SkaterDog-30.png"/>
+   <drw frame="80" name="2-SkaterDog-32.png"/>
+  </drawing>
+  <drawing node="SkaterDog_024" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-21.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-20.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-16.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-17.png"/>
+   <drw frame="21" name="2-SkaterDog-16.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="28" name="2-SkaterDog-32.png"/>
+   <drw frame="29" name="2-SkaterDog-31.png"/>
+   <drw frame="30" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-20.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-16.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-17.png"/>
+   <drw frame="55" name="2-SkaterDog-16.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-18.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-20.png"/>
+   <drw frame="73" name="2-SkaterDog-19.png"/>
+   <drw frame="74" name="2-SkaterDog-32.png"/>
+   <drw frame="75" name="2-SkaterDog-31.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-18.png"/>
+  </drawing>
+  <drawing node="SkaterDog_023" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-20.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-19.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-17.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-15.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-16.png"/>
+   <drw frame="21" name="2-SkaterDog-15.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-17.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="30" name="2-SkaterDog-30.png"/>
+   <drw frame="31" name="2-SkaterDog-29.png"/>
+   <drw frame="32" repeat="8" name="2-SkaterDog-19.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-17.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-15.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-16.png"/>
+   <drw frame="55" name="2-SkaterDog-15.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-17.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="64" repeat="9" name="2-SkaterDog-19.png"/>
+   <drw frame="73" name="2-SkaterDog-30.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-17.png"/>
+  </drawing>
+  <drawing node="SkaterDog_022" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-19.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-18.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-16.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-14.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-15.png"/>
+   <drw frame="21" name="2-SkaterDog-14.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-16.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-18.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-16.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-14.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-15.png"/>
+   <drw frame="55" name="2-SkaterDog-14.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-16.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-18.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-16.png"/>
+  </drawing>
+  <drawing node="SkaterDog_021" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-18.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-17.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-15.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-13.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-14.png"/>
+   <drw frame="21" name="2-SkaterDog-13.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-15.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-17.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-15.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-13.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-14.png"/>
+   <drw frame="55" name="2-SkaterDog-13.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-15.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-17.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-15.png"/>
+  </drawing>
+  <drawing node="SkaterDog_020" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-17.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-16.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-14.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-12.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-13.png"/>
+   <drw frame="21" name="2-SkaterDog-12.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-14.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-16.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-14.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-12.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-13.png"/>
+   <drw frame="55" name="2-SkaterDog-12.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-14.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-16.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-14.png"/>
+  </drawing>
+  <drawing node="SkaterDog_019" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-16.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-15.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-13.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-11.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-12.png"/>
+   <drw frame="21" name="2-SkaterDog-11.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-13.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-15.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-13.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-11.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-12.png"/>
+   <drw frame="55" name="2-SkaterDog-11.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-13.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-15.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-13.png"/>
+  </drawing>
+  <drawing node="SkaterDog_018" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-15.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-14.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-12.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-8.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-11.png"/>
+   <drw frame="21" name="2-SkaterDog-8.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-12.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-14.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-12.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-8.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-11.png"/>
+   <drw frame="55" name="2-SkaterDog-8.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-12.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-14.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-12.png"/>
+  </drawing>
+  <drawing node="SkaterDog_017" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-14.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-13.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-11.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-10.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="21" name="2-SkaterDog-10.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-11.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-13.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-11.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-10.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="55" name="2-SkaterDog-10.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-11.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-13.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-11.png"/>
+  </drawing>
+  <drawing node="SkaterDog_016" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-13.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-12.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-9.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="21" name="2-SkaterDog-9.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-12.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-9.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="55" name="2-SkaterDog-9.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-12.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-8.png"/>
+  </drawing>
+  <drawing node="SkaterDog_015" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-12.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-11.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-8.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="21" name="2-SkaterDog-8.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-11.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-8.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="55" name="2-SkaterDog-8.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-10.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-11.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-10.png"/>
+  </drawing>
+  <drawing node="SkaterDog_014" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-11.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-8.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-7.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="21" name="2-SkaterDog-7.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-8.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-7.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="55" name="2-SkaterDog-7.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-9.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-8.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-9.png"/>
+  </drawing>
+  <drawing node="SkaterDog_013" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-10.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="12" repeat="12" name="2-SkaterDog-7.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-10.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="46" repeat="12" name="2-SkaterDog-7.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-8.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-10.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-8.png"/>
+  </drawing>
+  <drawing node="SkaterDog_012" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-10.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-9.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="8" repeat="20" name="2-SkaterDog-7.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-9.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="42" repeat="20" name="2-SkaterDog-7.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-9.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-7.png"/>
+  </drawing>
+  <drawing node="SkaterDog_011" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-9.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-8.png"/>
+   <drw frame="6" repeat="24" name="2-SkaterDog-7.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-8.png"/>
+   <drw frame="40" repeat="24" name="2-SkaterDog-7.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-8.png"/>
+   <drw frame="74" repeat="7" name="2-SkaterDog-7.png"/>
+  </drawing>
+  <drawing node="SkaterDog_010" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-8.png"/>
+   <drw frame="3" repeat="11" name="2-SkaterDog-7.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-6.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-7.png"/>
+   <drw frame="21" name="2-SkaterDog-6.png"/>
+   <drw frame="22" repeat="26" name="2-SkaterDog-7.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-6.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-7.png"/>
+   <drw frame="55" name="2-SkaterDog-6.png"/>
+   <drw frame="56" repeat="25" name="2-SkaterDog-7.png"/>
+  </drawing>
+  <drawing node="SkaterDog_009" name="2-SkaterDog">
+   <drw frame="1" repeat="11" name="2-SkaterDog-7.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-5.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-6.png"/>
+   <drw frame="21" name="2-SkaterDog-5.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="24" repeat="22" name="2-SkaterDog-7.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-5.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-6.png"/>
+   <drw frame="55" name="2-SkaterDog-5.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="58" repeat="23" name="2-SkaterDog-7.png"/>
+  </drawing>
+  <drawing node="SkaterDog_008" name="2-SkaterDog">
+   <drw frame="1" repeat="7" name="2-SkaterDog-7.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-6.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-4.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-5.png"/>
+   <drw frame="21" name="2-SkaterDog-4.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-6.png"/>
+   <drw frame="28" repeat="14" name="2-SkaterDog-7.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-6.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-4.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-5.png"/>
+   <drw frame="55" name="2-SkaterDog-4.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-6.png"/>
+   <drw frame="62" repeat="14" name="2-SkaterDog-7.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-6.png"/>
+  </drawing>
+  <drawing node="SkaterDog_007" name="2-SkaterDog">
+   <drw frame="1" repeat="5" name="2-SkaterDog-7.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-5.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-3.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-4.png"/>
+   <drw frame="21" name="2-SkaterDog-3.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-5.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-7.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-5.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-3.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-4.png"/>
+   <drw frame="55" name="2-SkaterDog-3.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-5.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-7.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-5.png"/>
+  </drawing>
+  <drawing node="SkaterDog_006" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-7.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-6.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-4.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-2.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-3.png"/>
+   <drw frame="21" name="2-SkaterDog-2.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-4.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-6.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-4.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-2.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-3.png"/>
+   <drw frame="55" name="2-SkaterDog-2.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-4.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-6.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-4.png"/>
+  </drawing>
+  <drawing node="SkaterDog_005" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-6.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-5.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-3.png"/>
+   <drw frame="12" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="14" repeat="3" name="2-SkaterDog-1.png"/>
+   <drw frame="17" repeat="4" name="2-SkaterDog-2.png"/>
+   <drw frame="21" name="2-SkaterDog-1.png"/>
+   <drw frame="22" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-3.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-5.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-3.png"/>
+   <drw frame="46" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="48" repeat="3" name="2-SkaterDog-1.png"/>
+   <drw frame="51" repeat="4" name="2-SkaterDog-2.png"/>
+   <drw frame="55" name="2-SkaterDog-1.png"/>
+   <drw frame="56" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-3.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-5.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-3.png"/>
+  </drawing>
+  <drawing node="SkaterDog_004" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-5.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-4.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="8" repeat="4" name="2-SkaterDog-2.png"/>
+   <drw frame="12" repeat="12" name="2-SkaterDog-1.png"/>
+   <drw frame="24" repeat="4" name="2-SkaterDog-2.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-4.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="42" repeat="4" name="2-SkaterDog-2.png"/>
+   <drw frame="46" repeat="12" name="2-SkaterDog-1.png"/>
+   <drw frame="58" repeat="4" name="2-SkaterDog-2.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-4.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-2.png"/>
+  </drawing>
+  <drawing node="SkaterDog_003" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-4.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-3.png"/>
+   <drw frame="6" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="8" repeat="20" name="2-SkaterDog-1.png"/>
+   <drw frame="28" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-3.png"/>
+   <drw frame="40" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="42" repeat="20" name="2-SkaterDog-1.png"/>
+   <drw frame="62" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-3.png"/>
+   <drw frame="74" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="76" repeat="5" name="2-SkaterDog-1.png"/>
+  </drawing>
+  <drawing node="SkaterDog_002" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-3.png"/>
+   <drw frame="3" repeat="3" name="2-SkaterDog-2.png"/>
+   <drw frame="6" repeat="24" name="2-SkaterDog-1.png"/>
+   <drw frame="30" repeat="10" name="2-SkaterDog-2.png"/>
+   <drw frame="40" repeat="24" name="2-SkaterDog-1.png"/>
+   <drw frame="64" repeat="10" name="2-SkaterDog-2.png"/>
+   <drw frame="74" repeat="7" name="2-SkaterDog-1.png"/>
+  </drawing>
+  <drawing node="SkaterDog_001" name="2-SkaterDog">
+   <drw frame="1" repeat="2" name="2-SkaterDog-2.png"/>
+   <drw frame="3" repeat="78" name="2-SkaterDog-1.png"/>
+  </drawing>
+  <drawing node="SkaterDog_000" name="2-SkaterDog">
+   <drw frame="1" repeat="80" name="2-SkaterDog-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

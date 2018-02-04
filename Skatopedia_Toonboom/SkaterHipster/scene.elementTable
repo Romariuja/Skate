@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Harmony Premium (HarmonyPremium.exe) version 15.0.1 build 13289 2018-01-23 10:30:52" version="1501" build="13289">
+ <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="2" elementName="HipsterSkater" elementFolder="HipsterSkater" pixmapFormat="0" scanType="0" fieldChart="12" vectorType="2" rootFolder="elements"/>
+</elements>

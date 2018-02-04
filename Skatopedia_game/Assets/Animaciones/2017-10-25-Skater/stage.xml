@@ -50,7 +50,7 @@
   <anchor node="Table" play="Top"/>
  </stage>
  <stage name="217-10-25Skater_FinalScene">
-  <play drawingAnimation="FinalScene_Top" name="Top" skeleton="Top_13" animation="FinalScene_Top"/>
+  <play drawingAnimation="FinalScene_Top" name="Top" skeleton="Top_14" animation="FinalScene_Top"/>
   <anchor node="Skater" play="Top"/>
   <anchor node="Table" play="Top"/>
  </stage>

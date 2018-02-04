@@ -14,14 +14,12 @@ public class EndObstacle : Obstacle {
         if (collision.gameObject.tag == "Table" || collision.gameObject.tag == "Skater")
         {
            Debug.Log("FINAL DE LA PANTALLA "+ collision.gameObject.transform.parent);
+           // StartCoroutine();
             //   collision.gameObject.transform.parent.GetComponent<Rigidbody2D>().velocity=new Vector3(0,0,0);
-             StartCoroutine(PC.GetComponent<Player>().slowDown());
+            StartCoroutine(PC.GetComponent<Player>().slowDown());
             PhysicsObject.levelOver = true;
-            Debug.Break();
-            Player.combo = 0;
-            //Debug.Log("Activa el collider de la banderola " + gameObject.name +" Se ha activado?" + gameObject.GetComponent<Rigidbody2D>().bodyType);
-            Player.puntua.IncrementSpecial("PUNTUACIÓN", Player.puntua.special.transform.position.x-10, Player.puntua.special.transform.position.y, 100,fade);
-            collision.gameObject.GetComponent<Player>().enabled = false;
+         
+          //  collision.gameObject.GetComponent<Player>().enabled = false;
         }
 
 

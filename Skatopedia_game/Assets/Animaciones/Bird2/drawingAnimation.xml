@@ -41,4 +41,19 @@
    <drw frame="38" name="72-Bird1-7.png"/>
   </drawing>
  </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="bird1Idle2_Top">
+  <drawing node="Bird1_000" name="72-Bird1">
+   <drw frame="1" name="72-Bird1-1.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="bird1Idle_Top">
+  <drawing node="Bird1_000" name="72-Bird1">
+   <drw frame="1" name="72-Bird1-1.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="bird1Idle3_Top">
+  <drawing node="Bird1_000" name="72-Bird1">
+   <drw frame="1" name="72-Bird1-1.png"/>
+  </drawing>
+ </drawingAnimation>
 </drawingAnimations>

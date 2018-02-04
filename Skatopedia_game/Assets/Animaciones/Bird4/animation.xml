@@ -1,0 +1,68 @@
+<animations>
+ <animation name="Bird4_Top">
+  <attrlinks>
+   <attrlink attr="rotation.anglez" node="Bird1-p_002" value="-3.141596981311111"/>
+   <attrlink attr="position.x" node="Bird1-p_002" timedvalue="ATV-090F53280A501705"/>
+   <attrlink attr="position.y" node="Bird1-p_002" timedvalue="ATV-090F53280A501707"/>
+   <attrlink attr="scale.x" node="Bird1-p_002" timedvalue="ATV-090F53280A501709"/>
+   <attrlink attr="scale.y" node="Bird1-p_002" timedvalue="ATV-090F53280A50170B"/>
+   <attrlink attr="skew" node="Bird1-p_002" value="-180.0004"/>
+   <attrlink attr="pivot" node="Bird1-p_002" timedvalue="PIVOT-TV-Bird1-p_002"/>
+   <attrlink attr="opacity" node="Bird1_002" value="1"/>
+   <attrlink attr="opacity" node="Bird1_000" value="1"/>
+   <attrlink attr="opacity" node="Drawing" value="1"/>
+  </attrlinks>
+  <timedvalues>
+   <bezier name="ATV-090F53280A501705">
+    <pt x="1" y="81.94618225097656" rx="1" ry="81.94618225097656" lx="1" ly="81.94618225097656" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-090F53280A501707">
+    <pt x="1" y="-4.471272468566895" rx="1" ry="-4.471272468566895" lx="1" ly="-4.471272468566895" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-090F53280A501709">
+    <pt x="1" y="0.2512200176715851" rx="1" ry="0.2512200176715851" lx="1" ly="0.2512200176715851" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-090F53280A50170B">
+    <pt x="1" y="0.2488100081682205" rx="1" ry="0.2488100081682205" lx="1" ly="0.2488100081682205" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Bird1-p_002">
+    <pt x="-16" y="11.6363639831543" z="0" start="1"/>
+   </pivot>
+  </timedvalues>
+ </animation>
+ <animation name="Bird4Idle_Top">
+  <attrlinks>
+   <attrlink attr="rotation.anglez" node="Bird1-p_002" value="-3.141596981311111"/>
+   <attrlink attr="position.x" node="Bird1-p_002" timedvalue="ATV-090F53280A501705"/>
+   <attrlink attr="position.y" node="Bird1-p_002" timedvalue="ATV-090F53280A501707"/>
+   <attrlink attr="scale.x" node="Bird1-p_002" timedvalue="ATV-090F53280A501709"/>
+   <attrlink attr="scale.y" node="Bird1-p_002" timedvalue="ATV-090F53280A50170B"/>
+   <attrlink attr="skew" node="Bird1-p_002" value="-180.0004"/>
+   <attrlink attr="pivot" node="Bird1-p_002" timedvalue="PIVOT-TV-Bird1-p_002"/>
+   <attrlink attr="opacity" node="Bird1_002" value="1"/>
+   <attrlink attr="opacity" node="Bird1_001" value="1"/>
+   <attrlink attr="opacity" node="Drawing" value="1"/>
+  </attrlinks>
+  <timedvalues>
+   <bezier name="ATV-090F53280A501705">
+    <pt x="1" y="81.94618225097656" rx="1" ry="81.94618225097656" lx="1" ly="81.94618225097656" constSeg="false"/>
+    <pt x="38" y="81.94618225097656" rx="38" ry="81.94618225097656" lx="38" ly="81.94618225097656" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-090F53280A501707">
+    <pt x="1" y="-4.471272468566895" rx="1" ry="-4.471272468566895" lx="1" ly="-4.471272468566895" constSeg="false"/>
+    <pt x="38" y="-4.471272468566895" rx="38" ry="-4.471272468566895" lx="38" ly="-4.471272468566895" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-090F53280A501709">
+    <pt x="1" y="0.2512200176715851" rx="1" ry="0.2512200176715851" lx="1" ly="0.2512200176715851" constSeg="false"/>
+    <pt x="38" y="0.2512200176715851" rx="38" ry="0.2512200176715851" lx="38" ly="0.2512200176715851" constSeg="false"/>
+   </bezier>
+   <bezier name="ATV-090F53280A50170B">
+    <pt x="1" y="0.2488100081682205" rx="1" ry="0.2488100081682205" lx="1" ly="0.2488100081682205" constSeg="false"/>
+    <pt x="38" y="0.2488100081682205" rx="38" ry="0.2488100081682205" lx="38" ly="0.2488100081682205" constSeg="false"/>
+   </bezier>
+   <pivot name="PIVOT-TV-Bird1-p_002">
+    <pt x="-16" y="11.6363639831543" z="0" start="1"/>
+   </pivot>
+  </timedvalues>
+ </animation>
+</animations>

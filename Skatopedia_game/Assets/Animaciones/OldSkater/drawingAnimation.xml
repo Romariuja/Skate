@@ -1,0 +1,153 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="OldSkater_Top">
+  <drawing node="OldSkater_030" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-27.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-27.png"/>
+  </drawing>
+  <drawing node="OldSkater_029" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-26.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-26.png"/>
+  </drawing>
+  <drawing node="OldSkater_028" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-25.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-25.png"/>
+  </drawing>
+  <drawing node="OldSkater_027" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-24.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-24.png"/>
+  </drawing>
+  <drawing node="OldSkater_026" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-23.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-27.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-23.png"/>
+  </drawing>
+  <drawing node="OldSkater_025" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-22.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-26.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-22.png"/>
+  </drawing>
+  <drawing node="OldSkater_024" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-21.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-25.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-21.png"/>
+  </drawing>
+  <drawing node="OldSkater_023" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-20.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-24.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-20.png"/>
+  </drawing>
+  <drawing node="OldSkater_022" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-19.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-23.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-19.png"/>
+  </drawing>
+  <drawing node="OldSkater_021" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-18.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-22.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-18.png"/>
+  </drawing>
+  <drawing node="OldSkater_020" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-17.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-21.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-17.png"/>
+  </drawing>
+  <drawing node="OldSkater_019" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-16.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-20.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-16.png"/>
+  </drawing>
+  <drawing node="OldSkater_018" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-15.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-19.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-15.png"/>
+  </drawing>
+  <drawing node="OldSkater_017" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-14.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-18.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-14.png"/>
+  </drawing>
+  <drawing node="OldSkater_016" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-13.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-17.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-13.png"/>
+  </drawing>
+  <drawing node="OldSkater_015" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-12.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-16.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-12.png"/>
+  </drawing>
+  <drawing node="OldSkater_014" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-11.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-15.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-11.png"/>
+  </drawing>
+  <drawing node="OldSkater_013" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-10.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-14.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-10.png"/>
+  </drawing>
+  <drawing node="OldSkater_012" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-8.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-13.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-8.png"/>
+  </drawing>
+  <drawing node="OldSkater_011" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-9.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-12.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-9.png"/>
+  </drawing>
+  <drawing node="OldSkater_010" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-8.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-11.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-8.png"/>
+  </drawing>
+  <drawing node="OldSkater_009" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-8.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-10.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-8.png"/>
+  </drawing>
+  <drawing node="OldSkater_008" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-9.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-6.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-9.png"/>
+  </drawing>
+  <drawing node="OldSkater_007" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-8.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-5.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-8.png"/>
+  </drawing>
+  <drawing node="OldSkater_006" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-7.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-4.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-7.png"/>
+  </drawing>
+  <drawing node="OldSkater_005" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-6.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-3.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-6.png"/>
+  </drawing>
+  <drawing node="OldSkater_004" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-5.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-2.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-5.png"/>
+  </drawing>
+  <drawing node="OldSkater_003" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-4.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-29.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-4.png"/>
+  </drawing>
+  <drawing node="OldSkater_002" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-3.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-28.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-3.png"/>
+  </drawing>
+  <drawing node="OldSkater_001" name="2-OldSkater">
+   <drw frame="1" repeat="86" name="2-OldSkater-2.png"/>
+   <drw frame="87" repeat="32" name="2-OldSkater-28.png"/>
+   <drw frame="119" repeat="6" name="2-OldSkater-2.png"/>
+  </drawing>
+  <drawing node="OldSkater_000" name="2-OldSkater">
+   <drw frame="1" repeat="124" name="2-OldSkater-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

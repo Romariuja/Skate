@@ -1,0 +1,80 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="Idle_Top">
+  <drawing node="Cat_Idle_005" name="2-Cat_Idle">
+   <drw frame="1" repeat="60" name="2-Cat_Idle-6.png"/>
+  </drawing>
+  <drawing node="Cat_Idle_004" name="2-Cat_Idle">
+   <drw frame="1" repeat="60" name="2-Cat_Idle-5.png"/>
+  </drawing>
+  <drawing node="Cat_Idle_003" name="2-Cat_Idle">
+   <drw frame="1" repeat="60" name="2-Cat_Idle-4.png"/>
+  </drawing>
+  <drawing node="Cat_Idle_002" name="2-Cat_Idle">
+   <drw frame="1" repeat="60" name="2-Cat_Idle-3.png"/>
+  </drawing>
+  <drawing node="Cat_Idle_001" name="2-Cat_Idle">
+   <drw frame="1" repeat="60" name="2-Cat_Idle-2.png"/>
+  </drawing>
+  <drawing node="Cat_Idle_000" name="2-Cat_Idle">
+   <drw frame="1" repeat="6" name="2-Cat_Idle-1.png"/>
+   <drw frame="7" name="2-Cat_Idle-7.png"/>
+   <drw frame="8" name="2-Cat_Idle-8.png"/>
+   <drw frame="9" name="2-Cat_Idle-9.png"/>
+   <drw frame="10" name="2-Cat_Idle-10.png"/>
+   <drw frame="11" repeat="26" name="2-Cat_Idle-11.png"/>
+   <drw frame="37" name="2-Cat_Idle-10.png"/>
+   <drw frame="38" name="2-Cat_Idle-9.png"/>
+   <drw frame="39" repeat="2" name="2-Cat_Idle-8.png"/>
+   <drw frame="41" name="2-Cat_Idle-9.png"/>
+   <drw frame="42" name="2-Cat_Idle-10.png"/>
+   <drw frame="43" repeat="18" name="2-Cat_Idle-11.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="Run_Top">
+  <drawing node="Cat_Run_006" name="3-Cat_Run">
+   <drw frame="1" repeat="25" name="3-Cat_Run-7.png"/>
+  </drawing>
+  <drawing node="Cat_Run_005" name="3-Cat_Run">
+   <drw frame="1" repeat="25" name="3-Cat_Run-6.png"/>
+  </drawing>
+  <drawing node="Cat_Run_004" name="3-Cat_Run">
+   <drw frame="1" repeat="25" name="3-Cat_Run-5.png"/>
+  </drawing>
+  <drawing node="Cat_Run_003" name="3-Cat_Run">
+   <drw frame="1" repeat="25" name="3-Cat_Run-4.png"/>
+  </drawing>
+  <drawing node="Cat_Run_002" name="3-Cat_Run">
+   <drw frame="1" repeat="25" name="3-Cat_Run-3.png"/>
+  </drawing>
+  <drawing node="Cat_Run_001" name="3-Cat_Run">
+   <drw frame="1" repeat="25" name="3-Cat_Run-2.png"/>
+  </drawing>
+  <drawing node="Cat_Run_000" name="3-Cat_Run">
+   <drw frame="1" name="3-Cat_Run-1.png"/>
+   <drw frame="2" name="3-Cat_Run-8.png"/>
+   <drw frame="3" name="3-Cat_Run-9.png"/>
+   <drw frame="4" name="3-Cat_Run-10.png"/>
+   <drw frame="5" name="3-Cat_Run-11.png"/>
+   <drw frame="6" name="3-Cat_Run-1.png"/>
+   <drw frame="7" name="3-Cat_Run-8.png"/>
+   <drw frame="8" name="3-Cat_Run-9.png"/>
+   <drw frame="9" name="3-Cat_Run-10.png"/>
+   <drw frame="10" name="3-Cat_Run-11.png"/>
+   <drw frame="11" name="3-Cat_Run-1.png"/>
+   <drw frame="12" name="3-Cat_Run-8.png"/>
+   <drw frame="13" name="3-Cat_Run-9.png"/>
+   <drw frame="14" name="3-Cat_Run-10.png"/>
+   <drw frame="15" name="3-Cat_Run-11.png"/>
+   <drw frame="16" name="3-Cat_Run-1.png"/>
+   <drw frame="17" name="3-Cat_Run-8.png"/>
+   <drw frame="18" name="3-Cat_Run-9.png"/>
+   <drw frame="19" name="3-Cat_Run-10.png"/>
+   <drw frame="20" name="3-Cat_Run-11.png"/>
+   <drw frame="21" name="3-Cat_Run-1.png"/>
+   <drw frame="22" name="3-Cat_Run-8.png"/>
+   <drw frame="23" name="3-Cat_Run-9.png"/>
+   <drw frame="24" name="3-Cat_Run-10.png"/>
+   <drw frame="25" name="3-Cat_Run-11.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

@@ -1,0 +1,8 @@
+<stages>
+ <stage name="Cat_Idle">
+  <play drawingAnimation="Idle_Top" name="Top" skeleton="Top" animation="Idle_Top"/>
+ </stage>
+ <stage name="Cat_Run">
+  <play drawingAnimation="Run_Top" name="Top" skeleton="Top_1" animation="Run_Top"/>
+ </stage>
+</stages>

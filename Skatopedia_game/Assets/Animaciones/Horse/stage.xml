@@ -1,0 +1,8 @@
+<stages>
+ <stage name="Horse_Celebrating">
+  <play drawingAnimation="Celebrating_Top" name="Top" skeleton="Top" animation="Celebrating_Top"/>
+ </stage>
+ <stage name="Horse_Run">
+  <play drawingAnimation="Run_Top" name="Top" skeleton="Top_1" animation="Run_Top"/>
+ </stage>
+</stages>

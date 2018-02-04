@@ -1,0 +1,74 @@
+<skeletons>
+ <skeleton name="Top">
+  <nodes>
+   <peg id="0" name="GlobalFlashPeg"/>
+   <peg id="1" name="Cat_Idle-p_005"/>
+   <read id="2" name="Cat_Idle_005"/>
+   <peg id="3" name="Cat_Idle-p_004"/>
+   <read id="4" name="Cat_Idle_004"/>
+   <peg id="5" name="Cat_Idle-p_003"/>
+   <read id="6" name="Cat_Idle_003"/>
+   <peg id="7" name="Cat_Idle-p_002"/>
+   <read id="8" name="Cat_Idle_002"/>
+   <peg id="9" name="Cat_Idle-p_001"/>
+   <read id="10" name="Cat_Idle_001"/>
+   <peg id="11" name="Cat_Idle-p_000"/>
+   <read id="12" name="Cat_Idle_000"/>
+   <read id="13" name="Drawing"/>
+  </nodes>
+  <links>
+   <link in="Top" out="0"/>
+   <link in="0" out="1"/>
+   <link in="1" out="2"/>
+   <link in="0" out="3"/>
+   <link in="3" out="4"/>
+   <link in="0" out="5"/>
+   <link in="5" out="6"/>
+   <link in="0" out="7"/>
+   <link in="7" out="8"/>
+   <link in="0" out="9"/>
+   <link in="9" out="10"/>
+   <link in="0" out="11"/>
+   <link in="11" out="12"/>
+   <link in="Top" out="13"/>
+  </links>
+ </skeleton>
+ <skeleton name="Top_1">
+  <nodes>
+   <peg id="0" name="GlobalFlashPeg"/>
+   <peg id="1" name="Cat_Run-p_006"/>
+   <read id="2" name="Cat_Run_006"/>
+   <peg id="3" name="Cat_Run-p_005"/>
+   <read id="4" name="Cat_Run_005"/>
+   <peg id="5" name="Cat_Run-p_004"/>
+   <read id="6" name="Cat_Run_004"/>
+   <peg id="7" name="Cat_Run-p_003"/>
+   <read id="8" name="Cat_Run_003"/>
+   <peg id="9" name="Cat_Run-p_002"/>
+   <read id="10" name="Cat_Run_002"/>
+   <peg id="11" name="Cat_Run-p_001"/>
+   <read id="12" name="Cat_Run_001"/>
+   <peg id="13" name="Cat_Run-p_000"/>
+   <read id="14" name="Cat_Run_000"/>
+   <read id="15" name="Drawing"/>
+  </nodes>
+  <links>
+   <link in="Top" out="0"/>
+   <link in="0" out="1"/>
+   <link in="1" out="2"/>
+   <link in="0" out="3"/>
+   <link in="3" out="4"/>
+   <link in="0" out="5"/>
+   <link in="5" out="6"/>
+   <link in="0" out="7"/>
+   <link in="7" out="8"/>
+   <link in="0" out="9"/>
+   <link in="9" out="10"/>
+   <link in="0" out="11"/>
+   <link in="11" out="12"/>
+   <link in="0" out="13"/>
+   <link in="13" out="14"/>
+   <link in="Top" out="15"/>
+  </links>
+ </skeleton>
+</skeletons>

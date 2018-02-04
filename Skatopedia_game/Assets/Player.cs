@@ -49,6 +49,7 @@ public class Player : PhysicsObject {
     public static CustomImageEffect EffectCam;
     public static List<string> lastTricks;
     public static int SuperT = 1; 
+    
 
     void awake()
     {
@@ -58,33 +59,15 @@ public class Player : PhysicsObject {
 
     // Use this for initialization
     void Start() {
-
-        
-
-        Puntuacion.puntuacion=0;
-    //  a.wrapMode = WrapMode.Loop;
-
-    //animation = GetComponent<Animation>();
-    //animation["CrippledM"].wrapMode = WrapMode.Once;
-    anim = GetComponent<Animator>();
-        //Table = GameObject.FindGameObjectWithTag("Table");
-        //Debug.Log("Table es: " + Table.transform.parent.parent.name);
+  
+         Puntuacion.puntuacion=0;
+         anim = GetComponent<Animator>();
         TableScript = GetComponent<PhysicsObject>();
-      //  Debug.Log(TableScript.gameObject);
-        //TableCrippled = GameObject.FindGameObjectWithTag("TableCrippled");
-        //Skater = GameObject.FindGameObjectWithTag("Skater");
-        //Debug.Log("Skater es: " + Skater.transform.parent.parent.name);
         SkaterColliders = Skater.GetComponents<Collider2D>();
-        //Debug.Log(SkaterColliders);
         TableColliders = Table.GetComponents<BoxCollider2D>();
-        //Debug.Log(TableColliders);
-        cam = GameObject.FindWithTag("MainCamera");
-       
+        cam = GameObject.FindWithTag("MainCamera");    
         puntua = cam.GetComponent<Puntuacion>();
-
         CameraScript=cam.GetComponent<ControladorCamara>();
-
-
         EffectCam = cam.GetComponent<CustomImageEffect>();
         transitionsList = new List<transition>();
         transitionsList.Add(new transition("Idle", false));
@@ -117,8 +100,6 @@ public class Player : PhysicsObject {
         {
             if (TransitionList[i].name == Name)
             {
-            //   Debug.Log("Ha activado al transicion" + TransitionList[i].name + Init);
-             //  Debug.Break();
                  TransitionList[i].init=Init;
             }
             else
@@ -296,10 +277,11 @@ public class Player : PhysicsObject {
         anim.SetBool("onGrind", onGrind);
         anim.SetBool("jump", transitionsList[2].init);
         anim.SetBool("gameOver", gameOver);
+        anim.SetBool("levelOver", levelOver);
 
         //STATE MACHINE-------------------------------------------------------------------------------------------------------------------------------------
 
-       
+
         //GAMEOVER STATE
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("CrippledM"))
         {
@@ -363,6 +345,8 @@ public class Player : PhysicsObject {
             currentVel = Mathf.Max(currentVel - acel, MaxVel);
             PuntosGrind = Grind_50_50Points;
             puntua.IncrementarCombo(combo, "Grind_50_50", Grind_50_50Points * contGrind);
+            //Debug.Log("INCREMENTA GRIND: Nombre:GRIND, xcombo:" + combo + " contador combo" +contGrind );
+
             contGrind++;
         }
 
@@ -464,9 +448,13 @@ public class Player : PhysicsObject {
 
             }
 
-          //  combo = 0;
-           // currentVel = Mathf.Min(currentVel + acel, FlexVel);
-        
+            if (onFloor || onGrind)
+            { UnFreezeConstraints(originalConstraints); }
+                else
+            { FreezeConstraints(); }
+            //  combo = 0;
+            // currentVel = Mathf.Min(currentVel + acel, FlexVel);
+
             // currentVel = Mathf.Max(currentVel - acel, MaxVel);
             UpdateTransition(transitionsList, "SuperTrick", true);
         }

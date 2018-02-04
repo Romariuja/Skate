@@ -1,0 +1,5 @@
+<stages>
+ <stage name="SkaterGirl_SkaterGirl">
+  <play drawingAnimation="SkaterGirl_Top" name="Top" skeleton="Top" animation="SkaterGirl_Top"/>
+ </stage>
+</stages>

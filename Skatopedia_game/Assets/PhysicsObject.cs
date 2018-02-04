@@ -171,8 +171,8 @@ public class PhysicsObject : MonoBehaviour {
         //   Player.transform.right = Vector3.Lerp(Player.transform.right, perpendicular, Time.deltaTime * 100);
         float dif = Vector3.Angle(transform.right, perpendicular);
        float dif2 = AngleInDeg(perpendicular, transform.right);
-        Debug.Log("perpendicular: " + perpendicular + " right vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
-        Debug.Log("perpendicular: " + perpendicular + " right vector player: " + Player.transform.right + " .Diferencia Angular2: " + dif);
+       // Debug.Log("perpendicular: " + perpendicular + " right vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
+        //Debug.Log("perpendicular: " + perpendicular + " right vector player: " + Player.transform.right + " .Diferencia Angular2: " + dif);
 
         //ALLIGN ANGLE CONDITION
 

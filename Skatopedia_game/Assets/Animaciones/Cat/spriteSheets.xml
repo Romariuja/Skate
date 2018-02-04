@@ -1,0 +1,99 @@
+<!DOCTYPE spritesheets>
+<spritesheets>
+ <spritesheet resolution="ipad" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad.png">
+  <sprite scaleY="0.0416667" angleDegrees="33.6901" rect="1874,126,140,204" offsetX="-340.207" offsetY="-13.207" name="2-Cat_Idle-3.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="12.5576" rect="1589,126,285,173" offsetX="-277.943" offsetY="122.066" name="3-Cat_Run-8.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-36.3475" rect="1497,126,92,169" offsetX="-156.22" offsetY="368.992" name="2-Cat_Idle-7.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-44.1931" rect="1410,126,87,167" offsetX="-102.78" offsetY="375.881" name="2-Cat_Idle-8.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-20.3616" rect="1305,126,105,155" offsetX="-247.94" offsetY="315.482" name="2-Cat_Idle-1.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="6.58194" rect="1039,126,266,144" offsetX="-285.086" offsetY="171.65" name="3-Cat_Run-11.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="6.00053" rect="620,126,419,137" offsetX="-198.468" offsetY="188.358" name="3-Cat_Run-10.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-3.16313" rect="149,126,471,134" offsetX="-141.46" offsetY="231.043" name="3-Cat_Run-9.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-26.5651" rect="42,126,107,101" offsetX="-197.942" offsetY="364.272" name="2-Cat_Idle-5.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="0,126,42,74" offsetX="-368.536" offsetY="248.204" name="2-Cat_Idle-2.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="12.4825" rect="1767,0,247,126" offsetX="-315.831" offsetY="146.399" name="3-Cat_Run-1.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="38.6598" rect="1610,0,157,94" offsetX="-376.835" offsetY="-35.2351" name="2-Cat_Idle-9.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="1439,0,171,80" offsetX="-304.232" offsetY="244.992" name="2-Cat_Idle-4.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="1397,0,42,74" offsetX="-368.536" offsetY="248.204" name="2-Cat_Idle-6.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="17.0674" rect="1206,0,191,53" offsetX="-357.677" offsetY="151.6" name="2-Cat_Idle-10.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="8.04906" rect="1009,0,197,47" offsetX="-323.451" offsetY="215.868" name="2-Cat_Idle-11.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="33.6901" rect="1874,126,140,204" offsetX="-340.207" offsetY="-13.207" name="3-Cat_Run-4.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-26.5651" rect="42,126,107,101" offsetX="-197.942" offsetY="364.272" name="3-Cat_Run-6.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="0,126,42,74" offsetX="-368.536" offsetY="248.204" name="3-Cat_Run-3.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-20.3616" rect="1305,126,105,155" offsetX="-247.94" offsetY="315.482" name="3-Cat_Run-2.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="1397,0,42,74" offsetX="-368.536" offsetY="248.204" name="3-Cat_Run-7.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="1439,0,171,80" offsetX="-304.232" offsetY="244.992" name="3-Cat_Run-5.png" scaleX="0.0416667"/>
+ </spritesheet>
+ <spritesheet resolution="ipad-retina" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad-retina.png">
+  <sprite scaleY="0.0208333" angleDegrees="33.8283" rect="1757,502,269,396" offsetX="-680.072" offsetY="-28.2816" name="2-Cat_Idle-3.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="12.5852" rect="1199,502,558,335" offsetX="-556.062" offsetY="243.884" name="3-Cat_Run-8.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-36.3935" rect="1027,502,172,326" offsetX="-311.789" offsetY="738.195" name="2-Cat_Idle-7.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-44.0608" rect="865,502,162,322" offsetX="-207.505" offsetY="751.445" name="2-Cat_Idle-8.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-20.3981" rect="667,502,198,298" offsetX="-495.458" offsetY="631.246" name="2-Cat_Idle-1.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="6.59817" rect="146,502,521,277" offsetX="-570.297" offsetY="343.158" name="3-Cat_Run-11.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="73,502,73,136" offsetX="-737.071" offsetY="496.409" name="2-Cat_Idle-2.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="0,502,73,136" offsetX="-737.071" offsetY="496.409" name="2-Cat_Idle-6.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="6.03845" rect="1200,240,826,262" offsetX="-397.124" offsetY="376.495" name="3-Cat_Run-10.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-3.20879" rect="270,240,930,256" offsetX="-282.552" offsetY="462.528" name="3-Cat_Run-9.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-26.5651" rect="67,240,203,190" offsetX="-395.885" offsetY="728.543" name="2-Cat_Idle-5.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="12.4772" rect="1543,0,483,240" offsetX="-631.627" offsetY="292.861" name="3-Cat_Run-1.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="38.5608" rect="1241,0,302,176" offsetX="-753.736" offsetY="-69.2329" name="2-Cat_Idle-9.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="910,0,331,149" offsetX="-608.465" offsetY="489.984" name="2-Cat_Idle-4.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="17.049" rect="540,0,370,94" offsetX="-715.254" offsetY="303.44" name="2-Cat_Idle-10.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="8.08938" rect="158,0,382,82" offsetX="-647.196" offsetY="431.272" name="2-Cat_Idle-11.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="33.8283" rect="1757,502,269,396" offsetX="-680.072" offsetY="-28.2816" name="3-Cat_Run-4.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-26.5651" rect="67,240,203,190" offsetX="-395.885" offsetY="728.543" name="3-Cat_Run-6.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="73,502,73,136" offsetX="-737.071" offsetY="496.409" name="3-Cat_Run-3.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-20.3981" rect="667,502,198,298" offsetX="-495.458" offsetY="631.246" name="3-Cat_Run-2.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="0,502,73,136" offsetX="-737.071" offsetY="496.409" name="3-Cat_Run-7.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="910,0,331,149" offsetX="-608.465" offsetY="489.984" name="3-Cat_Run-5.png" scaleX="0.0208333"/>
+ </spritesheet>
+ <spritesheet resolution="iphone" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone.png">
+  <sprite scaleY="0.0888889" angleDegrees="33.3885" rect="1447,0,72,102" offsetX="-159.644" offsetY="-5.23571" name="2-Cat_Idle-3.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="12.3391" rect="1307,0,140,87" offsetX="-129.96" offsetY="57.8335" name="3-Cat_Run-8.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-36.0983" rect="1258,0,49,85" offsetX="-74.0541" offsetY="172.697" name="2-Cat_Idle-7.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-43.8542" rect="1211,0,47,84" offsetX="-49.2375" offsetY="176.002" name="2-Cat_Idle-8.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="6.54629" rect="1080,0,131,74" offsetX="-133.57" offsetY="80.5335" name="3-Cat_Run-11.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="6.18862" rect="878,0,202,70" offsetX="-93.25" offsetY="87.8599" name="3-Cat_Run-10.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="816,0,62,70" offsetX="-154.816" offsetY="102.485" name="2-Cat_Idle-1.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-3.17983" rect="589,0,227,69" offsetX="-66.2778" offsetY="108.339" name="3-Cat_Run-9.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="12.5288" rect="467,0,122,65" offsetX="-148.118" offsetY="68.4978" name="3-Cat_Run-1.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-45" rect="412,0,55,51" offsetX="-33.1041" offsetY="189.912" name="2-Cat_Idle-5.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="38.5169" rect="332,0,80,50" offsetX="-176.663" offsetY="-16.098" name="2-Cat_Idle-9.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="246,0,86,44" offsetX="-142.609" offsetY="114.84" name="2-Cat_Idle-4.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="220,0,26,41" offsetX="-172.751" offsetY="116.346" name="2-Cat_Idle-2.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="194,0,26,41" offsetX="-172.751" offsetY="116.346" name="2-Cat_Idle-6.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="17.1027" rect="98,0,96,31" offsetX="-167.707" offsetY="70.9537" name="2-Cat_Idle-10.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="8.29714" rect="0,0,98,28" offsetX="-152.042" offsetY="100.519" name="2-Cat_Idle-11.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="33.3885" rect="1447,0,72,102" offsetX="-159.644" offsetY="-5.23571" name="3-Cat_Run-4.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-45" rect="412,0,55,51" offsetX="-33.1041" offsetY="189.912" name="3-Cat_Run-6.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="220,0,26,41" offsetX="-172.751" offsetY="116.346" name="3-Cat_Run-3.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="816,0,62,70" offsetX="-154.816" offsetY="102.485" name="3-Cat_Run-2.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="194,0,26,41" offsetX="-172.751" offsetY="116.346" name="3-Cat_Run-7.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="246,0,86,44" offsetX="-142.609" offsetY="114.84" name="3-Cat_Run-5.png" scaleX="0.0888889"/>
+ </spritesheet>
+ <spritesheet resolution="iphone-retina" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone-retina.png">
+  <sprite scaleY="0.0375587" angleDegrees="33.6901" rect="1854,147,154,225" offsetX="-377.417" offsetY="-14.6515" name="2-Cat_Idle-3.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="12.5809" rect="1539,147,315,191" offsetX="-308.425" offsetY="135.301" name="3-Cat_Run-8.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-36.3844" rect="1438,147,101,186" offsetX="-173.017" offsetY="409.444" name="2-Cat_Idle-7.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-44.0371" rect="1343,147,95,184" offsetX="-115.293" offsetY="416.785" name="2-Cat_Idle-8.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-20.4418" rect="1228,147,115,170" offsetX="-274.544" offsetY="350.331" name="2-Cat_Idle-1.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="6.59674" rect="934,147,294,159" offsetX="-316.33" offsetY="190.352" name="3-Cat_Run-11.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="6.10006" rect="471,147,463,150" offsetX="-220.449" offsetY="208.53" name="3-Cat_Run-10.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="12.4825" rect="198,147,273,139" offsetX="-350.375" offsetY="162.412" name="3-Cat_Run-1.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="45" rect="92,147,106,115" offsetX="-449.459" offsetY="-78.3464" name="2-Cat_Idle-5.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="46,147,46,80" offsetX="-408.844" offsetY="275.352" name="2-Cat_Idle-2.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="0,147,46,80" offsetX="-408.844" offsetY="275.352" name="2-Cat_Idle-6.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-3.21699" rect="1487,0,521,147" offsetX="-156.691" offsetY="256.603" name="3-Cat_Run-9.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="38.4802" rect="1314,0,173,103" offsetX="-418.116" offsetY="-37.8439" name="2-Cat_Idle-9.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="1126,0,188,88" offsetX="-337.508" offsetY="271.788" name="2-Cat_Idle-4.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="17.0378" rect="916,0,210,57" offsetX="-396.708" offsetY="168.396" name="2-Cat_Idle-10.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="7.98933" rect="699,0,217,51" offsetX="-358.585" offsetY="239.859" name="2-Cat_Idle-11.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="33.6901" rect="1854,147,154,225" offsetX="-377.417" offsetY="-14.6515" name="3-Cat_Run-4.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="45" rect="92,147,106,115" offsetX="-449.459" offsetY="-78.3464" name="3-Cat_Run-6.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="46,147,46,80" offsetX="-408.844" offsetY="275.352" name="3-Cat_Run-3.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-20.4418" rect="1228,147,115,170" offsetX="-274.544" offsetY="350.331" name="3-Cat_Run-2.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="0,147,46,80" offsetX="-408.844" offsetY="275.352" name="3-Cat_Run-7.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="1126,0,188,88" offsetX="-337.508" offsetY="271.788" name="3-Cat_Run-5.png" scaleX="0.0375587"/>
+ </spritesheet>
+</spritesheets>

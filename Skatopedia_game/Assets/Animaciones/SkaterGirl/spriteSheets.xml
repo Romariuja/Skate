@@ -1,0 +1,111 @@
+<!DOCTYPE spritesheets>
+<spritesheets>
+ <spritesheet resolution="ipad" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad.png">
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="1735,0,82,189" offsetX="-348.742" offsetY="194.024" name="2-SkaterGirl-1.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-4.34324" rect="1668,0,67,168" offsetX="-338.996" offsetY="227.002" name="2-SkaterGirl-22.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="13.1472" rect="1606,0,62,165" offsetX="-408.444" offsetY="114.943" name="2-SkaterGirl-17.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-44.2361" rect="1471,0,135,161" offsetX="-77.9222" offsetY="377.825" name="2-SkaterGirl-25.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-0.734521" rect="1418,0,53,157" offsetX="-349.615" offsetY="210.946" name="2-SkaterGirl-24.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="35.8377" rect="1366,0,52,148" offsetX="-414.996" offsetY="-9.30211" name="2-SkaterGirl-19.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="5.35582" rect="1324,0,42,138" offsetX="-390.694" offsetY="181.653" name="2-SkaterGirl-20.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="5.35582" rect="1282,0,42,138" offsetX="-390.694" offsetY="181.653" name="2-SkaterGirl-21.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-24.444" rect="1223,0,59,129" offsetX="-237.782" offsetY="355.807" name="2-SkaterGirl-9.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="4.76364" rect="1108,0,115,127" offsetX="-407.295" offsetY="248.541" name="2-SkaterGirl-12.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-33.3407" rect="1058,0,50,123" offsetX="-156.663" offsetY="443.786" name="2-SkaterGirl-13.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="14.3227" rect="979,0,79,117" offsetX="-445.836" offsetY="175.241" name="2-SkaterGirl-11.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-3.81407" rect="930,0,49,96" offsetX="-348.645" offsetY="265.246" name="2-SkaterGirl-18.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-9.8193" rect="878,0,52,95" offsetX="-318.551" offsetY="298.278" name="2-SkaterGirl-10.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="29.4072" rect="830,0,48,86" offsetX="-426.864" offsetY="36.8476" name="2-SkaterGirl-4.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="2.0723" rect="498,0,332,74" offsetX="-233.718" offsetY="244.529" name="2-SkaterGirl-3.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="36.2538" rect="422,0,76,72" offsetX="-418.239" offsetY="-7.96715" name="2-SkaterGirl-5.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="34.0459" rect="330,0,92,71" offsetX="-423.466" offsetY="17.6612" name="2-SkaterGirl-6.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-26.5651" rect="302,0,28,64" offsetX="-219.393" offsetY="422.159" name="2-SkaterGirl-14.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-28.1416" rect="154,0,148,50" offsetX="-167.216" offsetY="378.848" name="2-SkaterGirl-8.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="37.4054" rect="113,0,41,44" offsetX="-444.762" offsetY="-15.9776" name="2-SkaterGirl-23.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="4.76364" rect="45,0,68,39" offsetX="-375.84" offsetY="233.867" name="2-SkaterGirl-7.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-26.5651" rect="28,0,17,26" offsetX="-220.065" offsetY="421.847" name="2-SkaterGirl-15.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-36.8699" rect="12,0,16,26" offsetX="-139.784" offsetY="454.816" name="2-SkaterGirl-16.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="0,0,12,13" offsetX="186.484" offsetY="-230.33" name="2-SkaterGirl-2.png" scaleX="0.0416667"/>
+ </spritesheet>
+ <spritesheet resolution="ipad-retina" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad-retina.png">
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="1891,137,153,367" offsetX="-697.483" offsetY="388.049" name="2-SkaterGirl-1.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-4.08562" rect="1770,137,121,324" offsetX="-680.364" offsetY="450.969" name="2-SkaterGirl-22.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="13.1601" rect="1658,137,112,318" offsetX="-816.962" offsetY="229.709" name="2-SkaterGirl-17.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-44.2152" rect="1399,137,259,310" offsetX="-156.129" offsetY="755.594" name="2-SkaterGirl-25.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-0.744059" rect="1304,137,95,303" offsetX="-699.151" offsetY="422.008" name="2-SkaterGirl-24.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="35.665" rect="1211,137,93,285" offsetX="-830.276" offsetY="-16.1359" name="2-SkaterGirl-19.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="5.30093" rect="1139,137,72,264" offsetX="-781.068" offsetY="364.046" name="2-SkaterGirl-20.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="5.30093" rect="1067,137,72,264" offsetX="-781.068" offsetY="364.046" name="2-SkaterGirl-21.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-24.444" rect="960,137,107,246" offsetX="-475.564" offsetY="711.614" name="2-SkaterGirl-9.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="4.49715" rect="742,137,218,243" offsetX="-812.13" offsetY="501.065" name="2-SkaterGirl-12.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-33.43" rect="653,137,89,235" offsetX="-311.887" offsetY="888.086" name="2-SkaterGirl-13.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="14.5742" rect="507,137,146,222" offsetX="-893.37" offsetY="346.621" name="2-SkaterGirl-11.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-3.90049" rect="421,137,86,180" offsetX="-696.473" offsetY="531.533" name="2-SkaterGirl-18.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-9.8193" rect="328,137,93,178" offsetX="-637.102" offsetY="596.556" name="2-SkaterGirl-10.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="29.2328" rect="245,137,83,161" offsetX="-853.459" offsetY="76.333" name="2-SkaterGirl-4.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="35.8698" rect="105,137,140,134" offsetX="-836.587" offsetY="-10.3458" name="2-SkaterGirl-5.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-26.5651" rect="61,137,44,116" offsetX="-438.785" offsetY="844.318" name="2-SkaterGirl-14.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-28.6105" rect="39,137,22,41" offsetX="-410.174" offsetY="858.761" name="2-SkaterGirl-15.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="45" rect="0,137,39,21" offsetX="-939.884" offsetY="-149.192" name="2-SkaterGirl-16.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="2.07571" rect="1391,0,653,137" offsetX="-467.468" offsetY="489.033" name="2-SkaterGirl-3.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="34.0609" rect="1219,0,172,131" offsetX="-846.934" offsetY="35.101" name="2-SkaterGirl-6.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-28.3391" rect="934,0,285,88" offsetX="-331.848" offsetY="759.082" name="2-SkaterGirl-8.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="37.875" rect="864,0,70,76" offsetX="-889.269" offsetY="-39.2453" name="2-SkaterGirl-23.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="8.1301" rect="739,0,125,67" offsetX="-777.302" offsetY="420.22" name="2-SkaterGirl-7.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="726,0,13,15" offsetX="372.967" offsetY="-460.661" name="2-SkaterGirl-2.png" scaleX="0.0208333"/>
+ </spritesheet>
+ <spritesheet resolution="iphone" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone.png">
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="965,0,45,95" offsetX="-163.473" offsetY="90.9489" name="2-SkaterGirl-1.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-3.69139" rect="928,0,37,85" offsetX="-160.225" offsetY="104.603" name="2-SkaterGirl-22.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="13.1906" rect="893,0,35,83" offsetX="-191.517" offsetY="53.7397" name="2-SkaterGirl-17.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="862,0,31,80" offsetX="-165.076" offsetY="96.7911" name="2-SkaterGirl-24.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="792,0,70,76" offsetX="-150.644" offsetY="98.5095" name="2-SkaterGirl-25.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="35.8377" rect="761,0,31,76" offsetX="-194.529" offsetY="-4.36036" name="2-SkaterGirl-19.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="5.19443" rect="736,0,25,71" offsetX="-182.917" offsetY="85.66" name="2-SkaterGirl-20.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="5.19443" rect="711,0,25,71" offsetX="-182.917" offsetY="85.66" name="2-SkaterGirl-21.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="652,0,59,66" offsetX="-180" offsetY="132.791" name="2-SkaterGirl-12.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-24.2277" rect="618,0,34,66" offsetX="-112.075" offsetY="166.354" name="2-SkaterGirl-9.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-33.3106" rect="588,0,30,64" offsetX="-73.5491" offsetY="207.984" name="2-SkaterGirl-13.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="13.2405" rect="544,0,44,60" offsetX="-207.226" offsetY="86.0413" name="2-SkaterGirl-11.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-9.46232" rect="513,0,31,50" offsetX="-150.192" offsetY="138.917" name="2-SkaterGirl-10.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="483,0,30,50" offsetX="-170.787" offsetY="113.285" name="2-SkaterGirl-18.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="28.3008" rect="455,0,28,46" offsetX="-199.66" offsetY="21.1923" name="2-SkaterGirl-4.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="2.01662" rect="293,0,162,41" offsetX="-109.431" offsetY="114.778" name="2-SkaterGirl-3.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="36.2538" rect="251,0,42,40" offsetX="-196.05" offsetY="-3.7346" name="2-SkaterGirl-5.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="32.9052" rect="202,0,49,39" offsetX="-198.438" offsetY="12.2041" name="2-SkaterGirl-6.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-26.5651" rect="183,0,19,36" offsetX="-102.84" offsetY="197.887" name="2-SkaterGirl-14.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-28.6105" rect="107,0,76,30" offsetX="-76.9432" offsetY="178.33" name="2-SkaterGirl-8.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="45" rect="80,0,27,26" offsetX="-205.672" offsetY="-35.6843" name="2-SkaterGirl-23.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="42,0,38,24" offsetX="-166.745" offsetY="124.773" name="2-SkaterGirl-7.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="27,0,15,18" offsetX="-179.984" offsetY="130.876" name="2-SkaterGirl-15.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="12,0,15,17" offsetX="-180" offsetY="131.384" name="2-SkaterGirl-16.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="0,0,12,12" offsetX="87.4142" offsetY="-107.967" name="2-SkaterGirl-2.png" scaleX="0.0888889"/>
+ </spritesheet>
+ <spritesheet resolution="iphone-retina" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone-retina.png">
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="1892,0,90,209" offsetX="-386.885" offsetY="215.246" name="2-SkaterGirl-1.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-4.08562" rect="1820,0,72,185" offsetX="-377.389" offsetY="250.147" name="2-SkaterGirl-22.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="13.1575" rect="1753,0,67,182" offsetX="-453.151" offsetY="127.436" name="2-SkaterGirl-17.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-44.2927" rect="1604,0,149,177" offsetX="-86.018" offsetY="419.233" name="2-SkaterGirl-25.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-0.65106" rect="1546,0,58,173" offsetX="-388.194" offsetY="233.458" name="2-SkaterGirl-24.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="35.6764" rect="1489,0,57,163" offsetX="-460.533" offsetY="-9.04083" name="2-SkaterGirl-19.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="5.33924" rect="1444,0,45,152" offsetX="-433.373" offsetY="201.645" name="2-SkaterGirl-20.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="5.33924" rect="1399,0,45,152" offsetX="-433.373" offsetY="201.645" name="2-SkaterGirl-21.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-24.1791" rect="1335,0,64,142" offsetX="-265.57" offsetY="393.474" name="2-SkaterGirl-9.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="4.39871" rect="1209,0,126,140" offsetX="-449.971" offsetY="278.749" name="2-SkaterGirl-12.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-33.536" rect="1154,0,55,135" offsetX="-172.083" offsetY="492.946" name="2-SkaterGirl-13.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="14.3003" rect="1068,0,86,128" offsetX="-494.514" offsetY="194.599" name="2-SkaterGirl-11.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-3.81407" rect="1015,0,53,105" offsetX="-386.778" offsetY="294.257" name="2-SkaterGirl-18.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-9.78241" rect="958,0,57,104" offsetX="-353.612" offsetY="330.682" name="2-SkaterGirl-10.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="29.1343" rect="907,0,51,94" offsetX="-473.317" offsetY="43.1675" name="2-SkaterGirl-4.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="2.05765" rect="540,0,367,81" offsetX="-259.204" offsetY="271.352" name="2-SkaterGirl-3.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="36.0274" rect="457,0,83,79" offsetX="-464.022" offsetY="-7.01052" name="2-SkaterGirl-5.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="33.6901" rect="357,0,100,78" offsetX="-469.758" offsetY="22.5119" name="2-SkaterGirl-6.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-26.5651" rect="328,0,29,69" offsetX="-243.389" offsetY="468.333" name="2-SkaterGirl-14.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-28.2174" rect="165,0,163,54" offsetX="-184.956" offsetY="420.58" name="2-SkaterGirl-8.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="37.875" rect="121,0,44,48" offsetX="-493.266" offsetY="-21.7689" name="2-SkaterGirl-23.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="4.39871" rect="47,0,74,41" offsetX="-415.338" offsetY="262.259" name="2-SkaterGirl-7.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-26.5651" rect="29,0,18,28" offsetX="-244.134" offsetY="467.987" name="2-SkaterGirl-15.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-38.6598" rect="12,0,17,27" offsetX="-139.393" offsetY="509.142" name="2-SkaterGirl-16.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="0,0,12,13" offsetX="206.88" offsetY="-255.523" name="2-SkaterGirl-2.png" scaleX="0.0375587"/>
+ </spritesheet>
+</spritesheets>

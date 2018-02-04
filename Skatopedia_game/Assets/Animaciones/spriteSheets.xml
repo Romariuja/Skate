@@ -1,0 +1,91 @@
+<!DOCTYPE spritesheets>
+<spritesheets>
+ <spritesheet resolution="ipad" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad.png">
+  <sprite scaleY="0.0416667" angleDegrees="-13.586" rect="1970,50,42,268" offsetX="-295.88" offsetY="224.396" name="2-HipsterSkater-14.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="1871,50,99,211" offsetX="-335.057" offsetY="179.608" name="2-HipsterSkater-15.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-23.7908" rect="1763,50,108,196" offsetX="-221.444" offsetY="305.08" name="2-HipsterSkater-11.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="1.93493" rect="1703,50,60,187" offsetX="-346.944" offsetY="178.894" name="2-HipsterSkater-17.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="8.1301" rect="1655,50,48,183" offsetX="-379.454" offsetY="147.387" name="2-HipsterSkater-3.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-0.535459" rect="1429,50,226,168" offsetX="-274.214" offsetY="203.647" name="2-HipsterSkater-1.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-1.7534" rect="1195,50,234,167" offsetX="-268.27" offsetY="212.389" name="2-HipsterSkater-12.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-1.21888" rect="1092,50,103,143" offsetX="-332.335" offsetY="221.511" name="2-HipsterSkater-16.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-29.9136" rect="990,50,102,129" offsetX="-170.224" offsetY="363.205" name="2-HipsterSkater-8.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-11.3099" rect="806,50,184,128" offsetX="-260.732" offsetY="233.209" name="2-HipsterSkater-13.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="750,50,56,115" offsetX="-361.693" offsetY="227.188" name="2-HipsterSkater-7.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="5.71059" rect="667,50,83,112" offsetX="-360.798" offsetY="194.066" name="2-HipsterSkater-9.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="0" rect="382,50,285,108" offsetX="-255.57" offsetY="231.239" name="2-HipsterSkater-5.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="4.08562" rect="354,50,28,89" offsetX="-393.818" offsetY="212.996" name="2-HipsterSkater-6.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-4.73094" rect="191,50,163,86" offsetX="-276.83" offsetY="254.684" name="2-HipsterSkater-10.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-25.56" rect="126,50,65,54" offsetX="-210.401" offsetY="381.028" name="2-HipsterSkater-19.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-36.2538" rect="61,50,65,51" offsetX="-137.41" offsetY="415.327" name="2-HipsterSkater-18.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-40.2364" rect="0,50,61,50" offsetX="-112.655" offsetY="427.706" name="2-HipsterSkater-4.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-26.5651" rect="1959,0,53,50" offsetX="-206.56" offsetY="393.621" name="2-HipsterSkater-20.png" scaleX="0.0416667"/>
+  <sprite scaleY="0.0416667" angleDegrees="-12.0948" rect="1913,0,46,27" offsetX="-303.836" offsetY="340.435" name="2-HipsterSkater-2.png" scaleX="0.0416667"/>
+ </spritesheet>
+ <spritesheet resolution="ipad-retina" name="sheet_Top" filename="spriteSheets/sheet_Top-ipad-retina.png">
+  <sprite scaleY="0.0208333" angleDegrees="-13.5003" rect="1968,245,74,524" offsetX="-592.577" offsetY="447.901" name="2-HipsterSkater-14.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="1781,245,187,411" offsetX="-670.114" offsetY="359.215" name="2-HipsterSkater-15.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-23.6294" rect="1577,245,204,380" offsetX="-444.773" offsetY="608.822" name="2-HipsterSkater-11.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="2.08601" rect="1468,245,109,363" offsetX="-695.144" offsetY="355.97" name="2-HipsterSkater-17.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="8.1301" rect="1384,245,84,355" offsetX="-758.908" offsetY="294.773" name="2-HipsterSkater-3.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-0.777723" rect="943,245,441,324" offsetX="-546.268" offsetY="410.018" name="2-HipsterSkater-1.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-1.97493" rect="487,245,456,323" offsetX="-535.32" offsetY="427.027" name="2-HipsterSkater-12.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-1.84761" rect="293,245,194,275" offsetX="-659.19" offsetY="450.773" name="2-HipsterSkater-16.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-29.9488" rect="101,245,192,246" offsetX="-340.028" offsetY="726.641" name="2-HipsterSkater-8.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="5.71059" rect="0,245,101,218" offsetX="-771.128" offsetY="381.385" name="2-HipsterSkater-7.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-11.3099" rect="1686,0,356,245" offsetX="-521.463" offsetY="466.418" name="2-HipsterSkater-13.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="12.5288" rect="1532,0,154,215" offsetX="-770.008" offsetY="304.489" name="2-HipsterSkater-9.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="0" rect="973,0,559,204" offsetX="-511.14" offsetY="462.478" name="2-HipsterSkater-5.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="3.78611" rect="929,0,44,167" offsetX="-785.233" offsetY="430.09" name="2-HipsterSkater-6.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-4.66686" rect="615,0,314,161" offsetX="-554.243" offsetY="508.647" name="2-HipsterSkater-10.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-26.0535" rect="496,0,119,96" offsetX="-414.009" offsetY="765.82" name="2-HipsterSkater-19.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-36.8699" rect="377,0,119,91" offsetX="-265.741" offsetY="833.615" name="2-HipsterSkater-18.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-41.0091" rect="267,0,110,90" offsetX="-213.849" offsetY="858.356" name="2-HipsterSkater-4.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-26.5651" rect="172,0,95,89" offsetX="-413.12" offsetY="787.242" name="2-HipsterSkater-20.png" scaleX="0.0208333"/>
+  <sprite scaleY="0.0208333" angleDegrees="-10.9541" rect="92,0,80,42" offsetX="-620.928" offsetY="669.076" name="2-HipsterSkater-2.png" scaleX="0.0208333"/>
+ </spritesheet>
+ <spritesheet resolution="iphone" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone.png">
+  <sprite scaleY="0.0888889" angleDegrees="-13.6713" rect="1082,0,26,132" offsetX="-138.538" offsetY="105.394" name="2-HipsterSkater-14.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="1029,0,53,105" offsetX="-157.058" offsetY="84.1911" name="2-HipsterSkater-15.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-23.9625" rect="972,0,57,98" offsetX="-103.339" offsetY="143.339" name="2-HipsterSkater-11.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="937,0,35,94" offsetX="-158.842" offsetY="89.2631" name="2-HipsterSkater-17.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="8.1301" rect="908,0,29,92" offsetX="-177.869" offsetY="69.0875" name="2-HipsterSkater-3.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-1.30195" rect="792,0,116,85" offsetX="-126.328" offsetY="98.479" name="2-HipsterSkater-12.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-1.1233" rect="680,0,112,85" offsetX="-127.305" offsetY="97.0062" name="2-HipsterSkater-1.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-2.38594" rect="626,0,54,73" offsetX="-153.564" offsetY="107.195" name="2-HipsterSkater-16.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-29.7449" rect="572,0,54,67" offsetX="-80.2649" offsetY="169.992" name="2-HipsterSkater-8.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-11.3099" rect="480,0,92,66" offsetX="-122.218" offsetY="109.317" name="2-HipsterSkater-13.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="435,0,45,60" offsetX="-157.631" offsetY="107.1" name="2-HipsterSkater-9.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="403,0,32,60" offsetX="-169.544" offsetY="106.494" name="2-HipsterSkater-7.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="0" rect="263,0,140,57" offsetX="-119.798" offsetY="108.393" name="2-HipsterSkater-5.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="3.69139" rect="244,0,19,48" offsetX="-183.879" offsetY="101.105" name="2-HipsterSkater-6.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-4.26789" rect="162,0,82,47" offsetX="-130.747" offsetY="118.347" name="2-HipsterSkater-10.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="45" rect="132,0,30,35" offsetX="-204.156" offsetY="-36.1131" name="2-HipsterSkater-4.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-26.5651" rect="95,0,37,31" offsetX="-95.3761" offsetY="180.382" name="2-HipsterSkater-19.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-36.0274" rect="58,0,37,30" offsetX="-65.1911" offsetY="194.417" name="2-HipsterSkater-18.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-26.5651" rect="27,0,31,30" offsetX="-96.825" offsetY="184.51" name="2-HipsterSkater-20.png" scaleX="0.0888889"/>
+  <sprite scaleY="0.0888889" angleDegrees="-14.0362" rect="0,0,27,19" offsetX="-137.006" offsetY="164.108" name="2-HipsterSkater-2.png" scaleX="0.0888889"/>
+ </spritesheet>
+ <spritesheet resolution="iphone-retina" name="sheet_Top" filename="spriteSheets/sheet_Top-iphone-retina.png">
+  <sprite scaleY="0.0375587" angleDegrees="-13.5283" rect="1955,67,46,296" offsetX="-328.547" offsetY="248.607" name="2-HipsterSkater-14.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="1846,67,109,233" offsetX="-371.704" offsetY="199.252" name="2-HipsterSkater-15.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-23.7671" rect="1728,67,118,216" offsetX="-245.818" offsetY="338.34" name="2-HipsterSkater-11.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="2.05765" rect="1662,67,66,207" offsetX="-385.457" offsetY="197.642" name="2-HipsterSkater-17.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="8.1301" rect="1610,67,52,202" offsetX="-420.957" offsetY="163.507" name="2-HipsterSkater-3.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-0.868051" rect="1360,67,250,185" offsetX="-302.56" offsetY="227.995" name="2-HipsterSkater-1.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-2.40597" rect="1102,67,258,184" offsetX="-295.606" offsetY="239.032" name="2-HipsterSkater-12.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-2.1211" rect="989,67,113,158" offsetX="-364.526" offsetY="251.899" name="2-HipsterSkater-16.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-29.8201" rect="878,67,111,142" offsetX="-189.462" offsetY="402.59" name="2-HipsterSkater-8.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-11.3099" rect="675,67,203,141" offsetX="-289.249" offsetY="258.716" name="2-HipsterSkater-13.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="614,67,61,126" offsetX="-401.253" offsetY="252.036" name="2-HipsterSkater-7.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="11.3099" rect="524,67,90,124" offsetX="-422.922" offsetY="177.336" name="2-HipsterSkater-9.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="0" rect="209,67,315,118" offsetX="-283.523" offsetY="256.531" name="2-HipsterSkater-5.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="3.76403" rect="179,67,30,98" offsetX="-435.471" offsetY="238.733" name="2-HipsterSkater-6.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-4.58798" rect="0,67,179,94" offsetX="-307.829" offsetY="281.647" name="2-HipsterSkater-10.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="45" rect="1945,0,56,67" offsetX="-483.169" offsetY="-85.4677" name="2-HipsterSkater-4.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-26.5651" rect="1874,0,71,59" offsetX="-225.723" offsetY="426.904" name="2-HipsterSkater-19.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-35.8377" rect="1803,0,71,56" offsetX="-155.831" offsetY="459.582" name="2-HipsterSkater-18.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-26.5651" rect="1745,0,58,54" offsetX="-229.153" offsetY="436.673" name="2-HipsterSkater-20.png" scaleX="0.0375587"/>
+  <sprite scaleY="0.0375587" angleDegrees="-11.3099" rect="1696,0,49,28" offsetX="-342.141" offsetY="373.205" name="2-HipsterSkater-2.png" scaleX="0.0375587"/>
+ </spritesheet>
+</spritesheets>

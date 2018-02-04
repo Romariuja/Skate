@@ -3,4 +3,16 @@
   <play drawingAnimation="2018-01-29Bird1_Top" name="Top" skeleton="Top" animation="2018-01-29Bird1_Top"/>
   <anchor node="Bird1_002" play="Top"/>
  </stage>
+ <stage name="217-10-25Skater_bird1Idle2">
+  <play drawingAnimation="bird1Idle2_Top" name="Top" skeleton="Top_1" animation="bird1Idle2_Top"/>
+  <anchor node="Bird1_002" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_bird1Idle">
+  <play drawingAnimation="bird1Idle_Top" name="Top" skeleton="Top_1" animation="bird1Idle_Top"/>
+  <anchor node="Bird1_002" play="Top"/>
+ </stage>
+ <stage name="217-10-25Skater_bird1Idle3">
+  <play drawingAnimation="bird1Idle3_Top" name="Top" skeleton="Top_1" animation="bird1Idle3_Top"/>
+  <anchor node="Bird1_002" play="Top"/>
+ </stage>
 </stages>

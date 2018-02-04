@@ -1,0 +1,130 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="SkaterHipster_Top">
+  <drawing node="HipsterSkater_023" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-17.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_022" name="2-HipsterSkater">
+   <drw frame="1" repeat="2" name="2-HipsterSkater-4.png"/>
+   <drw frame="3" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="5" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="7" name="2-HipsterSkater-18.png"/>
+   <drw frame="8" name="2-HipsterSkater-4.png"/>
+   <drw frame="9" repeat="5" name="2-HipsterSkater-20.png"/>
+   <drw frame="14" name="2-HipsterSkater-4.png"/>
+   <drw frame="15" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="17" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="19" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="21" repeat="4" name="2-HipsterSkater-4.png"/>
+   <drw frame="25" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="27" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="29" name="2-HipsterSkater-18.png"/>
+   <drw frame="30" name="2-HipsterSkater-4.png"/>
+   <drw frame="31" repeat="5" name="2-HipsterSkater-20.png"/>
+   <drw frame="36" name="2-HipsterSkater-4.png"/>
+   <drw frame="37" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="39" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="41" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="43" repeat="4" name="2-HipsterSkater-4.png"/>
+   <drw frame="47" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="49" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="51" name="2-HipsterSkater-18.png"/>
+   <drw frame="52" name="2-HipsterSkater-4.png"/>
+   <drw frame="53" repeat="5" name="2-HipsterSkater-20.png"/>
+   <drw frame="58" name="2-HipsterSkater-4.png"/>
+   <drw frame="59" repeat="2" name="2-HipsterSkater-18.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_021" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-16.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_020" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-15.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_019" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-14.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_018" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-14.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_017" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-13.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_016" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-13.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_015" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-12.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_014" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-11.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_013" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-10.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_012" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-9.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_011" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-8.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_010" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-7.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_009" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-6.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_008" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-2.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_007" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-8.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_006" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-7.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_005" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-6.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_004" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-5.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_003" name="2-HipsterSkater">
+   <drw frame="1" repeat="2" name="2-HipsterSkater-4.png"/>
+   <drw frame="3" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="5" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="7" name="2-HipsterSkater-18.png"/>
+   <drw frame="8" name="2-HipsterSkater-4.png"/>
+   <drw frame="9" repeat="5" name="2-HipsterSkater-20.png"/>
+   <drw frame="14" name="2-HipsterSkater-4.png"/>
+   <drw frame="15" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="17" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="19" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="21" repeat="4" name="2-HipsterSkater-4.png"/>
+   <drw frame="25" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="27" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="29" name="2-HipsterSkater-18.png"/>
+   <drw frame="30" name="2-HipsterSkater-4.png"/>
+   <drw frame="31" repeat="5" name="2-HipsterSkater-20.png"/>
+   <drw frame="36" name="2-HipsterSkater-4.png"/>
+   <drw frame="37" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="39" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="41" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="43" repeat="4" name="2-HipsterSkater-4.png"/>
+   <drw frame="47" repeat="2" name="2-HipsterSkater-18.png"/>
+   <drw frame="49" repeat="2" name="2-HipsterSkater-19.png"/>
+   <drw frame="51" name="2-HipsterSkater-18.png"/>
+   <drw frame="52" name="2-HipsterSkater-4.png"/>
+   <drw frame="53" repeat="5" name="2-HipsterSkater-20.png"/>
+   <drw frame="58" name="2-HipsterSkater-4.png"/>
+   <drw frame="59" repeat="2" name="2-HipsterSkater-18.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_002" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-3.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_001" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-2.png"/>
+  </drawing>
+  <drawing node="HipsterSkater_000" name="2-HipsterSkater">
+   <drw frame="1" repeat="60" name="2-HipsterSkater-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

@@ -1,0 +1,129 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="SkaterGirl_Top">
+  <drawing node="SkaterGirl_024" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-24.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-24.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-24.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_023" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-23.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-23.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-23.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_022" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-22.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-22.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-22.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_021" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-21.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-21.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-21.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_020" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-20.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-20.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-20.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_019" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-7.png"/>
+   <drw frame="42" name="2-SkaterGirl-24.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-7.png"/>
+   <drw frame="88" name="2-SkaterGirl-24.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-7.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_018" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-19.png"/>
+   <drw frame="42" name="2-SkaterGirl-23.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-19.png"/>
+   <drw frame="88" name="2-SkaterGirl-23.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-19.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_017" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-18.png"/>
+   <drw frame="42" name="2-SkaterGirl-22.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-18.png"/>
+   <drw frame="88" name="2-SkaterGirl-22.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-18.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_016" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-17.png"/>
+   <drw frame="42" name="2-SkaterGirl-21.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-17.png"/>
+   <drw frame="88" name="2-SkaterGirl-21.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-17.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_015" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-16.png"/>
+   <drw frame="42" name="2-SkaterGirl-20.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-16.png"/>
+   <drw frame="88" name="2-SkaterGirl-20.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-16.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_014" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-15.png"/>
+   <drw frame="42" name="2-SkaterGirl-7.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-15.png"/>
+   <drw frame="88" name="2-SkaterGirl-7.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-15.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_013" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-14.png"/>
+   <drw frame="42" name="2-SkaterGirl-19.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-14.png"/>
+   <drw frame="88" name="2-SkaterGirl-19.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-14.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_012" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-13.png"/>
+   <drw frame="42" name="2-SkaterGirl-18.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-13.png"/>
+   <drw frame="88" name="2-SkaterGirl-18.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-13.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_011" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-12.png"/>
+   <drw frame="42" name="2-SkaterGirl-17.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-12.png"/>
+   <drw frame="88" name="2-SkaterGirl-17.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-12.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_010" name="2-SkaterGirl">
+   <drw frame="1" repeat="41" name="2-SkaterGirl-11.png"/>
+   <drw frame="42" name="2-SkaterGirl-25.png"/>
+   <drw frame="43" repeat="45" name="2-SkaterGirl-11.png"/>
+   <drw frame="88" name="2-SkaterGirl-25.png"/>
+   <drw frame="89" repeat="36" name="2-SkaterGirl-11.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_009" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-10.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_008" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-9.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_007" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-8.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_006" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-7.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_005" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-6.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_004" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-5.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_003" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-4.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_002" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-3.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_001" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-2.png"/>
+  </drawing>
+  <drawing node="SkaterGirl_000" name="2-SkaterGirl">
+   <drw frame="1" repeat="124" name="2-SkaterGirl-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

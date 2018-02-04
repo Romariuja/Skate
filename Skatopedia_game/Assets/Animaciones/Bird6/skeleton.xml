@@ -1,0 +1,18 @@
+<skeletons>
+ <skeleton name="Top">
+  <nodes>
+   <peg id="0" name="GlobalFlashPeg"/>
+   <peg id="1" name="Bird1-p_002"/>
+   <read id="2" name="Bird1_002"/>
+   <read id="3" name="Bird1_000"/>
+   <read id="4" name="Drawing"/>
+  </nodes>
+  <links>
+   <link in="Top" out="0"/>
+   <link in="0" out="1"/>
+   <link in="1" out="2"/>
+   <link in="0" out="3"/>
+   <link in="Top" out="4"/>
+  </links>
+ </skeleton>
+</skeletons>

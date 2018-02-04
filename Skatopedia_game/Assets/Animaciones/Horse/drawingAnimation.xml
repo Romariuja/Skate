@@ -1,0 +1,222 @@
+<drawingAnimations>
+ <drawingAnimation spritesheet="sheet_Top" name="Celebrating_Top">
+  <drawing node="Horse_Celebrating_030" name="4-Horse_Celebrating">
+   <drw frame="23" repeat="7" name="4-Horse_Celebrating-27.png"/>
+   <drw frame="32" repeat="4" name="4-Horse_Celebrating-27.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_029" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="22" name="4-Horse_Celebrating-27.png"/>
+   <drw frame="23" repeat="7" name="4-Horse_Celebrating-26.png"/>
+   <drw frame="30" repeat="2" name="4-Horse_Celebrating-27.png"/>
+   <drw frame="32" repeat="4" name="4-Horse_Celebrating-26.png"/>
+   <drw frame="36" repeat="7" name="4-Horse_Celebrating-27.png"/>
+   <drw frame="216" repeat="4" name="4-Horse_Celebrating-27.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_028" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="22" name="4-Horse_Celebrating-26.png"/>
+   <drw frame="23" name="4-Horse_Celebrating-28.png"/>
+   <drw frame="24" name="4-Horse_Celebrating-29.png"/>
+   <drw frame="25" name="4-Horse_Celebrating-30.png"/>
+   <drw frame="26" name="4-Horse_Celebrating-31.png"/>
+   <drw frame="27" name="4-Horse_Celebrating-30.png"/>
+   <drw frame="28" name="4-Horse_Celebrating-29.png"/>
+   <drw frame="29" name="4-Horse_Celebrating-28.png"/>
+   <drw frame="30" repeat="2" name="4-Horse_Celebrating-26.png"/>
+   <drw frame="32" name="4-Horse_Celebrating-28.png"/>
+   <drw frame="33" name="4-Horse_Celebrating-30.png"/>
+   <drw frame="34" name="4-Horse_Celebrating-31.png"/>
+   <drw frame="35" name="4-Horse_Celebrating-28.png"/>
+   <drw frame="36" repeat="5" name="4-Horse_Celebrating-26.png"/>
+   <drw frame="41" repeat="2" name="4-Horse_Celebrating-32.png"/>
+   <drw frame="43" repeat="173" name="4-Horse_Celebrating-27.png"/>
+   <drw frame="216" repeat="2" name="4-Horse_Celebrating-32.png"/>
+   <drw frame="218" repeat="2" name="4-Horse_Celebrating-26.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_027" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="42" name="4-Horse_Celebrating-25.png"/>
+   <drw frame="43" repeat="173" name="4-Horse_Celebrating-32.png"/>
+   <drw frame="216" repeat="4" name="4-Horse_Celebrating-25.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_026" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="42" name="4-Horse_Celebrating-24.png"/>
+   <drw frame="43" repeat="173" name="4-Horse_Celebrating-33.png"/>
+   <drw frame="216" repeat="4" name="4-Horse_Celebrating-24.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_025" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-23.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_024" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-22.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_023" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-21.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_022" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-20.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_021" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-19.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_020" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-18.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_019" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-17.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_018" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-16.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_017" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-15.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_016" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-12.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_015" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-13.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_014" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-14.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_013" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-14.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_012" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-13.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_011" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-12.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_010" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-11.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_009" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-10.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_008" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-9.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_007" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-8.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_006" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="47" name="4-Horse_Celebrating-7.png"/>
+   <drw frame="48" repeat="33" name="4-Horse_Celebrating-34.png"/>
+   <drw frame="81" repeat="13" name="4-Horse_Celebrating-7.png"/>
+   <drw frame="94" repeat="33" name="4-Horse_Celebrating-34.png"/>
+   <drw frame="127" repeat="9" name="4-Horse_Celebrating-7.png"/>
+   <drw frame="136" repeat="33" name="4-Horse_Celebrating-34.png"/>
+   <drw frame="169" repeat="9" name="4-Horse_Celebrating-7.png"/>
+   <drw frame="178" repeat="33" name="4-Horse_Celebrating-34.png"/>
+   <drw frame="211" repeat="9" name="4-Horse_Celebrating-7.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_005" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-6.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_004" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-5.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_003" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-4.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_002" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-3.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_001" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-2.png"/>
+  </drawing>
+  <drawing node="Horse_Celebrating_000" name="4-Horse_Celebrating">
+   <drw frame="1" repeat="219" name="4-Horse_Celebrating-1.png"/>
+  </drawing>
+ </drawingAnimation>
+ <drawingAnimation spritesheet="sheet_Top" name="Run_Top">
+  <drawing node="Horse_run_028" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-26.png"/>
+  </drawing>
+  <drawing node="Horse_run_027" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-25.png"/>
+  </drawing>
+  <drawing node="Horse_run_026" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-24.png"/>
+  </drawing>
+  <drawing node="Horse_run_025" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-23.png"/>
+  </drawing>
+  <drawing node="Horse_run_024" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-22.png"/>
+  </drawing>
+  <drawing node="Horse_run_023" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-21.png"/>
+  </drawing>
+  <drawing node="Horse_run_022" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-20.png"/>
+  </drawing>
+  <drawing node="Horse_run_021" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-19.png"/>
+  </drawing>
+  <drawing node="Horse_run_020" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-18.png"/>
+  </drawing>
+  <drawing node="Horse_run_019" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-17.png"/>
+  </drawing>
+  <drawing node="Horse_run_018" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-16.png"/>
+  </drawing>
+  <drawing node="Horse_run_017" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-15.png"/>
+  </drawing>
+  <drawing node="Horse_run_016" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-12.png"/>
+  </drawing>
+  <drawing node="Horse_run_015" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-13.png"/>
+  </drawing>
+  <drawing node="Horse_run_014" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-14.png"/>
+  </drawing>
+  <drawing node="Horse_run_013" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-14.png"/>
+  </drawing>
+  <drawing node="Horse_run_012" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-13.png"/>
+  </drawing>
+  <drawing node="Horse_run_011" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-12.png"/>
+  </drawing>
+  <drawing node="Horse_run_010" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-11.png"/>
+  </drawing>
+  <drawing node="Horse_run_009" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-10.png"/>
+  </drawing>
+  <drawing node="Horse_run_008" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-9.png"/>
+  </drawing>
+  <drawing node="Horse_run_007" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-8.png"/>
+  </drawing>
+  <drawing node="Horse_run_006" name="3-Horse_run">
+   <drw frame="1" repeat="2" name="3-Horse_run-7.png"/>
+   <drw frame="3" repeat="25" name="3-Horse_run-27.png"/>
+  </drawing>
+  <drawing node="Horse_run_005" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-6.png"/>
+  </drawing>
+  <drawing node="Horse_run_004" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-5.png"/>
+  </drawing>
+  <drawing node="Horse_run_003" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-4.png"/>
+  </drawing>
+  <drawing node="Horse_run_002" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-3.png"/>
+  </drawing>
+  <drawing node="Horse_run_001" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-2.png"/>
+  </drawing>
+  <drawing node="Horse_run_000" name="3-Horse_run">
+   <drw frame="1" repeat="27" name="3-Horse_run-1.png"/>
+  </drawing>
+ </drawingAnimation>
+</drawingAnimations>

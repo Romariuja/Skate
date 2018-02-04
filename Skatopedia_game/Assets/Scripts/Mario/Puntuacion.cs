@@ -51,6 +51,7 @@ public class Puntuacion : MonoBehaviour {
         InitialiseList();
         InitialiseSpecial();
         positionSpecial = new Vector2(special.transform.localPosition.x, special.transform.localPosition.y);
+        co = StartCoroutine(Desvanece(Tricks, 0.5f));
     }
 
     void InitialiseSpecial()
@@ -78,9 +79,6 @@ public class Puntuacion : MonoBehaviour {
         //Debug.Break();
         //  Tricks.text = "";
         ActualizaSpecialTrick(X,Y,fontSize,fade);
-
-
-
     }
 
 
@@ -89,7 +87,9 @@ public class Puntuacion : MonoBehaviour {
     
         combo = xcombo;
         puntuacion += combo * (int) puntosCombo;
-     //   Debug.Log("INCREMENTA COMBO: Nombre"+ comboName+ " xcombo:" + xcombo + " puntos combo" + puntosCombo);
+     //   Debug.Log("INCREMENTA COMBO: Nombre"+ comboName+ " xcombo:" + xcombo + " puntos combo" + puntosCombo + " Longitud de la lista de trucos " +TrickList.Count);
+       
+
         if (combo == 0)
         { 
             InitialiseList();
@@ -102,15 +102,16 @@ public class Puntuacion : MonoBehaviour {
             }
         }
 
-
-
        else if (combo==1)
        {
                     
             fading = false;
             Tricks.text = "";
-          //  Debug.Log(puntosCombo);
+          //  Debug.Log("Longitud TrickList " +TrickList.Count);
+            if (TrickList.Count == 0)
+            { 
             TrickList.Add(combo + "x" + "  " + comboName + "  " + (int) puntosCombo + " =" + (int)puntosCombo * combo);
+            }
             Tricks.text = Tricks.text + "\n" + TrickList[combo - 1];
             ActualizarMarcador();
             //marcadorCombo.text = combo.ToString();
@@ -118,11 +119,13 @@ public class Puntuacion : MonoBehaviour {
             Tricks.color= new Color(Tricks.color.r, Tricks.color.g, Tricks.color.b, 1);
             //StartCoroutine(Desvanece(Tricks, 6, 1));
         }
+
+
         else if (combo == TrickList.Count) {
             fading = false;
             // marcadorCombo.text = combo.ToString();
-            // Debug.Log("NO HACE FALTA UMENTAR COMBO PERO BORRA LA PRIMERA LINEA");ESTO A VECES FALLA CON
-           // Debug.Log("combo" + combo);
+            //Debug.Log("NO HACE FALTA AUMENTAR COMBO PERO BORRA LA PRIMERA LINEA, ESTO A VECES FALLA CON GRIND");
+      //    Debug.Break();
             TrickList[combo-1] = combo + "x " + comboName + "  " + (int) puntosCombo + " = " + (int)puntosCombo * combo;           
             Tricks.text = TrickList[0];
             for (int i=1; i<TrickList.Count; i++)
@@ -133,9 +136,12 @@ public class Puntuacion : MonoBehaviour {
         }
         else {
             fading = false;
-            //   Debug.Log("COMBO NOOOOOOOOOO    ES IGUAL A LONG. DE LA LISTA DE TRUCOS");
+              // Debug.Log("COMBO NOOOOOOOOOO    ES IGUAL A LONG. DE LA LISTA DE TRUCOS. POSIBLE GRIND");
             TrickList.Add(combo + "x" + "  " + comboName + (int) puntosCombo + " =" + (int) puntosCombo * combo);
         Tricks.text = Tricks.text+ "\n" + TrickList[combo-1];
+
+
+
          //   marcadorCombo.text = combo.ToString();
         }  
     }

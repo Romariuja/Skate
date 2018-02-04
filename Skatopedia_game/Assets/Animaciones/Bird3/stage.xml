@@ -1,0 +1,10 @@
+<stages>
+ <stage name="Bird2_Bird3Idle">
+  <play drawingAnimation="Bird3Idle_Top" name="Top" skeleton="Top" animation="Bird3Idle_Top"/>
+  <anchor node="Bird1_002" play="Top"/>
+ </stage>
+ <stage name="Bird2_Bird3Flying">
+  <play drawingAnimation="Bird3Flying_Top" name="Top" skeleton="Top" animation="Bird3Flying_Top"/>
+  <anchor node="Bird1_002" play="Top"/>
+ </stage>
+</stages>
