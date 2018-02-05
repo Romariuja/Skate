@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ControladorCamara : MonoBehaviour {
-    private GameObject player;
+    public static GameObject player;
     // Use this for initialization
     float height;
     float width;
