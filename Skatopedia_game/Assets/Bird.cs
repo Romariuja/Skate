@@ -22,7 +22,7 @@ public class Bird : Obstacle{
             gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
              direction = new Vector3(Random.Range(3, 7), Random.Range(1, 4), 0).normalized * 5;
             //direction = new Vector3(1, 0.5f,0).normalized * 5;
-            Debug.Log("Direction " + direction);
+            //Debug.Log("Direction " + direction);
         }
 
         else if (collision.gameObject.tag == "Table" || collision.gameObject.tag == "Skater" && direction==null)

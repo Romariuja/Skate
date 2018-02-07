@@ -28,7 +28,7 @@ public class Puntuacion : MonoBehaviour {
 	private float espera;
     private Coroutine co;
     private bool fading=false;
-    public static Vector2 positionSpecial;
+    private Vector2 positionSpecial = new Vector2(0,0);
 
     protected class specialList
     {
@@ -50,7 +50,7 @@ public class Puntuacion : MonoBehaviour {
 		ActualizarMarcador ();
         InitialiseList();
         InitialiseSpecial();
-        positionSpecial = new Vector2(special.transform.localPosition.x, special.transform.localPosition.y);
+      //  positionSpecial = new Vector2(special.transform.localPosition.x, special.transform.localPosition.y);
         co = StartCoroutine(Desvanece(Tricks, 0.5f));
     }
 
@@ -78,7 +78,7 @@ public class Puntuacion : MonoBehaviour {
        // Debug.Log(specialTrick[0]);
         //Debug.Break();
         //  Tricks.text = "";
-        ActualizaSpecialTrick(X,Y,fontSize,fade);
+       StartCoroutine( ActualizaSpecialTrick(X,Y,fontSize,fade));
     }
 
 
@@ -149,20 +149,23 @@ public class Puntuacion : MonoBehaviour {
     IEnumerator Desvanece(TextMesh desvanece, float espera)
     {
         //Debug.Log("Before Waiting 2 seconds");
-       // yield return new WaitForSeconds(espera);
-       // Debug.Log("Desvanece!!!!");
+        // yield return new WaitForSeconds(espera);
+        // Debug.Log("Desvanece!!!!");
 
         desvanece.color = new Color(desvanece.color.r, desvanece.color.g, desvanece.color.b, 1);
+
         yield return new WaitForSeconds(espera);
         while (desvanece.color.a>0.0f)
         {
             desvanece.color = new Color(desvanece.color.r, desvanece.color.g, desvanece.color.b, desvanece.color.a-((Time.deltaTime)/espera));
-        //    Debug.Log(((Time.deltaTime) / espera) * 100 + "%");
+         //  Debug.Log("Desvaneciendo "+ (1- desvanece.color.a)*100 + "%");
             yield return null;
            // yield break;
         }
         //desvanece.GetComponent<MeshRenderer>().enabled = false;
-        //Debug.Log("After Waiting 2 Seconds");
+        Debug.Log("TERMINA  DE DESVANECER");
+        Debug.Break();
+
     }
     
     public void ActualizarMarcador(){
@@ -175,19 +178,25 @@ public class Puntuacion : MonoBehaviour {
        
         marcadorCombo.text = combo.ToString();   
     }
-    public void ActualizaSpecialTrick(float X, float Y, int fontSize, float fade)
+    public IEnumerator ActualizaSpecialTrick(float X, float Y, int fontSize, float fade)
     {
-        //  Debug.Log(specialTrick.ToString());
-        //  Debug.Break();
-        Debug.Log("POSICION ACTUAL DEL TEXTO SPECIAL TRICK: " +special.transform.position + " Posicion por argumento: " + new Vector3(X,Y,special.transform.position.z));
-      //  Debug.Break();
-        special.transform.position = new Vector3(special.transform.position.x, special.transform.position.y, special.transform.position.z);
+     
+        //Debug.Log(specialTrick.ToString());
+        //Debug.Break();
+        //Debug.Log("POSICION ACTUAL DEL TEXTO SPECIAL TRICK: " +special.transform.position + " Posicion por argumento: " + new Vector3(X,Y,special.transform.position.z));
+        //Debug.Break();
+        special.transform.position = new Vector3(special.transform.position.x+X-positionSpecial.x, special.transform.position.y+Y - positionSpecial.y, special.transform.position.z);
         special.fontSize = fontSize;
         special.text = specialTrick[specialTrick.Count-1].name;
         //yield return new WaitForSeconds(3);
+        StopCoroutine(co);
         co = StartCoroutine(Desvanece(special, fade));
+        yield return new WaitForSeconds(fade);
+        //special.transform.position = new Vector3(special.transform.position.x - X, special.transform.position.y - Y, special.transform.position.z);
+        positionSpecial = new Vector2(X, Y);
+
     }
-    
+
 
     // Update is called once per frame----------------------------------------------------------------------------------------------------------------------------------------
     void Update ()

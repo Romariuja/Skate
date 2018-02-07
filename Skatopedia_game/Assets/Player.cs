@@ -129,16 +129,13 @@ public class Player : PhysicsObject {
     {
         combo++;
         puntua.IncrementarCombo(combo, "DEVELOPER ROMARIUJA SUPERTRICK!!!!", 250000);
-        puntua.IncrementSpecial("DEVELOPER", transform.position.x, transform.position.y, 100, 5f);
-        yield return null;
-        new WaitForSeconds(3);
-        puntua.IncrementSpecial("ROMARIUJA ", transform.position.x, transform.position.y-100, 150, 3f);
-        yield return null;
-        new WaitForSeconds(3);
-        puntua.IncrementSpecial("SUPERTRICK!!!!", transform.position.x, transform.position.y-200, 200, 1f);
+        puntua.IncrementSpecial("DEVELOPER", 0, 0, 100, 1f);
 
-        
-     
+        yield return new WaitForSecondsRealtime(1);    
+
+        puntua.IncrementSpecial("ROMARIUJA ", - 4, 0, 150, 1f);
+        yield return new WaitForSecondsRealtime(1);
+        puntua.IncrementSpecial("SUPERTRICK!!!!", -6, 0, 200, 1f);  
     }
 
 
@@ -464,8 +461,9 @@ public class Player : PhysicsObject {
 
         //CHECK KEY INPUT
 
-        if (Input.GetKeyDown(KeyCode.Space) && (onFloor || onGrind) && jump == false && SuperT!=0 && combo>5)
-        {
+       // if (Input.GetKeyDown(KeyCode.Space) && SuperT!=0 && combo>5)
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
             //  Debug.Break();
             SuperT--;
             anim.SetTrigger("SuperTrick");
