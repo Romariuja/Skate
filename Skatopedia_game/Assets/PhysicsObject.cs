@@ -14,7 +14,7 @@ public class PhysicsObject : MonoBehaviour {
     protected float FlexVel = 18f;
     //protected Vector3 perpendicular;
     protected Vector2 TableCM=new Vector2(0f, 0.065f);
-    public Vector3 perpendicular=new Vector3(1,0,0);
+    public Vector3 perpendicular;
     protected float BreakTime;
     protected float rotationVel=5;
     protected float timeStopped=0.2f;
@@ -58,7 +58,8 @@ public class PhysicsObject : MonoBehaviour {
     {
         Player= GameObject.FindGameObjectWithTag("Player");
         rb2d = Player.GetComponent<Rigidbody2D>();
-       // Debug.Log(Player.name);
+        perpendicular = new Vector3(1, 0, 0);
+        // Debug.Log(Player.name);
     }
 
     void Start()
@@ -66,6 +67,7 @@ public class PhysicsObject : MonoBehaviour {
         layerFilter = LayerMask.GetMask("Floor", "Grind");
         anim = Player.GetComponent<Animator>();
         PlayerScript = Player.GetComponent<Player>();
+        perpendicular = new Vector3(1, 0, 0);
     }
 
     void Update()
@@ -134,19 +136,20 @@ public class PhysicsObject : MonoBehaviour {
     {
          Vector2 CM = new Vector2(transform.position.x- TableCM.x, transform.position.y - TableCM.y);
          RaycastHit2D hit = Physics2D.Raycast(new Vector3 (CM.x,CM.y,0), -transform.up, layerDistanceDetect, layerFilter, Mathf.Infinity);
-       
-  
-     //   Debug.DrawRay(new Vector3(CM.x, CM.y, 0), -transform.up * layerDistanceDetect, Color.green);
+       // Debug.Break();
+
+        //   Debug.DrawRay(new Vector3(CM.x, CM.y, 0), -transform.up * layerDistanceDetect, Color.green);
         if ((hit.collider!=null) &&  (onFloor||onGrind) && (!levelOver && !gameOver))
          {
             Vector2 currentNormal = hit.normal;
             Debug.DrawLine(CM,hit.point, Color.blue);
             Debug.DrawLine( hit.point,hit.point+hit.normal*10f, Color.blue);
             perpendicular = Vector3.Cross(new Vector3 (currentNormal.x, currentNormal.y,0), new Vector3(0,0,1)).normalized;
-           
-            //   Debug.DrawRay(new Vector3 (CM.x,CM.y,0), - transform.up * layerDistanceDetect, Color.green);
-            //  Debug.DrawLine(new Vector3(CM.x, CM.y, 0), new Vector3(CM.x, CM.y, 0) + perpendicular.normalized *PlayerScript.currentVel , Color.blue);
-
+          
+            
+              Debug.DrawRay(new Vector3 (CM.x,CM.y,0), - transform.up * layerDistanceDetect, Color.green);
+              Debug.DrawLine(new Vector3(CM.x, CM.y, 0), new Vector3(CM.x, CM.y, 0) + perpendicular.normalized *PlayerScript.currentVel , Color.blue);
+      
             PlayerScript.perpendicular = perpendicular;
              rb2d.velocity = perpendicular * PlayerScript.currentVel;
         }
@@ -171,7 +174,7 @@ public class PhysicsObject : MonoBehaviour {
         //   Player.transform.right = Vector3.Lerp(Player.transform.right, perpendicular, Time.deltaTime * 100);
         float dif = Vector3.Angle(transform.right, perpendicular);
        float dif2 = AngleInDeg(perpendicular, transform.right);
-       // Debug.Log("perpendicular: " + perpendicular + " right vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
+        Debug.Log("perpendicular: " + perpendicular + " right vector player: " + Player.transform.right + " .Diferencia Angular: " + dif);
         //Debug.Log("perpendicular: " + perpendicular + " right vector player: " + Player.transform.right + " .Diferencia Angular2: " + dif);
 
         //ALLIGN ANGLE CONDITION

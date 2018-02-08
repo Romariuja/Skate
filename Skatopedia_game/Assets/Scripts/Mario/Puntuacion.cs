@@ -163,8 +163,7 @@ public class Puntuacion : MonoBehaviour {
            // yield break;
         }
         //desvanece.GetComponent<MeshRenderer>().enabled = false;
-        Debug.Log("TERMINA  DE DESVANECER");
-        Debug.Break();
+     
 
     }
     
@@ -186,6 +185,7 @@ public class Puntuacion : MonoBehaviour {
         //Debug.Log("POSICION ACTUAL DEL TEXTO SPECIAL TRICK: " +special.transform.position + " Posicion por argumento: " + new Vector3(X,Y,special.transform.position.z));
         //Debug.Break();
         special.transform.position = new Vector3(special.transform.position.x+X-positionSpecial.x, special.transform.position.y+Y - positionSpecial.y, special.transform.position.z);
+        positionSpecial = new Vector2(X, Y);
         special.fontSize = fontSize;
         special.text = specialTrick[specialTrick.Count-1].name;
         //yield return new WaitForSeconds(3);
@@ -193,7 +193,7 @@ public class Puntuacion : MonoBehaviour {
         co = StartCoroutine(Desvanece(special, fade));
         yield return new WaitForSeconds(fade);
         //special.transform.position = new Vector3(special.transform.position.x - X, special.transform.position.y - Y, special.transform.position.z);
-        positionSpecial = new Vector2(X, Y);
+       
 
     }
 

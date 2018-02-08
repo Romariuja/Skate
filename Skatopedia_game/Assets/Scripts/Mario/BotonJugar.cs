@@ -22,7 +22,8 @@ public class BotonJugar : MonoBehaviour {
 		//Application.LoadLevel("Scena_juego1");
 	}
 	void CargarNivelJuego(){
-		//Application.LoadLevel("Scena_juego1");
+        //Application.LoadLevel("Scena_juego1");
+        PhysicsObject.gameOver = false;
         SceneManager.LoadScene("simple");
 	}
 }
