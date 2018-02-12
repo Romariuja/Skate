@@ -48,8 +48,10 @@ public class Player : PhysicsObject {
     public GameObject TableCrippled;
     public static CustomImageEffect EffectCam;
     public static List<string> lastTricks;
-    public static int SuperT = 1; 
-    
+    public static int SuperT = 1;
+
+    //Animation variables
+    //AnimationLoadManager animationLoadManager;
 
     void awake()
     {
@@ -59,8 +61,11 @@ public class Player : PhysicsObject {
 
     // Use this for initialization
     void Start() {
-  
-         Puntuacion.puntuacion=0;
+      //  animationLoadManager = GetComponent<AnimationLoadManager>();
+        //Load animation clip after 3 seconds
+        //Invoke("LoadAnimataionClip", 0);
+
+        Puntuacion.puntuacion=0;
          anim = GetComponent<Animator>();
         TableScript = GetComponent<PhysicsObject>();
         SkaterColliders = Skater.GetComponents<Collider2D>();
@@ -80,6 +85,12 @@ public class Player : PhysicsObject {
     }
 
     //LOCAL FUNCTIONS____________________________________________________________________________________________________________________________________________________________________
+
+
+   // void LoadAnimataionClip()
+    //{
+      //  animationLoadManager.LoadAnimation("Ollie", null);
+    //}
 
     //UPDATE TRANSITIONS-----------------------------------------------------------------------------------------------------------------------------------------------------------
     protected class transition

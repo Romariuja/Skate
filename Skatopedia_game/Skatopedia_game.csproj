@@ -274,6 +274,8 @@
     <Compile Include="Assets\Scripts\Mario\skaterController.cs" />
     <Compile Include="Assets\Scripts\Mario\Table.cs" />
     <Compile Include="Assets\Scripts\Mario\wireBanderole.cs" />
+    <Compile Include="Assets\Scripts\Preload animations\AnimationLoadManager.cs" />
+    <Compile Include="Assets\Scripts\Preload animations\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Previewer\BrowserUi.cs" />
     <Compile Include="Assets\Scripts\Previewer\HarmonyRendererController.cs" />
     <Compile Include="Assets\Scripts\Previewer\SceneSettings.cs" />
