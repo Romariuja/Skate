@@ -26,7 +26,8 @@ public class LoopCheck : ControladorCamara
             {
                 //StartCoroutine(TargetLoop());
                 Debug.Log("SLOW MOTION START");
-                StopCoroutine(Player.CameraScript.lastRoutineZoom);
+                //  StopCoroutine(Player.CameraScript.lastRoutineZoom);
+                Player.CameraScript.stopZoom();
                 // Player.CameraScript.onZoom = false;
                 //  StartCoroutine(Player.CameraScript.MoveCamera());
 
@@ -53,14 +54,14 @@ public class LoopCheck : ControladorCamara
                 Debug.Log("X LOCAL" + Player.puntua.special.transform.localPosition.x + "Y LOCAL" + Player.puntua.special.transform.position.y);
              
                 Player.puntua.IncrementSpecial("LOOP", Player.puntua.special.transform.position.x, Player.puntua.special.transform.position.y,283,0.5f);
-          
-            
-                
-                // StartCoroutine(Player.CameraScript.MoveCameraY());
-                StopCoroutine(Player.CameraScript.lastRoutineZoom);
 
-                // Debug.Log("SE DETIENE EL ZOOM");
-                zoom = 1;
+
+
+                // StartCoroutine(Player.CameraScript.MoveCameraY());
+                //StopCoroutine(Player.CameraScript.lastRoutineZoom);
+                //Player.CameraScript.stopZoom();
+                 // Debug.Log("SE DETIENE EL ZOOM");
+                 zoom = 1;
                 Player.CameraScript.lastRoutineZoom = StartCoroutine(Player.CameraScript.ZoomCamera(zoom,1, 6, 3));
                 //   Debug.Break();
                 //  Debug.Log("Zoom lanzado por obstaculo Loop, Lerptime:" +Player.CameraScript.LerpTime);

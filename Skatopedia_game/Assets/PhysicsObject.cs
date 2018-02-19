@@ -56,6 +56,7 @@ public class PhysicsObject : MonoBehaviour {
 
     protected void OnEnable()
     {
+      
         Player= GameObject.FindGameObjectWithTag("Player");
         rb2d = Player.GetComponent<Rigidbody2D>();
         perpendicular = new Vector3(1, 0, 0);

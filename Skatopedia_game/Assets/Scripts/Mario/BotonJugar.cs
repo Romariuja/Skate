@@ -54,25 +54,52 @@ public class BotonJugar : MonoBehaviour {
        //     Debug.Log("progress: " + result.progress + " Load:" +load);
             yield return new WaitForEndOfFrame();
         }
-        Debug.Log("ESCENAS CARGADAS" + SceneManager.sceneCount);
+      //  Debug.Log("ESCENAS CARGADAS" + SceneManager.sceneCount);
         //   GameObject.Destroy(GameObject.Find("MainScene"));
-        Debug.Log("Escena actual " + CurrentScene);
+      //  Debug.Log("Escena actual " + CurrentScene);
       
- 
-        Debug.Log("YEAH Loaded Async");
+
         // still scene one should be active, tryed it as workaround, did not help
         //SceneManager.SetActiveScene(SceneManager.GetSceneByName("simple"));
         result.allowSceneActivation = true;
-        SceneManager.UnloadSceneAsync("simple");
+
+
+        //SceneManager.UnloadSceneAsync("simple");
+        //SInce UnloadScene is not working
+        // foreach (GameObject go in SceneManager.GetActiveScene().GetRootGameObjects())
+
+        //{
+        //   go.SetActive(false);
+        //}
 
         //  SceneManager.UnloadSceneAsync(SceneManagement.Scene Main);
+
+        //if (SceneManager.GetSceneByName("Mainscene").isLoaded == false)
+        //{
+          //  StartCoroutine("LoadSubScene");
+        //}
+        if (SceneManager.GetSceneByName("Mainscene").isLoaded == true)
+        {
+            StartCoroutine("UnloadSubScene");
+        }
 
 
     }
 
-
-
+  
    
+    IEnumerator LoadSubScene()
+    {
+        yield return new WaitForSeconds(.10f);
+        SceneManager.LoadScene("MainScene", LoadSceneMode.Additive);
+    }
+    IEnumerator UnloadSubScene()
+    {
+        yield return new WaitForSeconds(.10f);
+        SceneManager.UnloadSceneAsync("MainScene");
+    }
+
+
 
     IEnumerator LoadAnimation()
         {

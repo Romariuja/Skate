@@ -59,6 +59,8 @@ public class ControladorCamara : MonoBehaviour {
 
     public IEnumerator ZoomCamera(float Zoom, float zoomVel, float X, float Y)
     {
+       // StopCoroutine(lastRoutineZoom);
+
         LerpTime = 0;
         onZoom = true;
         while (LerpTime < 1)
@@ -73,6 +75,15 @@ public class ControladorCamara : MonoBehaviour {
         }
         onZoom = false;
     }
+
+
+    public void stopZoom()
+    {
+       StopCoroutine(lastRoutineZoom);
+
+      
+    }
+
 
 
 

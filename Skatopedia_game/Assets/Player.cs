@@ -146,7 +146,7 @@ public class Player : PhysicsObject {
 
         puntua.IncrementSpecial("ROMARIUJA ", - 4, 0, 150, 1f);
         yield return new WaitForSecondsRealtime(1);
-        puntua.IncrementSpecial("SUPERTRICK!!!!", -6, 0, 200, 1f);  
+        puntua.IncrementSpecial("SUPERTRICK!!!!", -6, 0, 170, 1f);  
     }
 
 
@@ -170,7 +170,7 @@ public class Player : PhysicsObject {
                
                 combo++;
                 puntua.IncrementarCombo(combo, "MORTAL BASTARD 360º", 25000);
-               puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100,0.5f);
+               puntua.IncrementSpecial("MORTAL BASTARD",0, 0,100,0.5f);
                rotationAir = 0;
                 SuperT++;
             }       
@@ -185,7 +185,7 @@ public class Player : PhysicsObject {
             {
                 combo++;
                 puntua.IncrementarCombo(combo, "MORTAL BASTARD 360º", 25000);
-                puntua.IncrementSpecial("MORTAL BASTARD", transform.position.x, transform.position.y,100,0.5f);
+                puntua.IncrementSpecial("MORTAL BASTARD", 0, 0,100,0.5f);
                 rotationAir = 0;
                 SuperT++;
             }
