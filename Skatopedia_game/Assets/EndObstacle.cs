@@ -17,9 +17,11 @@ public class EndObstacle : Obstacle {
            // StartCoroutine();
             //   collision.gameObject.transform.parent.GetComponent<Rigidbody2D>().velocity=new Vector3(0,0,0);
             StartCoroutine(PC.GetComponent<Player>().slowDown());
+           // StartCoroutine(ControladorCamara.player.slowDown());
+           Player.CameraScript.lastRoutineZoom = StartCoroutine(Player.CameraScript.ZoomCamera(1.2f, 1, 0, 6));
             PhysicsObject.levelOver = true;
-         
-          //  collision.gameObject.GetComponent<Player>().enabled = false;
+            
+            //  collision.gameObject.GetComponent<Player>().enabled = false;
         }
 
 

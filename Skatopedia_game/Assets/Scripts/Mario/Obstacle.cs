@@ -9,7 +9,7 @@ public class Obstacle : MonoBehaviour {
     public float objectVel;
     public bool animationCam;
     public bool animationTable;
-    public Player PC;
+    public static Player PC;
     public float timeLimit;
 
     // Use this for initialization

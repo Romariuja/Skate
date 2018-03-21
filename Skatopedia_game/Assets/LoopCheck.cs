@@ -26,8 +26,15 @@ public class LoopCheck : ControladorCamara
             {
                 //StartCoroutine(TargetLoop());
                 Debug.Log("SLOW MOTION START");
-                //  StopCoroutine(Player.CameraScript.lastRoutineZoom);
+                Debug.Log("Courutine in execution before LOOP" + CR_running);
+                Debug.Log(Player.CameraScript.lastRoutineZoom);
+               
+                
+                StopCoroutine(Player.CameraScript.lastRoutineZoom);
+                
                 Player.CameraScript.stopZoom();
+            
+    
                 // Player.CameraScript.onZoom = false;
                 //  StartCoroutine(Player.CameraScript.MoveCamera());
 

@@ -26,7 +26,7 @@ public class ControladorCamara : MonoBehaviour {
     private float maxzoom = 0.5f;
     private float minzoom = 1.5f;
     private float noZoom = 1.2f;
-
+    public bool CR_running = false;
 
     public Coroutine lastRoutineZoom = null;
 
@@ -44,7 +44,8 @@ public class ControladorCamara : MonoBehaviour {
 
     public IEnumerator MoveCameraY(float Sign)
     {
-       LerpTimey = 0;
+        CR_running = true;
+        LerpTimey = 0;
         while ((Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset))
       
         {
@@ -53,34 +54,38 @@ public class ControladorCamara : MonoBehaviour {
             yield return null;           
         }
         MoveY = false;
+        CR_running = false;
     }
 
     
 
     public IEnumerator ZoomCamera(float Zoom, float zoomVel, float X, float Y)
     {
-       // StopCoroutine(lastRoutineZoom);
-
+        // StopCoroutine(lastRoutineZoom);
+        CR_running = true;
         LerpTime = 0;
         onZoom = true;
         while (LerpTime < 1)
         {
             xOffset = Mathf.Lerp(xOffset, X, LerpTime);
             yOffset = Mathf.Lerp(yOffset, Y, LerpTime);
+
+            //Debug.Log("xOffset: " +xOffset + " yOffset: " +yOffset);
             LerpTime = LerpTime + zoomVel * Time.deltaTime;
-            transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);        
+        //   transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);        
             cam.rect = new Rect(0, 0, Mathf.Lerp(1,zoom,LerpTime), 1);
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, tamCam * Zoom, LerpTime);
             yield return null;
         }
         onZoom = false;
+        CR_running = false;
     }
 
 
     public void stopZoom()
     {
        StopCoroutine(lastRoutineZoom);
-
+        Debug.Log("STOPZOOM");
       
     }
 
@@ -102,7 +107,7 @@ public class ControladorCamara : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-   
+        Debug.Log("SEGUIMIENTO CAMARA: xoffset: " +xOffset + " yOffset: " +yOffset);
        // Debug.DrawLine(transform.position,player.transform.position,Color.green);
        // Debug.Log("Xoffset: " + xOffset+ " yoffset: " +yOffset + "Zoom:"+zoom +" MOVER EJE Y "+ (Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset));
         transform.position = new Vector3(player.transform.position.x + xOffset, transform.position.y, transform.position.z);
