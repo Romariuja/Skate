@@ -242,11 +242,11 @@ public class Player : PhysicsObject {
     }
 
     //SLOW DOWN COROUTINE
-    public IEnumerator slowDown()
+    public IEnumerator slowDown(float Vel)
     {
         while (BreakTime < 1)
             { 
-        BreakTime = BreakTime + 0.01f * Time.deltaTime;
+        BreakTime = BreakTime +Vel* 0.01f * Time.deltaTime;
            // Debug.Log("BreakTime: " + BreakTime + " rb2d.velocity: "  +rb2d.velocity +"LevelOver" +levelOver);
         rb2d.velocity = new Vector2(Mathf.Lerp(rb2d.velocity.x, 0, BreakTime), rb2d.velocity.y);
             yield return null;
@@ -305,7 +305,7 @@ public class Player : PhysicsObject {
             }
             // BreakTime = BreakTime + Mathf.Pow(10f * Time.deltaTime, 1.2f);
 
-            StartCoroutine(slowDown());
+            StartCoroutine(slowDown(1));
          //   BreakTime = BreakTime + 0.01f * Time.deltaTime;
            // rb2d.velocity = new Vector2(Mathf.Lerp(rb2d.velocity.x, 0, BreakTime), rb2d.velocity.y);
 

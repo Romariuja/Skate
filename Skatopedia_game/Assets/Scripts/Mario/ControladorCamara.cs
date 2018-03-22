@@ -46,9 +46,15 @@ public class ControladorCamara : MonoBehaviour {
     {
         CR_running = true;
         LerpTimey = 0;
+
+    
         while ((Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset))
-      
+            Debug.Log("MoveCameraY");
+        //while (LerpTimey <1)
+
         {
+
+
             LerpTimey = LerpTimey + 0.5f*Time.deltaTime;
             transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);
             yield return null;           
@@ -65,15 +71,54 @@ public class ControladorCamara : MonoBehaviour {
         CR_running = true;
         LerpTime = 0;
         onZoom = true;
+        Debug.Log("COMIENZA ZOOM DESDE " +zoom +" Hasta " +Zoom);
+   
         while (LerpTime < 1)
         {
+
+            Debug.Log("SEGUIMIENTO CAMARA: LerpTime:" + LerpTime +"Zoom: " + zoom + "xoffset: " + xOffset + " yOffset: " + yOffset);
             xOffset = Mathf.Lerp(xOffset, X, LerpTime);
             yOffset = Mathf.Lerp(yOffset, Y, LerpTime);
 
             //Debug.Log("xOffset: " +xOffset + " yOffset: " +yOffset);
             LerpTime = LerpTime + zoomVel * Time.deltaTime;
-        //   transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);        
+            //   transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);        
+
+            //OJO SIEMPRE EMPEIZA ZOOM 1. ESTO NO ES ASI
             cam.rect = new Rect(0, 0, Mathf.Lerp(1,zoom,LerpTime), 1);
+            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, tamCam * Zoom, LerpTime);
+            yield return null;
+        }
+        onZoom = false;
+        CR_running = false;
+    }
+
+
+
+    public IEnumerator ZoomCamera_Position(float Zoom, float zoomVel, float X, float Y)
+    {
+        // StopCoroutine(lastRoutineZoom);
+        CR_running = true;
+        LerpTime = 0;
+        onZoom = true;
+        Debug.Log("COMIENZA ZOOM DESDE " + zoom + " Hasta " + Zoom);
+         
+
+        Debug.Log("ZOOM&POSITION CAMERASCRIPT POSICION X CAMERA=" + transform.position.x + " POSICION Y CAMERA=" + transform.position.y + "LERPTIME" +LerpTime);
+        while (LerpTime < 1)
+        {
+            LerpTime = LerpTime + zoomVel * Time.deltaTime;
+
+            //  Debug.Log("SEGUIMIENTO CAMARA: LerpTime:" + LerpTime + "Zoom: " + zoom + "xoffset: " + xOffset + " yOffset: " + yOffset);
+            xOffset = Mathf.Lerp(xOffset, X, LerpTime);
+            yOffset = Mathf.Lerp(yOffset, Y, LerpTime);
+
+            //Debug.Log("xOffset: " +xOffset + " yOffset: " +yOffset);
+            
+            transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);        
+
+            //OJO SIEMPRE EMPEIZA ZOOM 1. ESTO NO ES ASI
+            cam.rect = new Rect(0, 0, Mathf.Lerp(zoom, Zoom, LerpTime), 1);
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, tamCam * Zoom, LerpTime);
             yield return null;
         }
@@ -107,14 +152,13 @@ public class ControladorCamara : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        Debug.Log("SEGUIMIENTO CAMARA: xoffset: " +xOffset + " yOffset: " +yOffset);
        // Debug.DrawLine(transform.position,player.transform.position,Color.green);
        // Debug.Log("Xoffset: " + xOffset+ " yoffset: " +yOffset + "Zoom:"+zoom +" MOVER EJE Y "+ (Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset));
         transform.position = new Vector3(player.transform.position.x + xOffset, transform.position.y, transform.position.z);
-      
+        Debug.Log("UPDATE CAMERASCRIPT POSICION X CAMERA=" +transform.position.x + " POSICION Y CAMERA=" + transform.position.y);
         //Follow Player Y position  out of the camera limits 
        
-        if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset))
+        if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset) && ( PhysicsObject.levelOver == false))
         {
             MoveY = true;
             float Sign = Mathf.Sign((player.transform.position.y - transform.position.y));
