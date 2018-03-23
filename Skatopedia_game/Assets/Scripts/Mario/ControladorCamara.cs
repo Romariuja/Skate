@@ -42,14 +42,16 @@ public class ControladorCamara : MonoBehaviour {
     }
 
 
-    public IEnumerator MoveCameraY(float Sign)
+    public IEnumerator MoveCameraY(float Vel)
     {
         CR_running = true;
         LerpTimey = 0;
+        Debug.Log("MOVECAMERAY");
+        //Debug.Break();
         while ((Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset))
       
         {
-            LerpTimey = LerpTimey + 0.5f*Time.deltaTime;
+            LerpTimey = LerpTimey + Vel*Time.deltaTime;
             transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);
             yield return null;           
         }
@@ -57,7 +59,34 @@ public class ControladorCamara : MonoBehaviour {
         CR_running = false;
     }
 
-    
+
+    public IEnumerator ZoomCamera_position(float Zoom, float zoomVel, float X, float Y)
+    {
+        // StopCoroutine(lastRoutineZoom);
+        CR_running = true;
+        LerpTime = 0;
+        onZoom = true;
+        Debug.Log("ZOOMCAMERA POSITION LAUNCH. ");
+       
+       
+        while (LerpTime < 1)
+        {
+            xOffset = Mathf.Lerp(xOffset, X, LerpTime);
+            yOffset = Mathf.Lerp(yOffset, Y, LerpTime);
+
+            //Debug.Log("xOffset: " +xOffset + " yOffset: " +yOffset);
+            LerpTime = LerpTime + zoomVel * Time.deltaTime;
+            //Debug.Log("POSITION CAMERA INICIAL " + transform.position);
+             transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, transform.position.y + yOffset, transform.position.z), LerpTime);
+            //Debug.Log("POSITION CAMERA FINAL " + transform.position);
+            //Debug.Break();
+            cam.rect = new Rect(0, 0, Mathf.Lerp(zoom, Zoom, LerpTime), 1);
+            cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, tamCam * Zoom, LerpTime);
+            yield return null;
+        }
+        onZoom = false;
+        CR_running = false;
+    }
 
     public IEnumerator ZoomCamera(float Zoom, float zoomVel, float X, float Y)
     {
@@ -72,7 +101,7 @@ public class ControladorCamara : MonoBehaviour {
 
             //Debug.Log("xOffset: " +xOffset + " yOffset: " +yOffset);
             LerpTime = LerpTime + zoomVel * Time.deltaTime;
-        //   transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTimey);        
+        //   transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, player.transform.position.y + yOffset, transform.position.z), LerpTime);        
             cam.rect = new Rect(0, 0, Mathf.Lerp(1,zoom,LerpTime), 1);
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, tamCam * Zoom, LerpTime);
             yield return null;
@@ -107,7 +136,7 @@ public class ControladorCamara : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        Debug.Log("SEGUIMIENTO CAMARA: xoffset: " +xOffset + " yOffset: " +yOffset);
+        //Debug.Log("SEGUIMIENTO CAMARA: xoffset: " +xOffset + " yOffset: " +yOffset);
        // Debug.DrawLine(transform.position,player.transform.position,Color.green);
        // Debug.Log("Xoffset: " + xOffset+ " yoffset: " +yOffset + "Zoom:"+zoom +" MOVER EJE Y "+ (Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset));
         transform.position = new Vector3(player.transform.position.x + xOffset, transform.position.y, transform.position.z);
@@ -116,9 +145,10 @@ public class ControladorCamara : MonoBehaviour {
        
         if (MoveY == false && (Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset))
         {
+    
             MoveY = true;
-            float Sign = Mathf.Sign((player.transform.position.y - transform.position.y));
-            StartCoroutine(MoveCameraY(Sign));   
+          //  float Sign = Mathf.Sign((player.transform.position.y - transform.position.y));
+            StartCoroutine(MoveCameraY(1));   
         }      
         
         float currentVel = player.transform.GetComponent<Rigidbody2D>().velocity.x;
