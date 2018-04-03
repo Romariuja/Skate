@@ -11,9 +11,27 @@ public class PlayAnimation_Harmony : MonoBehaviour {
     private int i = 0;
     HarmonyAnimation animationClip;
     // Use this for initialization
-    void Start()
+    IEnumerator Start()
     {
         animationClip = GetComponent<HarmonyAnimation>();
+
+
+
+        //  Preemptively load clips.
+        HarmonyRenderer renderer = GetComponent<HarmonyRenderer>();
+        if ((renderer == null) || (renderer.clipNames == null))
+            yield break;
+
+        //yield return StartCoroutine(renderer.WaitForDownloads());
+
+        foreach (string clipName in renderer.clipNames)
+        {
+            renderer.LoadClipName(clipName);
+        }
+
+
+
+
     }
 
     // Update is called once per frame

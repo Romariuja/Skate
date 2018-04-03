@@ -66,7 +66,7 @@ public class Player : PhysicsObject {
         //Invoke("LoadAnimataionClip", 0);
 
         Puntuacion.puntuacion=0;
-         anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         TableScript = GetComponent<PhysicsObject>();
         SkaterColliders = Skater.GetComponents<Collider2D>();
         TableColliders = Table.GetComponents<BoxCollider2D>();
@@ -80,6 +80,7 @@ public class Player : PhysicsObject {
         transitionsList.Add(new transition("Jump", false));
         transitionsList.Add(new transition("Manual", false));
         transitionsList.Add(new transition("SuperTrick", false));
+        transitionsList.Add(new transition("Flex", false));
 
         //Debug.Log("LA tabla es" + Table.name + ",y esta en el obbjeto padre " + Table.transform.parent.parent + "En la posicion " + Table.transform.localPosition );
     }
@@ -160,9 +161,9 @@ public class Player : PhysicsObject {
         if (Input.GetKey("right"))
         {
             yield return null;
-            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -rotationVel );
-            rotationAir = rotationAir - rotationVel;
-            Debug.Log("RotationAir: "+rotationAir);
+            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -rotationVel*Time.deltaTime );
+            rotationAir = rotationAir - rotationVel * Time.deltaTime;
+            //Debug.Log("RotationAir: "+rotationAir);
         
             if (rotationAir< -180)         
             {
@@ -178,9 +179,9 @@ public class Player : PhysicsObject {
         else if (Input.GetKey("left"))
         {
             yield return null;
-            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +rotationVel);
-            rotationAir = rotationAir + rotationVel;
-            Debug.Log("RotationAir: " + rotationAir);
+            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +rotationVel * Time.deltaTime);
+            rotationAir = rotationAir + rotationVel * Time.deltaTime;
+        //    Debug.Log("RotationAir: " + rotationAir);
             if (rotationAir > 180)
             {
                 combo++;
@@ -433,12 +434,16 @@ public class Player : PhysicsObject {
         //FLEX STATE
        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("Flex"))
         {
-
-            combo = 0;
-            currentVel = Mathf.Min(currentVel + acel, FlexVel);
+            if (!transitionsList[4].init)
+            { 
+                combo = 0;
+        
             UnFreezeConstraints(originalConstraints);
             // currentVel = Mathf.Max(currentVel - acel, MaxVel);
             UpdateTransition(transitionsList, "Manual", true);
+            }
+
+            currentVel = Mathf.Min(currentVel + acel*Time.deltaTime, FlexVel);
         }
 
         //SUPERTRICK

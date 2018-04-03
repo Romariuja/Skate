@@ -46,7 +46,7 @@ public class ControladorCamara : MonoBehaviour {
     {
         CR_running = true;
         LerpTimey = 0;
-        Debug.Log("MOVECAMERAY");
+        //Debug.Log("MOVECAMERAY");
         //Debug.Break();
         while ((Mathf.Abs(player.transform.position.y - transform.position.y) > yOffset))
       

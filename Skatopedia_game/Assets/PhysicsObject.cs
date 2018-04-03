@@ -7,16 +7,16 @@ public class PhysicsObject : MonoBehaviour {
     //KINEMATIC VARIABLES 
     protected bool jump = false;
     protected float JumpForce = 10;
-    public float MaxVel = 10f;
+    public float MaxVel = 13f;
     //public float currentVel=10f;
-    protected float acel = 0.3f;
+    protected float acel = 18f;
     protected float VelThreshold = 0f;
     protected float FlexVel = 18f;
     //protected Vector3 perpendicular;
     protected Vector2 TableCM=new Vector2(0f, 0.065f);
     public Vector3 perpendicular;
     protected float BreakTime;
-    protected float rotationVel=5;
+    protected float rotationVel=280;
     protected float timeStopped=0.2f;
 
     //STATE VARIABLES
@@ -180,7 +180,7 @@ public class PhysicsObject : MonoBehaviour {
 
         //ALLIGN ANGLE CONDITION
 
-        if (Mathf.Abs(dif) > 50)
+        if (Mathf.Abs(dif) > 70)
         {
 
             Debug.Log("ANGULO A ALINEAR DEMASIADO GRANDE-> GAMEOVER?");
