@@ -5,22 +5,33 @@ using UnityEngine;
 public class wireBanderole : Obstacle {
 
     // Use this for initialization
+    //private string type="hanging";
 
-void OnTriggerEnter2D(Collider2D collision)
+IEnumerator OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Table" || collision.gameObject.tag == "Skater")
-        { 
-//   Debug.Log("Activa el collider de la banderola " + gameObject.name);
-            gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-        //Debug.Log("Activa el collider de la banderola " + gameObject.name +" Se ha activado?" + gameObject.GetComponent<Rigidbody2D>().bodyType);
-        }
+        // StartCoroutine(Reaction(collision, "hanging"));
+        yield return null;
 
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Floor") || collision.gameObject.layer == LayerMask.NameToLayer("Collision"))
-        {
-       //     Debug.Log("DESTRUYE"+gameObject.name);
-           Destroy(gameObject);
-        }
-              
+        impact = true;
+        CollisionObject = collision.gameObject;
+
+       
+
+            if (collision.gameObject.tag == "Table" || collision.gameObject.tag == "Skater")
+            {
+                //   Debug.Log("Activa el collider de la banderola " + gameObject.name);
+                gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                //Debug.Log("Activa el collider de la banderola " + gameObject.name +" Se ha activado?" + gameObject.GetComponent<Rigidbody2D>().bodyType);
+            }
+
+            else if (collision.gameObject.layer == LayerMask.NameToLayer("Floor") || collision.gameObject.layer == LayerMask.NameToLayer("Collision"))
+            {
+                //     Debug.Log("DESTRUYE"+gameObject.name);
+                Destroy(gameObject);
+            }
+
+        
+
     }
 
     void Start () {

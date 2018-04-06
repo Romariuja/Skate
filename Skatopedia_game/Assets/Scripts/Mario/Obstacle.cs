@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour {
 
-    public float actionDistance;
+    //public float actionDistance;
     public float objectPoints;
     public float objectVel;
     public bool animationCam;
     public bool animationTable;
     public static Player PC;
     public float timeLimit;
+    public Object CollisionObject;
+    public bool impact = false;
+    protected string type;
+   // public Collider2D collision;
 
     // Use this for initialization
     void Start () {
@@ -18,7 +22,17 @@ public class Obstacle : MonoBehaviour {
 
     }
 
-    public IEnumerator VelMin()
+
+    public IEnumerator Reaction(Collider2D collision, string type)
+    {
+
+
+        yield return null;
+
+
+        }
+
+        public IEnumerator VelMin()
     {
       
         if (PC.currentVel< objectVel && !PhysicsObject.gameOver)

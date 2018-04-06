@@ -13,7 +13,7 @@ public class PhysicsObject : MonoBehaviour {
     protected float VelThreshold = 0f;
     protected float FlexVel = 18f;
     //protected Vector3 perpendicular;
-    protected Vector2 TableCM=new Vector2(0f, 0.065f);
+    public Vector2 TableCM=new Vector2(0f, 0.065f);
     public Vector3 perpendicular;
     protected float BreakTime;
     protected float rotationVel=280;
@@ -29,12 +29,12 @@ public class PhysicsObject : MonoBehaviour {
   
     //OBJECT VARIABLES
     protected Animator anim;
-    protected Animation animation;
     protected int  layerFilter;
-    protected float layerDistanceDetect=1f;
+    protected float layerDistanceDetect=5f;
     protected float maxVel = 10f;
-    static public GameObject Player;
-    private Player PlayerScript;
+    public static GameObject Player;
+    static public GameObject table;
+    public static Player PlayerScript;
   
 
     //LOCAL FUNCTIONS____________________________________________________________________________________________________________________________________________________________________
@@ -60,15 +60,15 @@ public class PhysicsObject : MonoBehaviour {
         Player= GameObject.FindGameObjectWithTag("Player");
         rb2d = Player.GetComponent<Rigidbody2D>();
         perpendicular = new Vector3(1, 0, 0);
-        // Debug.Log(Player.name);
     }
 
     void Start()
-    {  
+    {
+        table = this.gameObject;
         layerFilter = LayerMask.GetMask("Floor", "Grind");
         anim = Player.GetComponent<Animator>();
         PlayerScript = Player.GetComponent<Player>();
-        perpendicular = new Vector3(1, 0, 0);
+      
     }
 
     void Update()
@@ -76,10 +76,7 @@ public class PhysicsObject : MonoBehaviour {
       //  ComputeVelocity();
     }
 
-    //protected virtual void ComputeVelocity()
-    //{
-      //  currentVel = PlayerScript.currentVel;
-    //}
+   
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -95,31 +92,33 @@ public class PhysicsObject : MonoBehaviour {
             //Debug.Break();
             Debug.Log("GAMEOVER COLLISION: TIEMPO=" + Time.realtimeSinceStartup);
         }
-        //    yield return new WaitForFixedUpdate();
     }
+
+
 
 
     void OnTriggerStay2D(Collider2D other)
-    // IEnumerator OnTriggerStay2D(Collider2D other)
-    {
+// IEnumerator OnTriggerStay2D(Collider2D other)
+{
 
-        if (other.gameObject.layer == LayerMask.NameToLayer("Floor"))
-        { 
-             onFloor = true;
-             MovementAlongFloor();
-             jump = false;
-        }
 
-        if (other.gameObject.layer == LayerMask.NameToLayer("Grind"))
-        {
-            onGrind = true;
-            MovementAlongFloor();
-            jump = false;
-        }
-       // yield return new WaitForFixedUpdate();
+    if (other.gameObject.layer == LayerMask.NameToLayer("Floor"))
+    { 
+         onFloor = true;
+        MovementAlongFloor();
+         jump = false;
     }
 
+    if (other.gameObject.layer == LayerMask.NameToLayer("Grind"))
+    {
+        onGrind = true;
+        MovementAlongFloor();
+        jump = false;
+    }
+   // yield return new WaitForFixedUpdate();
+}
     
+
 
 
     void FixedUpdate()
@@ -135,6 +134,7 @@ public class PhysicsObject : MonoBehaviour {
 
    public  void MovementAlongFloor()
     {
+
          Vector2 CM = new Vector2(transform.position.x- TableCM.x, transform.position.y - TableCM.y);
          RaycastHit2D hit = Physics2D.Raycast(new Vector3 (CM.x,CM.y,0), -transform.up, layerDistanceDetect, layerFilter, Mathf.Infinity);
        // Debug.Break();

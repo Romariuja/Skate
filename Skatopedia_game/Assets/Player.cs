@@ -157,12 +157,20 @@ public class Player : PhysicsObject {
     //private void RotateAir()
     {
         yield return null;
+      //
+
         //Debug.Log("RotaionAir" +rotationAir);
-        if (Input.GetKey("right"))
+        if (Input.GetKey("right") && (!onFloor))
         {
+           // UnFreezeConstraints(originalConstraints);
             yield return null;
-            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -rotationVel*Time.deltaTime );
-            rotationAir = rotationAir - rotationVel * Time.deltaTime;
+            //transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), -rotationVel*Time.deltaTime );
+            GetComponent<Rigidbody2D>().AddTorque(-rotationVel/200, ForceMode2D.Impulse);
+          //  this.GetComponent<Rigidbody2D>().AddTorque(1000, ForceMode2D.Force);
+           
+            transform.RotateAround(new Vector3(Skater.transform.position.x - TableCM.x, transform.position.y - TableCM.y-1,0), new Vector3(0, 0, 1), -rotationVel * Time.deltaTime);
+
+           rotationAir = rotationAir - rotationVel * Time.deltaTime;
             //Debug.Log("RotationAir: "+rotationAir);
         
             if (rotationAir< -180)         
@@ -176,10 +184,12 @@ public class Player : PhysicsObject {
                 SuperT++;
             }       
         }
-        else if (Input.GetKey("left"))
+        else if (Input.GetKey("left") && (!onFloor))
         {
+            //UnFreezeConstraints(originalConstraints);
             yield return null;
-            transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +rotationVel * Time.deltaTime);
+              transform.RotateAround(Skater.transform.position, new Vector3(0, 0, 1), +rotationVel * Time.deltaTime);
+            GetComponent<Rigidbody2D>().AddTorque(rotationVel/200, ForceMode2D.Impulse);
             rotationAir = rotationAir + rotationVel * Time.deltaTime;
         //    Debug.Log("RotationAir: " + rotationAir);
             if (rotationAir > 180)
@@ -477,8 +487,8 @@ public class Player : PhysicsObject {
 
         //CHECK KEY INPUT
 
-       // if (Input.GetKeyDown(KeyCode.Space) && SuperT!=0 && combo>5)
-            if (Input.GetKeyDown(KeyCode.Space))
+       if (Input.GetKeyDown(KeyCode.Space) && SuperT!=0 && combo>5)
+           // if (Input.GetKeyDown(KeyCode.Space))
             {
             //  Debug.Break();
             SuperT--;

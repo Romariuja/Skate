@@ -20,7 +20,7 @@ public class cadillacObstacle : Obstacle
     void Start()
     {
         animationCam = false;
-        PC = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        //PC = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     // Update is called once per frame

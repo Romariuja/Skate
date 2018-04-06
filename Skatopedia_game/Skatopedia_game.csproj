@@ -242,6 +242,7 @@
   <ItemGroup>
     <Compile Include="Assets\Bird.cs" />
     <Compile Include="Assets\cadillacObstacle.cs" />
+    <Compile Include="Assets\can.cs" />
     <Compile Include="Assets\Custom 2D Colliders\Scripts\ArcCollider2D.cs" />
     <Compile Include="Assets\Custom 2D Colliders\Scripts\BezierCurveCollider2D.cs" />
     <Compile Include="Assets\Custom 2D Colliders\Scripts\CapsuleCollider2D.cs" />
@@ -249,6 +250,7 @@
     <Compile Include="Assets\Custom 2D Colliders\Scripts\RoundedBoxCollider2D.cs" />
     <Compile Include="Assets\Custom 2D Colliders\Scripts\StarCollider2D.cs" />
     <Compile Include="Assets\CustomImageEffect.cs" />
+    <Compile Include="Assets\dog.cs" />
     <Compile Include="Assets\EndObstacle.cs" />
     <Compile Include="Assets\LocalGravity.cs" />
     <Compile Include="Assets\loop.cs" />

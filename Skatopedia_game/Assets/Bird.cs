@@ -31,7 +31,7 @@ public class Bird : Obstacle{
             //   Debug.Log("Activa el collider de la banderola " + gameObject.name);
             gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
             direction = new Vector3(Random.Range(0,10), Random.Range(5, 15),0).normalized*10;
-            Debug.Log("Direction " + direction);
+         //   Debug.Log("Direction " + direction);
             myScript = GetComponent<Bird>();
             myScript.enabled = true;
             GetComponent<MeshRenderer>().enabled = true;
