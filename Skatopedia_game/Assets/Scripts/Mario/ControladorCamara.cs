@@ -27,9 +27,29 @@ public class ControladorCamara : MonoBehaviour {
     private float minzoom = 1.5f;
     private float noZoom = 1.2f;
     public bool CR_running = false;
-
+    public GameObject Blur;
     public Coroutine lastRoutineZoom = null;
+    //public Shader shader1;
+      
 
+
+        void Start()
+    {
+        //  Blur = GameObject.FindGameObjectWithTag("Blur");
+      // Blur.GetComponent<Renderer>().material.shader = Shader.Find("my_Shader");
+        //shader1 = Shader.Find("Custom/BLUR");
+       // Debug.Log("El nombre del shader ES: " + shader1.name);
+        cam = Camera.main;
+        player = GameObject.FindGameObjectWithTag("Player");
+        PC = player.GetComponent<Player>();
+        height = 2f * cam.orthographicSize;
+        width = height * cam.aspect;
+        cameraMargin = height / 5;
+        rect = cam.rect;
+        scale = transform.localScale;
+        tamCam = cam.orthographicSize;
+        lastRoutineZoom = StartCoroutine(ZoomCamera(noZoom, 1, xOffset, yOffset));
+    }
 
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -121,18 +141,7 @@ public class ControladorCamara : MonoBehaviour {
 
 
 
-    void Start () {
-        cam = Camera.main;
-        player = GameObject.FindGameObjectWithTag("Player");
-        PC = player.GetComponent<Player>();
-        height = 2f * cam.orthographicSize;
-        width = height * cam.aspect;
-        cameraMargin = height/5;
-        rect = cam.rect;
-        scale = transform.localScale;
-        tamCam = cam.orthographicSize;
-        lastRoutineZoom = StartCoroutine(ZoomCamera(noZoom,1, xOffset, yOffset));
-    }
+
     // Update is called once per frame
     void Update () {
 

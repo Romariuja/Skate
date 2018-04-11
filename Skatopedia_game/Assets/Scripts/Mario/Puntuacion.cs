@@ -17,6 +17,7 @@ public class Puntuacion : MonoBehaviour {
     private List <string> TrickNames;
 	//public TextMesh marcadorTiempo;
     public TextMesh marcadorCombo;
+    public static GameObject EndScore;
    //public TextMesh trickName;ff
    // public TextMesh trickPoints;
    // public TextMesh TotalPoints;
@@ -46,8 +47,10 @@ public class Puntuacion : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-	
-		ActualizarMarcador ();
+        EndScore = GameObject.FindGameObjectWithTag("EndScore");
+        //Debug.Log(EndScore.name);
+       // Debug.Break();
+        ActualizarMarcador ();
         InitialiseList();
         InitialiseSpecial();
       //  positionSpecial = new Vector2(special.transform.localPosition.x, special.transform.localPosition.y);
@@ -56,6 +59,7 @@ public class Puntuacion : MonoBehaviour {
 
     void InitialiseSpecial()
     {
+      
         specialTrick.Clear();
     }
 

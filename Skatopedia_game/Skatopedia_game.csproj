@@ -483,6 +483,7 @@
     <None Include="Assets\HarmonySDK\Shaders\UV Color Multiply.shader" />
     <None Include="Assets\HarmonySDK\Shaders\UnlitTransparentPremult.shader" />
     <None Include="Assets\HarmonySDK\Shaders\UnlitTransparentPremultCutout.shader" />
+    <None Include="Assets\Materials\BlurShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
