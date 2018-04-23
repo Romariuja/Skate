@@ -48,7 +48,7 @@ public class Puntuacion : MonoBehaviour {
     // Use this for initialization
     void Start () {
         EndScore = GameObject.FindGameObjectWithTag("EndScore");
-        //Debug.Log(EndScore.name);
+        Debug.Log(EndScore.name);
        // Debug.Break();
         ActualizarMarcador ();
         InitialiseList();
@@ -150,7 +150,7 @@ public class Puntuacion : MonoBehaviour {
         }  
     }
 
-    IEnumerator Desvanece(TextMesh desvanece, float espera)
+   public IEnumerator Desvanece(TextMesh desvanece, float espera)
     {
         //Debug.Log("Before Waiting 2 seconds");
         // yield return new WaitForSeconds(espera);

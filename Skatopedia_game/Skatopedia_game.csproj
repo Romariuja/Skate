@@ -255,6 +255,7 @@
     <Compile Include="Assets\LocalGravity.cs" />
     <Compile Include="Assets\loop.cs" />
     <Compile Include="Assets\LoopCheck.cs" />
+    <Compile Include="Assets\MovingObstacle.cs" />
     <Compile Include="Assets\NoLoop.cs" />
     <Compile Include="Assets\PhysicsObject.cs" />
     <Compile Include="Assets\Player.cs" />
@@ -274,6 +275,7 @@
     <Compile Include="Assets\Scripts\Mario\ControladorCamara.cs" />
     <Compile Include="Assets\Scripts\Mario\EstadoJuego.cs" />
     <Compile Include="Assets\Scripts\Mario\HarmonyAnimationM.cs" />
+    <Compile Include="Assets\Scripts\Mario\Level.cs" />
     <Compile Include="Assets\Scripts\Mario\objectTrain.cs" />
     <Compile Include="Assets\Scripts\Mario\Obstacle.cs" />
     <Compile Include="Assets\Scripts\Mario\PlayClip.cs" />

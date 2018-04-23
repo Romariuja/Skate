@@ -30,6 +30,7 @@ public class Player : PhysicsObject {
     //private Rigidbody2D rb2d;
     private PhysicsObject TableScript;
     public static ControladorCamara CameraScript;
+    public static Puntuacion PuntuacionScript;
 
     public Animation animation;
    
@@ -73,6 +74,7 @@ public class Player : PhysicsObject {
         cam = GameObject.FindWithTag("MainCamera");    
         puntua = cam.GetComponent<Puntuacion>();
         CameraScript=cam.GetComponent<ControladorCamara>();
+        PuntuacionScript = cam.GetComponent<Puntuacion>();
         EffectCam = cam.GetComponent<CustomImageEffect>();
         transitionsList = new List<transition>();
         transitionsList.Add(new transition("Idle", false));

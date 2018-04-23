@@ -80,7 +80,7 @@ public class ControladorCamara : MonoBehaviour {
     }
 
 
-    public IEnumerator ZoomCamera_position(float Zoom, float zoomVel, float X, float Y)
+    public IEnumerator ZoomCamera_position(float Zoom, float zoomVel, float X, float Y, float Z)
     {
         // StopCoroutine(lastRoutineZoom);
         CR_running = true;
@@ -97,7 +97,7 @@ public class ControladorCamara : MonoBehaviour {
             //Debug.Log("xOffset: " +xOffset + " yOffset: " +yOffset);
             LerpTime = LerpTime + zoomVel * Time.deltaTime;
             //Debug.Log("POSITION CAMERA INICIAL " + transform.position);
-             transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, transform.position.y + yOffset, transform.position.z), LerpTime);
+             transform.position = Vector3.Lerp(transform.position, new Vector3(player.transform.position.x + xOffset, transform.position.y + yOffset, Z), LerpTime);
             //Debug.Log("POSITION CAMERA FINAL " + transform.position);
             //Debug.Break();
             cam.rect = new Rect(0, 0, Mathf.Lerp(zoom, Zoom, LerpTime), 1);
