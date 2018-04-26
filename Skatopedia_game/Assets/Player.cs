@@ -31,6 +31,7 @@ public class Player : PhysicsObject {
     private PhysicsObject TableScript;
     public static ControladorCamara CameraScript;
     public static Puntuacion PuntuacionScript;
+    public static Level LevelScript;
 
     public Animation animation;
    
@@ -50,6 +51,7 @@ public class Player : PhysicsObject {
     public static CustomImageEffect EffectCam;
     public static List<string> lastTricks;
     public static int SuperT = 1;
+
 
     //Animation variables
     //AnimationLoadManager animationLoadManager;
@@ -74,6 +76,7 @@ public class Player : PhysicsObject {
         cam = GameObject.FindWithTag("MainCamera");    
         puntua = cam.GetComponent<Puntuacion>();
         CameraScript=cam.GetComponent<ControladorCamara>();
+        LevelScript = cam.GetComponent<Level>();
         PuntuacionScript = cam.GetComponent<Puntuacion>();
         EffectCam = cam.GetComponent<CustomImageEffect>();
         transitionsList = new List<transition>();
@@ -149,8 +152,10 @@ public class Player : PhysicsObject {
 
         puntua.IncrementSpecial("ROMARIUJA ", - 4, 0, 150, 1f);
         yield return new WaitForSecondsRealtime(1);
-        puntua.IncrementSpecial("SUPERTRICK!!!!", -6, 0, 170, 1f);  
-    }
+        puntua.IncrementSpecial("SUPERTRICK!!!!", -6, 0, 170, 1f);
+        LevelScript.UpdateTarget(Level.TargetList, "Supertrick");
+
+        }
 
 
 
@@ -190,6 +195,7 @@ public class Player : PhysicsObject {
                puntua.IncrementSpecial("MORTAL BASTARD",0, 0,100,0.5f);
                rotationAir = 0;
                 SuperT++;
+                LevelScript.UpdateTarget(Level.TargetList, "Mortal Bastard");
             }       
         }
         else if (Input.GetKey("left") && (!onFloor))
@@ -207,6 +213,7 @@ public class Player : PhysicsObject {
                 puntua.IncrementSpecial("MORTAL BASTARD", 0, 0,100,0.5f);
                 rotationAir = 0;
                 SuperT++;
+                LevelScript.UpdateTarget(Level.TargetList, "Mortal Bastard");
             }
            
         }

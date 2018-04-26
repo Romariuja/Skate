@@ -275,6 +275,7 @@
     <Compile Include="Assets\Scripts\Mario\ControladorCamara.cs" />
     <Compile Include="Assets\Scripts\Mario\EstadoJuego.cs" />
     <Compile Include="Assets\Scripts\Mario\HarmonyAnimationM.cs" />
+    <Compile Include="Assets\Scripts\Mario\Hitobject.cs" />
     <Compile Include="Assets\Scripts\Mario\Level.cs" />
     <Compile Include="Assets\Scripts\Mario\objectTrain.cs" />
     <Compile Include="Assets\Scripts\Mario\Obstacle.cs" />
@@ -310,6 +311,7 @@
     <Compile Include="Assets\Skater.cs" />
     <Compile Include="Assets\Sun_controller.cs" />
     <Compile Include="Assets\TableController.cs" />
+    <Compile Include="Assets\Target.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Animaciones\2017-10-25-Skater\animation.xml" />

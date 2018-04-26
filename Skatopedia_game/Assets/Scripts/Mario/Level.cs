@@ -5,17 +5,17 @@ using UnityEngine;
 public class Level : MonoBehaviour {
 
 
-    public List<Target> TargetList;
+    public static List<Target> TargetList;
 
         //Debug.Log("LA tabla es" + Table.name + ",y esta en el obbjeto padre " + Table.transform.parent.parent + "En la posicion " + Table.transform.localPosition );
 
 void Start()
 {
     TargetList = new List<Target>();
-    TargetList.Add(new Target("LOOP", 0));
-    TargetList.Add(new Target("MORTAL", 0));
-    TargetList.Add(new Target("UNICORN HORN GRIND", 0));
-    TargetList.Add(new Target("SUPERTRICK", 0));
+    TargetList.Add(new Target("Loop", 0));
+    TargetList.Add(new Target("Mortal Bastard", 0));
+    TargetList.Add(new Target("Unicorn Horn Grind", 0));
+    TargetList.Add(new Target("Supertrick", 0));
 
     }
 
@@ -39,7 +39,7 @@ public class Target
     }
 }
 
-protected void UpdateTarget(List<Target> TargetList, string Name)
+public void UpdateTarget(List<Target> TargetList, string Name)
 {
 
     for (int i = 0; i < TargetList.Count; i++)

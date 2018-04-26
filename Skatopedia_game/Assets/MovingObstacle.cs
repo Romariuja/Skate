@@ -5,9 +5,9 @@ using UnityEngine;
 public class MovingObstacle :Obstacle {
 
 
-    float currentVelx = 0;
-    float currentVely = 2;
-    float time = 5f;
+    public float currentVelx = 0.8f;
+    public float currentVely = 0.6f;
+    public float time = 10f;
     float T;
     //private Player_Controller PC;
 
@@ -17,15 +17,18 @@ public class MovingObstacle :Obstacle {
         animationCam = false;
         //PC = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
+    
+    
 
     // Update is called once per frame
     void Update()
     {
-        if (animationCam && !PhysicsObject.gameOver && T<time)
+        if (animationCam && T<time)
         {
-            transform.position = transform.position+ new Vector3(currentVelx * Time.deltaTime, currentVely * Time.deltaTime,transform.position.z);
+            transform.position = transform.position+ new Vector3(currentVelx * Time.deltaTime, currentVely * Time.deltaTime,0);
             // currentVel = currentVel - acel * Time.deltaTime;
             T = T + Time.deltaTime;
+         //   Debug.Log(T/time*100);
 
         }
     }

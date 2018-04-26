@@ -86,7 +86,7 @@ public class ControladorCamara : MonoBehaviour {
         CR_running = true;
         LerpTime = 0;
         onZoom = true;
-        Debug.Log("ZOOMCAMERA POSITION LAUNCH. ");
+      //  Debug.Log("ZOOMCAMERA POSITION LAUNCH. ");
        
        
         while (LerpTime < 1)
